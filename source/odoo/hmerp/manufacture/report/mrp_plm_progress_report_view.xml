@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<openerp>
+    <data>
+    	<record id="mrp_plm_progress_report_tree" model="ir.ui.view">
+            <field name="name">mrp.plm.progress.report.tree</field>
+            <field name="model">mrp.plm.progress.report</field>
+            <field name="arch" type="xml">
+                <tree string="生产进度分析" create="false">
+                	<field name="id" invisible="1"/>
+                	<field name="date" optional="show"/>
+                	<field name="name" optional="show"/>
+                	<button name="view_plm" type="object" string="查看生产加工内容" icon="fa-search" optional="show"/>
+                	<field name="partner_id" optional="show"/>
+                	<field name="user_id" optional="show"/>
+                	<button name="view_order" type="object" string="查看订单内容" icon="fa-search" optional="show"/>
+                	<field name="order_id" optional="show"/>
+                	<field name="is_close" optional="show"/>
+                    <field name="goods_id" optional="show"/>
+                    <field name="delivery_date" optional="show"/>
+                    <field name="mrp_proc_id" optional="show"/>
+                    <field name="uom" optional="show"/>
+                    <field name="qty" optional="show"/>
+                    <field name="qty_cons" optional="show"/>
+                    <field name="qty_in" optional="show"/>
+                    <field name="task_id" invisible="1"/>
+                    <field name="task_type"/>
+                	<button name="view_task" type="object" string="查看任务内容" icon="fa-search" optional="show"/>
+                    <field name="task_name"/>
+                	<field name="buy_partner_id" optional="show"/>
+                    <field name="task_state"/>
+                    <field name="qty_task" sum="数量合计" optional="show"/>
+                    <field name="qty_conf" sum="数量合计" optional="show"/>
+                    <field name="need_qc" optional="show"/>
+                    <field name="qty_ok" sum="数量合计" optional="show"/>
+                    <field name="qty_bad" sum="数量合计" optional="show"/>
+                    <field name="state" optional="show"/>
+                </tree>
+            </field>
+        </record>
+        <record id="mrp_plm_progress_report_tree_search" model="ir.ui.view">
+            <field name="name">mrp.plm.progress.report.search</field>
+            <field name="model">mrp.plm.progress.report</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="name"/>
+                    <field name="partner_id"/>
+                    <field name="user_id"/>
+                    <field name="order_id"/>
+                    <field name="goods_id"/>
+                    <field name="mrp_proc_id"/>
+                    <field name="date"/>
+                </search>
+            </field>
+        </record>
+    </data>
+</openerp>

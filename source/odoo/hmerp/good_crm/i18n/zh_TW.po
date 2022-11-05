@@ -1,0 +1,627 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* good_crm
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-29 14:31+0000\n"
+"PO-Revision-Date: 2022-07-29 22:34+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.1.1\n"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__message_needaction
+msgid "Action Needed"
+msgstr "需要採取的行動"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__message_attachment_count
+msgid "Attachment Count"
+msgstr "附件數量"
+
+#. module: good_crm
+#: model_terms:ir.ui.view,arch_db:good_crm.lead_tree
+msgid "Caption"
+msgstr "標題"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__color
+msgid "Color Index"
+msgstr "Color Index"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_goods_quotation__create_uid
+#: model:ir.model.fields,field_description:good_crm.field_lead__create_uid
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__create_uid
+msgid "Created by"
+msgstr "建立者"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_goods_quotation__create_date
+#: model:ir.model.fields,field_description:good_crm.field_lead__create_date
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__create_date
+msgid "Created on"
+msgstr "建立於"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_goods_quotation__display_name
+#: model:ir.model.fields,field_description:good_crm.field_lead__display_name
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__display_name
+msgid "Display Name"
+msgstr "完全顯示名稱"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__message_follower_ids
+msgid "Followers"
+msgstr "關注者"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "關注者(頻道)"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "關注者(夥伴)"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_goods_quotation__id
+#: model:ir.model.fields,field_description:good_crm.field_lead__id
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__id
+msgid "ID"
+msgstr "ID"
+
+#. module: good_crm
+#: model:ir.model.fields,help:good_crm.field_opportunity__message_needaction
+#: model:ir.model.fields,help:good_crm.field_opportunity__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "如果選中，則需要您注意新消息。"
+
+#. module: good_crm
+#: model:ir.model.fields,help:good_crm.field_opportunity__message_has_error
+#: model:ir.model.fields,help:good_crm.field_opportunity__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "如果選中，則某些郵件會出現傳遞錯誤。"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__message_is_follower
+msgid "Is Follower"
+msgstr "是關注者"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_goods_quotation____last_update
+#: model:ir.model.fields,field_description:good_crm.field_lead____last_update
+#: model:ir.model.fields,field_description:good_crm.field_opportunity____last_update
+msgid "Last Modified on"
+msgstr "最後修改時間"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_goods_quotation__write_uid
+#: model:ir.model.fields,field_description:good_crm.field_lead__write_uid
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__write_uid
+msgid "Last Updated by"
+msgstr "最後更新者"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_goods_quotation__write_date
+#: model:ir.model.fields,field_description:good_crm.field_lead__write_date
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__write_date
+msgid "Last Updated on"
+msgstr "最後更新時間"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "主要附件"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__message_has_error
+msgid "Message Delivery error"
+msgstr "消息傳送錯誤"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__message_ids
+msgid "Messages"
+msgstr "消息"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Number of Actions"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__message_has_error_counter
+#, fuzzy
+msgid "Number of errors"
+msgstr "Number of errors"
+
+#. module: good_crm
+#: model:ir.model.fields,help:good_crm.field_opportunity__message_needaction_counter
+#, fuzzy
+msgid "Number of messages which requires an action"
+msgstr "Number of messages which requires an action"
+
+#. module: good_crm
+#: model:ir.model.fields,help:good_crm.field_opportunity__message_has_error_counter
+#, fuzzy
+msgid "Number of messages with delivery error"
+msgstr "Number of messages with delivery error"
+
+#. module: good_crm
+#: model:ir.model.fields,help:good_crm.field_opportunity__message_unread_counter
+#, fuzzy
+msgid "Number of unread messages"
+msgstr "Number of unread messages"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__message_has_sms_error
+#, fuzzy
+msgid "SMS Delivery error"
+msgstr "SMS Delivery error"
+
+#. module: good_crm
+#: model_terms:ir.ui.view,arch_db:good_crm.opportunity_search
+#, fuzzy
+msgid "Search Opportunities"
+msgstr "Search Opportunities"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__message_unread
+#, fuzzy
+msgid "Unread Messages"
+msgstr "Unread Messages"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__message_unread_counter
+#, fuzzy
+msgid "Unread Messages Counter"
+msgstr "Unread Messages Counter"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__website_message_ids
+#, fuzzy
+msgid "Website Messages"
+msgstr "Website Messages"
+
+#. module: good_crm
+#: model:ir.model.fields,help:good_crm.field_opportunity__website_message_ids
+#, fuzzy
+msgid "Website communication history"
+msgstr "Website communication history"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__next_action
+#, fuzzy
+msgid "下一步计划"
+msgstr "下一步計劃"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__next_datetime
+#, fuzzy
+msgid "下一步计划时间"
+msgstr "下一步計劃時間"
+
+#. module: good_crm
+#: model:ir.model.fields,help:good_crm.field_opportunity__next_datetime
+#, fuzzy
+msgid "下一步计划预计开始的时间"
+msgstr "下一步計劃預計開始的時間"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__task_id
+#, fuzzy
+msgid "任务"
+msgstr "任務"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__priority
+msgid "优先级"
+msgstr "優先級"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__company_id
+#, fuzzy
+msgid "公司"
+msgstr "公司"
+
+#. module: good_crm
+#: model:ir.actions.act_window,name:good_crm.action_opportunity_public
+#: model:ir.ui.menu,name:good_crm.menu_opportunity_public
+#, fuzzy
+msgid "公海"
+msgstr "公海"
+
+#. module: good_crm
+#: model:ir.model.fields,help:good_crm.field_goods_quotation__opportunity_id
+#, fuzzy
+msgid "关联的商机"
+msgstr "關聯的商機"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__project_type_id
+#, fuzzy
+msgid "分类"
+msgstr "分類"
+
+#. module: good_crm
+#: model_terms:ir.ui.view,arch_db:good_crm.opportunity_search
+#, fuzzy
+msgid "分组"
+msgstr "分組"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__is_schedule
+#, fuzzy
+msgid "列入计划"
+msgstr "列入計劃"
+
+#. module: good_crm
+#: model_terms:ir.ui.view,arch_db:good_crm.lead_tree
+#, fuzzy
+msgid "创建商机"
+msgstr "創建商機"
+
+#. module: good_crm
+#: model_terms:ir.ui.view,arch_db:good_crm.lead_tree
+#, fuzzy
+msgid "创建时间"
+msgstr "創建時間"
+
+#. module: good_crm
+#: model_terms:ir.ui.view,arch_db:good_crm.opportunity_search
+#, fuzzy
+msgid "创建月份"
+msgstr "創建月份"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_goods_quotation__price
+#, fuzzy
+msgid "单价"
+msgstr "單價"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_lead__name
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__name
+#, fuzzy
+msgid "名称"
+msgstr "名稱"
+
+#. module: good_crm
+#: model_terms:ir.ui.view,arch_db:good_crm.opportunity_form
+#, fuzzy
+msgid "售前报价"
+msgstr "售前報價"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_goods_quotation__goods_id
+#: model:ir.model.fields,help:good_crm.field_goods_quotation__goods_id
+#, fuzzy
+msgid "商品"
+msgstr "商品"
+
+#. module: good_crm
+#: model:ir.model,name:good_crm.model_goods_quotation
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__line_ids
+#: model:ir.model.fields,help:good_crm.field_goods_quotation__price
+#: model_terms:ir.ui.view,arch_db:good_crm.opportunity_form
+#, fuzzy
+msgid "商品报价"
+msgstr "商品報價"
+
+#. module: good_crm
+#: model:ir.model.fields,help:good_crm.field_goods_quotation__note
+#, fuzzy
+msgid "商品描述"
+msgstr "商品描述"
+
+#. module: good_crm
+#: model:ir.actions.act_window,name:good_crm.action_opportunity
+#: model:ir.model,name:good_crm.model_opportunity
+#: model:ir.model.fields,field_description:good_crm.field_goods_quotation__opportunity_id
+#: model:ir.ui.menu,name:good_crm.menu_crm
+#: model:ir.ui.menu,name:good_crm.menu_opportunity
+#: model_terms:ir.ui.view,arch_db:good_crm.opportunity_calendar
+#: model_terms:ir.ui.view,arch_db:good_crm.opportunity_form
+#: model_terms:ir.ui.view,arch_db:good_crm.opportunity_tree
+#: model:res.groups,name:good_crm.group_crm
+#, fuzzy
+msgid "商机"
+msgstr "商機"
+
+#. module: good_crm
+#: model:res.groups,name:good_crm.group_manager
+#, fuzzy
+msgid "商机经理"
+msgstr "商機經理"
+
+#. module: good_crm
+#: model_terms:ir.ui.view,arch_db:good_crm.opportunity_form
+#, fuzzy
+msgid "商机跟进"
+msgstr "商機跟進"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__hours
+#, fuzzy
+msgid "实际工时"
+msgstr "實際工時"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__partner_id
+#, fuzzy
+msgid "客户"
+msgstr "客戶"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_lead__customer_name
+#, fuzzy
+msgid "客户公司名称"
+msgstr "客戶公司名稱"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__timeline_ids
+#, fuzzy
+msgid "工作记录"
+msgstr "工作記錄"
+
+#. module: good_crm
+#: model:ir.model.fields.selection,name:good_crm.selection__lead__state__done
+#, fuzzy
+msgid "已完成"
+msgstr "已完成"
+
+#. module: good_crm
+#: model:ir.model.fields,help:good_crm.field_opportunity__partner_id
+#, fuzzy
+msgid "待签约合同的客户"
+msgstr "待簽約合同的客戶"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__success_reason_id
+#, fuzzy
+msgid "成败原因"
+msgstr "成敗原因"
+
+#. module: good_crm
+#: model:ir.model.fields,help:good_crm.field_opportunity__success_reason_id
+#, fuzzy
+msgid "成败原因分析"
+msgstr "成敗原因分析"
+
+#. module: good_crm
+#: model_terms:ir.ui.view,arch_db:good_crm.opportunity_search
+#, fuzzy
+msgid "我的商机"
+msgstr "我的商機"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__total_amount
+#, fuzzy
+msgid "报价总额"
+msgstr "報價總額"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__user_id
+#: model_terms:ir.ui.view,arch_db:good_crm.opportunity_search
+#, fuzzy
+msgid "指派给"
+msgstr "指派給"
+
+#. module: good_crm
+#: model_terms:ir.ui.view,arch_db:good_crm.opportunity_tree
+#, fuzzy
+msgid "指派给我"
+msgstr "指派給我"
+
+#. module: good_crm
+#: model_terms:ir.ui.view,arch_db:good_crm.opportunity_search
+#, fuzzy
+msgid "指派给我的商机"
+msgstr "指派給我的商機"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_goods_quotation__note
+#: model:ir.model.fields,field_description:good_crm.field_lead__note
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__note
+#, fuzzy
+msgid "描述"
+msgstr "描述"
+
+#. module: good_crm
+#: model_terms:ir.ui.view,arch_db:good_crm.opportunity_form
+#, fuzzy
+msgid "描述......"
+msgstr "課程描述"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_goods_quotation__quantity
+#: model:ir.model.fields,help:good_crm.field_goods_quotation__quantity
+#, fuzzy
+msgid "数量"
+msgstr "數量"
+
+#. module: good_crm
+#: model_terms:ir.ui.view,arch_db:good_crm.opportunity_form
+#, fuzzy
+msgid "数量总计"
+msgstr "數量總計"
+
+#. module: good_crm
+#: model:ir.model.fields.selection,name:good_crm.selection__lead__state__todo
+#, fuzzy
+msgid "新建"
+msgstr "新建"
+
+#. module: good_crm
+#: model:ir.model.fields.selection,name:good_crm.selection__lead__state__cancel
+#, fuzzy
+msgid "无效"
+msgstr "無效"
+
+#. module: good_crm
+#: model_terms:ir.ui.view,arch_db:good_crm.opportunity_search
+#, fuzzy
+msgid "未指派的"
+msgstr "未指派的"
+
+#. module: good_crm
+#: model_terms:ir.ui.view,arch_db:good_crm.opportunity_search
+#, fuzzy
+msgid "未指派的商机"
+msgstr "未指派的商機"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_lead__source
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__source
+#, fuzzy
+msgid "来源"
+msgstr "來源"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__tag_ids
+#, fuzzy
+msgid "标签"
+msgstr "標籤"
+
+#. module: good_crm
+#: model:ir.model.fields.selection,name:good_crm.selection__lead__state__doing
+#, fuzzy
+msgid "正在进行"
+msgstr "正在進行"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_lead__channel_id
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__channel_id
+#, fuzzy
+msgid "渠道"
+msgstr "渠道"
+
+#. module: good_crm
+#: model_terms:ir.actions.act_window,help:good_crm.action_opportunity
+#: model_terms:ir.actions.act_window,help:good_crm.action_opportunity_private
+#: model_terms:ir.actions.act_window,help:good_crm.action_opportunity_public
+#, fuzzy
+msgid "点击创建一个商机"
+msgstr "點擊創建一個商機"
+
+#. module: good_crm
+#: model_terms:ir.actions.act_window,help:good_crm.action_lead
+#, fuzzy
+msgid "点击创建一个线索"
+msgstr "點擊創建一個線索"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_lead__state
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__status
+#, fuzzy
+msgid "状态"
+msgstr "狀態"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__ref
+#, fuzzy
+msgid "相关记录"
+msgstr "相關記錄"
+
+#. module: good_crm
+#: model:ir.actions.act_window,name:good_crm.action_opportunity_private
+#: model:ir.ui.menu,name:good_crm.menu_opportunity_private
+#, fuzzy
+msgid "私海"
+msgstr "私海"
+
+#. module: good_crm
+#: model:ir.actions.act_window,name:good_crm.action_lead
+#: model:ir.model,name:good_crm.model_lead
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__lead_id
+#: model:ir.ui.menu,name:good_crm.menu_lead
+#, fuzzy
+msgid "线索"
+msgstr "線索"
+
+#. module: good_crm
+#: model_terms:ir.ui.view,arch_db:good_crm.lead_tree
+#, fuzzy
+msgid "线索无效"
+msgstr "線索無效"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_lead__contact
+#, fuzzy
+msgid "联系人信息"
+msgstr "聯繫人信息"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__plan_hours
+#, fuzzy
+msgid "计划工时"
+msgstr "計劃工時"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_lead__track_date
+#, fuzzy
+msgid "跟进日期"
+msgstr "跟進日期"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_lead__track_result
+#, fuzzy
+msgid "跟进结果"
+msgstr "跟進結果"
+
+#. module: good_crm
+#: model_terms:ir.ui.view,arch_db:good_crm.opportunity_form
+#, fuzzy
+msgid "跟进记录"
+msgstr "跟進記錄"
+
+#. module: good_crm
+#: model_terms:ir.ui.view,arch_db:good_crm.opportunity_form
+#, fuzzy
+msgid "进展"
+msgstr "進展"
+
+#. module: good_crm
+#: model:ir.model.fields,help:good_crm.field_opportunity__next_action
+#, fuzzy
+msgid "针对此任务下一步的计划"
+msgstr "針對此任務下一步的計劃"
+
+#. module: good_crm
+#: model_terms:ir.ui.view,arch_db:good_crm.opportunity_search
+#, fuzzy
+msgid "阶段"
+msgstr "階段"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__project_id
+#, fuzzy
+msgid "项目"
+msgstr "項目"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__sequence
+#, fuzzy
+msgid "顺序"
+msgstr "順序"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__planned_revenue
+#, fuzzy
+msgid "预期收益"
+msgstr "預期收益"
+
+#. module: good_crm
+#: model:ir.model.fields,field_description:good_crm.field_opportunity__date
+#, fuzzy
+msgid "预计采购时间"
+msgstr "預計採購時間"

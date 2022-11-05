@@ -1,0 +1,749 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* task
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-01 03:35+0000\n"
+"PO-Revision-Date: 2022-08-01 11:36+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.1.1\n"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project__message_needaction
+#: model:ir.model.fields,field_description:task.field_task__message_needaction
+msgid "Action Needed"
+msgstr "需要採取的行動"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project__message_attachment_count
+#: model:ir.model.fields,field_description:task.field_task__message_attachment_count
+msgid "Attachment Count"
+msgstr "附件數量"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_task__color
+#: model:ir.model.fields,field_description:task.field_timeline__color
+#: model:ir.model.fields,field_description:task.field_timesheet__color
+msgid "Color Index"
+msgstr "Color Index"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project__create_uid
+#: model:ir.model.fields,field_description:task.field_project_invoice__create_uid
+#: model:ir.model.fields,field_description:task.field_task__create_uid
+#: model:ir.model.fields,field_description:task.field_task_status__create_uid
+#: model:ir.model.fields,field_description:task.field_timeline__create_uid
+#: model:ir.model.fields,field_description:task.field_timesheet__create_uid
+msgid "Created by"
+msgstr "建立者"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project__create_date
+#: model:ir.model.fields,field_description:task.field_project_invoice__create_date
+#: model:ir.model.fields,field_description:task.field_task__create_date
+#: model:ir.model.fields,field_description:task.field_task_status__create_date
+#: model:ir.model.fields,field_description:task.field_timeline__create_date
+#: model:ir.model.fields,field_description:task.field_timesheet__create_date
+msgid "Created on"
+msgstr "建立於"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project__display_name
+#: model:ir.model.fields,field_description:task.field_project_invoice__display_name
+#: model:ir.model.fields,field_description:task.field_task__display_name
+#: model:ir.model.fields,field_description:task.field_task_status__display_name
+#: model:ir.model.fields,field_description:task.field_timeline__display_name
+#: model:ir.model.fields,field_description:task.field_timesheet__display_name
+msgid "Display Name"
+msgstr "完全顯示名稱"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project__message_follower_ids
+#: model:ir.model.fields,field_description:task.field_task__message_follower_ids
+msgid "Followers"
+msgstr "關注者"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project__message_channel_ids
+#: model:ir.model.fields,field_description:task.field_task__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "關注者(頻道)"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project__message_partner_ids
+#: model:ir.model.fields,field_description:task.field_task__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "關注者(夥伴)"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project__id
+#: model:ir.model.fields,field_description:task.field_project_invoice__id
+#: model:ir.model.fields,field_description:task.field_task__id
+#: model:ir.model.fields,field_description:task.field_task_status__id
+#: model:ir.model.fields,field_description:task.field_timeline__id
+#: model:ir.model.fields,field_description:task.field_timesheet__id
+msgid "ID"
+msgstr "ID"
+
+#. module: task
+#: model:ir.model.fields,help:task.field_project__message_needaction
+#: model:ir.model.fields,help:task.field_project__message_unread
+#: model:ir.model.fields,help:task.field_task__message_needaction
+#: model:ir.model.fields,help:task.field_task__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "如果選中，則需要您注意新消息。"
+
+#. module: task
+#: model:ir.model.fields,help:task.field_project__message_has_error
+#: model:ir.model.fields,help:task.field_project__message_has_sms_error
+#: model:ir.model.fields,help:task.field_task__message_has_error
+#: model:ir.model.fields,help:task.field_task__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "如果選中，則某些郵件會出現傳遞錯誤。"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project__message_is_follower
+#: model:ir.model.fields,field_description:task.field_task__message_is_follower
+msgid "Is Follower"
+msgstr "是關注者"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project____last_update
+#: model:ir.model.fields,field_description:task.field_project_invoice____last_update
+#: model:ir.model.fields,field_description:task.field_task____last_update
+#: model:ir.model.fields,field_description:task.field_task_status____last_update
+#: model:ir.model.fields,field_description:task.field_timeline____last_update
+#: model:ir.model.fields,field_description:task.field_timesheet____last_update
+msgid "Last Modified on"
+msgstr "最後修改時間"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project__write_uid
+#: model:ir.model.fields,field_description:task.field_project_invoice__write_uid
+#: model:ir.model.fields,field_description:task.field_task__write_uid
+#: model:ir.model.fields,field_description:task.field_task_status__write_uid
+#: model:ir.model.fields,field_description:task.field_timeline__write_uid
+#: model:ir.model.fields,field_description:task.field_timesheet__write_uid
+msgid "Last Updated by"
+msgstr "最後更新者"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project__write_date
+#: model:ir.model.fields,field_description:task.field_project_invoice__write_date
+#: model:ir.model.fields,field_description:task.field_task__write_date
+#: model:ir.model.fields,field_description:task.field_task_status__write_date
+#: model:ir.model.fields,field_description:task.field_timeline__write_date
+#: model:ir.model.fields,field_description:task.field_timesheet__write_date
+msgid "Last Updated on"
+msgstr "最後更新時間"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project__message_main_attachment_id
+#: model:ir.model.fields,field_description:task.field_task__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "主要附件"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project__message_has_error
+#: model:ir.model.fields,field_description:task.field_task__message_has_error
+msgid "Message Delivery error"
+msgstr "消息傳送錯誤"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project__message_ids
+#: model:ir.model.fields,field_description:task.field_task__message_ids
+msgid "Messages"
+msgstr "消息"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project__message_needaction_counter
+#: model:ir.model.fields,field_description:task.field_task__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Number of Actions"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project__message_has_error_counter
+#: model:ir.model.fields,field_description:task.field_task__message_has_error_counter
+msgid "Number of errors"
+msgstr "Number of errors"
+
+#. module: task
+#: model:ir.model.fields,help:task.field_project__message_needaction_counter
+#: model:ir.model.fields,help:task.field_task__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Number of messages which requires an action"
+
+#. module: task
+#: model:ir.model.fields,help:task.field_project__message_has_error_counter
+#: model:ir.model.fields,help:task.field_task__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Number of messages with delivery error"
+
+#. module: task
+#: model:ir.model.fields,help:task.field_project__message_unread_counter
+#: model:ir.model.fields,help:task.field_task__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Number of unread messages"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project__message_has_sms_error
+#: model:ir.model.fields,field_description:task.field_task__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "SMS Delivery error"
+
+#. module: task
+#: model_terms:ir.ui.view,arch_db:task.task_search
+msgid "Search Task"
+msgstr "Search Task"
+
+#. module: task
+#: model_terms:ir.ui.view,arch_db:task.task_calendar
+msgid "Task Organization"
+msgstr "Task Organization"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project__message_unread
+#: model:ir.model.fields,field_description:task.field_task__message_unread
+msgid "Unread Messages"
+msgstr "Unread Messages"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project__message_unread_counter
+#: model:ir.model.fields,field_description:task.field_task__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Unread Messages Counter"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project__website_message_ids
+#: model:ir.model.fields,field_description:task.field_task__website_message_ids
+msgid "Website Messages"
+msgstr "Website Messages"
+
+#. module: task
+#: model:ir.model.fields,help:task.field_project__website_message_ids
+#: model:ir.model.fields,help:task.field_task__website_message_ids
+msgid "Website communication history"
+msgstr "Website communication history"
+
+#. module: task
+#: model_terms:ir.ui.view,arch_db:task.timeline_form
+msgid "timeline"
+msgstr "timeline"
+
+#. module: task
+#: model:ir.model.fields.selection,name:task.selection__task__priority__0
+msgid "一般"
+msgstr "一般"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_task__next_action
+#: model:ir.model.fields,field_description:task.field_timeline__next_action
+msgid "下一步计划"
+msgstr "下一步計劃"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_task__next_datetime
+#: model:ir.model.fields,field_description:task.field_timeline__next_datetime
+msgid "下一步计划时间"
+msgstr "下一步計劃時間"
+
+#. module: task
+#: model:ir.model.fields,help:task.field_task__next_datetime
+#: model:ir.model.fields,help:task.field_timeline__next_datetime
+msgid "下一步计划预计开始的时间"
+msgstr "下一步計劃預計開始的時間"
+
+#. module: task
+#: model:ir.ui.menu,name:task.menu_task_data
+msgid "主数据"
+msgstr "主數據"
+
+#. module: task
+#: model:ir.model.fields,help:task.field_project_invoice__invoice_id
+msgid "产生的发票号"
+msgstr "產生的發票號"
+
+#. module: task
+#: model:ir.ui.menu,name:task.menu_timesheet
+#: model_terms:ir.ui.view,arch_db:task.timeline_search
+#: model_terms:ir.ui.view,arch_db:task.timesheet_form
+msgid "今日"
+msgstr "今日"
+
+#. module: task
+#: model:ir.actions.act_window,name:task.action_timesheet_today
+#: model:ir.model,name:task.model_timesheet
+msgid "今日工作日志"
+msgstr "今日工作日誌"
+
+#. module: task
+#: model_terms:ir.ui.view,arch_db:task.timeline_search
+msgid "今日工作记录"
+msgstr "今日工作記錄"
+
+#. module: task
+#: model:ir.actions.act_window,name:task.action_task
+#: model:ir.model,name:task.model_task
+#: model:ir.model.fields,field_description:task.field_project__task_ids
+#: model:ir.model.fields,field_description:task.field_timeline__task_id
+#: model:ir.ui.menu,name:task.menu_task
+#: model:ir.ui.menu,name:task.menu_task_root
+#: model_terms:ir.ui.view,arch_db:task.project_form
+#: model_terms:ir.ui.view,arch_db:task.project_portal_form
+#: model_terms:ir.ui.view,arch_db:task.task_form
+#: model:res.groups,name:task.group_task
+msgid "任务"
+msgstr "任務"
+
+#. module: task
+#: model_terms:ir.ui.view,arch_db:task.timesheet_form
+msgid "任务描述"
+msgstr "任務描述"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_task_status__state
+msgid "任务状态"
+msgstr "任務狀態"
+
+#. module: task
+#: model:res.groups,name:task.group_task_manager
+msgid "任务经理组"
+msgstr "任務經理組"
+
+#. module: task
+#: model:ir.actions.act_window,name:task.action_task_status
+#: model:ir.model,name:task.model_task_status
+#: model:ir.ui.menu,name:task.menu_task_status
+msgid "任务阶段"
+msgstr "任務階段"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_task__priority
+msgid "优先级"
+msgstr "優先級"
+
+#. module: task
+#: model_terms:ir.ui.view,arch_db:task.task_form
+#: model_terms:ir.ui.view,arch_db:task.timeline_tree
+#: model_terms:ir.ui.view,arch_db:task.timesheet_form
+msgid "全天合计"
+msgstr "全天合計"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project__company_id
+#: model:ir.model.fields,field_description:task.field_project_invoice__company_id
+#: model:ir.model.fields,field_description:task.field_task__company_id
+#: model:ir.model.fields,field_description:task.field_task_status__company_id
+#: model:ir.model.fields,field_description:task.field_timeline__company_id
+#: model:ir.model.fields,field_description:task.field_timesheet__company_id
+msgid "公司"
+msgstr "公司"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_timeline__just_done
+msgid "具体工作内容"
+msgstr "具體工作內容"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project__type
+#: model:ir.model.fields,field_description:task.field_project__type_id
+#: model:ir.model.fields,field_description:task.field_task__project_type_id
+msgid "分类"
+msgstr "分類"
+
+#. module: task
+#: model_terms:ir.ui.view,arch_db:task.task_search
+msgid "分组"
+msgstr "分組"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_task__is_schedule
+msgid "列入计划"
+msgstr "列入計劃"
+
+#. module: task
+#: model_terms:ir.ui.view,arch_db:task.task_form
+#: model_terms:ir.ui.view,arch_db:task.timeline_search
+#: model_terms:ir.ui.view,arch_db:task.timeline_tree
+msgid "创建人"
+msgstr "創建人"
+
+#. module: task
+#: model_terms:ir.ui.view,arch_db:task.task_form
+#: model_terms:ir.ui.view,arch_db:task.timeline_form
+#: model_terms:ir.ui.view,arch_db:task.timeline_tree
+#: model_terms:ir.ui.view,arch_db:task.timesheet_form
+msgid "创建时间"
+msgstr "創建時間"
+
+#. module: task
+#: model_terms:ir.ui.view,arch_db:task.task_search
+#: model_terms:ir.ui.view,arch_db:task.timeline_search
+msgid "创建月份"
+msgstr "創建月份"
+
+#. module: task
+#: model_terms:ir.ui.view,arch_db:task.timesheet_form
+msgid "删除"
+msgstr "刪除"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project_invoice__date_due
+msgid "到期日"
+msgstr "到期日"
+
+#. module: task
+#: model_terms:ir.ui.view,arch_db:task.project_form
+#: model_terms:ir.ui.view,arch_db:task.project_portal_form
+msgid "发票"
+msgstr "發票"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project_invoice__invoice_id
+msgid "发票号"
+msgstr "發票號"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project__invoice_ids
+#: model_terms:ir.ui.view,arch_db:task.project_form
+#: model_terms:ir.ui.view,arch_db:task.project_portal_form
+msgid "发票行"
+msgstr "發票行"
+
+#. module: task
+#: model:ir.model.constraint,message:task.constraint_timesheet_user_uniq
+msgid "同一个人一天只能创建一个工作日志"
+msgstr "同一個人一天只能創建一個工作日誌"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project__name
+#: model:ir.model.fields,field_description:task.field_task__name
+#: model:ir.model.fields,field_description:task.field_task_status__name
+msgid "名称"
+msgstr "名稱"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project_invoice__amount
+#: model:ir.model.fields,help:task.field_project_invoice__amount
+msgid "含税金额"
+msgstr "含稅金額"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project__active
+msgid "启用"
+msgstr "啟用"
+
+#. module: task
+#: model:ir.model.fields,help:task.field_timeline__just_done
+msgid "在此时长内针对此任务实际完成的工作内容"
+msgstr "在此時長內針對此任務實際完成的工作內容"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project__address
+msgid "地址"
+msgstr "地址"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project__note
+msgid "备注"
+msgstr "備註"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project__hours
+#: model:ir.model.fields,field_description:task.field_task__hours
+#: model_terms:ir.ui.view,arch_db:task.project_form
+#: model_terms:ir.ui.view,arch_db:task.project_portal_form
+msgid "实际工时"
+msgstr "實際工時"
+
+#. module: task
+#: model:ir.model.fields,help:task.field_timeline__hours
+msgid "实际花的小时数"
+msgstr "實際花的小時數"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project__customer_id
+msgid "客户"
+msgstr "客戶"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_timeline__hours
+msgid "小时数"
+msgstr "小時數"
+
+#. module: task
+#: model:ir.actions.act_window,name:task.action_timeline
+#: model:ir.ui.menu,name:task.menu_task_timesheet
+msgid "工作日志"
+msgstr "工作日誌"
+
+#. module: task
+#: model:ir.model,name:task.model_timeline
+#: model:ir.model.fields,field_description:task.field_task__timeline_ids
+#: model:ir.model.fields,field_description:task.field_timesheet__timeline_ids
+#: model_terms:ir.ui.view,arch_db:task.timeline_search
+#: model_terms:ir.ui.view,arch_db:task.timesheet_form
+msgid "工作记录"
+msgstr "工作記錄"
+
+#. module: task
+#: model:ir.model.fields.selection,name:task.selection__task_status__state__cancel
+msgid "已取消"
+msgstr "已取消"
+
+#. module: task
+#: model:ir.model.fields.selection,name:task.selection__task_status__state__done
+msgid "已完成"
+msgstr "已完成"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_timeline__start_time
+msgid "开始时间"
+msgstr "開始時間"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_timesheet__task_ids
+#: model_terms:ir.ui.view,arch_db:task.timesheet_form
+msgid "待办事项"
+msgstr "待辦事項"
+
+#. module: task
+#: model_terms:ir.actions.act_window,help:task.action_project_portal
+msgid "您还未关注一个项目"
+msgstr "您還未關註一個項目"
+
+#. module: task
+#: model_terms:ir.ui.view,arch_db:task.task_search
+msgid "我的任务"
+msgstr "我的任務"
+
+#. module: task
+#: model:ir.ui.menu,name:task.menu_task_report
+msgid "报表"
+msgstr "報表"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_task__user_id
+#: model:ir.model.fields,field_description:task.field_timeline__user_id
+#: model_terms:ir.ui.view,arch_db:task.task_search
+msgid "指派给"
+msgstr "指派給"
+
+#. module: task
+#: model_terms:ir.ui.view,arch_db:task.task_tree
+msgid "指派给我"
+msgstr "指派給我"
+
+#. module: task
+#: model_terms:ir.ui.view,arch_db:task.task_search
+msgid "指派给我的任务"
+msgstr "指派給我的任務"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_task__note
+msgid "描述"
+msgstr "描述"
+
+#. module: task
+#: model_terms:ir.ui.view,arch_db:task.project_form
+#: model_terms:ir.ui.view,arch_db:task.project_portal_form
+#: model_terms:ir.ui.view,arch_db:task.task_form
+msgid "描述......"
+msgstr "描述....."
+
+#. module: task
+#: model:ir.model.fields,help:task.field_project_invoice__date_due
+msgid "收款截止日期"
+msgstr "收款截止日期"
+
+#. module: task
+#: model:ir.model.fields.selection,name:task.selection__task_status__state__todo
+msgid "新建"
+msgstr "新建"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_timesheet__date
+msgid "日期"
+msgstr "日期"
+
+#. module: task
+#: model_terms:ir.ui.view,arch_db:task.task_search
+msgid "未指派的"
+msgstr "未指派的"
+
+#. module: task
+#: model_terms:ir.ui.view,arch_db:task.task_search
+msgid "未指派的任务"
+msgstr "未指派的任務"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_task__tag_ids
+msgid "标签"
+msgstr "標籤"
+
+#. module: task
+#: model:ir.model.fields.selection,name:task.selection__task_status__state__doing
+msgid "正在进行"
+msgstr "正在進行"
+
+#. module: task
+#: model_terms:ir.actions.act_window,help:task.action_task
+msgid "点击创建一个任务"
+msgstr "點擊創建一個任務"
+
+#. module: task
+#: model_terms:ir.actions.act_window,help:task.action_task_status
+msgid "点击创建一个任务阶段"
+msgstr "點擊創建一個任務階段"
+
+#. module: task
+#: model_terms:ir.actions.act_window,help:task.action_project
+msgid "点击创建一个项目"
+msgstr "點擊創建一個項目"
+
+#. module: task
+#: model_terms:ir.actions.act_window,help:task.action_timesheet_today
+msgid "点击创建今日的工作日志"
+msgstr "點擊創建今日的工作日誌"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_task__status
+msgid "状态"
+msgstr "狀態"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_timeline__set_status
+msgid "状态更新到"
+msgstr "狀態更新到"
+
+#. module: task
+#: model_terms:ir.ui.view,arch_db:task.project_form
+#: model_terms:ir.ui.view,arch_db:task.project_portal_form
+msgid "生成发票"
+msgstr "生成發票"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_timesheet__user_id
+msgid "用户"
+msgstr "用戶"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project_invoice__tax_rate
+msgid "税率"
+msgstr "稅率"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project_invoice__tax_amount
+msgid "税额"
+msgstr "稅額"
+
+#. module: task
+#: model:res.groups,name:task.group_task_hours
+msgid "管理时间"
+msgstr "管理時間"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_timeline__end_time
+msgid "结束时间"
+msgstr "結束時間"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project__code
+msgid "编码"
+msgstr "編碼"
+
+#. module: task
+#: model_terms:ir.ui.view,arch_db:task.timesheet_form
+msgid "计划"
+msgstr "計劃"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project__plan_hours
+#: model:ir.model.fields,field_description:task.field_task__plan_hours
+#: model_terms:ir.ui.view,arch_db:task.project_form
+#: model_terms:ir.ui.view,arch_db:task.project_portal_form
+msgid "计划工时"
+msgstr "計劃工時"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_timeline__timesheet_id
+msgid "记录表"
+msgstr "記錄表"
+
+#. module: task
+#: model:ir.ui.menu,name:task.menu_task_configuration
+msgid "设置"
+msgstr "設置"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_project__auxiliary_id
+msgid "辅助核算"
+msgstr "輔助核算"
+
+#. module: task
+#: model_terms:ir.ui.view,arch_db:task.task_form
+#: model_terms:ir.ui.view,arch_db:task.timesheet_form
+msgid "进展"
+msgstr "進展"
+
+#. module: task
+#: model:ir.model.fields,help:task.field_task__next_action
+#: model:ir.model.fields,help:task.field_timeline__next_action
+msgid "针对此任务下一步的计划"
+msgstr "針對此任務下一步的計劃"
+
+#. module: task
+#: model_terms:ir.ui.view,arch_db:task.task_search
+msgid "阶段"
+msgstr "階段"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_timeline__need_help
+msgid "需要的帮助"
+msgstr "需要的幫助"
+
+#. module: task
+#: model:ir.actions.act_window,name:task.action_project
+#: model:ir.actions.act_window,name:task.action_project_portal
+#: model:ir.model,name:task.model_project
+#: model:ir.model.fields,field_description:task.field_project_invoice__project_id
+#: model:ir.model.fields,field_description:task.field_task__project_id
+#: model:ir.model.fields,field_description:task.field_timeline__project_id
+#: model:ir.ui.menu,name:task.menu_project
+#: model:ir.ui.menu,name:task.menu_project_portal
+#: model_terms:ir.ui.view,arch_db:task.project_form
+#: model_terms:ir.ui.view,arch_db:task.project_portal_form
+#: model_terms:ir.ui.view,arch_db:task.task_search
+#: model_terms:ir.ui.view,arch_db:task.timeline_search
+msgid "项目"
+msgstr "項目"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_task_status__project_type_id
+msgid "项目分类"
+msgstr "項目分類"
+
+#. module: task
+#: model:ir.model,name:task.model_project_invoice
+msgid "项目的发票"
+msgstr "項目的發票"
+
+#. module: task
+#: model:ir.model.fields,field_description:task.field_task__sequence
+#: model:ir.model.fields,field_description:task.field_task_status__sequence
+msgid "顺序"
+msgstr "順序"
+
+#. module: task
+#: model:ir.model.fields,help:task.field_project_invoice__tax_rate
+msgid "默认值取公司销项税率"
+msgstr "預設值取公司銷項稅率"

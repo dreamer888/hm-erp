@@ -1,0 +1,2586 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sell
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-01 05:43+0000\n"
+"PO-Revision-Date: 2022-08-01 13:44+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.1.1\n"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__message_needaction
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__message_needaction
+#: model:ir.model.fields,field_description:sell.field_sell_order__message_needaction
+msgid "Action Needed"
+msgstr "需要採取的行動"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__activity_ids
+msgid "Activities"
+msgstr "Activities"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Activity Exception Decoration"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__activity_state
+msgid "Activity State"
+msgstr "Activity State"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__message_attachment_count
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__message_attachment_count
+#: model:ir.model.fields,field_description:sell.field_sell_order__message_attachment_count
+msgid "Attachment Count"
+msgstr "附件數量"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery___barcode_scanned
+msgid "Barcode Scanned"
+msgstr "Barcode Scanned"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_return_form
+msgid "Cost Lines"
+msgstr "Cost Lines"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_approve_multi_sell_order__create_uid
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_adjust_line__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_order__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail_wizard__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_order_line__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_order_track__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_order_track_wizard__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_receipt__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_receipt_wizard__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods_wizard__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner_wizard__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff_wizard__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_top_ten__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_top_ten_wizard__create_uid
+msgid "Created by"
+msgstr "建立者"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_approve_multi_sell_order__create_date
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_adjust_line__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_order__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail_wizard__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_order_line__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_order_track__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_order_track_wizard__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_receipt__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_receipt_wizard__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods_wizard__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner_wizard__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff_wizard__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_top_ten__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_top_ten_wizard__create_date
+msgid "Created on"
+msgstr "建立於"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.customer_statements_report_with_goods_tree
+msgid "Customer Statements Report"
+msgstr "Customer Statements Report"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_approve_multi_sell_order__display_name
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods__display_name
+#: model:ir.model.fields,field_description:sell.field_report_sell_summary__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_adjust_line__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_order__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail_wizard__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_order_line__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_order_track__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_order_track_wizard__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_receipt__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_receipt_wizard__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods_wizard__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner_wizard__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff_wizard__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_top_ten__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_top_ten_wizard__display_name
+msgid "Display Name"
+msgstr "完全顯示名稱"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__message_follower_ids
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__message_follower_ids
+#: model:ir.model.fields,field_description:sell.field_sell_order__message_follower_ids
+msgid "Followers"
+msgstr "關注者"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__message_channel_ids
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__message_channel_ids
+#: model:ir.model.fields,field_description:sell.field_sell_order__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "關注者(頻道)"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__message_partner_ids
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__message_partner_ids
+#: model:ir.model.fields,field_description:sell.field_sell_order__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "關注者(夥伴)"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.report_sell_summary_search
+msgid "Group By"
+msgstr "Group By"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_approve_multi_sell_order__id
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods__id
+#: model:ir.model.fields,field_description:sell.field_report_sell_summary__id
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__id
+#: model:ir.model.fields,field_description:sell.field_sell_adjust_line__id
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__id
+#: model:ir.model.fields,field_description:sell.field_sell_order__id
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail__id
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail_wizard__id
+#: model:ir.model.fields,field_description:sell.field_sell_order_line__id
+#: model:ir.model.fields,field_description:sell.field_sell_order_track__id
+#: model:ir.model.fields,field_description:sell.field_sell_order_track_wizard__id
+#: model:ir.model.fields,field_description:sell.field_sell_receipt__id
+#: model:ir.model.fields,field_description:sell.field_sell_receipt_wizard__id
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods__id
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods_wizard__id
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner__id
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner_wizard__id
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff__id
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff_wizard__id
+#: model:ir.model.fields,field_description:sell.field_sell_top_ten__id
+#: model:ir.model.fields,field_description:sell.field_sell_top_ten_wizard__id
+msgid "ID"
+msgstr "ID"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__activity_exception_icon
+msgid "Icon"
+msgstr "圖標"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "指示異常活動的圖標."
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_adjust__message_needaction
+#: model:ir.model.fields,help:sell.field_sell_adjust__message_unread
+#: model:ir.model.fields,help:sell.field_sell_delivery__message_needaction
+#: model:ir.model.fields,help:sell.field_sell_delivery__message_unread
+#: model:ir.model.fields,help:sell.field_sell_order__message_needaction
+#: model:ir.model.fields,help:sell.field_sell_order__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "如果選中，則需要您注意新消息。"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_adjust__message_has_error
+#: model:ir.model.fields,help:sell.field_sell_adjust__message_has_sms_error
+#: model:ir.model.fields,help:sell.field_sell_delivery__message_has_error
+#: model:ir.model.fields,help:sell.field_sell_delivery__message_has_sms_error
+#: model:ir.model.fields,help:sell.field_sell_order__message_has_error
+#: model:ir.model.fields,help:sell.field_sell_order__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "如果選中，則某些郵件會出現傳遞錯誤。"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_form
+msgid "Incoming Shipments"
+msgstr "Incoming Shipments"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order__invoice_ids
+msgid "Invoices"
+msgstr "Invoices"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order__invoice_count
+msgid "Invoices Count"
+msgstr "Invoices Count"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__message_is_follower
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__message_is_follower
+#: model:ir.model.fields,field_description:sell.field_sell_order__message_is_follower
+msgid "Is Follower"
+msgstr "是關注者"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_approve_multi_sell_order____last_update
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods____last_update
+#: model:ir.model.fields,field_description:sell.field_report_sell_summary____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_adjust____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_adjust_line____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_delivery____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_order____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail_wizard____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_order_line____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_order_track____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_order_track_wizard____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_receipt____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_receipt_wizard____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods_wizard____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner_wizard____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff_wizard____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_top_ten____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_top_ten_wizard____last_update
+msgid "Last Modified on"
+msgstr "最後修改時間"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_approve_multi_sell_order__write_uid
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_adjust_line__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_order__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail_wizard__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_order_line__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_order_track__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_order_track_wizard__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_receipt__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_receipt_wizard__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods_wizard__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner_wizard__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff_wizard__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_top_ten__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_top_ten_wizard__write_uid
+msgid "Last Updated by"
+msgstr "最後更新者"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_approve_multi_sell_order__write_date
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_adjust_line__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_order__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail_wizard__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_order_line__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_order_track__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_order_track_wizard__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_receipt__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_receipt_wizard__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods_wizard__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner_wizard__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff_wizard__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_top_ten__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_top_ten_wizard__write_date
+msgid "Last Updated on"
+msgstr "最後更新時間"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__message_main_attachment_id
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__message_main_attachment_id
+#: model:ir.model.fields,field_description:sell.field_sell_order__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "主要附件"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__message_has_error
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__message_has_error
+#: model:ir.model.fields,field_description:sell.field_sell_order__message_has_error
+msgid "Message Delivery error"
+msgstr "消息傳送錯誤"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__message_ids
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__message_ids
+#: model:ir.model.fields,field_description:sell.field_sell_order__message_ids
+msgid "Messages"
+msgstr "消息"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Next Activity Deadline"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__activity_summary
+msgid "Next Activity Summary"
+msgstr "Next Activity Summary"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__activity_type_id
+msgid "Next Activity Type"
+msgstr "Next Activity Type"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__message_needaction_counter
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__message_needaction_counter
+#: model:ir.model.fields,field_description:sell.field_sell_order__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Number of Actions"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__message_has_error_counter
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__message_has_error_counter
+#: model:ir.model.fields,field_description:sell.field_sell_order__message_has_error_counter
+msgid "Number of errors"
+msgstr "Number of errors"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_adjust__message_needaction_counter
+#: model:ir.model.fields,help:sell.field_sell_delivery__message_needaction_counter
+#: model:ir.model.fields,help:sell.field_sell_order__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Number of messages which requires an action"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_adjust__message_has_error_counter
+#: model:ir.model.fields,help:sell.field_sell_delivery__message_has_error_counter
+#: model:ir.model.fields,help:sell.field_sell_order__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Number of messages with delivery error"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_adjust__message_unread_counter
+#: model:ir.model.fields,help:sell.field_sell_delivery__message_unread_counter
+#: model:ir.model.fields,help:sell.field_sell_order__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Number of unread messages"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.customer_statements_report_tree
+msgid "Partner Statements Report"
+msgstr "Partner Statements Report"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__activity_user_id
+msgid "Responsible User"
+msgstr "Responsible User"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__message_has_sms_error
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__message_has_sms_error
+#: model:ir.model.fields,field_description:sell.field_sell_order__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "SMS Delivery error"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Type of the exception activity on record."
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__message_unread
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__message_unread
+#: model:ir.model.fields,field_description:sell.field_sell_order__message_unread
+msgid "Unread Messages"
+msgstr "Unread Messages"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__message_unread_counter
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__message_unread_counter
+#: model:ir.model.fields,field_description:sell.field_sell_order__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Unread Messages Counter"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery___barcode_scanned
+msgid "Value of the last barcode scanned."
+msgstr "Value of the last barcode scanned."
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__website_message_ids
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__website_message_ids
+#: model:ir.model.fields,field_description:sell.field_sell_order__website_message_ids
+msgid "Website Messages"
+msgstr "Website Messages"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_adjust__website_message_ids
+#: model:ir.model.fields,help:sell.field_sell_delivery__website_message_ids
+#: model:ir.model.fields,help:sell.field_sell_order__website_message_ids
+msgid "Website communication history"
+msgstr "Website communication history"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_order_line__quantity
+msgid "下单数量"
+msgstr "下單數量"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_adjust_line__price
+msgid "不含税单价，由含税单价计算得出"
+msgstr "不含稅單價，由含稅單價計算得出"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods__without_tax_amount
+#: model:ir.model.fields,field_description:sell.field_sell_order__untax_amount
+#: model:ir.model.fields,help:sell.field_sell_order__untax_amount
+msgid "不含税金额"
+msgstr "不含稅金額"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_money_order__sell_id
+msgid "与付款相关的销售订单号"
+msgstr "與付款相關的銷售訂單號"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_cost_line__sell_id
+msgid "与销售费用相关联的出库单号"
+msgstr "與銷售費用相關聯的出庫單號"
+
+#. module: sell
+#: model:ir.model,name:sell.model_partner
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods__partner_id
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__partner_id
+msgid "业务伙伴"
+msgstr "業務夥伴"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_receipt__type
+msgid "业务类别"
+msgstr "業務類別"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail__type
+msgid "业务类型"
+msgstr "業務類型"
+
+#. module: sell
+#: model:ir.ui.menu,name:sell.menu_sell_master
+msgid "主数据"
+msgstr "主數據"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__order_id
+msgid "产生发货单/退货单的销售订单"
+msgstr "產生髮貨單/退貨單的銷售訂單"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__invoice_id
+msgid "产生的发票号"
+msgstr "產生的發票號"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_search
+msgid "今日"
+msgstr "今日"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_report_sell_summary__warehouse
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail__warehouse_id
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail_wizard__warehouse_id
+#: model:ir.model.fields,field_description:sell.field_sell_order_track__warehouse_id
+#: model:ir.model.fields,field_description:sell.field_sell_order_track_wizard__warehouse_id
+#: model:ir.model.fields,field_description:sell.field_sell_receipt__warehouse_id
+#: model:ir.model.fields,field_description:sell.field_sell_receipt_wizard__warehouse_id
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods__warehouse
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods_wizard__warehouse_id
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner__warehouse
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner_wizard__warehouse_id
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff__warehouse
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff_wizard__warehouse_id
+#: model:ir.model.fields,field_description:sell.field_sell_top_ten__warehouse
+#: model:ir.model.fields,field_description:sell.field_sell_top_ten_wizard__warehouse_id
+#: model_terms:ir.ui.view,arch_db:sell.pricing_search
+#: model_terms:ir.ui.view,arch_db:sell.report_sell_summary_search
+msgid "仓库"
+msgstr "倉庫"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order__pay_method
+msgid "付款方式"
+msgstr "付款方式"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order__pay_base_currency
+msgid "以本币结算"
+msgstr "以本幣結算"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_report_sell_summary__subtotal
+#: model:ir.model.fields,field_description:sell.field_sell_adjust_line__subtotal
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail__subtotal
+#: model:ir.model.fields,field_description:sell.field_sell_order_line__subtotal
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods__subtotal
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner__subtotal
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff__subtotal
+#: model_terms:ir.ui.view,arch_db:sell.sell_adjust_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_return_form
+msgid "价税合计"
+msgstr "含稅價"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.report_sell_summary_graph
+#: model_terms:ir.ui.view,arch_db:sell.report_sell_summary_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_detail_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_goods_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_partner_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_staff_tree
+msgid "价税合计的合计"
+msgstr "含稅價的合計"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__discount_rate
+#: model:ir.model.fields,field_description:sell.field_sell_order__discount_rate
+msgid "优惠率(%)"
+msgstr "優惠率(%)"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report__benefit_amount
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods__benefit_amount
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__discount_amount
+#: model:ir.model.fields,field_description:sell.field_sell_receipt__discount_amount
+msgid "优惠金额"
+msgstr "優惠金額"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_receipt_tree
+msgid "优惠金额合计"
+msgstr "優惠金額合計"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_adjust_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_return_form
+msgid "作废"
+msgstr "作廢"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust_line__using_attribute
+#: model:ir.model.fields,field_description:sell.field_sell_order_line__using_attribute
+msgid "使用属性"
+msgstr "使用屬性"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_return_form
+msgid "入库"
+msgstr "入庫"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__in_goods_id
+msgid "入库商品"
+msgstr "入庫商品"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__line_in_ids
+msgid "入库明细"
+msgstr "入庫明細"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__line_in_ids
+msgid "入库类型的移库单对应的入库明细"
+msgstr "入庫類型的移庫單對應的入庫明細"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_search
+msgid "全部出库"
+msgstr "全部出庫"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_search
+msgid "全部收款"
+msgstr "全部收款"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_return_search
+msgid "全部退款"
+msgstr "全部退款"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__company_id
+#: model:ir.model.fields,field_description:sell.field_sell_adjust_line__company_id
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__company_id
+#: model:ir.model.fields,field_description:sell.field_sell_order__company_id
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail_wizard__company_id
+#: model:ir.model.fields,field_description:sell.field_sell_order_line__company_id
+#: model:ir.model.fields,field_description:sell.field_sell_order_track_wizard__company_id
+#: model:ir.model.fields,field_description:sell.field_sell_receipt_wizard__company_id
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods_wizard__company_id
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner_wizard__company_id
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff_wizard__company_id
+#: model:ir.model.fields,field_description:sell.field_sell_top_ten_wizard__company_id
+msgid "公司"
+msgstr "公司"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_adjust_line__order_id
+msgid "关联的变更单编号"
+msgstr "關聯的變更單編號"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_order_line__order_id
+msgid "关联订单的编号"
+msgstr "關聯訂單的編號"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order__net_weight
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_return_form
+msgid "净重合计"
+msgstr "淨重合計"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report__move_id
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods__move_id
+#: model:ir.model.fields,field_description:sell.field_money_invoice__move_id
+msgid "出入库单"
+msgstr "出入庫單"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__voucher_id
+msgid "出库凭证"
+msgstr "出庫憑證"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_cost_line__sell_id
+msgid "出库单号"
+msgstr "出庫單號"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__out_goods_id
+msgid "出库商品"
+msgstr "出庫商品"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order_track__wh_out_date
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_form
+msgid "出库日期"
+msgstr "出庫日期"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__line_out_ids
+msgid "出库明细"
+msgstr "出庫明細"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__line_out_ids
+msgid "出库类型的移库单对应的出库明细"
+msgstr "出庫類型的移庫單對應的出庫明細"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.pricing_search
+#: model_terms:ir.ui.view,arch_db:sell.sell_adjust_search
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_search
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_search
+#: model_terms:ir.ui.view,arch_db:sell.sell_return_search
+msgid "分组"
+msgstr "分組"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_order__name
+msgid "创建时它会自动生成下一个编号"
+msgstr "創建時它會自動生成下一個編號"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_search
+#: model_terms:ir.ui.view,arch_db:sell.sell_return_search
+msgid "到期日"
+msgstr "到期日"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__date_due
+msgid "到期日期"
+msgstr "到期日期"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_adjust_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_adjust_search
+#: model_terms:ir.ui.view,arch_db:sell.sell_adjust_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_search
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_search
+#: model_terms:ir.ui.view,arch_db:sell.sell_return_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_return_search
+msgid "制单人"
+msgstr "製單人"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods__price
+#: model:ir.model.fields,field_description:sell.field_report_sell_summary__price
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail__price
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods__price
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner__price
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff__price
+msgid "单价"
+msgstr "單價"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods__uom_id
+#: model:ir.model.fields,field_description:sell.field_report_sell_summary__uom
+#: model:ir.model.fields,field_description:sell.field_sell_adjust_line__uom_id
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail__uom
+#: model:ir.model.fields,field_description:sell.field_sell_order_line__uom_id
+#: model:ir.model.fields,field_description:sell.field_sell_order_track__uom
+#: model_terms:ir.ui.view,arch_db:sell.report_sell_summary_search
+msgid "单位"
+msgstr "單位"
+
+#. module: sell
+#: model:ir.ui.menu,name:sell.sell_order_menu_root
+msgid "单据"
+msgstr "單據"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__date
+msgid "单据创建日期，默认为当前天"
+msgstr "單據創建日期，默認為當前天"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_adjust__note
+#: model:ir.model.fields,help:sell.field_sell_order__note
+msgid "单据备注"
+msgstr "單據備註"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods__date
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__date
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__date
+#: model:ir.model.fields,field_description:sell.field_sell_order__date
+#: model:ir.model.fields,field_description:sell.field_sell_receipt__date
+#: model_terms:ir.ui.view,arch_db:sell.sell_adjust_search
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_search
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_search
+#: model_terms:ir.ui.view,arch_db:sell.sell_return_search
+msgid "单据日期"
+msgstr "單據日期"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order_track__type
+msgid "单据类型"
+msgstr "單據類型"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_adjust__user_id
+#: model:ir.model.fields,help:sell.field_sell_delivery__user_id
+#: model:ir.model.fields,help:sell.field_sell_order__user_id
+msgid "单据经办人"
+msgstr "單據經辦人"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods__name
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__name
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__name
+#: model:ir.model.fields,field_description:sell.field_sell_order__name
+#: model:ir.model.fields,field_description:sell.field_sell_receipt__order_name
+msgid "单据编号"
+msgstr "單據編號"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__name
+msgid "单据编号，创建时会自动生成"
+msgstr "單據編號，創建時會自動生成"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__order_id
+msgid "原始单据"
+msgstr "原始單據"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__invoice_id
+msgid "发票号"
+msgstr "發票號"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_form
+msgid "发货"
+msgstr "發貨"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__sell_move_id
+#: model:ir.model.fields,field_description:sell.field_sell_order__delivery_ids
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_form
+msgid "发货单"
+msgstr "發貨單"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__sell_move_id
+msgid "发货单号"
+msgstr "發貨單號"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order__delivery_count
+msgid "发货单数量"
+msgstr "發貨單數量"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_form
+msgid "发货单行"
+msgstr "發貨單行"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__voucher_id
+msgid "发货时产生的出库凭证"
+msgstr "發貨時產生的出庫憑證"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order__goods_state
+msgid "发货状态"
+msgstr "發貨狀態"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.approve_multi_sell_order_from
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_detail_wizard_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_track_wizard_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_receipt_wizard_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_goods_wizard_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_partner_wizard_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_staff_wizard_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_top_ten_wizard_form
+msgid "取消"
+msgstr "取消"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_adjust__date
+msgid "变更单创建日期，默认是当前日期"
+msgstr "變更單創建日期，默認是當前日期"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_adjust__line_ids
+msgid "变更单明细行，不允许为空"
+msgstr "變更單明細行，不允許為空"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_adjust__state
+msgid "变更单确认状态"
+msgstr "變更單確認狀態"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_adjust__name
+msgid "变更单编号，保存时可自动生成"
+msgstr "變更單編號，保存時可自動生成"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__line_ids
+msgid "变更单行"
+msgstr "變更單行"
+
+#. module: sell
+#: model:res.groups,name:sell.own_data_groups
+msgid "只看自己的销售数据"
+msgstr "只看自己的銷售數據"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_order_detail_wizard__warehouse_id
+#: model:ir.model.fields,help:sell.field_sell_order_track_wizard__warehouse_id
+#: model:ir.model.fields,help:sell.field_sell_receipt_wizard__warehouse_id
+#: model:ir.model.fields,help:sell.field_sell_summary_goods_wizard__warehouse_id
+#: model:ir.model.fields,help:sell.field_sell_summary_partner_wizard__warehouse_id
+#: model:ir.model.fields,help:sell.field_sell_summary_staff_wizard__warehouse_id
+#: model:ir.model.fields,help:sell.field_sell_top_ten_wizard__warehouse_id
+msgid "只统计选定的仓库"
+msgstr "只統計選定的倉庫"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_order_detail_wizard__goods_id
+#: model:ir.model.fields,help:sell.field_sell_order_track_wizard__goods_id
+#: model:ir.model.fields,help:sell.field_sell_summary_goods_wizard__goods_id
+#: model:ir.model.fields,help:sell.field_sell_summary_partner_wizard__goods_id
+#: model:ir.model.fields,help:sell.field_sell_summary_staff_wizard__goods_id
+msgid "只统计选定的商品"
+msgstr "只統計選定的商品"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_summary_goods_wizard__goods_categ_id
+#: model:ir.model.fields,help:sell.field_sell_summary_staff_wizard__goods_categ_id
+msgid "只统计选定的商品类别"
+msgstr "只統計選定的商品類別"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_order_detail_wizard__partner_id
+#: model:ir.model.fields,help:sell.field_sell_order_track_wizard__partner_id
+#: model:ir.model.fields,help:sell.field_sell_receipt_wizard__partner_id
+#: model:ir.model.fields,help:sell.field_sell_summary_goods_wizard__partner_id
+#: model:ir.model.fields,help:sell.field_sell_summary_partner_wizard__partner_id
+msgid "只统计选定的客户"
+msgstr "只統計選定的客戶"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_receipt_wizard__c_category_id
+#: model:ir.model.fields,help:sell.field_sell_summary_partner_wizard__c_category_id
+msgid "只统计选定的客户类别"
+msgstr "只統計選定的客戶類別"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_order_detail_wizard__user_id
+#: model:ir.model.fields,help:sell.field_sell_order_track_wizard__user_id
+#: model:ir.model.fields,help:sell.field_sell_receipt_wizard__user_id
+#: model:ir.model.fields,help:sell.field_sell_summary_staff_wizard__user_id
+msgid "只统计选定的销售员"
+msgstr "只統計選定的銷售員"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__note
+msgid "可以为该单据添加一些需要的标识信息"
+msgstr "可以為該單據添加一些需要的標識信息"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_tree
+msgid "合计"
+msgstr "合計"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_form
+msgid "合计已发货数量"
+msgstr "合計已發貨數量"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust_line__price_taxed
+#: model:ir.model.fields,field_description:sell.field_sell_order_line__price_taxed
+msgid "含税单价"
+msgstr "含稅單價"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_adjust_line__subtotal
+#: model:ir.model.fields,help:sell.field_sell_order_line__subtotal
+msgid "含税单价 乘以 数量"
+msgstr "含稅單價 乘以 數量"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_order_line__price
+#: model:ir.model.fields,help:sell.field_sell_order_line__price_taxed
+msgid "含税单价，取商品零售价"
+msgstr "含稅單價，取商品零售價"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_adjust_line__price_taxed
+msgid "含税单价，取自商品零售价"
+msgstr "含稅單價，取自商品零售價"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_report_sell_summary__brand_id
+msgid "品牌"
+msgstr "品牌"
+
+#. module: sell
+#: model:ir.actions.act_window,name:sell.goods_action_sell
+#: model:ir.model.fields,field_description:sell.field_report_sell_summary__goods_id
+#: model:ir.model.fields,field_description:sell.field_sell_adjust_line__goods_id
+#: model:ir.model.fields,field_description:sell.field_sell_order__goods_id
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail_wizard__goods_id
+#: model:ir.model.fields,field_description:sell.field_sell_order_line__goods_id
+#: model:ir.model.fields,field_description:sell.field_sell_order_track_wizard__goods_id
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods_wizard__goods_id
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner_wizard__goods_id
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff_wizard__goods_id
+#: model:ir.model.fields,help:sell.field_sell_adjust_line__goods_id
+#: model:ir.model.fields,help:sell.field_sell_order__goods_id
+#: model:ir.model.fields,help:sell.field_sell_order_line__goods_id
+#: model:ir.ui.menu,name:sell.sell_goods_menu
+#: model_terms:ir.ui.view,arch_db:sell.pricing_search
+#: model_terms:ir.ui.view,arch_db:sell.report_sell_summary_search
+msgid "商品"
+msgstr "商品"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_report_sell_summary__goods
+msgid "商品名"
+msgstr "商品名"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods__goods_name
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail__goods_id
+#: model:ir.model.fields,field_description:sell.field_sell_order_track__goods_id
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods__goods
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner__goods
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff__goods
+#: model:ir.model.fields,field_description:sell.field_sell_top_ten__goods
+msgid "商品名称"
+msgstr "商品名稱"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_order__warehouse_id
+msgid "商品将从该仓库调出"
+msgstr "商品將從該倉庫調出"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__total_qty
+msgid "商品总数"
+msgstr "商品總數"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_adjust_line__using_attribute
+#: model:ir.model.fields,help:sell.field_sell_order_line__using_attribute
+msgid "商品是否使用属性"
+msgstr "商品是否使用屬性"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_adjust_line__attribute_id
+#: model:ir.model.fields,help:sell.field_sell_order_line__attribute_id
+msgid "商品的属性，当商品有属性时，该字段必输"
+msgstr "商品的屬性，當商品有屬性時，該字段必輸"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods__category_id
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods__goods_categ
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods_wizard__goods_categ_id
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff_wizard__goods_categ_id
+#: model_terms:ir.ui.view,arch_db:sell.pricing_search
+msgid "商品类别"
+msgstr "商品類別"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods__goods_code
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff__goods_code
+msgid "商品编号"
+msgstr "商品編號"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail__goods_code
+#: model:ir.model.fields,field_description:sell.field_sell_order_track__goods_code
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods__goods_code
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner__goods_code
+msgid "商品编码"
+msgstr "商品編碼"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_adjust_line__uom_id
+#: model:ir.model.fields,help:sell.field_sell_order_line__uom_id
+msgid "商品计量单位"
+msgstr "商品計量單位"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_receipt__receipt_rate
+msgid "回款率(%)"
+msgstr "回款率(%)"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order__address_id
+msgid "地址"
+msgstr "地址"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods__uom
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner__uom
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff__uom
+msgid "基本单位"
+msgstr "基本單位"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods__qty
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner__qty
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff__qty
+#: model:ir.model.fields,field_description:sell.field_sell_top_ten__qty
+msgid "基本数量"
+msgstr "基本數量"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_goods_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_partner_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_staff_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_top_ten_tree
+msgid "基本数量合计"
+msgstr "基本數量合計"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods__note
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__note
+#: model:ir.model.fields,field_description:sell.field_sell_adjust_line__note
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__note
+#: model:ir.model.fields,field_description:sell.field_sell_order__note
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail__note
+#: model:ir.model.fields,field_description:sell.field_sell_order_line__note
+#: model:ir.model.fields,field_description:sell.field_sell_order_track__note
+#: model:ir.model.fields,field_description:sell.field_sell_receipt__note
+msgid "备注"
+msgstr "備註"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__currency_id
+#: model:ir.model.fields,field_description:sell.field_sell_order__currency_id
+#: model:ir.model.fields,help:sell.field_sell_delivery__currency_id
+#: model:ir.model.fields,help:sell.field_sell_order__currency_id
+msgid "外币币别"
+msgstr "外幣幣別"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__ref
+msgid "外部单号"
+msgstr "外部單號"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods__done_date
+msgid "完成日期"
+msgstr "完成日期"
+
+#. module: sell
+#: model:ir.actions.act_window,name:sell.action_pricing
+#: model:ir.ui.menu,name:sell.pricing_menu
+#: model_terms:ir.ui.view,arch_db:sell.pricing_search
+#: model_terms:ir.ui.view,arch_db:sell.pricing_tree
+msgid "定价策略"
+msgstr "定價策略"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods__pay_amount
+msgid "实际收款金额"
+msgstr "實際收款金額"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_report_sell_summary__partner_id
+#: model:ir.model.fields,field_description:sell.field_sell_order__partner_id
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail__partner_id
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail_wizard__partner_id
+#: model:ir.model.fields,field_description:sell.field_sell_order_track__partner_id
+#: model:ir.model.fields,field_description:sell.field_sell_order_track_wizard__partner_id
+#: model:ir.model.fields,field_description:sell.field_sell_receipt__partner_id
+#: model:ir.model.fields,field_description:sell.field_sell_receipt_wizard__partner_id
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods_wizard__partner_id
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner__partner
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner_wizard__partner_id
+#: model:ir.ui.menu,name:sell.sell_customer_menu
+#: model_terms:ir.ui.view,arch_db:sell.report_sell_summary_search
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_search
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_search
+#: model_terms:ir.ui.view,arch_db:sell.sell_return_search
+msgid "客户"
+msgstr "客戶"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_order__pay_base_currency
+msgid "客户以本币付款到我公司基本账户内"
+msgstr "客戶以本幣付款到我公司基本帳戶內"
+
+#. module: sell
+#: model:ir.model,name:sell.model_customer_statements_report
+msgid "客户对账单"
+msgstr "客戶對帳單"
+
+#. module: sell
+#: model:ir.actions.act_window,name:sell.customer_statements_report_wizard_action
+msgid "客户对账单向导"
+msgstr "客戶對帳單嚮導"
+
+#. module: sell
+#: model:ir.model,name:sell.model_customer_statements_report_with_goods
+msgid "客户对账单带商品明细"
+msgstr "客戶對帳單帶商品明細"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report__fee
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods__fee
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__partner_cost
+#: model:ir.model.fields,field_description:sell.field_sell_receipt__partner_cost
+#: model:ir.model.fields,help:sell.field_sell_delivery__partner_cost
+msgid "客户承担费用"
+msgstr "客戶承擔費用"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_receipt_tree
+msgid "客户承担费用合计"
+msgstr "客戶承擔費用合計"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__contact
+#: model:ir.model.fields,help:sell.field_sell_order__contact
+msgid "客户方的联系人"
+msgstr "客戶方的聯繫人"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_receipt__c_category_id
+#: model:ir.model.fields,field_description:sell.field_sell_receipt_wizard__c_category_id
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner__c_category
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner_wizard__c_category_id
+#: model_terms:ir.ui.view,arch_db:sell.pricing_search
+msgid "客户类别"
+msgstr "客戶類別"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order__ref
+msgid "客户订单号"
+msgstr "客戶訂單號"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_wh_move_line__sell_line_id
+msgid "对应的销售订单行"
+msgstr "對應的銷售訂單行"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_report_sell_summary__attribute_id
+#: model:ir.model.fields,field_description:sell.field_sell_adjust_line__attribute_id
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail__attribute
+#: model:ir.model.fields,field_description:sell.field_sell_order_line__attribute_id
+#: model:ir.model.fields,field_description:sell.field_sell_order_track__attribute
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods__attribute
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner__attribute
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff__attribute
+msgid "属性"
+msgstr "屬性"
+
+#. module: sell
+#: model:ir.model.fields.selection,name:sell.selection__sell_adjust__state__cancel
+#: model:ir.model.fields.selection,name:sell.selection__sell_order__state__cancel
+msgid "已作废"
+msgstr "已作廢"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_search
+#: model_terms:ir.ui.view,arch_db:sell.sell_return_search
+msgid "已完成"
+msgstr "已完成"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order_line__quantity_out
+msgid "已执行数量"
+msgstr "已執行數量"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_receipt__receipt
+msgid "已收款"
+msgstr "已收款"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_receipt_tree
+msgid "已收款合计"
+msgstr "已收款合計"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order__paid_no_goods
+msgid "已收款未发货"
+msgstr "已收款未發貨"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order__received_amount
+msgid "已收金额"
+msgstr "已收金額"
+
+#. module: sell
+#: model:ir.model.fields.selection,name:sell.selection__sell_adjust__state__done
+#: model:ir.model.fields.selection,name:sell.selection__sell_order__state__done
+#: model_terms:ir.ui.view,arch_db:sell.sell_adjust_search
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_search
+msgid "已确认"
+msgstr "已確認"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order__cancelled
+msgid "已终止"
+msgstr "已終止"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_report_sell_summary__location
+msgid "库位"
+msgstr "庫位"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods__balance_amount
+#: model:ir.model.fields,field_description:sell.field_sell_receipt__balance
+msgid "应收款余额"
+msgstr "應收款餘額"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_receipt_tree
+msgid "应收款余额合计"
+msgstr "應收款餘額合計"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods__amount
+msgid "应收金额"
+msgstr "應收金額"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail_wizard__date_start
+#: model:ir.model.fields,field_description:sell.field_sell_order_track_wizard__date_start
+#: model:ir.model.fields,field_description:sell.field_sell_receipt_wizard__date_start
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods_wizard__date_start
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner_wizard__date_start
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff_wizard__date_start
+#: model:ir.model.fields,field_description:sell.field_sell_top_ten_wizard__date_start
+msgid "开始日期"
+msgstr "開始日期"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_adjust_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_return_form
+msgid "录单时间"
+msgstr "錄單時間"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__express_code
+msgid "快递单号"
+msgstr "快遞單號"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_return_tree
+msgid "总金额"
+msgstr "總金額"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__amount
+#: model:ir.model.fields,help:sell.field_sell_order__amount
+msgid "总金额减去优惠金额"
+msgstr "總金額減去優惠金額"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__amount
+#: model:ir.model.fields,field_description:sell.field_sell_order__amount
+#: model:ir.model.fields,field_description:sell.field_sell_receipt__amount
+msgid "成交金额"
+msgstr "成交金額"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_receipt_tree
+msgid "成交金额合计"
+msgstr "成交金額合計"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_search
+msgid "我的订单"
+msgstr "我的訂單"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.approve_multi_sell_order_from
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_detail_wizard_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_track_wizard_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_receipt_wizard_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_goods_wizard_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_partner_wizard_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_staff_wizard_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_top_ten_wizard_form
+msgid "或者"
+msgstr "或者"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__mobile
+#: model:ir.model.fields,field_description:sell.field_sell_order__mobile
+msgid "手机"
+msgstr "手機"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_form_print_inherit
+#: model_terms:ir.ui.view,arch_db:sell.sell_sell_adjust_form_print_inherit
+#: model_terms:ir.ui.view,arch_db:sell.sell_sell_order_form_print_inherit
+#: model_terms:ir.ui.view,arch_db:sell.sell_sell_return_form_print_inherit
+msgid "打印"
+msgstr "列印"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_report_sell_summary__lot
+#: model_terms:ir.ui.view,arch_db:sell.report_sell_summary_search
+msgid "批号"
+msgstr "批號"
+
+#. module: sell
+#: model:ir.actions.act_window,name:sell.approve_multi_sell_order_action
+#: model:ir.model,name:sell.model_approve_multi_sell_order
+msgid "批量确认销售订单"
+msgstr "批量確認銷售訂單"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__express_type
+#: model:ir.model.fields,field_description:sell.field_sell_order__express_type
+msgid "承运商"
+msgstr "承運商"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_adjust_line__discount_rate
+#: model:ir.model.fields,help:sell.field_sell_order_line__discount_rate
+msgid "折扣率"
+msgstr "折扣率"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust_line__discount_rate
+#: model:ir.model.fields,field_description:sell.field_sell_order_line__discount_rate
+msgid "折扣率%"
+msgstr "折扣率%"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods__discount_amount
+#: model:ir.model.fields,field_description:sell.field_sell_adjust_line__discount_amount
+#: model:ir.model.fields,field_description:sell.field_sell_order_line__discount_amount
+msgid "折扣额"
+msgstr "折扣額"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_adjust_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_return_form
+msgid "折扣额合计"
+msgstr "折扣額合計"
+
+#. module: sell
+#: model:ir.ui.menu,name:sell.menu_sell_report
+msgid "报表"
+msgstr "報表"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_top_ten_wizard__date_start
+msgid "报表汇总的开始日期，默认为一周前日期"
+msgstr "報表匯總的開始日期，默認為一周前日期"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_order_detail_wizard__date_start
+#: model:ir.model.fields,help:sell.field_sell_order_track_wizard__date_start
+#: model:ir.model.fields,help:sell.field_sell_receipt_wizard__date_start
+#: model:ir.model.fields,help:sell.field_sell_summary_goods_wizard__date_start
+#: model:ir.model.fields,help:sell.field_sell_summary_partner_wizard__date_start
+#: model:ir.model.fields,help:sell.field_sell_summary_staff_wizard__date_start
+msgid "报表汇总的开始日期，默认为公司启用日期"
+msgstr "報表匯總的開始日期，默認為公司啟用日期"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_order_detail_wizard__date_end
+#: model:ir.model.fields,help:sell.field_sell_order_track_wizard__date_end
+#: model:ir.model.fields,help:sell.field_sell_receipt_wizard__date_end
+#: model:ir.model.fields,help:sell.field_sell_summary_goods_wizard__date_end
+#: model:ir.model.fields,help:sell.field_sell_summary_partner_wizard__date_end
+#: model:ir.model.fields,help:sell.field_sell_summary_staff_wizard__date_end
+#: model:ir.model.fields,help:sell.field_sell_top_ten_wizard__date_end
+msgid "报表汇总的结束日期，默认为当前日期"
+msgstr "報表匯總的結束日期，默認為當前日期"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order__discount_amount
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_form
+msgid "抹零"
+msgstr "抹零"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_return_form
+msgid "撤销"
+msgstr "撤銷"
+
+#. module: sell
+#: model:ir.model,name:sell.model_money_order
+msgid "收付款单"
+msgstr "收付款單"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__finance_category_id
+msgid "收发类别"
+msgstr "收發類別"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__money_order_id
+msgid "收款单"
+msgstr "收款單"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__date_due
+msgid "收款截止日期"
+msgstr "收款截止日期"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods__discount_money
+msgid "收款折扣"
+msgstr "收款折扣"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__money_state
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail__money_state
+msgid "收款状态"
+msgstr "收款狀態"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods__quantity
+#: model:ir.model.fields,field_description:sell.field_report_sell_summary__goods_qty
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail__qty
+#: model:ir.model.fields,field_description:sell.field_sell_order_line__quantity
+#: model:ir.model.fields,field_description:sell.field_sell_order_track__qty
+msgid "数量"
+msgstr "數量"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order__total_qty
+#: model_terms:ir.ui.view,arch_db:sell.report_sell_summary_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_adjust_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_detail_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_return_form
+msgid "数量合计"
+msgstr "數量合計"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_order__total_qty
+msgid "数量总计"
+msgstr "數量總計"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__discount_rate
+#: model:ir.model.fields,help:sell.field_sell_order__discount_rate
+msgid "整单优惠率"
+msgstr "整單優惠率"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_order__discount_amount
+msgid "整单优惠金额，可由优惠率自动计算出来，也可手动输入"
+msgstr "整單優惠金額，可由優惠率自動計算出來，也可手動輸入"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__discount_amount
+msgid "整单优惠金额，可由优惠率自动计算得出，也可手动输入"
+msgstr "整單優惠金額，可由優惠率自動計算得出，也可手動輸入"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_report_sell_summary__date
+msgid "日期"
+msgstr "日期"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__details
+#: model:ir.model.fields,field_description:sell.field_sell_order__details
+msgid "明细"
+msgstr "明細"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__is_return
+msgid "是否为退货类型"
+msgstr "是否為退貨類型"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__is_return
+msgid "是否退货"
+msgstr "是否退貨"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_adjust_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_return_form
+msgid "暂无备注信息"
+msgstr "暫無備註信息"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_adjust_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_return_form
+msgid "最后修改时间"
+msgstr "最後修改時間"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_report_sell_summary__last_receipt_date
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail__last_receipt_date
+msgid "最后收款日期"
+msgstr "最後收款日期"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_search
+msgid "未出库"
+msgstr "未出庫"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order_track__qty_not_out
+msgid "未出库数量"
+msgstr "未出庫數量"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_search
+msgid "未收款"
+msgstr "未收款"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order_line__price
+msgid "未税单价"
+msgstr "未稅單價"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_return_search
+msgid "未退款"
+msgstr "未退款"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_approve_multi_sell_order__note
+msgid "本次处理销售订单"
+msgstr "本次處理銷售訂單"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__receipt
+msgid "本次收款"
+msgstr "本次收款"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__receipt
+msgid "本次收款金额"
+msgstr "本次收款金額"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_return_tree
+msgid "本次退款"
+msgstr "本次退款"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_adjust_line__note
+#: model:ir.model.fields,help:sell.field_sell_order_line__note
+msgid "本行备注"
+msgstr "本行備註"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__origin_id
+msgid "来源单据"
+msgstr "來源單據"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.customer_statements_report_tree
+#: model_terms:ir.ui.view,arch_db:sell.customer_statements_report_with_goods_tree
+msgid "查看原始单据"
+msgstr "查看原始單據"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.customer_tree_inherit
+msgid "查看对账单"
+msgstr "查看對帳單"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_detail_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_track_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_receipt_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_goods_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_partner_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_staff_tree
+msgid "查看明细"
+msgstr "查看明細"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_report_sell_summary__margin
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail__margin
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods__margin
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner__margin
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff__margin
+msgid "毛利"
+msgstr "毛利"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.report_sell_summary_graph
+#: model_terms:ir.ui.view,arch_db:sell.report_sell_summary_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_detail_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_goods_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_partner_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_staff_tree
+msgid "毛利合计"
+msgstr "毛利合計"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__qc_result
+msgid "点击上传质检报告"
+msgstr "點擊上傳質檢報告"
+
+#. module: sell
+#: model_terms:ir.actions.act_window,help:sell.sell_delivery_action
+msgid "点击创建销售发货单"
+msgstr "點擊創建銷售發貨單"
+
+#. module: sell
+#: model_terms:ir.actions.act_window,help:sell.sell_adjust_action
+msgid "点击创建销售变更单"
+msgstr "點擊創建銷售變更單"
+
+#. module: sell
+#: model_terms:ir.actions.act_window,help:sell.sell_order_action
+msgid "点击创建销售订单"
+msgstr "點擊創建銷售訂單"
+
+#. module: sell
+#: model_terms:ir.actions.act_window,help:sell.sell_return_action
+msgid "点击创建销售退货单"
+msgstr "點擊創建銷售退貨單"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__state
+#: model:ir.model.fields,field_description:sell.field_sell_order_track__goods_state
+msgid "状态"
+msgstr "狀態"
+
+#. module: sell
+#: model:ir.model,name:sell.model_wh_move_line
+msgid "生产退料明细"
+msgstr "生產退料明細"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__finance_category_id
+msgid "生成凭证时从此字段上取商品科目的对方科目"
+msgstr "生成憑證時從此字段上取商品科目的對方科目"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_receipt_tree
+msgid "生成核销单"
+msgstr "生成核銷單"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_money_invoice__move_id
+msgid "生成此发票的出入库单号"
+msgstr "生成此發票的出入庫單號"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_form
+msgid "生成退货单"
+msgstr "生成退貨單"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__bank_account_id
+#: model:ir.model.fields,help:sell.field_sell_order__bank_account_id
+msgid "用来核算和监督企业与其他单位或个人之间的债权债务的结算情况"
+msgstr "用來核算和監督企業與其他單位或個人之間的債權債務的結算情況"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_adjust_line__tax_amount
+msgid "由税率计算得出"
+msgstr "由稅率計算得出"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order__pod
+msgid "目的港"
+msgstr "目的港"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_adjust_line__quantity
+msgid "相对于原单据对应明细行的调整数量，可正可负"
+msgstr "相對於原單據對應明細行的調整數量，可正可負"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.approve_multi_sell_order_from
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_detail_wizard_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_track_wizard_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_receipt_wizard_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_goods_wizard_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_partner_wizard_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_staff_wizard_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_top_ten_wizard_form
+msgid "确定"
+msgstr "確定"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_adjust_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_form
+msgid "确认"
+msgstr "確認"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__approve_uid
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__approve_uid
+#: model:ir.model.fields,field_description:sell.field_sell_order__approve_uid
+msgid "确认人"
+msgstr "確認人"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_order__approve_uid
+msgid "确认单据的人"
+msgstr "確認單據的人"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_adjust__approve_uid
+msgid "确认变更单的人"
+msgstr "確認變更單的人"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__approve_date
+msgid "确认日期"
+msgstr "確認日期"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__state
+#: model:ir.model.fields,field_description:sell.field_sell_order__state
+msgid "确认状态"
+msgstr "確認狀態"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods__id_lists
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner__id_lists
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff__id_lists
+msgid "移动明细行id列表"
+msgstr "移動明細行id列表"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__state
+msgid "移库单状态标识，新建时状态为草稿;确认后状态为已确认"
+msgstr "移庫單狀態標識，新建時狀態為草稿;確認後狀態為已確認"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__warehouse_id
+msgid "移库单的来源仓库"
+msgstr "移庫單的來源倉庫"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__warehouse_dest_id
+msgid "移库单的目的仓库"
+msgstr "移庫單的目的倉庫"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__approve_uid
+msgid "移库单的确认人"
+msgstr "移庫單的確認人"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__origin
+#: model:ir.model.fields,help:sell.field_sell_delivery__origin
+msgid "移库类型"
+msgstr "移庫類型"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_order_line__tax_rate
+msgid "税率"
+msgstr "稅率"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust_line__tax_rate
+#: model:ir.model.fields,field_description:sell.field_sell_order_line__tax_rate
+msgid "税率(%)"
+msgstr "稅率(%)"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods__tax_amount
+#: model:ir.model.fields,field_description:sell.field_report_sell_summary__tax_amount
+#: model:ir.model.fields,field_description:sell.field_sell_adjust_line__tax_amount
+#: model:ir.model.fields,field_description:sell.field_sell_order__tax_amount
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail__tax_amount
+#: model:ir.model.fields,field_description:sell.field_sell_order_line__tax_amount
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods__tax_amount
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner__tax_amount
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff__tax_amount
+#: model:ir.model.fields,help:sell.field_sell_order__tax_amount
+#: model:ir.model.fields,help:sell.field_sell_order_line__tax_amount
+msgid "税额"
+msgstr "稅額"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.report_sell_summary_graph
+#: model_terms:ir.ui.view,arch_db:sell.report_sell_summary_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_adjust_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_detail_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_return_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_goods_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_partner_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_staff_tree
+msgid "税额合计"
+msgstr "稅額合計"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_order__partner_id
+msgid "签约合同的客户"
+msgstr "簽約合同的客戶"
+
+#. module: sell
+#: model:res.groups,name:sell.sell_discount_groups
+msgid "管理销售单的折扣"
+msgstr "管理銷售單的折扣"
+
+#. module: sell
+#: model:res.groups,name:sell.sell_line_discount_groups
+msgid "管理销售行上的折扣"
+msgstr "管理銷售行上的折扣"
+
+#. module: sell
+#: model:res.groups,name:sell.sell_groups
+msgid "管理销售订单"
+msgstr "管理銷售訂單"
+
+#. module: sell
+#: model:res.groups,name:sell.out_tax_groups
+msgid "管理销项税"
+msgstr "管理銷項稅"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order__type
+msgid "类型"
+msgstr "類型"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__user_id
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__user_id
+msgid "经办人"
+msgstr "經辦人"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail_wizard__date_end
+#: model:ir.model.fields,field_description:sell.field_sell_order_track_wizard__date_end
+#: model:ir.model.fields,field_description:sell.field_sell_receipt_wizard__date_end
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods_wizard__date_end
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner_wizard__date_end
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff_wizard__date_end
+#: model:ir.model.fields,field_description:sell.field_sell_top_ten_wizard__date_end
+msgid "结束日期"
+msgstr "結束日期"
+
+#. module: sell
+#: model:ir.model,name:sell.model_money_invoice
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_form
+msgid "结算单"
+msgstr "結算單"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__bank_account_id
+#: model:ir.model.fields,field_description:sell.field_sell_order__bank_account_id
+msgid "结算账户"
+msgstr "結算帳戶"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__contact
+#: model:ir.model.fields,field_description:sell.field_sell_order__contact
+msgid "联系人"
+msgstr "聯系人"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__address_id
+msgid "联系人地址"
+msgstr "聯絡人地址"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__address_id
+#: model:ir.model.fields,help:sell.field_sell_order__address_id
+msgid "联系地址"
+msgstr "聯絡地址"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__mobile
+#: model:ir.model.fields,help:sell.field_sell_order__mobile
+msgid "联系手机"
+msgstr "聯繫手機"
+
+#. module: sell
+#: model:ir.model.fields.selection,name:sell.selection__sell_adjust__state__draft
+#: model:ir.model.fields.selection,name:sell.selection__sell_order__state__draft
+#: model_terms:ir.ui.view,arch_db:sell.sell_adjust_search
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_search
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_search
+#: model_terms:ir.ui.view,arch_db:sell.sell_return_search
+msgid "草稿"
+msgstr "草稿"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order__delivery_date
+#: model:ir.model.fields,field_description:sell.field_sell_order_track__delivery_date
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_search
+msgid "要求交货日期"
+msgstr "要求交貨日期"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_adjust__order_id
+msgid "要调整的原始销售订单，只能调整已确认且没有全部出库的销售订单"
+msgstr "要調整的原始銷售訂單，只能調整已確認且沒有全部出庫的銷售訂單"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods__attribute_id
+msgid "规格型号"
+msgstr "規格型號"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__order_id
+msgid "订单号"
+msgstr "訂單號"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order_track__date
+msgid "订单日期"
+msgstr "訂單日期"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_order__delivery_date
+msgid "订单的要求交货日期"
+msgstr "訂單的要求交貨日期"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust_line__order_id
+#: model:ir.model.fields,field_description:sell.field_sell_order_line__order_id
+msgid "订单编号"
+msgstr "訂單編號"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_form
+msgid "设为今天"
+msgstr "設為今天"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__partner_id
+msgid "该单据对应的业务伙伴"
+msgstr "該單據對應的業務夥伴"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_order__cancelled
+msgid "该单据是否已终止"
+msgstr "該單據是否已終止"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__in_goods_id
+#: model:ir.model.fields,help:sell.field_sell_delivery__out_goods_id
+msgid "该单据行对应的商品"
+msgstr "該單據行對應的商品"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__total_qty
+msgid "该移库单的入/出库明细行包含的商品总数"
+msgstr "該移庫單的入/出庫明細行包含的商品總數"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__warehouse_dest_id
+msgid "调入仓库"
+msgstr "調入倉庫"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__warehouse_id
+#: model:ir.model.fields,field_description:sell.field_sell_order__warehouse_id
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_search
+msgid "调出仓库"
+msgstr "調出倉庫"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust_line__quantity
+msgid "调整数量"
+msgstr "調整數量"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__qc_result
+msgid "质检报告"
+msgstr "質檢報告"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order__term_id
+msgid "贸易条款"
+msgstr "貿易條款"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order__pol
+msgid "起运港"
+msgstr "起運港"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_report_sell_summary__uos
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods__uos
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner__uos
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff__uos
+#: model_terms:ir.ui.view,arch_db:sell.report_sell_summary_search
+msgid "辅助单位"
+msgstr "輔助單位"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_report_sell_summary__goods_uos_qty
+msgid "辅助单位数量"
+msgstr "輔助單位數量"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods__qty_uos
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner__qty_uos
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff__qty_uos
+msgid "辅助数量"
+msgstr "輔助數量"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.report_sell_summary_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_return_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_goods_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_partner_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_staff_tree
+msgid "辅助数量合计"
+msgstr "輔助數量合計"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__auxiliary_id
+msgid "辅助核算"
+msgstr "輔助核算"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__auxiliary_id
+msgid "辅助核算是对账务处理的一种补充,即实现更广泛的账务处理,        以适应企业管理和决策的需要.辅助核算一般通过核算项目来实现"
+msgstr "輔助核算是對帳務處理的一種補充,即實現更廣泛的帳務處理,        以適應企業管理和決策的需要.輔助核算一般通過核算項目來實現"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_adjust_line__discount_amount
+#: model:ir.model.fields,help:sell.field_sell_order_line__discount_amount
+msgid "输入折扣率后自动计算得出，也可手动输入折扣额"
+msgstr "輸入折扣率後自動計算得出，也可手動輸入折扣額"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__money_order_id
+msgid "输入本次收款确认时产生的收款单"
+msgstr "輸入本次收款確認時產生的收款單"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_order__money_order_id
+msgid "输入预收款确认时产生的预收款单"
+msgstr "輸入預收款確認時產生的預收款單"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_order__pre_receipt
+msgid "输入预收款确认销售订单，会产生一张收款单"
+msgstr "輸入預收款確認銷售訂單，會產生一張收款單"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__return_state
+msgid "退款状态"
+msgstr "退款狀態"
+
+#. module: sell
+#: model:ir.model.fields.selection,name:sell.selection__sell_order__type__return
+#: model:ir.model.fields.selection,name:sell.selection__sell_order_track__type__return
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_search
+msgid "退货"
+msgstr "退貨"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_form
+msgid "退货单"
+msgstr "退貨單"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order__return_count
+msgid "退货单数量"
+msgstr "退貨單數量"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_return_form
+msgid "退货单行"
+msgstr "退貨單行"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_search
+msgid "部分出库"
+msgstr "部分出庫"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_search
+msgid "部分收款"
+msgstr "部分收款"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_return_search
+msgid "部分退款"
+msgstr "部分退款"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_report_sell_summary__department_id
+#: model_terms:ir.ui.view,arch_db:sell.report_sell_summary_search
+msgid "部门"
+msgstr "部門"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.customer_address_form_inherit
+msgid "采购记录(最近1年)"
+msgstr "採購記錄(最近1年)"
+
+#. module: sell
+#: model:ir.model,name:sell.model_cost_line
+msgid "采购销售费用"
+msgstr "採購銷售費用"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust_line__amount
+#: model:ir.model.fields,field_description:sell.field_sell_order_line__amount
+msgid "金额"
+msgstr "金額"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_adjust_line__amount
+#: model:ir.model.fields,help:sell.field_sell_order_line__amount
+msgid "金额  = 价税合计  - 税额"
+msgstr "金額  = 含稅價  - 稅額"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_adjust_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_return_form
+msgid "金额合计"
+msgstr "金額合計"
+
+#. module: sell
+#: model:ir.model.fields.selection,name:sell.selection__sell_order__type__sell
+#: model:ir.model.fields.selection,name:sell.selection__sell_order_track__type__sell
+#: model:ir.ui.menu,name:sell.sell_menu
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_search
+#: model:res.groups,name:sell.group_sell
+msgid "销售"
+msgstr "銷售"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust_line__price
+msgid "销售单价"
+msgstr "銷售單價"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail__order_name
+msgid "销售单据号"
+msgstr "銷售單據號"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_wh_move_line__sell_line_id
+msgid "销售单行"
+msgstr "銷售單行"
+
+#. module: sell
+#: model:ir.actions.act_window,name:sell.sell_delivery_action
+#: model:ir.actions.report,name:sell.report_sell_delivery_out
+#: model:ir.model,name:sell.model_sell_delivery
+#: model:ir.ui.menu,name:sell.sell_delivery_menu
+#: model:ir.ui.menu,name:sell.sell_wh_delivery_menu
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_calendar
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_search
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_tree
+msgid "销售发货单"
+msgstr "銷售發貨單"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__money_state
+msgid "销售发货单的收款状态"
+msgstr "銷售發貨單的收款狀態"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_form
+msgid "销售发货单行"
+msgstr "銷售發貨單行"
+
+#. module: sell
+#: model:ir.actions.act_window,name:sell.sell_adjust_action
+#: model:ir.actions.report,name:sell.report_sell_adjust_form
+#: model:ir.model,name:sell.model_sell_adjust
+#: model:ir.ui.menu,name:sell.sell_adjust_menu
+#: model_terms:ir.ui.view,arch_db:sell.sell_adjust_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_adjust_search
+#: model_terms:ir.ui.view,arch_db:sell.sell_adjust_tree
+msgid "销售变更单"
+msgstr "銷售變更單"
+
+#. module: sell
+#: model:ir.model,name:sell.model_sell_adjust_line
+msgid "销售变更单明细"
+msgstr "銷售變更單明細"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_adjust_form
+msgid "销售变更单行"
+msgstr "銷售變更單行"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_report_sell_summary__user_id
+#: model:ir.model.fields,field_description:sell.field_sell_order__user_id
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail__user_id
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail_wizard__user_id
+#: model:ir.model.fields,field_description:sell.field_sell_order_track__user_id
+#: model:ir.model.fields,field_description:sell.field_sell_order_track_wizard__user_id
+#: model:ir.model.fields,field_description:sell.field_sell_receipt__user_id
+#: model:ir.model.fields,field_description:sell.field_sell_receipt_wizard__user_id
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff__salesman
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff_wizard__user_id
+#: model_terms:ir.ui.view,arch_db:sell.report_sell_summary_search
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_tree
+msgid "销售员"
+msgstr "銷售員"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_report_sell_summary__amount
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail__amount
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods__amount
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner__amount
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff__amount
+#: model:ir.model.fields,field_description:sell.field_sell_top_ten__amount
+msgid "销售收入"
+msgstr "銷售收入"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.report_sell_summary_graph
+#: model_terms:ir.ui.view,arch_db:sell.report_sell_summary_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_detail_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_goods_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_partner_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_staff_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_top_ten_tree
+msgid "销售收入合计"
+msgstr "銷售收入合計"
+
+#. module: sell
+#: model:ir.actions.act_window,name:sell.sell_receipt_wizard_action
+#: model:ir.model,name:sell.model_sell_receipt
+#: model:ir.ui.menu,name:sell.menu_sell_receipt
+#: model_terms:ir.ui.view,arch_db:sell.sell_receipt_tree
+msgid "销售收款一览表"
+msgstr "銷售收款一覽表"
+
+#. module: sell
+#: model:ir.model,name:sell.model_sell_receipt_wizard
+#: model_terms:ir.ui.view,arch_db:sell.sell_receipt_wizard_form
+msgid "销售收款一览表向导"
+msgstr "銷售收款一覽表嚮導"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail__date
+msgid "销售日期"
+msgstr "銷售日期"
+
+#. module: sell
+#: model:ir.actions.act_window,name:sell.sell_order_detail_wizard_action
+#: model:ir.model,name:sell.model_sell_order_detail
+#: model:ir.ui.menu,name:sell.menu_sell_order_detail
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_detail_graph
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_detail_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_detail_wizard_form
+msgid "销售明细表"
+msgstr "銷售明細表"
+
+#. module: sell
+#: model:ir.model,name:sell.model_sell_order_detail_wizard
+msgid "销售明细表向导"
+msgstr "銷售明細表嚮導"
+
+#. module: sell
+#: model:ir.actions.act_window,name:sell.report_sell_summary_action
+#: model:ir.model,name:sell.model_report_sell_summary
+#: model:ir.ui.menu,name:sell.menu_sell_summary
+#: model_terms:ir.ui.view,arch_db:sell.report_sell_summary_graph
+#: model_terms:ir.ui.view,arch_db:sell.report_sell_summary_search
+#: model_terms:ir.ui.view,arch_db:sell.report_sell_summary_tree
+msgid "销售汇总表"
+msgstr "銷售匯總表"
+
+#. module: sell
+#: model:ir.actions.act_window,name:sell.sell_summary_goods_wizard_action
+#: model:ir.model,name:sell.model_sell_summary_goods
+#: model:ir.ui.menu,name:sell.menu_sell_summary_goods
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_goods_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_goods_wizard_form
+msgid "销售汇总表（按商品）"
+msgstr "銷售匯總表（按商品）"
+
+#. module: sell
+#: model:ir.model,name:sell.model_sell_summary_goods_wizard
+msgid "销售汇总表（按商品）向导"
+msgstr "銷售匯總表（按商品）嚮導"
+
+#. module: sell
+#: model:ir.actions.act_window,name:sell.sell_summary_partner_wizard_action
+#: model:ir.model,name:sell.model_sell_summary_partner
+#: model:ir.ui.menu,name:sell.menu_sell_summary_partner
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_partner_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_partner_wizard_form
+msgid "销售汇总表（按客户）"
+msgstr "銷售匯總表（按客戶）"
+
+#. module: sell
+#: model:ir.model,name:sell.model_sell_summary_partner_wizard
+msgid "销售汇总表（按客户）向导"
+msgstr "銷售匯總表（按客戶）嚮導"
+
+#. module: sell
+#: model:ir.actions.act_window,name:sell.sell_summary_staff_wizard_action
+#: model:ir.model,name:sell.model_sell_summary_staff
+#: model:ir.ui.menu,name:sell.menu_sell_summary_staff
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_staff_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_summary_staff_wizard_form
+msgid "销售汇总表（按销售人员）"
+msgstr "銷售匯總表（按銷售人員）"
+
+#. module: sell
+#: model:ir.model,name:sell.model_sell_summary_staff_wizard
+msgid "销售汇总表（按销售人员）向导"
+msgstr "銷售匯總表（按銷售人員）嚮導"
+
+#. module: sell
+#: model:ir.actions.act_window,name:sell.sell_order_action
+#: model:ir.actions.report,name:sell.report_sell_order
+#: model:ir.model,name:sell.model_sell_order
+#: model:ir.model.fields,field_description:sell.field_money_order__sell_id
+#: model:ir.ui.menu,name:sell.sell_order_menu
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_search
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_tree
+msgid "销售订单"
+msgstr "銷售訂單"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_order_line__quantity_out
+msgid "销售订单产生的发货单/退货单已执行数量"
+msgstr "銷售訂單產生的發貨單/退貨單已執行數量"
+
+#. module: sell
+#: model:ir.model,name:sell.model_sell_order_line
+msgid "销售订单明细"
+msgstr "銷售訂單明細"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_order__goods_state
+msgid "销售订单的发货状态"
+msgstr "銷售訂單的發貨狀態"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_order__line_ids
+msgid "销售订单的明细行，不能为空"
+msgstr "銷售訂單的明細行，不能為空"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_order__state
+msgid "销售订单的确认状态"
+msgstr "銷售訂單的確認狀態"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_order__type
+msgid "销售订单的类型，分为销售或退货"
+msgstr "銷售訂單的類型，分為銷售或退貨"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order_track__order_name
+msgid "销售订单编号"
+msgstr "銷售訂單編號"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order__line_ids
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_line_view_search
+msgid "销售订单行"
+msgstr "銷售訂單行"
+
+#. module: sell
+#: model:ir.actions.act_window,name:sell.sell_order_track_wizard_action
+#: model:ir.model,name:sell.model_sell_order_track
+#: model:ir.ui.menu,name:sell.menu_sell_order_track
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_track_tree
+#: model_terms:ir.ui.view,arch_db:sell.sell_order_track_wizard_form
+msgid "销售订单跟踪表"
+msgstr "銷售訂單跟踪表"
+
+#. module: sell
+#: model:ir.model,name:sell.model_sell_order_track_wizard
+msgid "销售订单跟踪表向导"
+msgstr "銷售訂單跟踪表嚮導"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__cost_line_ids
+msgid "销售费用"
+msgstr "銷售費用"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__cost_line_ids
+msgid "销售费用明细行"
+msgstr "銷售費用明細行"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_return_form
+msgid "销售费用行"
+msgstr "銷售費用行"
+
+#. module: sell
+#: model:ir.actions.act_window,name:sell.sell_return_action
+#: model:ir.actions.report,name:sell.report_sell_delivery_in
+#: model:ir.ui.menu,name:sell.sell_return_menu
+#: model:ir.ui.menu,name:sell.sell_wh_return_menu
+#: model_terms:ir.ui.view,arch_db:sell.sell_return_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_return_search
+#: model_terms:ir.ui.view,arch_db:sell.sell_return_tree
+msgid "销售退货单"
+msgstr "銷售退貨單"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_delivery__return_state
+msgid "销售退货单的退款状态"
+msgstr "銷售退貨單的退款狀態"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_return_form
+msgid "销售退货单行"
+msgstr "銷售退貨單行"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report__sale_amount
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods__order_amount
+#: model:ir.model.fields,field_description:sell.field_sell_receipt__sell_amount
+#: model_terms:ir.ui.view,arch_db:sell.sell_delivery_form
+#: model_terms:ir.ui.view,arch_db:sell.sell_return_form
+msgid "销售金额"
+msgstr "銷售金額"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.sell_receipt_tree
+msgid "销售金额合计"
+msgstr "銷售金額合計"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order_track__amount
+msgid "销售额"
+msgstr "銷售額"
+
+#. module: sell
+#: model:ir.model,name:sell.model_sell_top_ten
+#: model:ir.ui.menu,name:sell.menu_sell_top_ten
+#: model_terms:ir.ui.view,arch_db:sell.sell_top_ten_tree
+msgid "销量前十商品"
+msgstr "銷量前十商品"
+
+#. module: sell
+#: model:ir.actions.act_window,name:sell.sell_top_ten_wizard_action
+#: model:ir.model,name:sell.model_sell_top_ten_wizard
+#: model_terms:ir.ui.view,arch_db:sell.sell_top_ten_wizard_form
+msgid "销量前十商品向导"
+msgstr "銷量前十商品嚮導"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order__pre_receipt
+msgid "预收款"
+msgstr "預收款"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_order__money_order_id
+msgid "预收款单"
+msgstr "預收款單"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_adjust_line__tax_rate
+msgid "默认值取公司销项税率"
+msgstr "預設值取公司銷項稅率"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_order__date
+msgid "默认是订单创建日期"
+msgstr "預設是訂單創建日期"

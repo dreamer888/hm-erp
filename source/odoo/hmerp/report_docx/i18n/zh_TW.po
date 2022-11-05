@@ -1,0 +1,105 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* report_docx
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-31 14:27+0000\n"
+"PO-Revision-Date: 2022-07-31 22:28+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.1.1\n"
+
+#. module: report_docx
+#: model:ir.model.fields,field_description:report_docx.field_gooderp_report_docx__create_uid
+msgid "Created by"
+msgstr "建立者"
+
+#. module: report_docx
+#: model:ir.model.fields,field_description:report_docx.field_gooderp_report_docx__create_date
+msgid "Created on"
+msgstr "建立於"
+
+#. module: report_docx
+#: model:ir.model.fields,field_description:report_docx.field_gooderp_report_docx__display_name
+msgid "Display Name"
+msgstr "顯示名稱"
+
+#. module: report_docx
+#: model:ir.model.fields.selection,name:report_docx.selection__ir_actions_report__output_type__docx
+#: model:ir.model.fields.selection,name:report_docx.selection__ir_actions_report__report_type__docx
+msgid "Docx"
+msgstr "文檔"
+
+#. module: report_docx
+#: model:ir.model.fields,field_description:report_docx.field_gooderp_report_docx__id
+msgid "ID"
+msgstr "ID"
+
+#. module: report_docx
+#: model:ir.model.fields,field_description:report_docx.field_gooderp_report_docx__ir_actions_report_id
+msgid "Ir Actions Report"
+msgstr "紅外行動報告"
+
+#. module: report_docx
+#: model:ir.model.fields,field_description:report_docx.field_gooderp_report_docx____last_update
+msgid "Last Modified on"
+msgstr "最後修改"
+
+#. module: report_docx
+#: model:ir.model.fields,field_description:report_docx.field_gooderp_report_docx__write_uid
+msgid "Last Updated by"
+msgstr "最後更新"
+
+#. module: report_docx
+#: model:ir.model.fields,field_description:report_docx.field_gooderp_report_docx__write_date
+msgid "Last Updated on"
+msgstr "最後更新於"
+
+#. module: report_docx
+#: model:ir.model.fields,field_description:report_docx.field_ir_actions_report__output_type
+msgid "Output Type"
+msgstr "輸出類型"
+
+#. module: report_docx
+#: model:ir.model.fields.selection,name:report_docx.selection__ir_actions_report__output_type__pdf
+msgid "PDF"
+msgstr "PDF"
+
+#. module: report_docx
+#: model:ir.model,name:report_docx.model_ir_actions_report
+msgid "Report Action"
+msgstr "報告動作"
+
+#. module: report_docx
+#: model:ir.model.fields,field_description:report_docx.field_ir_actions_report__report_type
+msgid "Report Type"
+msgstr "報告類型"
+
+#. module: report_docx
+#: model:ir.model.fields,field_description:report_docx.field_ir_actions_report__template_file
+msgid "Template File"
+msgstr "模板檔案"
+
+#. module: report_docx
+#: model:ir.model.fields,help:report_docx.field_ir_actions_report__report_type
+msgid ""
+"The type of the report that will be rendered, each one having its own "
+"rendering method. HTML means the report will be opened directly in your "
+"browser PDF means the report will be rendered using Wkhtmltopdf and "
+"downloaded by the user."
+msgstr ""
+"將要呈現的報表的類型，每個報表都有其自己的呈現方法。HTML 表示將直接在瀏"
+"覽器中打開報表。PDF 表示報表將使用 Wkhtmltopdf 進行呈現並由使用者下載。"
+
+#. module: report_docx
+#: model:ir.model,name:report_docx.model_gooderp_report_docx
+msgid "docx report"
+msgstr "docx報告"

@@ -1,0 +1,90 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* buy_order_split
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-29 14:28+0000\n"
+"PO-Revision-Date: 2022-07-29 22:28+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.1.1\n"
+
+#. module: buy_order_split
+#: model:ir.model.fields,field_description:buy_order_split.field_buy_order_split_wizard__create_uid
+msgid "Created by"
+msgstr "建立者"
+
+#. module: buy_order_split
+#: model:ir.model.fields,field_description:buy_order_split.field_buy_order_split_wizard__create_date
+msgid "Created on"
+msgstr "建立於"
+
+#. module: buy_order_split
+#: model:ir.model.fields,field_description:buy_order_split.field_buy_order_split_wizard__display_name
+msgid "Display Name"
+msgstr "完全顯示名稱"
+
+#. module: buy_order_split
+#: model:ir.model.fields,field_description:buy_order_split.field_buy_order_split_wizard__id
+msgid "ID"
+msgstr "ID"
+
+#. module: buy_order_split
+#: model:ir.model.fields,field_description:buy_order_split.field_buy_order_split_wizard____last_update
+msgid "Last Modified on"
+msgstr "最後修改時間"
+
+#. module: buy_order_split
+#: model:ir.model.fields,field_description:buy_order_split.field_buy_order_split_wizard__write_uid
+msgid "Last Updated by"
+msgstr "最後更新者"
+
+#. module: buy_order_split
+#: model:ir.model.fields,field_description:buy_order_split.field_buy_order_split_wizard__write_date
+msgid "Last Updated on"
+msgstr "最後更新時間"
+
+#. module: buy_order_split
+#: model_terms:ir.ui.view,arch_db:buy_order_split.buy_order_split_wizard_view_form
+msgid "将此采购订单行移入"
+msgstr "將此採購訂單行移入"
+
+#. module: buy_order_split
+#: model:ir.model.fields,field_description:buy_order_split.field_buy_order_split_wizard__order_line_id
+msgid "已选采购单行"
+msgstr "已選採購單行"
+
+#. module: buy_order_split
+#: model:ir.model.fields,field_description:buy_order_split.field_buy_order_split_wizard__new_order_vendor
+msgid "新订单供应商"
+msgstr "新訂單供應商"
+
+#. module: buy_order_split
+#: model:ir.model.fields,field_description:buy_order_split.field_buy_order_split_wizard__exist_order_id
+msgid "未确认采购订单"
+msgstr "未確認採購訂單"
+
+#. module: buy_order_split
+#: model_terms:ir.ui.view,arch_db:buy_order_split.buy_order_split_wizard_view_form
+msgid "确认"
+msgstr "確認"
+
+#. module: buy_order_split
+#: model_terms:ir.ui.view,arch_db:buy_order_split.inherit_buy_order_form
+msgid "移出"
+msgstr "移出"
+
+#. module: buy_order_split
+#: model:ir.actions.act_window,name:buy_order_split.buy_order_split_wizard_action
+#: model:ir.model,name:buy_order_split.model_buy_order_split_wizard
+#: model_terms:ir.ui.view,arch_db:buy_order_split.buy_order_split_wizard_view_form
+msgid "采购订单拆分向导"
+msgstr "採購訂單拆分嚮導"

@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data>
+        <!--  財務傳票憑證-->
+        <record id='finance.report_voucher' model='ir.actions.report'>
+            <field name='name'>財務傳票憑證</field>
+            <field name='model'>voucher</field>
+            <field name='report_type'>docx</field>
+            <field name='report_name'>voucher.account</field>
+            <field name='template_file'>finance_tw/templates/account_move_report.docx</field>
+            <field name="binding_model_id" ref="finance.model_voucher"/>
+            <field name="binding_type">report</field>
+            <!--            <field naem="print_report_name">'財務傳票憑證 %s' % object.name</field>-->
+        </record>
+<!--        採購訂單-->
+        <record id='buy.report_buy_order' model='ir.actions.report'>
+            <field name='name'>採購訂單</field>
+            <field name='model'>buy.order</field>
+            <field name='report_type'>docx</field>
+            <field name='report_name'>buy.order</field>
+            <field name='template_file'>finance_tw/templates/buy.order.docx</field>
+            <field name="binding_model_id" ref="buy.model_buy_order"/>
+            <field name="binding_type">report</field>
+        </record>
+<!--        採購變更單-->
+        <record id='buy.report_buy_adjust' model='ir.actions.report'>
+            <field name='name'>採購變更單</field>
+            <field name='model'>buy.adjust</field>
+            <field name='report_type'>docx</field>
+            <field name='report_name'>buy.adjust</field>
+            <field name='template_file'>finance_tw/templates/buy.adjust.docx</field>
+            <field name="binding_model_id" ref="buy.model_buy_adjust"/>
+            <field name="binding_type">report</field>
+        </record>
+
+<!--        採購入庫單-->
+        <record id='buy.report_buy_receipt_in' model='ir.actions.report'>
+            <field name='name'>採購入庫單</field>
+            <field name='model'>buy.receipt</field>
+            <field name='report_type'>docx</field>
+            <field name='report_name'>buy.receipt.in</field>
+            <field name='template_file'>finance_tw/templates/buy.receipt.in.docx</field>
+            <field name="binding_model_id" ref="buy.model_buy_receipt"/>
+            <field name="binding_type">report</field>
+        </record>
+
+        <record id="buy.buy_receipt_form_print_inherit" model="ir.ui.view">
+            <field name="name">buy.receipt.form</field>
+            <field name="model">buy.receipt</field>
+            <field name='inherit_id' ref='buy.buy_receipt_form'/>
+            <field name="arch" type="xml">
+                <button name="buy_receipt_draft" position="after">
+                    <button name="%(buy.report_buy_receipt_in)d" string="列印" type="action" class="oe_highlight"/>
+                </button>
+            </field>
+        </record>
+
+<!--        採購退貨單-->
+        <record id='buy.report_buy_receipt_out' model='ir.actions.report'>
+            <field name='name'>採購退貨單</field>
+            <field name='model'>buy.receipt</field>
+            <field name='report_type'>docx</field>
+            <field name='report_name'>buy.receipt.out</field>
+            <field name='template_file'>finance_tw/templates/buy.receipt.out.docx</field>
+            <field name="binding_model_id" ref="buy.model_buy_receipt"/>
+            <field name="binding_type">report</field>
+        </record>
+
+        <record id="buy.buy_return_form_print_inherit" model="ir.ui.view">
+            <field name="name">buy.return.form</field>
+            <field name="model">buy.receipt</field>
+            <field name='inherit_id' ref='buy.buy_return_form'/>
+            <field name="arch" type="xml">
+                <button name="buy_receipt_draft" position="after">
+                    <button name="%(buy.report_buy_receipt_out)d" string="打印" type="action"
+                            class="oe_highlight"/>
+                </button>
+            </field>
+        </record>
+        <!--        銷售訂單-->
+        <record id='sell.report_sell_order' model='ir.actions.report'>
+            <field name='name'>銷售訂單</field>
+            <field name='model'>sell.order</field>
+            <field name='report_type'>docx</field>
+            <field name='report_name'>sell.order</field>
+            <field name='template_file'>finance_tw/templates/sell.order.docx</field>
+            <field name="binding_model_id" ref="sell.model_sell_order"/>
+            <field name="binding_type">report</field>
+        </record>
+
+        <record id="sell.sell_sell_order_form_print_inherit" model="ir.ui.view">
+            <field name="name">sell_order_form</field>
+            <field name="model">sell.order</field>
+            <field name='inherit_id' ref='sell.sell_order_form'/>
+            <field name="arch" type="xml">
+                <button name="sell_order_draft" position="after">
+                    <button name="%(sell.report_sell_order)d" string="列印" type="action" class="oe_highlight"/>
+                </button>
+            </field>
+        </record>
+
+        <!--        銷售退貨單-->
+        <record id='sell.report_sell_delivery_in' model='ir.actions.report'>
+            <field name='name'>銷售退貨單</field>
+            <field name='model'>sell.delivery</field>
+            <field name='report_type'>docx</field>
+            <field name='report_name'>sell.delivery.in</field>
+            <field name='template_file'>finance_tw/templates/sell.delivery.in.docx</field>
+            <field name="binding_model_id" ref="sell.model_sell_delivery"/>
+            <field name="binding_type">report</field>
+        </record>
+
+        <record id="sell.sell_sell_return_form_print_inherit" model="ir.ui.view">
+            <field name="name">sell_return_form</field>
+            <field name="model">sell.delivery</field>
+            <field name='inherit_id' ref='sell.sell_return_form'/>
+            <field name="arch" type="xml">
+                <button name="sell_delivery_draft" position="after">
+                    <button name="%(sell.report_sell_delivery_in)d" string="列印" type="action" class="oe_highlight"/>
+                </button>
+            </field>
+        </record>
+
+        <!--        銷售發貨單-->
+        <record id='sell.report_sell_delivery_out' model='ir.actions.report'>
+            <field name='name'>銷售發貨單</field>
+            <field name='model'>sell.delivery</field>
+            <field name='report_type'>docx</field>
+            <field name='report_name'>sell.delivery.out</field>
+            <field name='template_file'>finance_tw/templates/sell.delivery.out.docx</field>
+            <field name="binding_model_id" ref="sell.model_sell_delivery"/>
+            <field name="binding_type">report</field>
+        </record>
+
+        <record id="sell.sell_delivery_form_print_inherit" model="ir.ui.view">
+            <field name="name">sell_delivery_form</field>
+            <field name="model">sell.delivery</field>
+            <field name='inherit_id' ref='sell.sell_delivery_form'/>
+            <field name="arch" type="xml">
+                <button name="sell_delivery_draft" position="after">
+                    <button name="%(sell.report_sell_delivery_out)d" string="列印" type="action" class="oe_highlight"/>
+                </button>
+            </field>
+        </record>
+<!--        銷售變更單-->
+        <record id='sell.report_sell_adjust_form' model='ir.actions.report'>
+            <field name='name'>銷售變更單</field>
+            <field name='model'>sell.adjust</field>
+            <field name='report_type'>docx</field>
+            <field name='report_name'>sell.adjust</field>
+            <field name='template_file'>finance_tw/templates/sell.adjust.docx</field>
+            <field name="binding_model_id" ref="sell.model_sell_adjust" />
+            <field name="binding_type">report</field>
+        </record>
+
+        <record id="sell_sell_adjust_form_print_inherit" model="ir.ui.view">
+            <field name="name">sell_order_form</field>
+            <field name="model">sell.adjust</field>
+            <field name='inherit_id' ref='sell.sell_adjust_form' />
+            <field name="arch" type="xml">
+                <button name="sell_adjust_done" position="after" >
+                    <button name="%(sell.report_sell_adjust_form)d" string="列印" type="action" class="oe_highlight"/>
+                </button>
+            </field>
+        </record>
+
+<!--        其他出庫單-->
+        <record id='warehouse.report_wh_out' model='ir.actions.report'>
+            <field name='name'>其他出庫單</field>
+            <field name='model'>wh.out</field>
+            <field name='report_type'>docx</field>
+            <field name='report_name'>wh.out</field>
+            <field name='template_file'>finance_tw/templates/wh.out.docx</field>
+            <field name="binding_model_id" ref="warehouse.model_wh_out" />
+            <field name="binding_type">report</field>
+        </record>
+        <record id="warehouse.warehouse_wh_out_form_print_inherit" model="ir.ui.view">
+            <field name="name">wh_out_form</field>
+            <field name="model">wh.out</field>
+            <field name='inherit_id' ref='warehouse.wh_out_form' />
+            <field name="arch" type="xml">
+                <button name="cancel_approved_order" position="after" >
+                    <button name="%(warehouse.report_wh_out)d" string="列印" type="action" class="oe_highlight"/>
+                </button>
+            </field>
+        </record>
+<!--        其他入庫單-->
+        <record id='warehouse.report_wh_in' model='ir.actions.report'>
+            <field name='name'>其他入庫單</field>
+            <field name='model'>wh.in</field>
+            <field name='report_type'>docx</field>
+            <field name='report_name'>wh.in</field>
+            <field name='template_file'>finance_tw/templates/wh.in.docx</field>
+            <field name="binding_model_id" ref="warehouse.model_wh_in" />
+            <field name="binding_type">report</field>
+        </record>
+        <record id='warehouse.wh_in_form_inherit' model='ir.ui.view'>
+            <field name='name'>wh.in.form</field>
+            <field name='model'>wh.in</field>
+            <field name='inherit_id' ref='warehouse.wh_in_form'/>
+                <field name='arch' type='xml'>
+                	<button name='cancel_approved_order' position='after'>
+                		<button name='%(warehouse.report_wh_in)d' type='action' string='列印' class='oe_highlight'/>
+                	</button>
+                </field>
+        </record>
+
+        <!-- 調撥單打印 -->
+        <record id='warehouse.report_wh_internal' model='ir.actions.report'>
+            <field name='name'>調撥單</field>
+            <field name='model'>wh.internal</field>
+            <field name='report_type'>docx</field>
+            <field name='report_name'>wh.internal</field>
+            <field name='template_file'>finance_tw/templates/wh.internal.docx</field>
+            <field name="binding_model_id" ref="warehouse.model_wh_internal" />
+            <field name="binding_type">report</field>
+        </record>
+        <record id='warehouse.wh_internal_form_inherit' model='ir.ui.view'>
+            <field name='name'>wh.internal.form</field>
+            <field name='model'>wh.internal</field>
+            <field name='inherit_id' ref='warehouse.wh_internal_form'/>
+                <field name='arch' type='xml'>
+                	<button name='cancel_approved_order' position='after'>
+                		<button name='%(warehouse.report_wh_internal)d' type='action' string='列印' class='oe_highlight'/>
+                	</button>
+                </field>
+        </record>
+
+        <!-- 盤點單列印 -->
+        <record id='warehouse.report_wh_inventory' model='ir.actions.report'>
+            <field name='name'>盤點單</field>
+            <field name='model'>wh.inventory</field>
+            <field name='report_type'>docx</field>
+            <field name='report_name'>wh.inventory</field>
+            <field name='template_file'>finance_tw/templates/wh.inventory.docx</field>
+            <field name="binding_model_id" ref="warehouse.model_wh_inventory" />
+            <field name="binding_type">report</field>
+        </record>
+        <record id='warehouse.wh_inventory_form_inherit' model='ir.ui.view'>
+            <field name='name'>wh.inventory.form</field>
+            <field name='model'>wh.inventory</field>
+            <field name='inherit_id' ref='warehouse.wh_inventory_form'/>
+                <field name='arch' type='xml'>
+                	<button name='requery_inventory' position='after'>
+                		<button name='%(warehouse.report_wh_inventory)d' type='action' string='列印' class='oe_highlight'/>
+                	</button>
+                </field>
+        </record>
+
+        <!-- 組裝單打印 -->
+        <record id='warehouse.report_wh_assembly' model='ir.actions.report'>
+            <field name='name'>組裝單</field>
+            <field name='model'>wh.assembly</field>
+            <field name='report_type'>docx</field>
+            <field name='report_name'>wh.assembly</field>
+            <field name='template_file'>finance_tw/templates/wh.assembly.docx</field>
+            <field name="binding_model_id" ref="warehouse.model_wh_assembly" />
+            <field name="binding_type">report</field>
+        </record>
+        <record id='warehouse.wh_assembly_form_print_inherit' model='ir.ui.view'>
+            <field name='name'>wh.assembly.form</field>
+            <field name='model'>wh.assembly</field>
+            <field name='inherit_id' ref='warehouse.wh_assembly_form'/>
+                <field name='arch' type='xml'>
+                	<button name='update_bom' position='after'>
+                		<button name='%(warehouse.report_wh_assembly)d' type='action' string='列印' class='oe_highlight'/>
+                	</button>
+                </field>
+        </record>
+
+         <!-- 拆卸单打印 -->
+        <record id='warehouse.report_wh_disassembly' model='ir.actions.report'>
+            <field name='name'>拆卸单</field>
+            <field name='model'>wh.disassembly</field>
+            <field name='report_type'>docx</field>
+            <field name='report_name'>wh.disassembly</field>
+            <field name='template_file'>warehouse/template/wh.disassembly.docx</field>
+            <field name="binding_model_id" ref="warehouse.model_wh_disassembly" />
+            <field name="binding_type">report</field>
+        </record>
+        <record id='warehouse.wh_disassembly_form_print_inherit' model='ir.ui.view'>
+            <field name='name'>wh.disassembly.form</field>
+            <field name='model'>wh.disassembly</field>
+            <field name='inherit_id' ref='warehouse.wh_disassembly_form'/>
+                <field name='arch' type='xml'>
+                	<button name='update_bom' position='after'>
+                		<button name='%(warehouse.report_wh_disassembly)d' type='action' string='列印' class='oe_highlight'/>
+                	</button>
+                </field>
+        </record>
+
+        <!-- 收款單列印 -->
+        <record id='money.report_money_order_get' model='ir.actions.report'>
+            <field name='name'>收款單</field>
+            <field name='model'>money.order</field>
+            <field name='report_type'>docx</field>
+            <field name='report_name'>money.order.get</field>
+            <field name='template_file'>finance_tw/templates/money.order.get.docx</field>
+        </record>
+        <record id="money.money_order_form_print_inherit_get" model="ir.ui.view">
+            <field name="name">money.order.form</field>
+            <field name="model">money.order</field>
+            <field name='inherit_id' ref='money.money_order_form'/>
+            <field name="arch" type="xml">
+                <button name="money_order_draft" position="after">
+                	<field name="type" invisible="1"/>
+                    <button name="%(money.report_money_order_get)d" string="列印" type="action"
+                            attrs="{'invisible': [('type','=','pay')]}"/>
+                </button>
+            </field>
+        </record>
+
+        <!-- 付款單列印 -->
+        <record id='moneyreport_money_order_pay' model='ir.actions.report'>
+            <field name='name'>付款單</field>
+            <field name='model'>money.order</field>
+            <field name='report_type'>docx</field>
+            <field name='report_name'>money.order.pay</field>
+            <field name='template_file'>finance_tw/templates/money.order.pay.docx</field>
+        </record>
+        <record id="money.money_order_form_print_inherit_pay" model="ir.ui.view">
+            <field name="name">money.order.form</field>
+            <field name="model">money.order</field>
+            <field name='inherit_id' ref='money.money_order_form'/>
+            <field name="arch" type="xml">
+                <button name="money_order_draft" position="after">
+                	<field name="type" invisible="1"/>
+                    <button name="%(money.report_money_order_pay)d" string="列印" type="action"
+                    	attrs="{'invisible': [('type','=','get')]}"/>
+                </button>
+            </field>
+        </record>
+
+        <!-- 核銷單列印：預收沖應收 -->
+        <record id='money.reconcile_order_adv_pay_to_get' model='ir.actions.report'>
+            <field name='name'>核銷單:預收沖應收</field>
+            <field name='model'>reconcile.order</field>
+            <field name='report_type'>docx</field>
+            <field name='report_name'>reconcile.order.1</field>
+            <field name='template_file'>finance_tw/templates/reconcile.order.advance.pay.docx</field>
+        </record>
+        <record id="transfer_order_form_print_inherit_adv_pay" model="ir.ui.view">
+            <field name="name">reconcile.order.form</field>
+            <field name="model">reconcile.order</field>
+            <field name='inherit_id' ref='money.reconcile_order_form'/>
+            <field name="arch" type="xml">
+                <button name="reconcile_order_done" position="after">
+                	<field name="business_type" invisible="1"/>
+                    <button name="%(money.reconcile_order_adv_pay_to_get)d" string="列印" type="action"
+                    	attrs="{'invisible': [('business_type','!=','adv_pay_to_get')]}"/>
+                </button>
+            </field>
+        </record>
+
+        <!-- 核銷單列印：預付沖應付 -->
+        <record id='money.reconcile_order_adv_get_to_pay' model='ir.actions.report'>
+            <field name='name'>核銷單：預付沖應付</field>
+            <field name='model'>reconcile.order</field>
+            <field name='report_type'>docx</field>
+            <field name='report_name'>reconcile.order.2</field>
+            <field name='template_file'>finance_tw/templates/reconcile.order.advance.get.docx</field>
+        </record>
+        <record id="money.transfer_order_form_print_inherit_adv_get" model="ir.ui.view">
+            <field name="name">reconcile.order.form</field>
+            <field name="model">reconcile.order</field>
+            <field name='inherit_id' ref='money.reconcile_order_form'/>
+            <field name="arch" type="xml">
+                <button name="reconcile_order_done" position="after">
+                	<field name="business_type" invisible="1"/>
+                    <button name="%(money.reconcile_order_adv_get_to_pay)d" string="列印" type="action"
+                    	attrs="{'invisible': [('business_type','!=','adv_get_to_pay')]}"/>
+                </button>
+            </field>
+        </record>
+
+        <!-- 核銷單列印：應收沖應付 -->
+        <record id='money.reconcile_order_get_to_pay' model='ir.actions.report'>
+            <field name='name'>核銷單：應收沖應付</field>
+            <field name='model'>reconcile.order</field>
+            <field name='report_type'>docx</field>
+            <field name='report_name'>reconcile.order.3</field>
+            <field name='template_file'>finance_tw/templates/reconcile.order.getTopay.docx</field>
+        </record>
+        <record id="money.transfer_order_form_print_inherit_get_to_pay" model="ir.ui.view">
+            <field name="name">reconcile.order.form</field>
+            <field name="model">reconcile.order</field>
+            <field name='inherit_id' ref='money.reconcile_order_form'/>
+            <field name="arch" type="xml">
+                <button name="reconcile_order_done" position="after">
+                	<field name="business_type" invisible="1"/>
+                    <button name="%(money.reconcile_order_get_to_pay)d" string="列印" type="action"
+                    	attrs="{'invisible': [('business_type','!=','get_to_pay')]}"/>
+                </button>
+            </field>
+        </record>
+
+        <!-- 核銷單列印：應收轉應收 -->
+        <record id='money.reconcile_order_get_to_get' model='ir.actions.report'>
+            <field name='name'>核銷單：應收轉應收</field>
+            <field name='model'>reconcile.order</field>
+            <field name='report_type'>docx</field>
+            <field name='report_name'>reconcile.order.4</field>
+            <field name='template_file'>finance_tw/templates/reconcile.order.getToget.docx</field>
+        </record>
+        <record id="money.transfer_order_form_print_inherit_get_to_get" model="ir.ui.view">
+            <field name="name">reconcile.order.form</field>
+            <field name="model">reconcile.order</field>
+            <field name='inherit_id' ref='money.reconcile_order_form'/>
+            <field name="arch" type="xml">
+                <button name="reconcile_order_done" position="after">
+                	<field name="business_type" invisible="1"/>
+                    <button name="%(money.reconcile_order_get_to_get)d" string="列印" type="action"
+                    	attrs="{'invisible': [('business_type','!=','get_to_get')]}"/>
+                </button>
+            </field>
+        </record>
+
+        <!-- 核銷單列印：應付轉應付 -->
+        <record id='money.reconcile_order_pay_to_pay' model='ir.actions.report'>
+            <field name='name'>核銷單：應付轉應付</field>
+            <field name='model'>reconcile.order</field>
+            <field name='report_type'>docx</field>
+            <field name='report_name'>reconcile.order.5</field>
+            <field name='template_file'>finance_tw/templates/reconcile.order.payTopay.docx</field>
+        </record>
+        <record id="money.transfer_order_form_print_inherit_pay_to_pay" model="ir.ui.view">
+            <field name="name">reconcile.order.form</field>
+            <field name="model">reconcile.order</field>
+            <field name='inherit_id' ref='money.reconcile_order_form'/>
+            <field name="arch" type="xml">
+                <button name="reconcile_order_done" position="after">
+                	<field name="business_type" invisible="1"/>
+                    <button name="%(money.reconcile_order_pay_to_pay)d" string="列印" type="action"
+                    	attrs="{'invisible': [('business_type','!=','pay_to_pay')]}"/>
+                </button>
+            </field>
+        </record>
+
+        <!-- 其他收支單列印 -->
+        <record id='money.other_money_order_print' model='ir.actions.report'>
+            <field name='name'>其他收支單</field>
+            <field name='model'>other.money.order</field>
+            <field name='report_type'>docx</field>
+            <field name='report_name'>other.money.order</field>
+            <field name='template_file'>finance_tw/templates/other.money.order.docx</field>
+        </record>
+        <record id="money.other_money_order_form_print_inherit" model="ir.ui.view">
+            <field name="name">other.money.order.form</field>
+            <field name="model">other.money.order</field>
+            <field name='inherit_id' ref='money.other_money_order_form'/>
+            <field name="arch" type="xml">
+                <button name="other_money_draft" position="after">
+                    <button name="%(money.other_money_order_print)d" string="列印" type="action"/>
+                </button>
+            </field>
+        </record>
+
+        <!-- 資金轉帳單列印 -->
+        <record id='money.money_transfer_order_print' model='ir.actions.report'>
+            <field name='name'>資金轉帳單</field>
+            <field name='model'>money.transfer.order</field>
+            <field name='report_type'>docx</field>
+            <field name='report_name'>money.transfer.order</field>
+            <field name='template_file'>finance_tw/templates/money.transfer.order.docx</field>
+        </record>
+        <record id="money.money_transfer_order_form_print_inherit" model="ir.ui.view">
+            <field name="name">money.transfer.order.form</field>
+            <field name="model">money.transfer.order</field>
+            <field name='inherit_id' ref='money.money_transfer_order_form'/>
+            <field name="arch" type="xml">
+                <button name="money_transfer_draft" position="after">
+                    <button name="%(money.money_transfer_order_print)d" string="列印" type="action"/>
+                </button>
+            </field>
+        </record>
+
+        <!--對帳單列印-->
+        <record id='money.customer_overdue_report' model='ir.actions.report'>
+            <field name='name'>對帳單</field>
+            <field name='model'>partner</field>
+            <field name='binding_model_id' ref='core.model_partner'/>
+            <field name='report_type'>docx</field>
+            <field name='report_name'>customer.overdue.report</field>
+            <field name='output_type'>pdf</field>
+            <field name='template_file'>finance_tw/templates/customer.overdue.report.docx</field>
+        </record>
+    </data>
+
+</odoo>

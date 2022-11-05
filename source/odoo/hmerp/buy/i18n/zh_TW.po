@@ -1,0 +1,2444 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* buy
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 06:03+0000\n"
+"PO-Revision-Date: 2022-07-21 14:06+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.1.1\n"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust__message_needaction
+#: model:ir.model.fields,field_description:buy.field_buy_order__message_needaction
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__message_needaction
+msgid "Action Needed"
+msgstr "Action Needed"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__activity_ids
+msgid "Activities"
+msgstr "Activities"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Activity Exception Decoration"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__activity_state
+msgid "Activity State"
+msgstr "Activity State"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust__message_attachment_count
+#: model:ir.model.fields,field_description:buy.field_buy_order__message_attachment_count
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__message_attachment_count
+msgid "Attachment Count"
+msgstr "Attachment Count"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_payment_plan__buy_id
+msgid "Buy"
+msgstr "Buy"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_return_form
+msgid "Buy Receipt Lines"
+msgstr "Buy Receipt Lines"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_return_form
+msgid "Cost Lines"
+msgstr "Cost Lines"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust__create_uid
+#: model:ir.model.fields,field_description:buy.field_buy_adjust_line__create_uid
+#: model:ir.model.fields,field_description:buy.field_buy_order__create_uid
+#: model:ir.model.fields,field_description:buy.field_buy_order_detail_wizard__create_uid
+#: model:ir.model.fields,field_description:buy.field_buy_order_line__create_uid
+#: model:ir.model.fields,field_description:buy.field_buy_order_track__create_uid
+#: model:ir.model.fields,field_description:buy.field_buy_order_track_wizard__create_uid
+#: model:ir.model.fields,field_description:buy.field_buy_payment__create_uid
+#: model:ir.model.fields,field_description:buy.field_buy_payment_wizard__create_uid
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__create_uid
+#: model:ir.model.fields,field_description:buy.field_buy_summary_goods__create_uid
+#: model:ir.model.fields,field_description:buy.field_buy_summary_goods_wizard__create_uid
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner__create_uid
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner_wizard__create_uid
+#: model:ir.model.fields,field_description:buy.field_payment_plan__create_uid
+#: model:ir.model.fields,field_description:buy.field_supplier_statements_report_with_goods__create_uid
+#: model:ir.model.fields,field_description:buy.field_vendor_goods__create_uid
+msgid "Created by"
+msgstr "Created by"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust__create_date
+#: model:ir.model.fields,field_description:buy.field_buy_adjust_line__create_date
+#: model:ir.model.fields,field_description:buy.field_buy_order__create_date
+#: model:ir.model.fields,field_description:buy.field_buy_order_detail_wizard__create_date
+#: model:ir.model.fields,field_description:buy.field_buy_order_line__create_date
+#: model:ir.model.fields,field_description:buy.field_buy_order_track__create_date
+#: model:ir.model.fields,field_description:buy.field_buy_order_track_wizard__create_date
+#: model:ir.model.fields,field_description:buy.field_buy_payment__create_date
+#: model:ir.model.fields,field_description:buy.field_buy_payment_wizard__create_date
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__create_date
+#: model:ir.model.fields,field_description:buy.field_buy_summary_goods__create_date
+#: model:ir.model.fields,field_description:buy.field_buy_summary_goods_wizard__create_date
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner__create_date
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner_wizard__create_date
+#: model:ir.model.fields,field_description:buy.field_payment_plan__create_date
+#: model:ir.model.fields,field_description:buy.field_supplier_statements_report_with_goods__create_date
+#: model:ir.model.fields,field_description:buy.field_vendor_goods__create_date
+msgid "Created on"
+msgstr "Created on"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust__display_name
+#: model:ir.model.fields,field_description:buy.field_buy_adjust_line__display_name
+#: model:ir.model.fields,field_description:buy.field_buy_order__display_name
+#: model:ir.model.fields,field_description:buy.field_buy_order_detail__display_name
+#: model:ir.model.fields,field_description:buy.field_buy_order_detail_wizard__display_name
+#: model:ir.model.fields,field_description:buy.field_buy_order_line__display_name
+#: model:ir.model.fields,field_description:buy.field_buy_order_track__display_name
+#: model:ir.model.fields,field_description:buy.field_buy_order_track_wizard__display_name
+#: model:ir.model.fields,field_description:buy.field_buy_payment__display_name
+#: model:ir.model.fields,field_description:buy.field_buy_payment_wizard__display_name
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__display_name
+#: model:ir.model.fields,field_description:buy.field_buy_summary_goods__display_name
+#: model:ir.model.fields,field_description:buy.field_buy_summary_goods_wizard__display_name
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner__display_name
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner_wizard__display_name
+#: model:ir.model.fields,field_description:buy.field_payment_plan__display_name
+#: model:ir.model.fields,field_description:buy.field_supplier_statements_report_with_goods__display_name
+#: model:ir.model.fields,field_description:buy.field_vendor_goods__display_name
+msgid "Display Name"
+msgstr "Display Name"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust__message_follower_ids
+#: model:ir.model.fields,field_description:buy.field_buy_order__message_follower_ids
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__message_follower_ids
+msgid "Followers"
+msgstr "Followers"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust__message_channel_ids
+#: model:ir.model.fields,field_description:buy.field_buy_order__message_channel_ids
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Followers (Channels)"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust__message_partner_ids
+#: model:ir.model.fields,field_description:buy.field_buy_order__message_partner_ids
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Followers (Partners)"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust__id
+#: model:ir.model.fields,field_description:buy.field_buy_adjust_line__id
+#: model:ir.model.fields,field_description:buy.field_buy_order__id
+#: model:ir.model.fields,field_description:buy.field_buy_order_detail__id
+#: model:ir.model.fields,field_description:buy.field_buy_order_detail_wizard__id
+#: model:ir.model.fields,field_description:buy.field_buy_order_line__id
+#: model:ir.model.fields,field_description:buy.field_buy_order_track__id
+#: model:ir.model.fields,field_description:buy.field_buy_order_track_wizard__id
+#: model:ir.model.fields,field_description:buy.field_buy_payment__id
+#: model:ir.model.fields,field_description:buy.field_buy_payment_wizard__id
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__id
+#: model:ir.model.fields,field_description:buy.field_buy_summary_goods__id
+#: model:ir.model.fields,field_description:buy.field_buy_summary_goods_wizard__id
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner__id
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner_wizard__id
+#: model:ir.model.fields,field_description:buy.field_payment_plan__id
+#: model:ir.model.fields,field_description:buy.field_supplier_statements_report_with_goods__id
+#: model:ir.model.fields,field_description:buy.field_vendor_goods__id
+msgid "ID"
+msgstr "ID"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__activity_exception_icon
+msgid "Icon"
+msgstr "Icon"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Icon to indicate an exception activity."
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_adjust__message_needaction
+#: model:ir.model.fields,help:buy.field_buy_adjust__message_unread
+#: model:ir.model.fields,help:buy.field_buy_order__message_needaction
+#: model:ir.model.fields,help:buy.field_buy_order__message_unread
+#: model:ir.model.fields,help:buy.field_buy_receipt__message_needaction
+#: model:ir.model.fields,help:buy.field_buy_receipt__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "If checked, new messages require your attention."
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_adjust__message_has_error
+#: model:ir.model.fields,help:buy.field_buy_adjust__message_has_sms_error
+#: model:ir.model.fields,help:buy.field_buy_order__message_has_error
+#: model:ir.model.fields,help:buy.field_buy_order__message_has_sms_error
+#: model:ir.model.fields,help:buy.field_buy_receipt__message_has_error
+#: model:ir.model.fields,help:buy.field_buy_receipt__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "If checked, some messages have a delivery error."
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_form
+msgid "Incoming Shipments"
+msgstr "Incoming Shipments"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__invoice_ids
+msgid "Invoices"
+msgstr "Invoices"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__invoice_count
+msgid "Invoices Count"
+msgstr "Invoices Count"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust__message_is_follower
+#: model:ir.model.fields,field_description:buy.field_buy_order__message_is_follower
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__message_is_follower
+msgid "Is Follower"
+msgstr "Is Follower"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust____last_update
+#: model:ir.model.fields,field_description:buy.field_buy_adjust_line____last_update
+#: model:ir.model.fields,field_description:buy.field_buy_order____last_update
+#: model:ir.model.fields,field_description:buy.field_buy_order_detail____last_update
+#: model:ir.model.fields,field_description:buy.field_buy_order_detail_wizard____last_update
+#: model:ir.model.fields,field_description:buy.field_buy_order_line____last_update
+#: model:ir.model.fields,field_description:buy.field_buy_order_track____last_update
+#: model:ir.model.fields,field_description:buy.field_buy_order_track_wizard____last_update
+#: model:ir.model.fields,field_description:buy.field_buy_payment____last_update
+#: model:ir.model.fields,field_description:buy.field_buy_payment_wizard____last_update
+#: model:ir.model.fields,field_description:buy.field_buy_receipt____last_update
+#: model:ir.model.fields,field_description:buy.field_buy_summary_goods____last_update
+#: model:ir.model.fields,field_description:buy.field_buy_summary_goods_wizard____last_update
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner____last_update
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner_wizard____last_update
+#: model:ir.model.fields,field_description:buy.field_payment_plan____last_update
+#: model:ir.model.fields,field_description:buy.field_supplier_statements_report_with_goods____last_update
+#: model:ir.model.fields,field_description:buy.field_vendor_goods____last_update
+msgid "Last Modified on"
+msgstr "Last Modified on"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust__write_uid
+#: model:ir.model.fields,field_description:buy.field_buy_adjust_line__write_uid
+#: model:ir.model.fields,field_description:buy.field_buy_order__write_uid
+#: model:ir.model.fields,field_description:buy.field_buy_order_detail_wizard__write_uid
+#: model:ir.model.fields,field_description:buy.field_buy_order_line__write_uid
+#: model:ir.model.fields,field_description:buy.field_buy_order_track__write_uid
+#: model:ir.model.fields,field_description:buy.field_buy_order_track_wizard__write_uid
+#: model:ir.model.fields,field_description:buy.field_buy_payment__write_uid
+#: model:ir.model.fields,field_description:buy.field_buy_payment_wizard__write_uid
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__write_uid
+#: model:ir.model.fields,field_description:buy.field_buy_summary_goods__write_uid
+#: model:ir.model.fields,field_description:buy.field_buy_summary_goods_wizard__write_uid
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner__write_uid
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner_wizard__write_uid
+#: model:ir.model.fields,field_description:buy.field_payment_plan__write_uid
+#: model:ir.model.fields,field_description:buy.field_supplier_statements_report_with_goods__write_uid
+#: model:ir.model.fields,field_description:buy.field_vendor_goods__write_uid
+msgid "Last Updated by"
+msgstr "Last Updated by"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust__write_date
+#: model:ir.model.fields,field_description:buy.field_buy_adjust_line__write_date
+#: model:ir.model.fields,field_description:buy.field_buy_order__write_date
+#: model:ir.model.fields,field_description:buy.field_buy_order_detail_wizard__write_date
+#: model:ir.model.fields,field_description:buy.field_buy_order_line__write_date
+#: model:ir.model.fields,field_description:buy.field_buy_order_track__write_date
+#: model:ir.model.fields,field_description:buy.field_buy_order_track_wizard__write_date
+#: model:ir.model.fields,field_description:buy.field_buy_payment__write_date
+#: model:ir.model.fields,field_description:buy.field_buy_payment_wizard__write_date
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__write_date
+#: model:ir.model.fields,field_description:buy.field_buy_summary_goods__write_date
+#: model:ir.model.fields,field_description:buy.field_buy_summary_goods_wizard__write_date
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner__write_date
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner_wizard__write_date
+#: model:ir.model.fields,field_description:buy.field_payment_plan__write_date
+#: model:ir.model.fields,field_description:buy.field_supplier_statements_report_with_goods__write_date
+#: model:ir.model.fields,field_description:buy.field_vendor_goods__write_date
+msgid "Last Updated on"
+msgstr "Last Updated on"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust__message_main_attachment_id
+#: model:ir.model.fields,field_description:buy.field_buy_order__message_main_attachment_id
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Main Attachment"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust__message_has_error
+#: model:ir.model.fields,field_description:buy.field_buy_order__message_has_error
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__message_has_error
+msgid "Message Delivery error"
+msgstr "Message Delivery error"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust__message_ids
+#: model:ir.model.fields,field_description:buy.field_buy_order__message_ids
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__message_ids
+msgid "Messages"
+msgstr "Messages"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Next Activity Deadline"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__activity_summary
+msgid "Next Activity Summary"
+msgstr "Next Activity Summary"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__activity_type_id
+msgid "Next Activity Type"
+msgstr "Next Activity Type"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust__message_needaction_counter
+#: model:ir.model.fields,field_description:buy.field_buy_order__message_needaction_counter
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Number of Actions"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust__message_has_error_counter
+#: model:ir.model.fields,field_description:buy.field_buy_order__message_has_error_counter
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__message_has_error_counter
+msgid "Number of errors"
+msgstr "Number of errors"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_adjust__message_needaction_counter
+#: model:ir.model.fields,help:buy.field_buy_order__message_needaction_counter
+#: model:ir.model.fields,help:buy.field_buy_receipt__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Number of messages which requires an action"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_adjust__message_has_error_counter
+#: model:ir.model.fields,help:buy.field_buy_order__message_has_error_counter
+#: model:ir.model.fields,help:buy.field_buy_receipt__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Number of messages with delivery error"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_adjust__message_unread_counter
+#: model:ir.model.fields,help:buy.field_buy_order__message_unread_counter
+#: model:ir.model.fields,help:buy.field_buy_receipt__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Number of unread messages"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.supplier_statements_report_tree
+msgid "Partner Statements Report"
+msgstr "Partner Statements Report"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_form
+msgid "Payment Form"
+msgstr "Payment Form"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__activity_user_id
+msgid "Responsible User"
+msgstr "Responsible User"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust__message_has_sms_error
+#: model:ir.model.fields,field_description:buy.field_buy_order__message_has_sms_error
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "SMS Delivery error"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.supplier_statements_report_with_goods_tree
+msgid "Supplier Statements Report"
+msgstr "Supplier Statements Report"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Type of the exception activity on record."
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust__message_unread
+#: model:ir.model.fields,field_description:buy.field_buy_order__message_unread
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__message_unread
+msgid "Unread Messages"
+msgstr "Unread Messages"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust__message_unread_counter
+#: model:ir.model.fields,field_description:buy.field_buy_order__message_unread_counter
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Unread Messages Counter"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_form
+msgid "Vendor Invoice"
+msgstr "Vendor Invoice"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_goods_form
+#: model_terms:ir.ui.view,arch_db:buy.partner_address_supplier_address_form_inherit
+msgid "goods"
+msgstr "goods"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order_line__quantity
+msgid "下单数量"
+msgstr "下單數量"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_adjust_line__price
+#: model:ir.model.fields,help:buy.field_buy_order_line__price
+msgid "不含税单价，由含税单价计算得出"
+msgstr "不含稅單價，由含稅單價計算得出"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__untax_amount
+msgid "不含税合计"
+msgstr "不含稅合計"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_supplier_statements_report_with_goods__without_tax_amount
+msgid "不含税金额"
+msgstr "不含稅金額"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_money_order__buy_id
+msgid "与付款相关的采购订单号"
+msgstr "與付款相關的採購訂單號"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_cost_line__buy_id
+msgid "与采购费用关联的入库单号"
+msgstr "與採購費用關聯的入庫單號"
+
+#. module: buy
+#: model:ir.model,name:buy.model_partner
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__partner_id
+#: model:ir.model.fields,field_description:buy.field_supplier_statements_report_with_goods__partner_id
+msgid "业务伙伴"
+msgstr "業務夥伴"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_payment__type
+msgid "业务类别"
+msgstr "業務類別"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order_detail__type
+msgid "业务类型"
+msgstr "業務類型"
+
+#. module: buy
+#: model:ir.ui.menu,name:buy.menu_buy_master
+msgid "主数据"
+msgstr "主數據"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_receipt__order_id
+msgid "产生入库单/退货单的采购订单"
+msgstr "產生入庫單/退貨單的採購訂單"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_receipt__invoice_id
+msgid "产生的发票号"
+msgstr "產生的發票號"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_search
+msgid "今日"
+msgstr "今日"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order_detail__warehouse_dest_id
+#: model:ir.model.fields,field_description:buy.field_buy_order_detail_wizard__warehouse_dest_id
+#: model:ir.model.fields,field_description:buy.field_buy_order_track__warehouse_dest_id
+#: model:ir.model.fields,field_description:buy.field_buy_order_track_wizard__warehouse_dest_id
+#: model:ir.model.fields,field_description:buy.field_buy_payment__warehouse_dest_id
+#: model:ir.model.fields,field_description:buy.field_buy_payment_wizard__warehouse_dest_id
+#: model:ir.model.fields,field_description:buy.field_buy_summary_goods__warehouse_dest
+#: model:ir.model.fields,field_description:buy.field_buy_summary_goods_wizard__warehouse_dest_id
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner__warehouse_dest
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner_wizard__warehouse_dest_id
+msgid "仓库"
+msgstr "倉庫"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__money_order_id
+msgid "付款单"
+msgstr "付款單"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_receipt__date_due
+msgid "付款截止日期"
+msgstr "付款截止日期"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_supplier_statements_report_with_goods__discount_money
+msgid "付款折扣"
+msgstr "付款折扣"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__money_state
+msgid "付款状态"
+msgstr "付款狀態"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_payment__payment_rate
+msgid "付款率(%)"
+msgstr "付款率(%)"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_payment_plan__date_application
+msgid "付款申请日期"
+msgstr "付款申請日期"
+
+#. module: buy
+#: model:ir.model,name:buy.model_payment_plan
+#: model:ir.model.fields,field_description:buy.field_buy_order__pay_ids
+msgid "付款计划"
+msgstr "付款計劃"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_payment_plan__name
+msgid "付款计划名称"
+msgstr "付款計劃名稱"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_payment_plan__amount_money
+msgid "付款金额"
+msgstr "付款金額"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_payment_plan__name
+msgid "付款阶段名称"
+msgstr "付款階段名稱"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust_line__subtotal
+#: model:ir.model.fields,field_description:buy.field_buy_order_detail__subtotal
+#: model:ir.model.fields,field_description:buy.field_buy_order_line__subtotal
+#: model:ir.model.fields,field_description:buy.field_buy_summary_goods__subtotal
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner__subtotal
+msgid "价税合计"
+msgstr "含稅價"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_adjust_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_detail_tree
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_return_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_summary_goods_tree
+#: model_terms:ir.ui.view,arch_db:buy.buy_summary_partner_tree
+msgid "价税合计的合计"
+msgstr "含稅價的合計"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_vendor_goods__sequence
+msgid "优先级"
+msgstr "優先級"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__discount_rate
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__discount_rate
+msgid "优惠率(%)"
+msgstr "優惠率(%)"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_payment__discount_amount
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__discount_amount
+#: model:ir.model.fields,field_description:buy.field_supplier_statements_report__benefit_amount
+#: model:ir.model.fields,field_description:buy.field_supplier_statements_report_with_goods__benefit_amount
+msgid "优惠金额"
+msgstr "優惠金額"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_payment_tree
+msgid "优惠金额合计"
+msgstr "優惠金額合計"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_adjust_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_return_form
+msgid "作废"
+msgstr "作廢"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust_line__using_attribute
+#: model:ir.model.fields,field_description:buy.field_buy_order_line__using_attribute
+msgid "使用属性"
+msgstr "使用屬性"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_goods__vendor_ids
+msgid "供应价格"
+msgstr "供應價格"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__partner_id
+#: model:ir.model.fields,field_description:buy.field_buy_order_detail__partner_id
+#: model:ir.model.fields,field_description:buy.field_buy_order_detail_wizard__partner_id
+#: model:ir.model.fields,field_description:buy.field_buy_order_track__partner_id
+#: model:ir.model.fields,field_description:buy.field_buy_order_track_wizard__partner_id
+#: model:ir.model.fields,field_description:buy.field_buy_payment__partner_id
+#: model:ir.model.fields,field_description:buy.field_buy_payment_wizard__partner_id
+#: model:ir.model.fields,field_description:buy.field_buy_summary_goods_wizard__partner_id
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner__partner
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner_wizard__partner_id
+#: model:ir.model.fields,field_description:buy.field_vendor_goods__vendor_id
+#: model:ir.model.fields,help:buy.field_buy_order__partner_id
+#: model:ir.model.fields,help:buy.field_vendor_goods__vendor_id
+#: model:ir.ui.menu,name:buy.buy_vendor_menu
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_search
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_search
+#: model_terms:ir.ui.view,arch_db:buy.buy_return_search
+msgid "供应商"
+msgstr "供應商"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_partner__goods_ids
+msgid "供应商供应的商品价格列表"
+msgstr "供應商供應的商品價格列表"
+
+#. module: buy
+#: model:ir.model,name:buy.model_vendor_goods
+msgid "供应商供货价格表"
+msgstr "供應商供貨價格表"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_partner__goods_ids
+msgid "供应商品"
+msgstr "供應商品"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_vendor_goods__name
+msgid "供应商商品名称"
+msgstr "供應商商品名稱"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_vendor_goods__code
+msgid "供应商商品编号"
+msgstr "供應商商品編號"
+
+#. module: buy
+#: model:ir.model,name:buy.model_supplier_statements_report
+msgid "供应商对账单"
+msgstr "供應商對賬單"
+
+#. module: buy
+#: model:ir.actions.act_window,name:buy.supplier_statements_report_wizard_action
+msgid "供应商对账单向导"
+msgstr "供應商對賬單嚮導"
+
+#. module: buy
+#: model:ir.model,name:buy.model_supplier_statements_report_with_goods
+msgid "供应商对账单带商品明细"
+msgstr "供應商對賬單帶商品明細"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_vendor_goods__price
+msgid "供应商提供的价格"
+msgstr "供應商提供的價格"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_vendor_goods__name
+msgid "供应商提供的商品名称"
+msgstr "供應商提供的商品名稱"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_vendor_goods__code
+msgid "供应商提供的商品编号"
+msgstr "供應商提供的商品編號"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_payment__s_category_id
+#: model:ir.model.fields,field_description:buy.field_buy_payment_wizard__s_category_id
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner__s_category
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner_wizard__s_category_id
+msgid "供应商类别"
+msgstr "供應商類別"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__ref
+msgid "供应商订单号"
+msgstr "供應商訂單號"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_vendor_goods__price
+msgid "供货价"
+msgstr "供貨價"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.partner_address_supplier_address_form_inherit
+msgid "供货商品"
+msgstr "供貨商品"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_form
+msgid "入库"
+msgstr "入庫"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__voucher_id
+msgid "入库凭证"
+msgstr "入庫憑證"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__receipt_ids
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__buy_move_id
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_form
+msgid "入库单"
+msgstr "入庫單"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_cost_line__buy_id
+#: model:ir.model.fields,help:buy.field_buy_receipt__buy_move_id
+msgid "入库单号"
+msgstr "入庫單號"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__receipt_count
+msgid "入库单数量"
+msgstr "入庫單數量"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_form
+msgid "入库单行"
+msgstr "入庫單行"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__in_goods_id
+msgid "入库商品"
+msgstr "入庫商品"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order_track__wh_in_date
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_form
+msgid "入库日期"
+msgstr "入庫日期"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_receipt__voucher_id
+msgid "入库时产生的入库凭证"
+msgstr "入庫時產生的入庫憑證"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__line_in_ids
+msgid "入库明细"
+msgstr "入庫明細"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_receipt__line_in_ids
+msgid "入库类型的移库单对应的入库明细"
+msgstr "入庫類型的移庫單對應的入庫明細"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_search
+msgid "全部付款"
+msgstr "全部付款"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_search
+msgid "全部入库"
+msgstr "全部入庫"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_return_search
+msgid "全部退款"
+msgstr "全部退款"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust__company_id
+#: model:ir.model.fields,field_description:buy.field_buy_adjust_line__company_id
+#: model:ir.model.fields,field_description:buy.field_buy_order__company_id
+#: model:ir.model.fields,field_description:buy.field_buy_order_detail_wizard__company_id
+#: model:ir.model.fields,field_description:buy.field_buy_order_line__company_id
+#: model:ir.model.fields,field_description:buy.field_buy_order_track_wizard__company_id
+#: model:ir.model.fields,field_description:buy.field_buy_payment_wizard__company_id
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__company_id
+#: model:ir.model.fields,field_description:buy.field_buy_summary_goods_wizard__company_id
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner_wizard__company_id
+#: model:ir.model.fields,field_description:buy.field_vendor_goods__company_id
+msgid "公司"
+msgstr "公司"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_adjust_line__order_id
+msgid "关联的变更单编号"
+msgstr "關聯的變更單編號"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_payment_plan__buy_id
+msgid "关联的采购订单"
+msgstr "關聯的採購訂單"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order_line__order_id
+msgid "关联订单的编号"
+msgstr "關聯訂單的編號"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_return_form
+msgid "净重合计"
+msgstr "淨重合計"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_money_invoice__move_id
+#: model:ir.model.fields,field_description:buy.field_supplier_statements_report__move_id
+#: model:ir.model.fields,field_description:buy.field_supplier_statements_report_with_goods__move_id
+msgid "出入库单"
+msgstr "出入庫單"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_return_form
+msgid "出库"
+msgstr "出庫"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__out_goods_id
+msgid "出库商品"
+msgstr "出庫商品"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__line_out_ids
+msgid "出库明细"
+msgstr "出庫明細"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_receipt__line_out_ids
+msgid "出库类型的移库单对应的出库明细"
+msgstr "出庫類型的移庫單對應的出庫明細"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order__pay_ids
+msgid "分批付款时使用付款计划"
+msgstr "分批付款時使用付款計劃"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_form
+msgid "分摊"
+msgstr "分攤"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_adjust_search
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_search
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_search
+#: model_terms:ir.ui.view,arch_db:buy.buy_return_search
+msgid "分组"
+msgstr "分組"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_search
+#: model_terms:ir.ui.view,arch_db:buy.buy_return_search
+msgid "到期日"
+msgstr "到期日"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__date_due
+msgid "到期日期"
+msgstr "到期日期"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_adjust_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_adjust_search
+#: model_terms:ir.ui.view,arch_db:buy.buy_adjust_tree
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_search
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_search
+#: model_terms:ir.ui.view,arch_db:buy.buy_return_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_return_search
+#: model_terms:ir.ui.view,arch_db:buy.buy_return_tree
+msgid "制单人"
+msgstr "制單人"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order_detail__price
+#: model:ir.model.fields,field_description:buy.field_buy_summary_goods__price
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner__price
+#: model:ir.model.fields,field_description:buy.field_supplier_statements_report_with_goods__price
+msgid "单价"
+msgstr "單價"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust_line__uom_id
+#: model:ir.model.fields,field_description:buy.field_buy_order_detail__uom
+#: model:ir.model.fields,field_description:buy.field_buy_order_line__uom_id
+#: model:ir.model.fields,field_description:buy.field_buy_order_track__uom
+#: model:ir.model.fields,field_description:buy.field_supplier_statements_report_with_goods__uom_id
+msgid "单位"
+msgstr "單位"
+
+#. module: buy
+#: model:ir.ui.menu,name:buy.menu_buy_manage
+msgid "单据"
+msgstr "單據"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_receipt__date
+msgid "单据创建日期，默认为当前天"
+msgstr "單據創建日期，默認為當前天"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_adjust__note
+#: model:ir.model.fields,help:buy.field_buy_order__note
+msgid "单据备注"
+msgstr "單據備註"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust__date
+#: model:ir.model.fields,field_description:buy.field_buy_order__date
+#: model:ir.model.fields,field_description:buy.field_buy_payment__date
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__date
+#: model:ir.model.fields,field_description:buy.field_supplier_statements_report_with_goods__date
+#: model_terms:ir.ui.view,arch_db:buy.buy_adjust_search
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_search
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_search
+#: model_terms:ir.ui.view,arch_db:buy.buy_return_search
+msgid "单据日期"
+msgstr "單據日期"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order_track__type
+msgid "单据类型"
+msgstr "單據類型"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_adjust__user_id
+#: model:ir.model.fields,help:buy.field_buy_order__user_id
+#: model:ir.model.fields,help:buy.field_buy_receipt__user_id
+msgid "单据经办人"
+msgstr "單據經辦人"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust__name
+#: model:ir.model.fields,field_description:buy.field_buy_order__name
+#: model:ir.model.fields,field_description:buy.field_buy_order_detail_wizard__order_id
+#: model:ir.model.fields,field_description:buy.field_buy_payment__order_name
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__name
+#: model:ir.model.fields,field_description:buy.field_supplier_statements_report_with_goods__name
+msgid "单据编号"
+msgstr "單據編號"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_receipt__name
+msgid "单据编号，创建时会自动生成"
+msgstr "單據編號，創建時會自動生成"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust__order_id
+msgid "原始单据"
+msgstr "原始單據"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__invoice_id
+msgid "发票号"
+msgstr "發票號"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_detail_wizard_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_track_wizard_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_payment_wizard_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_summary_goods_wizard_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_summary_partner_wizard_form
+msgid "取消"
+msgstr "取消"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_adjust__date
+msgid "变更单创建日期，默认是当前日期"
+msgstr "變更單創建日期，默認是當前日期"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_adjust__line_ids
+msgid "变更单明细行，不允许为空"
+msgstr "變更單明細行，不允許為空"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_adjust__state
+msgid "变更单确认状态"
+msgstr "變更單確認狀態"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_adjust__name
+msgid "变更单编号，保存时可自动生成"
+msgstr "變更單編號，保存時可自動生成"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust__line_ids
+msgid "变更单行"
+msgstr "變更單行"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order_detail_wizard__warehouse_dest_id
+#: model:ir.model.fields,help:buy.field_buy_order_track_wizard__warehouse_dest_id
+#: model:ir.model.fields,help:buy.field_buy_payment_wizard__warehouse_dest_id
+#: model:ir.model.fields,help:buy.field_buy_summary_goods_wizard__warehouse_dest_id
+#: model:ir.model.fields,help:buy.field_buy_summary_partner_wizard__warehouse_dest_id
+msgid "只统计选定的仓库"
+msgstr "只統計選定的倉庫"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order_detail_wizard__partner_id
+#: model:ir.model.fields,help:buy.field_buy_order_track_wizard__partner_id
+#: model:ir.model.fields,help:buy.field_buy_payment_wizard__partner_id
+#: model:ir.model.fields,help:buy.field_buy_summary_goods_wizard__partner_id
+#: model:ir.model.fields,help:buy.field_buy_summary_partner_wizard__partner_id
+msgid "只统计选定的供应商"
+msgstr "只統計選定的供應商"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_payment_wizard__s_category_id
+#: model:ir.model.fields,help:buy.field_buy_summary_partner_wizard__s_category_id
+msgid "只统计选定的供应商类别"
+msgstr "只統計選定的供應商類別"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order_detail_wizard__order_id
+msgid "只统计选定的单据编号"
+msgstr "只統計選定的單據編號"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order_detail_wizard__goods_id
+#: model:ir.model.fields,help:buy.field_buy_order_track_wizard__goods_id
+#: model:ir.model.fields,help:buy.field_buy_summary_goods_wizard__goods_id
+#: model:ir.model.fields,help:buy.field_buy_summary_partner_wizard__goods_id
+msgid "只统计选定的商品"
+msgstr "只統計選定的商品"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_summary_goods_wizard__goods_categ_id
+msgid "只统计选定的商品类别"
+msgstr "只統計選定的商品類別"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order_track_wizard__order_id
+msgid "只统计选定的订单号"
+msgstr "只統計選定的訂單號"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_payment_wizard__order_id
+msgid "只统计选定的采购单号"
+msgstr "只統計選定的採購單號"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_receipt__note
+msgid "可以为该单据添加一些需要的标识信息"
+msgstr "可以為該單據添加一些需要的標識信息"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_goods__vendor_ids
+msgid "各供应商提供的基于起订量的供货价格列表"
+msgstr "各供應商提供的基於起訂量的供貨價格列表"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_tree
+msgid "合计"
+msgstr "合計"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_form
+msgid "合计已入库数量"
+msgstr "合計已入庫數量"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_adjust_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_return_form
+msgid "合计折扣额"
+msgstr "合計折扣額"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_adjust_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_return_form
+msgid "合计数量"
+msgstr "合計數量"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_adjust_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_return_form
+msgid "合计税额"
+msgstr "合計稅額"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_return_form
+msgid "合计辅助数量"
+msgstr "合計輔助數量"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_adjust_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_return_form
+msgid "合计金额"
+msgstr "合計金額"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust_line__price_taxed
+#: model:ir.model.fields,field_description:buy.field_buy_order_line__price_taxed
+msgid "含税单价"
+msgstr "含稅單價"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_adjust_line__subtotal
+#: model:ir.model.fields,help:buy.field_buy_order_line__subtotal
+msgid "含税单价 乘以 数量"
+msgstr "含稅單價 乘以 數量"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_adjust_line__price_taxed
+msgid "含税单价，取自商品成本"
+msgstr "含稅單價，取自商品成本"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order_line__price_taxed
+msgid "含税单价，取自商品成本或对应供应商的采购价"
+msgstr "含稅單價，取自商品成本或對應供應商的採購價"
+
+#. module: buy
+#: model:ir.model,name:buy.model_goods
+#: model:ir.model.fields,field_description:buy.field_buy_adjust_line__goods_id
+#: model:ir.model.fields,field_description:buy.field_buy_order__goods_id
+#: model:ir.model.fields,field_description:buy.field_buy_order_detail_wizard__goods_id
+#: model:ir.model.fields,field_description:buy.field_buy_order_line__goods_id
+#: model:ir.model.fields,field_description:buy.field_buy_order_track_wizard__goods_id
+#: model:ir.model.fields,field_description:buy.field_buy_summary_goods_wizard__goods_id
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner_wizard__goods_id
+#: model:ir.model.fields,field_description:buy.field_vendor_goods__goods_id
+#: model:ir.model.fields,help:buy.field_buy_adjust_line__goods_id
+#: model:ir.model.fields,help:buy.field_buy_order__goods_id
+#: model:ir.model.fields,help:buy.field_buy_order_line__goods_id
+#: model:ir.model.fields,help:buy.field_vendor_goods__goods_id
+#: model:ir.ui.menu,name:buy.buy_goods_menu
+#, fuzzy
+msgid "商品"
+msgstr "商品"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order_detail__goods_id
+#: model:ir.model.fields,field_description:buy.field_buy_order_track__goods_id
+#: model:ir.model.fields,field_description:buy.field_buy_summary_goods__goods
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner__goods
+#: model:ir.model.fields,field_description:buy.field_supplier_statements_report_with_goods__goods_name
+msgid "商品名称"
+msgstr "商品名稱"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__total_qty
+msgid "商品总数"
+msgstr "商品總數"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_adjust_line__using_attribute
+#: model:ir.model.fields,help:buy.field_buy_order_line__using_attribute
+msgid "商品是否使用属性"
+msgstr "商品是否使用屬性"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_adjust_line__attribute_id
+#: model:ir.model.fields,help:buy.field_buy_order_line__attribute_id
+msgid "商品的属性，当商品有属性时，该字段必输"
+msgstr "商品的屬性，當商品有屬性時，該字段必輸"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order_line__uos_id
+msgid "商品的辅助单位"
+msgstr "商品的輔助單位"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order_line__goods_uos_qty
+msgid "商品的辅助数量"
+msgstr "商品的輔助數量"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_summary_goods__goods_categ
+#: model:ir.model.fields,field_description:buy.field_buy_summary_goods_wizard__goods_categ_id
+#: model:ir.model.fields,field_description:buy.field_supplier_statements_report_with_goods__category_id
+msgid "商品类别"
+msgstr "商品類別"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_supplier_statements_report_with_goods__goods_code
+msgid "商品编号"
+msgstr "商品編號"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order_detail__goods_code
+#: model:ir.model.fields,field_description:buy.field_buy_order_track__goods_code
+#: model:ir.model.fields,field_description:buy.field_buy_summary_goods__goods_code
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner__goods_code
+msgid "商品编码"
+msgstr "商品編碼"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_adjust_line__uom_id
+#: model:ir.model.fields,help:buy.field_buy_order_line__uom_id
+msgid "商品计量单位"
+msgstr "商品計量單位"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__address_id
+msgid "地址"
+msgstr "地址"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_summary_goods__uom
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner__uom
+msgid "基本单位"
+msgstr "基本單位"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_summary_goods__qty
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner__qty
+msgid "基本数量"
+msgstr "基本數量"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_summary_goods_tree
+#: model_terms:ir.ui.view,arch_db:buy.buy_summary_partner_tree
+msgid "基本数量合计"
+msgstr "基本數量合計"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust__note
+#: model:ir.model.fields,field_description:buy.field_buy_adjust_line__note
+#: model:ir.model.fields,field_description:buy.field_buy_order__note
+#: model:ir.model.fields,field_description:buy.field_buy_order_detail__note
+#: model:ir.model.fields,field_description:buy.field_buy_order_line__note
+#: model:ir.model.fields,field_description:buy.field_buy_order_track__note
+#: model:ir.model.fields,field_description:buy.field_buy_payment__note
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__note
+#: model:ir.model.fields,field_description:buy.field_supplier_statements_report_with_goods__note
+#: model:ir.model.fields,field_description:buy.field_vendor_goods__note
+msgid "备注"
+msgstr "備註"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__currency_id
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__currency_id
+#: model:ir.model.fields,help:buy.field_buy_order__currency_id
+#: model:ir.model.fields,help:buy.field_buy_receipt__currency_id
+msgid "外币币别"
+msgstr "外幣幣別"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__ref
+msgid "外部单号"
+msgstr "外部單號"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order__invoice_by_receipt
+#: model:ir.model.fields,help:buy.field_buy_receipt__invoice_by_receipt
+msgid "如未勾选此项，可在资金行里输入付款金额，订单保存后，采购人员可以单击资金行上的【确认】按钮。"
+msgstr "如未勾選此項，可在資金行里輸入付款金額，訂單保存後，採購人員可以單擊資金行上的【確認】按鈕。"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_supplier_statements_report_with_goods__done_date
+msgid "完成日期"
+msgstr "完成日期"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_supplier_statements_report_with_goods__pay_amount
+msgid "实际付款金额"
+msgstr "實際付款金額"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_supplier_statements_report_with_goods__fee
+msgid "客户承担费用"
+msgstr "客戶承擔費用"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_wh_move_line__buy_line_id
+msgid "对应的采购订单行"
+msgstr "對應的採購訂單行"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order__warehouse_dest_id
+msgid "将商品调入到该仓库"
+msgstr "將商品調入到該倉庫"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust_line__attribute_id
+#: model:ir.model.fields,field_description:buy.field_buy_order_detail__attribute
+#: model:ir.model.fields,field_description:buy.field_buy_order_line__attribute_id
+#: model:ir.model.fields,field_description:buy.field_buy_order_track__attribute
+#: model:ir.model.fields,field_description:buy.field_buy_summary_goods__attribute
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner__attribute
+msgid "属性"
+msgstr "屬性"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_payment__payment
+msgid "已付款"
+msgstr "已付款"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_payment_tree
+msgid "已付款合计"
+msgstr "已付款合計"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__paid_no_goods
+msgid "已付款未到货"
+msgstr "已付款未到貨"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__paid_amount
+msgid "已付金额"
+msgstr "已付金額"
+
+#. module: buy
+#: model:ir.model.fields.selection,name:buy.selection__buy_adjust__state__cancel
+#: model:ir.model.fields.selection,name:buy.selection__buy_order__state__cancel
+msgid "已作废"
+msgstr "已作廢"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_search
+#: model_terms:ir.ui.view,arch_db:buy.buy_return_search
+msgid "已完成"
+msgstr "已完成"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order_line__quantity_in
+msgid "已执行数量"
+msgstr "已執行數量"
+
+#. module: buy
+#: model:ir.model.fields.selection,name:buy.selection__buy_adjust__state__done
+#: model:ir.model.fields.selection,name:buy.selection__buy_order__state__done
+#: model_terms:ir.ui.view,arch_db:buy.buy_adjust_search
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_search
+msgid "已确认"
+msgstr "已確認"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__cancelled
+msgid "已终止"
+msgstr "已終止"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_payment__balance
+#: model:ir.model.fields,field_description:buy.field_supplier_statements_report_with_goods__balance_amount
+msgid "应付款余额"
+msgstr "應付款餘額"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_payment_tree
+msgid "应付款余额合计"
+msgstr "應付款餘額合計"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_supplier_statements_report_with_goods__amount
+msgid "应付金额"
+msgstr "應付金額"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order_detail_wizard__date_start
+#: model:ir.model.fields,field_description:buy.field_buy_order_track_wizard__date_start
+#: model:ir.model.fields,field_description:buy.field_buy_payment_wizard__date_start
+#: model:ir.model.fields,field_description:buy.field_buy_summary_goods_wizard__date_start
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner_wizard__date_start
+msgid "开始日期"
+msgstr "開始日期"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_adjust_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_return_form
+msgid "录单时间"
+msgstr "錄單時間"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__express_code
+msgid "快递单号"
+msgstr "快遞單號"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_tree
+#: model_terms:ir.ui.view,arch_db:buy.buy_return_tree
+msgid "总金额"
+msgstr "總金額"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order__amount
+#: model:ir.model.fields,help:buy.field_buy_receipt__amount
+msgid "总金额减去优惠金额"
+msgstr "總金額減去優惠金額"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__amount
+#: model:ir.model.fields,field_description:buy.field_buy_payment__amount
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__amount
+msgid "成交金额"
+msgstr "成交金額"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_payment_tree
+msgid "成交金额合计"
+msgstr "成交金額合計"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_search
+msgid "我创建的"
+msgstr "我創建的"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_detail_wizard_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_track_wizard_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_payment_wizard_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_summary_goods_wizard_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_summary_partner_wizard_form
+msgid "或者"
+msgstr "或者"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_adjust_form_print_inherit
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_form_print_inherit
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_form_print_inherit
+#: model_terms:ir.ui.view,arch_db:buy.buy_return_form_print_inherit
+msgid "打印"
+msgstr "列印"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__express_type
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__express_type
+msgid "承运商"
+msgstr "承運商"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_adjust_line__discount_rate
+#: model:ir.model.fields,help:buy.field_buy_order_line__discount_rate
+msgid "折扣率"
+msgstr "折扣率"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust_line__discount_rate
+#: model:ir.model.fields,field_description:buy.field_buy_order_line__discount_rate
+msgid "折扣率%"
+msgstr "折扣率%"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust_line__discount_amount
+#: model:ir.model.fields,field_description:buy.field_buy_order_line__discount_amount
+#: model:ir.model.fields,field_description:buy.field_supplier_statements_report_with_goods__discount_amount
+msgid "折扣额"
+msgstr "折扣額"
+
+#. module: buy
+#: model:ir.ui.menu,name:buy.menu_buy_report
+msgid "报表"
+msgstr "報表"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order_detail_wizard__date_start
+#: model:ir.model.fields,help:buy.field_buy_order_track_wizard__date_start
+#: model:ir.model.fields,help:buy.field_buy_payment_wizard__date_start
+#: model:ir.model.fields,help:buy.field_buy_summary_goods_wizard__date_start
+#: model:ir.model.fields,help:buy.field_buy_summary_partner_wizard__date_start
+msgid "报表汇总的开始日期，默认为公司启用日期"
+msgstr "報表匯總的開始日期，默認為公司啟用日期"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order_detail_wizard__date_end
+#: model:ir.model.fields,help:buy.field_buy_order_track_wizard__date_end
+#: model:ir.model.fields,help:buy.field_buy_payment_wizard__date_end
+#: model:ir.model.fields,help:buy.field_buy_summary_goods_wizard__date_end
+#: model:ir.model.fields,help:buy.field_buy_summary_partner_wizard__date_end
+msgid "报表汇总的结束日期，默认为当前日期"
+msgstr "報表匯總的結束日期，默認為當前日期"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__discount_amount
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_form
+msgid "抹零"
+msgstr "抹零"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__invoice_by_receipt
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__invoice_by_receipt
+msgid "按收货结算"
+msgstr "按收貨結算"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_return_form
+msgid "撤销"
+msgstr "撤銷"
+
+#. module: buy
+#: model:ir.model,name:buy.model_money_order
+msgid "收付款单"
+msgstr "收付款單"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__finance_category_id
+msgid "收发类别"
+msgstr "收發類別"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__goods_state
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_search
+msgid "收货状态"
+msgstr "收貨狀態"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order_detail__qty
+#: model:ir.model.fields,field_description:buy.field_buy_order_line__quantity
+#: model:ir.model.fields,field_description:buy.field_buy_order_track__qty
+#: model:ir.model.fields,field_description:buy.field_supplier_statements_report_with_goods__quantity
+msgid "数量"
+msgstr "數量"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__total_qty
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_detail_tree
+msgid "数量合计"
+msgstr "數量合計"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order__total_qty
+msgid "数量总计"
+msgstr "數量總計"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order__discount_rate
+#: model:ir.model.fields,help:buy.field_buy_receipt__discount_rate
+msgid "整单优惠率"
+msgstr "整單優惠率"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order__discount_amount
+msgid "整单优惠金额，可由优惠率自动计算出来，也可手动输入"
+msgstr "整單優惠金額，可由優惠率自動計算出來，也可手動輸入"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_receipt__discount_amount
+msgid "整单优惠金额，可由优惠率自动计算得出，也可手动输入"
+msgstr "整單優惠金額，可由優惠率自動計算得出，也可手動輸入"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner__date
+msgid "日期"
+msgstr "日期"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__details
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__details
+msgid "明细"
+msgstr "明細"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_receipt__is_return
+msgid "是否为退货类型"
+msgstr "是否為退貨類型"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__is_return
+msgid "是否退货"
+msgstr "是否退貨"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_adjust_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_return_form
+msgid "暂无备注信息"
+msgstr "暫無備註信息"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_adjust_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_return_form
+msgid "最后修改时间"
+msgstr "最後修改時間"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_search
+msgid "未付款"
+msgstr "未付款"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_search
+msgid "未入库"
+msgstr "未入庫"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order_track__qty_not_in
+msgid "未入库数量"
+msgstr "未入庫數量"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_return_search
+msgid "未退款"
+msgstr "未退款"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__payment
+msgid "本次付款"
+msgstr "本次付款"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_receipt__payment
+msgid "本次付款金额"
+msgstr "本次付款金額"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_adjust_line__note
+#: model:ir.model.fields,help:buy.field_buy_order_line__note
+msgid "本行备注"
+msgstr "本行備註"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__origin_id
+msgid "来源单据"
+msgstr "來源單據"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.supplier_statements_report_tree
+#: model_terms:ir.ui.view,arch_db:buy.supplier_statements_report_with_goods_tree
+msgid "查看原始单据"
+msgstr "查看原始單據"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.vendor_tree_inherit
+msgid "查看对账单"
+msgstr "查看對賬單"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_detail_tree
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_track_tree
+#: model_terms:ir.ui.view,arch_db:buy.buy_payment_tree
+#: model_terms:ir.ui.view,arch_db:buy.buy_summary_goods_tree
+#: model_terms:ir.ui.view,arch_db:buy.buy_summary_partner_tree
+msgid "查看明细"
+msgstr "查看明細"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__currency_rate
+msgid "汇率"
+msgstr "匯率"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_receipt__qc_result
+msgid "点击上传质检报告"
+msgstr "點擊上傳質檢報告"
+
+#. module: buy
+#: model_terms:ir.actions.act_window,help:buy.buy_receipt_action
+msgid "点击创建采购入库单"
+msgstr "點擊創建採購入庫單"
+
+#. module: buy
+#: model_terms:ir.actions.act_window,help:buy.buy_adjust_action
+msgid "点击创建采购变更单"
+msgstr "點擊創建採購變更單"
+
+#. module: buy
+#: model_terms:ir.actions.act_window,help:buy.buy_order_action
+msgid "点击创建采购订单"
+msgstr "點擊創建採購訂單"
+
+#. module: buy
+#: model_terms:ir.actions.act_window,help:buy.buy_return_action
+msgid "点击创建采购退货单"
+msgstr "點擊創建採購退貨單"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order_track__goods_state
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__state
+#, fuzzy
+msgid "状态"
+msgstr "狀態"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_receipt__finance_category_id
+msgid "生成凭证时从此字段上取商品科目的对方科目"
+msgstr "生成憑證時從此字段上取商品科目的對方科目"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_money_invoice__move_id
+msgid "生成此发票的出入库单号"
+msgstr "生成此發票的出入庫單號"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_form
+msgid "生成退货单"
+msgstr "生成退貨單"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_vendor_goods__date
+msgid "生效日期"
+msgstr "生效日期"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order__bank_account_id
+#: model:ir.model.fields,help:buy.field_buy_receipt__bank_account_id
+msgid "用来核算和监督企业与其他单位或个人之间的债权债务的结算情况"
+msgstr "用來核算和監督企業與其他單位或個人之間的債權債務的結算情況"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_adjust_line__tax_amount
+#: model:ir.model.fields,help:buy.field_buy_order_line__tax_amount
+msgid "由税率计算得出"
+msgstr "由稅率計算得出"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_form
+msgid "申请付款"
+msgstr "申請付款"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_payment_plan__date_application
+msgid "申请日期"
+msgstr "申請日期"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_adjust_line__quantity
+msgid "相对于原单据对应明细行的调整数量，可正可负"
+msgstr "相對於原單據對應明細行的調整數量，可正可負"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_detail_wizard_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_track_wizard_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_payment_wizard_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_summary_goods_wizard_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_summary_partner_wizard_form
+msgid "确定"
+msgstr "確定"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_adjust_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_form
+msgid "确认"
+msgstr "確認"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust__approve_uid
+#: model:ir.model.fields,field_description:buy.field_buy_order__approve_uid
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__approve_uid
+msgid "确认人"
+msgstr "確認人"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order__approve_uid
+msgid "确认单据的人"
+msgstr "確認單據的人"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_adjust__approve_uid
+msgid "确认变更单的人"
+msgstr "確認變更單的人"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__approve_date
+msgid "确认日期"
+msgstr "確認日期"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust__state
+#: model:ir.model.fields,field_description:buy.field_buy_order__state
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_search
+msgid "确认状态"
+msgstr "確認狀態"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_summary_goods__id_lists
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner__id_lists
+msgid "移动明细行id列表"
+msgstr "移動明細行id列表"
+
+#. module: buy
+#: model:ir.model,name:buy.model_wh_move_line
+msgid "移库单明细"
+msgstr "移庫單明細"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_receipt__state
+msgid "移库单状态标识，新建时状态为草稿;确认后状态为已确认"
+msgstr "移庫單狀態標識，新建時狀態為草稿;確認後狀態為已確認"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_receipt__warehouse_id
+msgid "移库单的来源仓库"
+msgstr "移庫單的來源倉庫"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_receipt__warehouse_dest_id
+msgid "移库单的目的仓库"
+msgstr "移庫單的目的倉庫"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_receipt__approve_uid
+msgid "移库单的确认人"
+msgstr "移庫單的確認人"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__origin
+#: model:ir.model.fields,help:buy.field_buy_receipt__origin
+msgid "移库类型"
+msgstr "移庫類型"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust_line__tax_rate
+#: model:ir.model.fields,field_description:buy.field_buy_order_line__tax_rate
+msgid "税率(%)"
+msgstr "稅率(%)"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__tax_amount
+msgid "税金合计"
+msgstr "稅金合計"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust_line__tax_amount
+#: model:ir.model.fields,field_description:buy.field_buy_order_detail__tax_amount
+#: model:ir.model.fields,field_description:buy.field_buy_order_line__tax_amount
+#: model:ir.model.fields,field_description:buy.field_buy_summary_goods__tax_amount
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner__tax_amount
+#: model:ir.model.fields,field_description:buy.field_supplier_statements_report_with_goods__tax_amount
+msgid "税额"
+msgstr "稅額"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_detail_tree
+#: model_terms:ir.ui.view,arch_db:buy.buy_summary_goods_tree
+#: model_terms:ir.ui.view,arch_db:buy.buy_summary_partner_tree
+msgid "税额合计"
+msgstr "稅額合計"
+
+#. module: buy
+#: model:res.groups,name:buy.in_tax_groups
+msgid "管理进项税"
+msgstr "管理進項稅"
+
+#. module: buy
+#: model:res.groups,name:buy.buy_discount_groups
+msgid "管理采购单的折扣"
+msgstr "管理採購單的折扣"
+
+#. module: buy
+#: model:res.groups,name:buy.buy_line_discount_groups
+msgid "管理采购行上的折扣"
+msgstr "管理採購行上的折扣"
+
+#. module: buy
+#: model:res.groups,name:buy.buy_groups
+msgid "管理采购订单"
+msgstr "管理採購訂單"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__type
+msgid "类型"
+msgstr "類型"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust__user_id
+#: model:ir.model.fields,field_description:buy.field_buy_order__user_id
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__user_id
+msgid "经办人"
+msgstr "經辦人"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order_detail_wizard__date_end
+#: model:ir.model.fields,field_description:buy.field_buy_order_track_wizard__date_end
+#: model:ir.model.fields,field_description:buy.field_buy_payment_wizard__date_end
+#: model:ir.model.fields,field_description:buy.field_buy_summary_goods_wizard__date_end
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner_wizard__date_end
+msgid "结束日期"
+msgstr "結束日期"
+
+#. module: buy
+#: model:ir.model,name:buy.model_money_invoice
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_form
+msgid "结算单"
+msgstr "結算單"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__bank_account_id
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__bank_account_id
+msgid "结算账户"
+msgstr "結算賬戶"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__contact
+msgid "联系人"
+msgstr "聯系人"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order__address_id
+msgid "联系地址"
+msgstr "聯繫地址"
+
+#. module: buy
+#: model:ir.model.fields.selection,name:buy.selection__buy_adjust__state__draft
+#: model:ir.model.fields.selection,name:buy.selection__buy_order__state__draft
+#: model_terms:ir.ui.view,arch_db:buy.buy_adjust_search
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_search
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_search
+#: model_terms:ir.ui.view,arch_db:buy.buy_return_search
+msgid "草稿"
+msgstr "草稿"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__planned_date
+#: model:ir.model.fields,field_description:buy.field_buy_order_track__planned_date
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_search
+msgid "要求交货日期"
+msgstr "要求交貨日期"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_adjust__order_id
+msgid "要调整的原始采购订单，只能调整已确认且没有全部入库的采购订单"
+msgstr "要調整的原始採購訂單，只能調整已確認且沒有全部入庫的採購訂單"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_supplier_statements_report_with_goods__attribute_id
+msgid "规格型号"
+msgstr "規格型號"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order_track_wizard__order_id
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__order_id
+msgid "订单号"
+msgstr "訂單號"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order_track__date
+msgid "订单日期"
+msgstr "訂單日期"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order__planned_date
+msgid "订单的要求交货日期"
+msgstr "訂單的要求交貨日期"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust_line__order_id
+#: model:ir.model.fields,field_description:buy.field_buy_order_line__order_id
+msgid "订单编号"
+msgstr "訂單編號"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_form
+msgid "设为今天"
+msgstr "設為今天"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_receipt__partner_id
+msgid "该单据对应的业务伙伴"
+msgstr "該單據對應的業務夥伴"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order__cancelled
+msgid "该单据是否已终止"
+msgstr "該單據是否已終止"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_receipt__in_goods_id
+#: model:ir.model.fields,help:buy.field_buy_receipt__out_goods_id
+msgid "该单据行对应的商品"
+msgstr "該單據行對應的商品"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_receipt__total_qty
+msgid "该移库单的入/出库明细行包含的商品总数"
+msgstr "該移庫單的入/出庫明細行包含的商品總數"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__warehouse_dest_id
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__warehouse_dest_id
+msgid "调入仓库"
+msgstr "調入倉庫"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__warehouse_id
+msgid "调出仓库"
+msgstr "調出倉庫"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust_line__quantity
+msgid "调整数量"
+msgstr "調整數量"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__qc_result
+msgid "质检报告"
+msgstr "質檢報告"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__term_id
+msgid "贸易条款"
+msgstr "貿易條款"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_vendor_goods__min_qty
+msgid "起订量"
+msgstr "起訂量"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order_line__uos_id
+#: model:ir.model.fields,field_description:buy.field_buy_summary_goods__uos
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner__uos
+msgid "辅助单位"
+msgstr "輔助單位"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order_line__goods_uos_qty
+#: model:ir.model.fields,field_description:buy.field_buy_summary_goods__qty_uos
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner__qty_uos
+msgid "辅助数量"
+msgstr "輔助數量"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_summary_goods_tree
+#: model_terms:ir.ui.view,arch_db:buy.buy_summary_partner_tree
+msgid "辅助数量合计"
+msgstr "輔助數量合計"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__auxiliary_id
+msgid "辅助核算"
+msgstr "輔助核算"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_receipt__auxiliary_id
+msgid "辅助核算是对账务处理的一种补充,即实现更广泛的账务处理,        以适应企业管理和决策的需要.辅助核算一般通过核算项目来实现"
+msgstr "輔助核算是對賬務處理的一種補充,即實現更廣泛的賬務處理,        以適應企業管理和決策的需要.輔助核算一般通過核算項目來實現"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_adjust_line__discount_amount
+#: model:ir.model.fields,help:buy.field_buy_order_line__discount_amount
+msgid "输入折扣率后自动计算得出，也可手动输入折扣额"
+msgstr "輸入折扣率後自動計算得出，也可手動輸入折扣額"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_receipt__money_order_id
+msgid "输入本次付款确认时产生的付款单"
+msgstr "輸入本次付款確認時產生的付款單"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order__money_order_id
+msgid "输入预付款确认时产生的预付款单"
+msgstr "輸入預付款確認時產生的預付款單"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order__prepayment
+msgid "输入预付款确认采购订单，会产生一张付款单"
+msgstr "輸入預付款確認採購訂單，會產生一張付款單"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__delivery_fee
+msgid "运费"
+msgstr "運費"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__return_state
+msgid "退款状态"
+msgstr "退款狀態"
+
+#. module: buy
+#: model:ir.model.fields.selection,name:buy.selection__buy_order__type__return
+#: model:ir.model.fields.selection,name:buy.selection__buy_order_track__type__return
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_search
+msgid "退货"
+msgstr "退貨"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_form
+msgid "退货单"
+msgstr "退貨單"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__return_count
+msgid "退货单数量"
+msgstr "退貨單數量"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_return_form
+msgid "退货单行"
+msgstr "退貨單行"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_search
+msgid "部分付款"
+msgstr "部分付款"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_search
+msgid "部分入库"
+msgstr "部分入庫"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_return_search
+msgid "部分退款"
+msgstr "部分退款"
+
+#. module: buy
+#: model:ir.model.fields.selection,name:buy.selection__buy_order__type__buy
+#: model:ir.model.fields.selection,name:buy.selection__buy_order_track__type__buy
+#: model:ir.ui.menu,name:buy.menu_buy_root
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_search
+#: model:res.groups,name:buy.group_buy
+msgid "采购"
+msgstr "採購"
+
+#. module: buy
+#: model:ir.actions.act_window,name:buy.buy_payment_wizard_action
+#: model:ir.model,name:buy.model_buy_payment
+#: model:ir.ui.menu,name:buy.menu_buy_payment
+#: model_terms:ir.ui.view,arch_db:buy.buy_payment_tree
+msgid "采购付款一览表"
+msgstr "採購付款一覽表"
+
+#. module: buy
+#: model:ir.model,name:buy.model_buy_payment_wizard
+#: model_terms:ir.ui.view,arch_db:buy.buy_payment_wizard_form
+msgid "采购付款一览表向导"
+msgstr "採購付款一覽表嚮導"
+
+#. module: buy
+#: model:ir.actions.act_window,name:buy.buy_receipt_action
+#: model:ir.actions.report,name:buy.report_buy_receipt_in
+#: model:ir.model,name:buy.model_buy_receipt
+#: model:ir.ui.menu,name:buy.menu_buy_receipt
+#: model:ir.ui.menu,name:buy.menu_wh_buy_receipt
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_calendar
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_search
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_tree
+msgid "采购入库单"
+msgstr "採購入庫單"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_receipt__money_state
+msgid "采购入库单的付款状态"
+msgstr "採購入庫單的付款狀態"
+
+#. module: buy
+#: model:ir.actions.act_window,name:buy.buy_order_detail_wizard_action
+#: model:ir.model,name:buy.model_buy_order_detail
+#: model:ir.ui.menu,name:buy.menu_buy_order_detail
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_detail_tree
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_detail_wizard_form
+msgid "采购入库明细表"
+msgstr "採購入庫明細表"
+
+#. module: buy
+#: model:ir.model,name:buy.model_buy_order_detail_wizard
+msgid "采购入库明细表向导"
+msgstr "採購入庫明細表嚮導"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust_line__price
+#: model:ir.model.fields,field_description:buy.field_buy_order_line__price
+msgid "采购单价"
+msgstr "採購單價"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_payment_wizard__order_id
+msgid "采购单号"
+msgstr "採購單號"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order_detail__order_name
+msgid "采购单据号"
+msgstr "採購單據號"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_wh_move_line__buy_line_id
+msgid "采购单行"
+msgstr "採購單行"
+
+#. module: buy
+#: model:ir.actions.act_window,name:buy.buy_adjust_action
+#: model:ir.actions.report,name:buy.report_buy_adjust
+#: model:ir.model,name:buy.model_buy_adjust
+#: model:ir.ui.menu,name:buy.menu_buy_adjust
+#: model_terms:ir.ui.view,arch_db:buy.buy_adjust_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_adjust_search
+#: model_terms:ir.ui.view,arch_db:buy.buy_adjust_tree
+msgid "采购变更单"
+msgstr "採購變更單"
+
+#. module: buy
+#: model:ir.model,name:buy.model_buy_adjust_line
+msgid "采购变更单明细"
+msgstr "採購變更單明細"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_adjust_form
+msgid "采购变更单行"
+msgstr "採購變更單行"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_vendor_goods__min_qty
+msgid "采购商品时，大于或等于起订量时，商品的价格才取该行的供货价"
+msgstr "採購商品時，大於或等於起訂量時，商品的價格才取該行的供貨價"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order_detail__date
+msgid "采购日期"
+msgstr "採購日期"
+
+#. module: buy
+#: model:ir.actions.act_window,name:buy.buy_summary_partner_wizard_action
+#: model:ir.model,name:buy.model_buy_summary_partner
+#: model:ir.ui.menu,name:buy.menu_buy_summary_partner
+#: model_terms:ir.ui.view,arch_db:buy.buy_summary_partner_tree
+#: model_terms:ir.ui.view,arch_db:buy.buy_summary_partner_wizard_form
+msgid "采购汇总表（按供应商）"
+msgstr "採購匯總表（按供應商）"
+
+#. module: buy
+#: model:ir.model,name:buy.model_buy_summary_partner_wizard
+msgid "采购汇总表（按供应商）向导"
+msgstr "採購匯總表（按供應商）嚮導"
+
+#. module: buy
+#: model:ir.actions.act_window,name:buy.buy_summary_goods_wizard_action
+#: model:ir.model,name:buy.model_buy_summary_goods
+#: model:ir.ui.menu,name:buy.menu_buy_summary_goods
+#: model_terms:ir.ui.view,arch_db:buy.buy_summary_goods_tree
+#: model_terms:ir.ui.view,arch_db:buy.buy_summary_goods_wizard_form
+msgid "采购汇总表（按商品）"
+msgstr "採購匯總表（按商品）"
+
+#. module: buy
+#: model:ir.model,name:buy.model_buy_summary_goods_wizard
+msgid "采购汇总表（按商品）向导"
+msgstr "採購匯總表（按商品）嚮導"
+
+#. module: buy
+#: model:ir.actions.act_window,name:buy.buy_order_action
+#: model:ir.actions.report,name:buy.report_buy_order
+#: model:ir.model,name:buy.model_buy_order
+#: model:ir.model.fields,field_description:buy.field_money_order__buy_id
+#: model:ir.ui.menu,name:buy.menu_buy_order
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_search
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_tree
+msgid "采购订单"
+msgstr "採購訂單"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order_line__quantity_in
+msgid "采购订单产生的入库单/退货单已执行数量"
+msgstr "採購訂單產生的入庫單/退貨單已執行數量"
+
+#. module: buy
+#: model:ir.model,name:buy.model_buy_order_line
+msgid "采购订单明细"
+msgstr "採購訂單明細"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order__name
+msgid "采购订单的唯一编号，当创建时它会自动生成下一个编号。"
+msgstr "採購訂單的唯一編號，當創建時它會自動生成下一個編號。"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order__goods_state
+msgid "采购订单的收货状态"
+msgstr "採購訂單的收貨狀態"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order__line_ids
+msgid "采购订单的明细行，不能为空"
+msgstr "採購訂單的明細行，不能為空"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order__state
+msgid "采购订单的确认状态"
+msgstr "採購訂單的確認狀態"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order__type
+msgid "采购订单的类型，分为采购或退货"
+msgstr "採購訂單的類型，分為採購或退貨"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order_track__order_name
+msgid "采购订单编号"
+msgstr "採購訂單編號"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__line_ids
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_form
+msgid "采购订单行"
+msgstr "採購訂單行"
+
+#. module: buy
+#: model:ir.actions.act_window,name:buy.buy_order_track_wizard_action
+#: model:ir.model,name:buy.model_buy_order_track
+#: model:ir.ui.menu,name:buy.menu_buy_order_track
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_track_tree
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_track_wizard_form
+msgid "采购订单跟踪表"
+msgstr "採購訂單跟踪表"
+
+#. module: buy
+#: model:ir.model,name:buy.model_buy_order_track_wizard
+msgid "采购订单跟踪表向导"
+msgstr "採購訂單跟踪表嚮導"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.supplier_address_form_inherit
+msgid "采购记录(最近1年)"
+msgstr "採購記錄(最近1年)"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_receipt__cost_line_ids
+msgid "采购费用"
+msgstr "採購費用"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_receipt__cost_line_ids
+msgid "采购费用明细行"
+msgstr "採購費用明細行"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_return_form
+msgid "采购费用行"
+msgstr "採購費用行"
+
+#. module: buy
+#: model:ir.actions.act_window,name:buy.buy_return_action
+#: model:ir.actions.report,name:buy.report_buy_receipt_out
+#: model:ir.ui.menu,name:buy.menu_buy_return
+#: model:ir.ui.menu,name:buy.menu_wh_buy_return
+#: model_terms:ir.ui.view,arch_db:buy.buy_return_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_return_search
+#: model_terms:ir.ui.view,arch_db:buy.buy_return_tree
+msgid "采购退货单"
+msgstr "採購退貨單"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_receipt__return_state
+msgid "采购退货单的退款状态"
+msgstr "採購退貨單的退款狀態"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order_detail__amount
+#: model:ir.model.fields,field_description:buy.field_buy_payment__purchase_amount
+#: model:ir.model.fields,field_description:buy.field_buy_summary_goods__amount
+#: model:ir.model.fields,field_description:buy.field_buy_summary_partner__amount
+#: model:ir.model.fields,field_description:buy.field_supplier_statements_report__purchase_amount
+#: model:ir.model.fields,field_description:buy.field_supplier_statements_report_with_goods__order_amount
+#: model_terms:ir.ui.view,arch_db:buy.buy_receipt_form
+#: model_terms:ir.ui.view,arch_db:buy.buy_return_form
+msgid "采购金额"
+msgstr "採購金額"
+
+#. module: buy
+#: model_terms:ir.ui.view,arch_db:buy.buy_order_detail_tree
+#: model_terms:ir.ui.view,arch_db:buy.buy_payment_tree
+#: model_terms:ir.ui.view,arch_db:buy.buy_summary_goods_tree
+#: model_terms:ir.ui.view,arch_db:buy.buy_summary_partner_tree
+msgid "采购金额合计"
+msgstr "採購金額合計"
+
+#. module: buy
+#: model:ir.model,name:buy.model_cost_line
+msgid "采购销售费用"
+msgstr "採購銷售費用"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order_track__amount
+msgid "采购额"
+msgstr "採購額"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_adjust_line__amount
+#: model:ir.model.fields,field_description:buy.field_buy_order_line__amount
+#: model:ir.model.fields,field_description:buy.field_payment_plan__amount_money
+msgid "金额"
+msgstr "金額"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_adjust_line__amount
+#: model:ir.model.fields,help:buy.field_buy_order_line__amount
+msgid "金额  = 价税合计  - 税额"
+msgstr "金額  = 含稅價  - 稅額"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__prepayment
+msgid "预付款"
+msgstr "預付款"
+
+#. module: buy
+#: model:ir.model.fields,field_description:buy.field_buy_order__money_order_id
+msgid "预付款单"
+msgstr "預付款單"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_adjust_line__tax_rate
+#: model:ir.model.fields,help:buy.field_buy_order_line__tax_rate
+msgid "默认值取公司进项税率"
+msgstr "默認值取公司進項稅率"
+
+#. module: buy
+#: model:ir.model.fields,help:buy.field_buy_order__date
+msgid "默认是订单创建日期"
+msgstr "默認是訂單創建日期"

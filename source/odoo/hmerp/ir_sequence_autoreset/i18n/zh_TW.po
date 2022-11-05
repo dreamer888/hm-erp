@@ -1,0 +1,83 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* ir_sequence_autoreset
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-29 14:51+0000\n"
+"PO-Revision-Date: 2022-07-29 22:52+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.1.1\n"
+
+#. module: ir_sequence_autoreset
+#: model:ir.model.fields,field_description:ir_sequence_autoreset.field_ir_sequence__auto_reset
+msgid "Auto Reset"
+msgstr "自動重置"
+
+#. module: ir_sequence_autoreset
+#: model:ir.model.fields.selection,name:ir_sequence_autoreset.selection__ir_sequence__reset_period__day
+msgid "Every Day"
+msgstr "每天"
+
+#. module: ir_sequence_autoreset
+#: model:ir.model.fields.selection,name:ir_sequence_autoreset.selection__ir_sequence__reset_period__h24
+msgid "Every Hour"
+msgstr "每隔一小時"
+
+#. module: ir_sequence_autoreset
+#: model:ir.model.fields.selection,name:ir_sequence_autoreset.selection__ir_sequence__reset_period__min
+msgid "Every Minute"
+msgstr "每分鐘"
+
+#. module: ir_sequence_autoreset
+#: model:ir.model.fields.selection,name:ir_sequence_autoreset.selection__ir_sequence__reset_period__month
+msgid "Every Month"
+msgstr "每個月"
+
+#. module: ir_sequence_autoreset
+#: model:ir.model.fields.selection,name:ir_sequence_autoreset.selection__ir_sequence__reset_period__sec
+msgid "Every Second"
+msgstr "每一秒"
+
+#. module: ir_sequence_autoreset
+#: model:ir.model.fields.selection,name:ir_sequence_autoreset.selection__ir_sequence__reset_period__year
+msgid "Every Year"
+msgstr "每年"
+
+#. module: ir_sequence_autoreset
+#: model:ir.model.fields,field_description:ir_sequence_autoreset.field_ir_sequence__reset_time
+msgid "Last reset time"
+msgstr "上次重置時間"
+
+#. module: ir_sequence_autoreset
+#: model:ir.model.fields,help:ir_sequence_autoreset.field_ir_sequence__reset_time
+msgid "Last time the sequence was reset"
+msgstr "上次重置序列的時間"
+
+#. module: ir_sequence_autoreset
+#: model:ir.model.fields,field_description:ir_sequence_autoreset.field_ir_sequence__reset_init_number
+msgid "Reset Number"
+msgstr "重置號碼"
+
+#. module: ir_sequence_autoreset
+#: model:ir.model.fields,field_description:ir_sequence_autoreset.field_ir_sequence__reset_period
+msgid "Reset Period"
+msgstr "重置期"
+
+#. module: ir_sequence_autoreset
+#: model:ir.model.fields,help:ir_sequence_autoreset.field_ir_sequence__reset_init_number
+msgid "Reset number of this sequence"
+msgstr "此序列的重置編號"
+
+#. module: ir_sequence_autoreset
+#: model:ir.model,name:ir_sequence_autoreset.model_ir_sequence
+msgid "Sequence"
+msgstr "序號"

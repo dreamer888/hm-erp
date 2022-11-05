@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates>
+   <t t-name="web_stock_query.stock_query">
+       <li class="my_icon" >
+            <ul class="nav navbar-nav navbar-right nav-stock-query">
+                <li>
+                    <input type="text" class="o_searchview_input" placeholder="F8 库存查询"/>
+                    <a class="query"></a>
+                    <a class="destroy"></a>
+                    <div class="stock-query-search-list"/>
+                </li>
+            </ul>
+       </li>
+   </t>
+   <t t-name='web_stock_query.search_list'>
+        <ul >
+            <li class='search-to-stock' t-foreach='values' t-as='goods' t-attf-class='{{ goods_first and "select" or ""}}' t-att-data-id='goods.id' >
+                <t t-esc='goods.name' />
+            </li>
+
+	    <li class='search-list-more'>查看全部库存余额</li>
+            <li class='search-to-form' t-foreach='values' t-as='goods' t-attf-class='{{ goods_first and "select" or ""}}' t-att-data-id='goods.id' >
+		    <span>商品:</span> <t t-esc='goods.name' />
+            </li>
+        </ul>
+    </t>
+</templates>

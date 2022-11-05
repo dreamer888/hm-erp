@@ -1,0 +1,263 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* buy_arrival_notice
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-22 06:45+0000\n"
+"PO-Revision-Date: 2022-07-22 14:45+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.1.1\n"
+
+#. module: buy_arrival_notice
+#: model:ir.model.fields,field_description:buy_arrival_notice.field_arrival_notice__create_uid
+#: model:ir.model.fields,field_description:buy_arrival_notice.field_arrival_notice_line__create_uid
+msgid "Created by"
+msgstr "建立者"
+
+#. module: buy_arrival_notice
+#: model:ir.model.fields,field_description:buy_arrival_notice.field_arrival_notice__create_date
+#: model:ir.model.fields,field_description:buy_arrival_notice.field_arrival_notice_line__create_date
+msgid "Created on"
+msgstr "建立於"
+
+#. module: buy_arrival_notice
+#: model:ir.model.fields,field_description:buy_arrival_notice.field_arrival_notice__display_name
+#: model:ir.model.fields,field_description:buy_arrival_notice.field_arrival_notice_line__display_name
+msgid "Display Name"
+msgstr "完全顯示名稱"
+
+#. module: buy_arrival_notice
+#: model:ir.model.fields,field_description:buy_arrival_notice.field_arrival_notice__id
+#: model:ir.model.fields,field_description:buy_arrival_notice.field_arrival_notice_line__id
+msgid "ID"
+msgstr "ID"
+
+#. module: buy_arrival_notice
+#: model:ir.model.fields,field_description:buy_arrival_notice.field_arrival_notice____last_update
+#: model:ir.model.fields,field_description:buy_arrival_notice.field_arrival_notice_line____last_update
+msgid "Last Modified on"
+msgstr "Last Modified on"
+
+#. module: buy_arrival_notice
+#: model:ir.model.fields,field_description:buy_arrival_notice.field_arrival_notice__write_uid
+#: model:ir.model.fields,field_description:buy_arrival_notice.field_arrival_notice_line__write_uid
+msgid "Last Updated by"
+msgstr "Last Updated by"
+
+#. module: buy_arrival_notice
+#: model:ir.model.fields,field_description:buy_arrival_notice.field_arrival_notice__write_date
+#: model:ir.model.fields,field_description:buy_arrival_notice.field_arrival_notice_line__write_date
+msgid "Last Updated on"
+msgstr "Last Updated on"
+
+#. module: buy_arrival_notice
+#: model_terms:ir.ui.view,arch_db:buy_arrival_notice.view_arrival_notice_form
+msgid "notice"
+msgstr "notice"
+
+#. module: buy_arrival_notice
+#: model_terms:ir.ui.view,arch_db:buy_arrival_notice.view_arrival_notice_filter
+msgid "上月数据"
+msgstr "上月數據"
+
+#. module: buy_arrival_notice
+#: model_terms:ir.ui.view,arch_db:buy_arrival_notice.view_arrival_notice_filter
+msgid "今日数据"
+msgstr "今日數據"
+
+#. module: buy_arrival_notice
+#: model_terms:ir.ui.view,arch_db:buy_arrival_notice.view_arrival_notice_form
+msgid "作废"
+msgstr "作廢"
+
+#. module: buy_arrival_notice
+#: model:ir.model.fields,field_description:buy_arrival_notice.field_arrival_notice__vendor_id
+#: model:ir.model.fields,help:buy_arrival_notice.field_arrival_notice__vendor_id
+#: model_terms:ir.ui.view,arch_db:buy_arrival_notice.view_arrival_notice_filter
+msgid "供应商"
+msgstr "供應商"
+
+#. module: buy_arrival_notice
+#: model_terms:ir.ui.view,arch_db:buy_arrival_notice.view_arrival_notice_filter
+msgid "分组"
+msgstr "分組"
+
+#. module: buy_arrival_notice
+#: model_terms:ir.actions.act_window,help:buy_arrival_notice.action_arrival_notice
+#: model:ir.actions.act_window,name:buy_arrival_notice.action_arrival_notice
+#: model:ir.model,name:buy_arrival_notice.model_arrival_notice
+#: model:ir.ui.menu,name:buy_arrival_notice.arrival_notice
+msgid "到货通知单"
+msgstr "到貨通知單"
+
+#. module: buy_arrival_notice
+#: model:ir.model.fields,help:buy_arrival_notice.field_arrival_notice__state
+msgid "到货通知单的确认状态"
+msgstr "到貨通知單的確認狀態"
+
+#. module: buy_arrival_notice
+#: model_terms:ir.ui.view,arch_db:buy_arrival_notice.view_arrival_notice_form
+msgid "到货通知单行"
+msgstr "到貨通知單行"
+
+#. module: buy_arrival_notice
+#: model:ir.model,name:buy_arrival_notice.model_arrival_notice_line
+msgid "到货通知行"
+msgstr "到貨通知行"
+
+#. module: buy_arrival_notice
+#: model:ir.model.fields,field_description:buy_arrival_notice.field_arrival_notice__date
+#: model_terms:ir.ui.view,arch_db:buy_arrival_notice.view_arrival_notice_filter
+msgid "单据日期"
+msgstr "單據日期"
+
+#. module: buy_arrival_notice
+#: model:ir.model.fields,help:buy_arrival_notice.field_arrival_notice__date
+msgid "单据日期，默认当天"
+msgstr "單據日期，默認當天"
+
+#. module: buy_arrival_notice
+#: model:ir.model.fields,field_description:buy_arrival_notice.field_arrival_notice_line__goods_id
+#: model:ir.model.fields,help:buy_arrival_notice.field_arrival_notice_line__goods_id
+msgid "商品"
+msgstr "商品"
+
+#. module: buy_arrival_notice
+#: model:ir.model.fields,field_description:buy_arrival_notice.field_arrival_notice_line__qty
+msgid "商品数量"
+msgstr "商品數量"
+
+#. module: buy_arrival_notice
+#: model:ir.model.fields,help:buy_arrival_notice.field_arrival_notice_line__attribute_id
+msgid "商品的属性，当商品有属性时，该字段必输"
+msgstr "商品的屬性，當商品有屬性時，該字段必輸"
+
+#. module: buy_arrival_notice
+#: model:ir.model.fields,help:buy_arrival_notice.field_arrival_notice_line__buy_line_id
+msgid "对应的采购订单行"
+msgstr "對應的採購訂單行"
+
+#. module: buy_arrival_notice
+#: model:ir.model.fields,field_description:buy_arrival_notice.field_arrival_notice_line__attribute_id
+msgid "属性"
+msgstr "屬性"
+
+#. module: buy_arrival_notice
+#: model:ir.model.fields.selection,name:buy_arrival_notice.selection__arrival_notice__state__cancel
+msgid "已作废"
+msgstr "已作廢"
+
+#. module: buy_arrival_notice
+#: model:ir.model.fields.selection,name:buy_arrival_notice.selection__arrival_notice__state__in
+msgid "已入库"
+msgstr "已入庫"
+
+#. module: buy_arrival_notice
+#: model:ir.model.fields.selection,name:buy_arrival_notice.selection__arrival_notice__state__done
+#: model_terms:ir.ui.view,arch_db:buy_arrival_notice.view_arrival_notice_filter
+msgid "已确认"
+msgstr "已確認"
+
+#. module: buy_arrival_notice
+#: model:ir.model.fields,field_description:buy_arrival_notice.field_buy_receipt__noticed
+#: model:ir.model.fields,field_description:buy_arrival_notice.field_outsource__noticed
+#: model:ir.model.fields,field_description:buy_arrival_notice.field_sell_delivery__noticed
+#: model:ir.model.fields,field_description:buy_arrival_notice.field_wh_assembly__noticed
+#: model:ir.model.fields,field_description:buy_arrival_notice.field_wh_disassembly__noticed
+#: model:ir.model.fields,field_description:buy_arrival_notice.field_wh_in__noticed
+#: model:ir.model.fields,field_description:buy_arrival_notice.field_wh_internal__noticed
+#: model:ir.model.fields,field_description:buy_arrival_notice.field_wh_move__noticed
+#: model:ir.model.fields,field_description:buy_arrival_notice.field_wh_out__noticed
+#: model_terms:ir.ui.view,arch_db:buy_arrival_notice.view_sell_delivery_search
+msgid "已通知"
+msgstr "已通知"
+
+#. module: buy_arrival_notice
+#: model:ir.model.fields,field_description:buy_arrival_notice.field_arrival_notice__express_code
+#: model:ir.model.fields,help:buy_arrival_notice.field_arrival_notice__express_code
+#: model_terms:ir.ui.view,arch_db:buy_arrival_notice.view_arrival_notice_filter
+msgid "快递单号"
+msgstr "快遞單號"
+
+#. module: buy_arrival_notice
+#: model_terms:ir.ui.view,arch_db:buy_arrival_notice.view_arrival_notice_filter
+msgid "所有单据"
+msgstr "所有單據"
+
+#. module: buy_arrival_notice
+#: model:ir.model.fields,field_description:buy_arrival_notice.field_arrival_notice__express_type
+#: model:ir.model.fields,help:buy_arrival_notice.field_arrival_notice__express_type
+#: model_terms:ir.ui.view,arch_db:buy_arrival_notice.view_arrival_notice_filter
+msgid "承运商"
+msgstr "承運商"
+
+#. module: buy_arrival_notice
+#: model_terms:ir.ui.view,arch_db:buy_arrival_notice.view_arrival_notice_form
+msgid "撤销"
+msgstr "撤銷"
+
+#. module: buy_arrival_notice
+#: model_terms:ir.ui.view,arch_db:buy_arrival_notice.view_arrival_notice_filter
+msgid "本年数据"
+msgstr "本年數據"
+
+#. module: buy_arrival_notice
+#: model_terms:ir.ui.view,arch_db:buy_arrival_notice.view_arrival_notice_filter
+msgid "本月数据"
+msgstr "本月數據"
+
+#. module: buy_arrival_notice
+#: model:ir.model,name:buy_arrival_notice.model_wh_move_line
+msgid "生产退料明细"
+msgstr "生產退料明細"
+
+#. module: buy_arrival_notice
+#: model_terms:ir.ui.view,arch_db:buy_arrival_notice.view_arrival_notice_form
+msgid "确认"
+msgstr "確認"
+
+#. module: buy_arrival_notice
+#: model:ir.model.fields,field_description:buy_arrival_notice.field_arrival_notice__state
+#: model_terms:ir.ui.view,arch_db:buy_arrival_notice.view_arrival_notice_filter
+msgid "确认状态"
+msgstr "確認狀態"
+
+#. module: buy_arrival_notice
+#: model:ir.model,name:buy_arrival_notice.model_wh_move
+msgid "移库单"
+msgstr "移庫單"
+
+#. module: buy_arrival_notice
+#: model:ir.model.fields.selection,name:buy_arrival_notice.selection__arrival_notice__state__draft
+msgid "草稿"
+msgstr "草稿"
+
+#. module: buy_arrival_notice
+#: model:ir.model.fields,field_description:buy_arrival_notice.field_arrival_notice__line_ids
+#: model:ir.model.fields,field_description:buy_arrival_notice.field_wh_move_line__notice_line_id
+msgid "通知单行"
+msgstr "通知單行"
+
+#. module: buy_arrival_notice
+#: model:ir.model.fields,field_description:buy_arrival_notice.field_arrival_notice_line__notice_id
+msgid "通知号"
+msgstr "通知號"
+
+#. module: buy_arrival_notice
+#: model:ir.model.fields,field_description:buy_arrival_notice.field_arrival_notice_line__buy_line_id
+msgid "采购单行"
+msgstr "採購單行"
+
+#. module: buy_arrival_notice
+#: model:ir.model,name:buy_arrival_notice.model_buy_order_line
+msgid "采购订单明细"
+msgstr "採購訂單明細"

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="mrp_workcenter_tree" model="ir.ui.view">
+        <field name="name">工作中心</field>
+        <field name="model">mrp.workcenter</field>
+        <field name="arch" type="xml">
+            <tree string="工作中心" editable="botton">
+                <field name="code" opationl="show"/>
+                <field name="name" opationl="show"/>
+                <field name="department_id" opationl="show"/>
+                <field name="remark" opationl="show"/>
+            </tree>
+        </field>
+    </record>
+    <!--工作中心 action-->
+    <record id="mrp_workcenter_action" model="ir.actions.act_window">
+        <field name="name">工作中心</field>
+        <field name="res_model">mrp.workcenter</field>
+        <field name="view_mode">tree</field>
+        <field name="view_id" ref='mrp_workcenter_tree'/>
+        <field name="help" type="html">
+           <p class="oe_view_nocontent_create">
+           </p>
+         </field>
+    </record>
+</odoo>

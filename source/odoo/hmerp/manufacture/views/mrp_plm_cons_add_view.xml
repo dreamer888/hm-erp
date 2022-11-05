@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="mrp_plm_cons_add_tree" model="ir.ui.view">
+        <field name="name">mrp.plm.tree</field>
+        <field name="model">mrp.plm.cons.add</field>
+        <field name="arch" type="xml">
+            <tree string='生产补料' decoration-info='state == "draft"' decoration-muted= 'state == "cancel"' >
+                <field name='name'  optional="show"/>
+                <field name='date'  optional="show"/>
+                <field name='department_id' optional="show"/>
+                <field name='user_id' optional="show"/>
+                <field name='remark' optional="show"/>
+                <field name='state' optional="show"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id='mrp_plm_cons_add_form' model='ir.ui.view'>
+        <field name='name'>mrp.plm.cons.add.form</field>
+        <field name='model'>mrp.plm.cons.add</field>
+        <field name='arch' type='xml'>
+            <form string='生产补料' class="o_sale_order">
+                <header>
+                    <button name='button_done' states='draft' string='确认' type='object' class='oe_highlight'/>
+                    <button name="button_draft" states="done" string="撤销" type="object"/>
+                    <field name='state' widget='statusbar' statusbar_visible="draft,done"/>
+                </header>
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button type="object" name="action_view_plm_cons" class="oe_stat_button" icon="fa-truck"
+                                attrs="{'invisible':['|', ('state', 'in', ('draft')), ('plm_cons_count', '=', 0)]}">
+                            <field name="plm_cons_count" widget="statinfo" string="领料" help=""/>
+							<field name="plm_cons_ids" invisible="1"/>
+                        </button>
+                    </div>
+                    <group>
+                        <group>
+                            <field name='date' optional="show"/>
+					        <field name='user_id'  optional="show"/>
+                        </group>
+                        <group>
+                            <field name='department_id' optional="show"/>
+                        </group>
+                    </group>
+                    <group>
+                        <field name='remark' optional="show"/>
+                    </group>
+                    <notebook>
+                        <page name="lines" string="补料明细">
+                            <field name='line_ids'>
+                                <tree string='补料明细' editable='bottom'>
+                                    <field name='goods_id'  optional="show"/>
+                                    <field name='uom_id' optional="show"/>
+                                    <field name='qty' sum='数量合计' optional="show"/>
+                                    <field name='warehouse_id' optional="show"/>
+                                    <field name='remark' optional="show"/>
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id='mrp_plm_cons_add_action' model='ir.actions.act_window'>
+        <field name='name'>生产补料</field>
+        <field name='res_model'>mrp.plm.cons.add</field>
+
+        <field name='view_mode'>tree,form</field>
+        <field name='view_id' ref='mrp_plm_cons_add_tree'/>
+        <field name="help" type="html">
+           <p class="oe_view_nocontent_create">
+
+           </p>
+         </field>
+    </record>
+</odoo>

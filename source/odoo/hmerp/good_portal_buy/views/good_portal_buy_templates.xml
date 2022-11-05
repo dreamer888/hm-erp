@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!--显示 应付账款余额 -->
+    <template id="buy_layout" name="good_portal_buy_layout"
+        customize_show="True" inherit_id="portal.portal_layout">
+        <xpath expr="//h4" position="after">
+            <t t-if="user_id.partner_address_id.partner_id.payable">
+                <p>应付余额：
+                <span t-field="user_id.partner_address_id.partner_id.payable"/>
+                </p>
+            </t>
+        </xpath>
+    </template>
+    
+    <template id="portal_my_home_buy" name="Portal My Home : Buy Orders" inherit_id="portal.portal_my_home" priority="26">
+        <xpath expr="//div[hasclass('o_portal_docs')]" position="inside">
+            <t t-if="buy_order_count" t-call="portal.portal_docs_entry">
+                <t t-set="title">采购订单</t>
+                <t t-set="url" t-value="'/my/buy/orders'"/>
+                <t t-set="count" t-value="buy_order_count"/>
+            </t>
+            <t t-if="todo_in" t-call="portal.portal_docs_entry">
+                <t t-set="title">供应商欠交数量</t>
+                <t t-set="url" t-value="'/my/buy/order/lines'"/>
+                <t t-set="count" t-value="todo_in"/>
+            </t>
+        </xpath>
+    </template>
+
+    <template id="portal_my_buy_orders" name="My Buy Orders">
+      <t t-call="portal.portal_layout">
+        <h3 class="page-header">采购订单</h3>
+        <t t-if="not orders">
+            <p>没有订单</p>
+        </t>
+        <t t-if="orders">
+            <table class="table table-hover o_my_status_table">
+                <thead>
+                    <tr class="active">
+                        <th width="15%">采购订单 #</th>
+                        <th width="20%">订单日期</th>
+                        <th width="10%"></th>
+                        <th width="15%">发货状态</th>
+                        <th width="20%">已收金额</th>
+                        <th width="20%">金额</th>
+                    </tr>
+                </thead>
+                <t t-foreach="orders" t-as="order">
+                    <tr>
+                        <td>
+                            <a t-attf-href="/my/buy/orders/{{order.id}}?{{keep_query()}}"><t t-esc="order.name"/></a>
+                        </td>
+                        <td><span t-field="order.date"/></td>
+                        <td>
+                            <t t-if="order.state == 'draft'">
+                                <span class="label label-info"><i class="fa fa-fw fa-clock-o"/> 未审核 </span>
+                            </t>
+                            <t t-if="order.state == 'done'">
+                                <span class="label label-danger"><i class="fa fa-fw fa-warning"/> 已审核 </span>
+                            </t>
+                        </td>
+                        <td><span t-field="order.goods_state"/></td>
+                        <td><span t-field="order.paid_amount" t-options='{"widget": "monetary", "display_currency": order.currency_id or order.company_id.currency_id}'/></td>
+                        <td><span t-field="order.amount" t-options='{"widget": "monetary", "display_currency": order.currency_id or order.company_id.currency_id}'/></td>
+                    </tr>
+                </t>
+            </table>
+        </t>
+      </t>
+    </template>
+
+    <template id="buy_orders_followup" name="Buy Order">
+      <t t-call="website.layout">
+        <div id="wrap">
+            <div class="container">
+              <div class="oe_structure">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <ol class="breadcrumb mt8">
+                            <li><a href="/my/home"><i class="fa fa-home"/>供应商首页 > </a></li>
+                            <li>
+                              <a t-attf-href="/my/buy/#{'orders'}?{{ keep_query()}}">采购订单 > 
+                              </a>
+                            </li>
+                            <li>订单
+                              <t t-esc="order.name"/>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+              </div>
+              <div id="optional_placeholder"></div>
+              <div class="container">
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <h4>订单
+                            <span t-esc="order.name"/>
+                          </h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel-body">
+                      <div>
+                        <div class='mb8'>
+                            <strong>创建日期：</strong>
+                            <span t-field="order.date" t-options='{"widget": "date"}'/>
+                        </div>
+                        <div class='mb8'>
+                            <strong>要求交货日期：</strong>
+                            <span t-field="order.planned_date" t-options='{"widget": "date"}'/>
+                        </div>
+                        <div class='mb8'>
+                            <strong>地址：</strong>
+                            <span t-field="order.warehouse_dest_id.address" />
+                        </div>
+                        <div class='mb8'>
+                            <strong>联系人：</strong>
+                            <span t-field="order.warehouse_dest_id.contact"/>
+                        </div>
+                        <div class='mb8'>
+                            <strong>联系电话：</strong>
+                            <span t-field="order.warehouse_dest_id.phone"/>
+                        </div>
+                      </div>
+                      <hr/>
+                      <div class="row">
+                        <div class="col-md-4">
+                          <strong>商品</strong>
+                        </div>
+                        <div class="col-md-2 text-right">
+                          <strong>单价</strong>
+                        </div>
+                        <div class="col-md-2 text-right">
+                          <strong>数量</strong>
+                        </div>
+                        <div class="col-md-2 text-right">
+                          <strong>已交货</strong>
+                        </div>
+                        <div class="col-md-2 text-right">
+                          <strong>小计</strong>
+                        </div>
+                      </div>
+                      <t t-foreach="order.line_ids" t-as="ol">
+                        <div class="row orders_vertical_align">
+                            <div id='goods_name' class="col-md-4">
+                                <span t-esc="ol.goods_id.name"/>
+                                <t t-if="ol.attribute_id">
+                                    <span t-esc="ol.attribute_id.name"/>
+                                </t>
+                            </div>
+                            <div class="col-md-2 text-right">
+                              <span t-field="ol.price_taxed" t-options='{"widget": "monetary", "display_currency": order.currency_id or order.company_id.currency_id}'/>
+                            </div>
+                            <div class="col-md-2 text-right">
+                              <span t-esc="ol.quantity"/>
+                            </div>
+                            <div class="col-md-2 text-right">
+                              <span t-esc="ol.quantity_in"/>
+                            </div>
+                            <div class="col-md-2 text-right">
+                              <span t-field="ol.subtotal" t-options='{"widget": "monetary", "display_currency": order.currency_id or order.company_id.currency_id}'/>
+                            </div>
+                        </div>
+                      </t>
+                      <hr/>
+                      <div class="row">
+                        <div class="col-md-6">
+                        </div>
+                        <div class="col-md-5">
+                          <div class="row">
+                            <div class="col-md-10 text-right">
+                              <strong>总计:</strong>
+                            </div>
+                            <div class="col-md-2 text-right">
+                              <strong><span t-field="order.amount" t-options='{"widget": "monetary", "display_currency": order.currency_id or order.company_id.currency_id}'/></strong>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- 添加发送消息div -->
+                    <!-- chatter -->
+                    <div id="buy_order_communication" class="mt-4">
+                        <h2>消息</h2>
+                        <t t-call="portal.message_thread">
+                            <t t-set="object" t-value="order"/>
+                        </t>
+                    </div>
+                  
+                  </div>
+              </div>
+              <div class="oe_structure mb32"/>
+          </div>
+        </div>
+      </t>
+    </template>
+    <template id="portal_my_buy_order_lines" name="My Buy Order Lines">
+      <t t-call="portal.portal_layout">
+		    <div class="col-sm-4">
+                        <ol class="breadcrumb mt8">
+                            <li><a href="/my/home"><i class="fa fa-home"/>供应商首页 > </a></li>
+                        </ol>
+                    </div>
+        <h3 class="page-header">供应商欠交商品</h3>
+        <t t-if="not todo_lines">
+            <p>没有欠交商品</p>
+        </t>
+        <t t-if="todo_lines">
+            <table class="table table-hover o_my_status_table">
+                <thead>
+                    <tr class="active">
+                        <th width="40%">商品</th>
+                        <th width="20%">订单数量</th>
+                        <th width="20%">未交数量</th>
+                        <th width="20%">订单交货期</th>
+                    </tr>
+                </thead>
+                <t t-foreach="todo_lines" t-as="l">
+                    <tr>
+                        <td><span t-esc="l[0].name"/><![CDATA[&nbsp;]]><span t-esc="l[1].name"/></td>
+                        <td><span t-esc="l[2]"/></td>
+                        <td><span t-esc="l[3]"/></td>
+                        <td><span t-esc="l[4]" t-options='{"widget": "html"}'/></td>
+                    </tr>
+                </t>
+            </table>
+        </t>
+      </t>
+    </template>
+</odoo>

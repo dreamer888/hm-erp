@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+       <!-- Inherit Form View to Modify it -->
+       <record id="partner_purchase_fax_form_inherit_view" model="ir.ui.view">
+           <field name="name">Partner Purchase Fax</field>
+           <field name="model">partner</field>
+           <field name="inherit_id" ref="core.supplier_address_form"/>
+           <field name="arch" type="xml">
+
+               <xpath expr="//field[@name='main_mobile']" position="after">
+                   <field name="main_fax"/>
+                   <field name="main_mail"/>
+               </xpath>
+
+           </field>
+       </record>
+
+        <record id="partner_customer_fax_form_inherit_view" model="ir.ui.view">
+            <field name="name">Partner Customer Fax</field>
+            <field name="model">partner</field>
+            <field name="inherit_id" ref="core.customer_address_form"/>
+            <field name="arch" type="xml">
+
+                <xpath expr="//field[@name='main_mobile']" position="after">
+                   <field name="main_fax"/>
+                   <field name="main_mail"/>
+               </xpath>
+
+            </field>
+        </record>
+
+    </data>
+</odoo>

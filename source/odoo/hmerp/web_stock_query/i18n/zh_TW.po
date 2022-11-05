@@ -1,0 +1,39 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* web_stock_query
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-01 05:38+0000\n"
+"PO-Revision-Date: 2022-08-01 13:38+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.1.1\n"
+
+#. module: web_stock_query
+#. openerp-web
+#: code:addons/web_stock_query/static/src/xml/query.xml:0
+#, python-format
+msgid "F8 库存查询"
+msgstr "F8 庫存查詢"
+
+#. module: web_stock_query
+#. openerp-web
+#: code:addons/web_stock_query/static/src/xml/query.xml:0
+#, python-format
+msgid "商品:"
+msgstr "商品:"
+
+#. module: web_stock_query
+#. openerp-web
+#: code:addons/web_stock_query/static/src/xml/query.xml:0
+#, python-format
+msgid "查看全部库存余额"
+msgstr "查看全部庫存餘額"

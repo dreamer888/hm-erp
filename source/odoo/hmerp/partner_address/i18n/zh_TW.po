@@ -1,0 +1,258 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* partner_address
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-31 14:26+0000\n"
+"PO-Revision-Date: 2022-07-31 22:26+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.1.1\n"
+
+#. module: partner_address
+#: model:ir.model.fields,field_description:partner_address.field_all_city__create_uid
+#: model:ir.model.fields,field_description:partner_address.field_all_county__create_uid
+#: model:ir.model.fields,field_description:partner_address.field_country__create_uid
+#: model:ir.model.fields,field_description:partner_address.field_country_state__create_uid
+#: model:ir.model.fields,field_description:partner_address.field_partner_address__create_uid
+#: model:ir.model.fields,field_description:partner_address.field_state_city_county__create_uid
+msgid "Created by"
+msgstr "建立者"
+
+#. module: partner_address
+#: model:ir.model.fields,field_description:partner_address.field_all_city__create_date
+#: model:ir.model.fields,field_description:partner_address.field_all_county__create_date
+#: model:ir.model.fields,field_description:partner_address.field_country__create_date
+#: model:ir.model.fields,field_description:partner_address.field_country_state__create_date
+#: model:ir.model.fields,field_description:partner_address.field_partner_address__create_date
+#: model:ir.model.fields,field_description:partner_address.field_state_city_county__create_date
+msgid "Created on"
+msgstr "建立於"
+
+#. module: partner_address
+#: model:ir.model.fields,field_description:partner_address.field_all_city__display_name
+#: model:ir.model.fields,field_description:partner_address.field_all_county__display_name
+#: model:ir.model.fields,field_description:partner_address.field_country__display_name
+#: model:ir.model.fields,field_description:partner_address.field_country_state__display_name
+#: model:ir.model.fields,field_description:partner_address.field_partner_address__display_name
+#: model:ir.model.fields,field_description:partner_address.field_state_city_county__display_name
+msgid "Display Name"
+msgstr "完全顯示名稱"
+
+#. module: partner_address
+#: model:ir.model.fields,field_description:partner_address.field_all_city__id
+#: model:ir.model.fields,field_description:partner_address.field_all_county__id
+#: model:ir.model.fields,field_description:partner_address.field_country__id
+#: model:ir.model.fields,field_description:partner_address.field_country_state__id
+#: model:ir.model.fields,field_description:partner_address.field_partner_address__id
+#: model:ir.model.fields,field_description:partner_address.field_state_city_county__id
+msgid "ID"
+msgstr "ID"
+
+#. module: partner_address
+#: model:ir.model.fields,field_description:partner_address.field_all_city____last_update
+#: model:ir.model.fields,field_description:partner_address.field_all_county____last_update
+#: model:ir.model.fields,field_description:partner_address.field_country____last_update
+#: model:ir.model.fields,field_description:partner_address.field_country_state____last_update
+#: model:ir.model.fields,field_description:partner_address.field_partner_address____last_update
+#: model:ir.model.fields,field_description:partner_address.field_state_city_county____last_update
+msgid "Last Modified on"
+msgstr "最後修改時間"
+
+#. module: partner_address
+#: model:ir.model.fields,field_description:partner_address.field_all_city__write_uid
+#: model:ir.model.fields,field_description:partner_address.field_all_county__write_uid
+#: model:ir.model.fields,field_description:partner_address.field_country__write_uid
+#: model:ir.model.fields,field_description:partner_address.field_country_state__write_uid
+#: model:ir.model.fields,field_description:partner_address.field_partner_address__write_uid
+#: model:ir.model.fields,field_description:partner_address.field_state_city_county__write_uid
+msgid "Last Updated by"
+msgstr "最後更新者"
+
+#. module: partner_address
+#: model:ir.model.fields,field_description:partner_address.field_all_city__write_date
+#: model:ir.model.fields,field_description:partner_address.field_all_county__write_date
+#: model:ir.model.fields,field_description:partner_address.field_country__write_date
+#: model:ir.model.fields,field_description:partner_address.field_country_state__write_date
+#: model:ir.model.fields,field_description:partner_address.field_partner_address__write_date
+#: model:ir.model.fields,field_description:partner_address.field_state_city_county__write_date
+msgid "Last Updated on"
+msgstr "最後更新時間"
+
+#. module: partner_address
+#: model:ir.model.fields,field_description:partner_address.field_partner__qq
+#: model:ir.model.fields,field_description:partner_address.field_partner_address__qq
+msgid "QQ"
+msgstr "QQ"
+
+#. module: partner_address
+#: model:ir.model.fields,field_description:partner_address.field_partner_address__supervisor_id
+msgid "上级"
+msgstr "上級"
+
+#. module: partner_address
+#: model:ir.model.fields,field_description:partner_address.field_all_city__country_ids
+msgid "下辖县/市"
+msgstr "下轄縣/市"
+
+#. module: partner_address
+#: model:ir.model.fields,field_description:partner_address.field_country_state__city_ids
+msgid "下辖市/区"
+msgstr "下轄市/區"
+
+#. module: partner_address
+#: model:ir.model,name:partner_address.model_partner
+#: model:ir.model.fields,field_description:partner_address.field_partner_address__partner_id
+msgid "业务伙伴"
+msgstr "業務夥伴"
+
+#. module: partner_address
+#: model:ir.model.fields,field_description:partner_address.field_partner__child_ids
+msgid "业务伙伴地址"
+msgstr "業務夥伴地址"
+
+#. module: partner_address
+#: model:ir.model.fields,field_description:partner_address.field_partner_address__town
+msgid "乡镇"
+msgstr "鄉鎮"
+
+#. module: partner_address
+#: model:ir.model.fields,field_description:partner_address.field_all_city__company_id
+#: model:ir.model.fields,field_description:partner_address.field_all_county__company_id
+#: model:ir.model.fields,field_description:partner_address.field_country__company_id
+#: model:ir.model.fields,field_description:partner_address.field_country_state__company_id
+#: model:ir.model.fields,field_description:partner_address.field_partner_address__company_id
+#: model:ir.model.fields,field_description:partner_address.field_state_city_county__company_id
+msgid "公司"
+msgstr "公司"
+
+#. module: partner_address
+#: model:ir.model.fields,field_description:partner_address.field_partner_address__county_id
+#: model:ir.model.fields,field_description:partner_address.field_state_city_county__county_id
+msgid "区县"
+msgstr "區縣"
+
+#. module: partner_address
+#: model:ir.model,name:partner_address.model_all_county
+msgid "县/市/区"
+msgstr "縣/市/區"
+
+#. module: partner_address
+#: model:ir.model.fields,field_description:partner_address.field_all_city__city_name
+#: model:ir.model.fields,field_description:partner_address.field_all_county__county_name
+#: model:ir.model.fields,field_description:partner_address.field_country_state__name
+msgid "名称"
+msgstr "名稱"
+
+#. module: partner_address
+#: model:ir.model,name:partner_address.model_country
+#: model:ir.model.fields,field_description:partner_address.field_country_state__country_id
+msgid "国家"
+msgstr "國家"
+
+#. module: partner_address
+#: model:ir.model.fields,field_description:partner_address.field_country__name
+msgid "国家名"
+msgstr "國家名"
+
+#. module: partner_address
+#: model:ir.model,name:partner_address.model_all_city
+#: model:ir.model.fields,field_description:partner_address.field_all_county__city_id
+msgid "地级市"
+msgstr "地級市"
+
+#. module: partner_address
+#: model:ir.model.fields,field_description:partner_address.field_partner_address__note
+msgid "备注"
+msgstr "備註"
+
+#. module: partner_address
+#: model:ir.model.fields,field_description:partner_address.field_partner_address__gone
+#: model_terms:ir.ui.view,arch_db:partner_address.customer_address_form_inherit
+#: model_terms:ir.ui.view,arch_db:partner_address.supplier_address_form_inherit
+msgid "已离职"
+msgstr "已離職"
+
+#. module: partner_address
+#: model:ir.model.fields,field_description:partner_address.field_partner__phone
+#: model:ir.model.fields,field_description:partner_address.field_partner_address__phone
+msgid "座机"
+msgstr "座機"
+
+#. module: partner_address
+#: model:ir.model.fields,field_description:partner_address.field_partner__mobile
+#: model:ir.model.fields,field_description:partner_address.field_partner_address__mobile
+msgid "手机"
+msgstr "手機"
+
+#. module: partner_address
+#: model:ir.model.fields,field_description:partner_address.field_all_county__description
+msgid "描述"
+msgstr "描述"
+
+#. module: partner_address
+#: model:ir.model,name:partner_address.model_country_state
+#: model:ir.model.fields,field_description:partner_address.field_all_city__province_id
+msgid "省/直辖市/自治区"
+msgstr "省/直轄市/自治區"
+
+#. module: partner_address
+#: model:ir.model.fields,field_description:partner_address.field_country_state__code
+msgid "编号"
+msgstr "編號"
+
+#. module: partner_address
+#: model:ir.model.fields,field_description:partner_address.field_partner_address__job
+msgid "职务"
+msgstr "職務"
+
+#. module: partner_address
+#: model:ir.model.fields,field_description:partner_address.field_partner__contact
+#: model:ir.model.fields,field_description:partner_address.field_partner_address__contact
+#: model_terms:ir.ui.view,arch_db:partner_address.customer_address_form_inherit
+#: model_terms:ir.ui.view,arch_db:partner_address.supplier_address_form_inherit
+msgid "联系人"
+msgstr "聯系人"
+
+#. module: partner_address
+#: model:ir.model,name:partner_address.model_partner_address
+msgid "联系人地址"
+msgstr "聯絡人地址"
+
+#. module: partner_address
+#: model:ir.model.fields,field_description:partner_address.field_partner_address__address_func
+msgid "联系人类型"
+msgstr "聯絡人類型"
+
+#. module: partner_address
+#: model:ir.model.fields,field_description:partner_address.field_partner_address__detail_address
+msgid "详细地址"
+msgstr "詳細地址"
+
+#. module: partner_address
+#: model:ir.model.fields,field_description:partner_address.field_partner__address
+msgid "送货地址"
+msgstr "送貨地址"
+
+#. module: partner_address
+#: model:ir.model.fields,field_description:partner_address.field_partner_address__email
+msgid "邮箱"
+msgstr "郵件"
+
+#. module: partner_address
+#: model:ir.model.fields,field_description:partner_address.field_partner_address__department
+msgid "部门"
+msgstr "部門"
+
+#. module: partner_address
+#: model:ir.model.fields,field_description:partner_address.field_partner_address__is_default_add
+msgid "默认收货人"
+msgstr "預設收貨人"

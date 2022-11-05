@@ -1,0 +1,472 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* good_workflow
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-29 14:41+0000\n"
+"PO-Revision-Date: 2022-07-29 22:43+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.1.1\n"
+
+#. module: good_workflow
+#: model:ir.model.fields.selection,name:good_workflow.selection__workflow_node__join_mode__and
+#: model:ir.model.fields.selection,name:good_workflow.selection__workflow_node__split_mode__and
+msgid "And"
+msgstr "And"
+
+#. module: good_workflow
+#: model_terms:ir.ui.view,arch_db:good_workflow.wizard_workflow_message_form
+msgid "Apply"
+msgstr "Apply"
+
+#. module: good_workflow
+#: model_terms:ir.ui.view,arch_db:good_workflow.wizard_workflow_message_form
+msgid "Cancel"
+msgstr "Cancel"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_good_workflow__create_uid
+#: model:ir.model.fields,field_description:good_workflow.field_log_workflow_trans__create_uid
+#: model:ir.model.fields,field_description:good_workflow.field_wizard_workflow_message__create_uid
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_node__create_uid
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_trans__create_uid
+msgid "Created by"
+msgstr "建立者"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_good_workflow__create_date
+#: model:ir.model.fields,field_description:good_workflow.field_log_workflow_trans__create_date
+#: model:ir.model.fields,field_description:good_workflow.field_wizard_workflow_message__create_date
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_node__create_date
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_trans__create_date
+msgid "Created on"
+msgstr "建立於"
+
+#. module: good_workflow
+#: model_terms:ir.ui.view,arch_db:good_workflow.view_workflow_base_diagram
+msgid "Custom WorkFollow"
+msgstr "Custom WorkFollow"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_good_workflow__display_name
+#: model:ir.model.fields,field_description:good_workflow.field_log_workflow_trans__display_name
+#: model:ir.model.fields,field_description:good_workflow.field_wizard_workflow_message__display_name
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_node__display_name
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_trans__display_name
+msgid "Display Name"
+msgstr "完全顯示名稱"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_good_workflow__id
+#: model:ir.model.fields,field_description:good_workflow.field_log_workflow_trans__id
+#: model:ir.model.fields,field_description:good_workflow.field_wizard_workflow_message__id
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_node__id
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_trans__id
+msgid "ID"
+msgstr "ID"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_good_workflow____last_update
+#: model:ir.model.fields,field_description:good_workflow.field_log_workflow_trans____last_update
+#: model:ir.model.fields,field_description:good_workflow.field_wizard_workflow_message____last_update
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_node____last_update
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_trans____last_update
+msgid "Last Modified on"
+msgstr "最後修改時間"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_good_workflow__write_uid
+#: model:ir.model.fields,field_description:good_workflow.field_log_workflow_trans__write_uid
+#: model:ir.model.fields,field_description:good_workflow.field_wizard_workflow_message__write_uid
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_node__write_uid
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_trans__write_uid
+msgid "Last Updated by"
+msgstr "最後更新者"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_good_workflow__write_date
+#: model:ir.model.fields,field_description:good_workflow.field_log_workflow_trans__write_date
+#: model:ir.model.fields,field_description:good_workflow.field_wizard_workflow_message__write_date
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_node__write_date
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_trans__write_date
+msgid "Last Updated on"
+msgstr "最後更新時間"
+
+#. module: good_workflow
+#: model_terms:ir.ui.view,arch_db:good_workflow.wizard_workflow_message_form
+msgid "Note"
+msgstr "Note"
+
+#. module: good_workflow
+#: model:ir.model.fields,help:good_workflow.field_workflow_node__join_mode
+msgid ""
+"OR:anyone input Transfers approved, will arrived this node.  AND:must all "
+"input Transfers approved, will arrived this node"
+msgstr ""
+"OR:anyone input Transfers approved, will arrived this node.  AND:must all "
+"input Transfers approved, will arrived this node"
+
+#. module: good_workflow
+#: model:ir.model.fields.selection,name:good_workflow.selection__workflow_node__join_mode__or
+#: model:ir.model.fields.selection,name:good_workflow.selection__workflow_node__split_mode__or
+msgid "Or"
+msgstr "Or"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_trans__xml_groups
+msgid "XML Groups"
+msgstr "XML Groups"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_log_workflow_trans__res_id
+msgid "id"
+msgstr "id"
+
+#. module: good_workflow
+#: model:ir.actions.act_window,name:good_workflow.wizard_workflow_message_action
+msgid "wk.wizard.message"
+msgstr "wk.wizard.message"
+
+#. module: good_workflow
+#: model:ir.model,name:good_workflow.model_wizard_workflow_message
+msgid "workflow Message"
+msgstr "workflow Message"
+
+#. module: good_workflow
+#: model:ir.model,name:good_workflow.model_log_workflow_trans
+msgid "workflow log"
+msgstr "workflow log"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_node__no_reset
+msgid "不可重置"
+msgstr "不可重置"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_good_workflow__no_reset_states
+msgid "不可重置的状态"
+msgstr "不可重置的狀態"
+
+#. module: good_workflow
+#: model:ir.model.fields,help:good_workflow.field_workflow_trans__name
+msgid "两个节点之间的迁移"
+msgstr "兩個節點之間的遷移"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_trans__node_from
+msgid "从节点"
+msgstr "從節點"
+
+#. module: good_workflow
+#: model_terms:ir.ui.view,arch_db:good_workflow.workflow_form_view
+msgid "停用"
+msgstr "停用"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_good_workflow__allow_reset
+msgid "允许重置工作流"
+msgstr "允許重置工作流"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_node__in_trans
+msgid "入栈迁移"
+msgstr "入棧遷移"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_node__out_trans
+msgid "出栈迁移"
+msgstr "出棧遷移"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_node__event_need
+msgid "创建提醒"
+msgstr "創建提醒"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_trans__node_to
+msgid "到节点"
+msgstr "到節點"
+
+#. module: good_workflow
+#: model:ir.model.fields,help:good_workflow.field_workflow_node__show_state
+msgid "勾选了才会在单据上作为审批状态显示"
+msgstr "勾選了才會在單據上作為審批狀態顯示"
+
+#. module: good_workflow
+#: model:ir.model.fields,help:good_workflow.field_workflow_node__no_reset
+msgid "勾选了才能在这个节点看到重置按钮"
+msgstr "勾選了才能在這個節點看到重置按鈕"
+
+#. module: good_workflow
+#: model:ir.model.fields,help:good_workflow.field_workflow_trans__user_ids
+msgid "可以执行此迁移的用户"
+msgstr "可以執行此遷移的用戶"
+
+#. module: good_workflow
+#: model:ir.model.fields,help:good_workflow.field_workflow_trans__group_ids
+msgid "可以执行此迁移的用户组"
+msgstr "可以執行此遷移的用戶組"
+
+#. module: good_workflow
+#: model:ir.model.fields,help:good_workflow.field_workflow_node__action
+msgid "可在到达此节点时执行当前模型的一个方法"
+msgstr "可在到達此節點時執行當前模型的一個方法"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_trans__is_backward
+msgid "可重复迁移"
+msgstr "可重複遷移"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_good_workflow__name
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_node__name
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_trans__name
+msgid "名称"
+msgstr "名稱"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_good_workflow__active
+#: model:ir.model.fields,field_description:good_workflow.field_log_workflow_trans__active
+#: model_terms:ir.ui.view,arch_db:good_workflow.workflow_form_view
+msgid "启用"
+msgstr "啟用"
+
+#. module: good_workflow
+#: model:ir.model.fields,help:good_workflow.field_workflow_node__event_need
+msgid "在日历上创建提醒"
+msgstr "在日曆上創建提醒"
+
+#. module: good_workflow
+#: model:ir.model.fields,help:good_workflow.field_workflow_trans__auto
+msgid "如果条件满足，无需点击按钮，自动完成迁移"
+msgstr "如果條件滿足，無需點擊按鈕，自動完成遷移"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_log_workflow_trans__note
+#: model:ir.model.fields,field_description:good_workflow.field_wizard_workflow_message__name
+msgid "审批意见"
+msgstr "審核意見"
+
+#. module: good_workflow
+#: model:ir.model.fields,help:good_workflow.field_good_workflow__model_view_id
+msgid "审批按钮和状态需要出现在这个表单上"
+msgstr "審核按鈕和狀態需要出現在這個表單上"
+
+#. module: good_workflow
+#: model:ir.model,name:good_workflow.model_good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_node__workflow_id
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_trans__workflow_id
+#: model:ir.ui.menu,name:good_workflow.good_workflow_menu
+msgid "审批流"
+msgstr "審核流程"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_good_workflow__field_id
+msgid "审批状态字段名"
+msgstr "審核狀態字段名"
+
+#. module: good_workflow
+#: model:ir.model,name:good_workflow.model_workflow_node
+msgid "审批节点"
+msgstr "審核節點"
+
+#. module: good_workflow
+#: model_terms:ir.ui.view,arch_db:good_workflow.workflow_form_view
+msgid "已停用"
+msgstr "已停用"
+
+#. module: good_workflow
+#: model_terms:ir.ui.view,arch_db:good_workflow.workflow_form_view
+msgid "已启用"
+msgstr "已啟用"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_node__is_start
+msgid "开始节点"
+msgstr "開始節點"
+
+#. module: good_workflow
+#: model:ir.model.fields,help:good_workflow.field_workflow_node__event_users
+msgid "提醒的用户"
+msgstr "提醒的用戶"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_node__arg
+msgid "方法参数"
+msgstr "方法參數"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_node__show_state
+msgid "显示为状态"
+msgstr "顯示為狀態"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_good_workflow__show_states
+msgid "显示的状态"
+msgstr "顯示的狀態"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_trans__condition
+msgid "条件"
+msgstr "條件"
+
+#. module: good_workflow
+#: model:ir.model.fields,help:good_workflow.field_good_workflow__show_states
+msgid "根据节点计算出可显示的审批状态"
+msgstr "根據節點計算出可顯示的審批狀態"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_good_workflow__model_id
+#: model:ir.model.fields,field_description:good_workflow.field_log_workflow_trans__model
+msgid "模型"
+msgstr "模型"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_good_workflow__model
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_trans__model
+msgid "模型名"
+msgstr "模型名"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_node__action
+msgid "模型方法"
+msgstr "模型方法"
+
+#. module: good_workflow
+#: model:ir.model.fields,help:good_workflow.field_workflow_node__is_start
+msgid "此节点是审批流的开始节点"
+msgstr "此節點是審核流程的開始節點"
+
+#. module: good_workflow
+#: model:ir.model.fields,help:good_workflow.field_workflow_node__is_stop
+msgid "此节点是审批流的结束节点"
+msgstr "此節點是審核流程的結束節點"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_good_workflow__tracking
+msgid "消息记录审批状态"
+msgstr "消息記錄審核狀態"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_good_workflow__view_id
+msgid "生成的视图"
+msgstr "生成的視圖"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_node__event_users
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_trans__user_ids
+msgid "用户"
+msgstr "用戶"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_trans__group_ids
+msgid "用户组"
+msgstr "用戶組"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_node__is_stop
+msgid "结束节点"
+msgstr "結束節點"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_log_workflow_trans__name
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_node__code
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_trans__code
+msgid "编号"
+msgstr "編號"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_trans__auto
+msgid "自动"
+msgstr "自動"
+
+#. module: good_workflow
+#: model:ir.model.fields,help:good_workflow.field_good_workflow__view_id
+msgid "自动生成的审批按钮和状态视图"
+msgstr "自動生成的審核按鈕和狀態視圖"
+
+#. module: good_workflow
+#: model:ir.actions.act_window,name:good_workflow.action_workflow_base_view
+#: model_terms:ir.ui.view,arch_db:good_workflow.view_workflow_base_diagram
+#: model_terms:ir.ui.view,arch_db:good_workflow.workflow_form_view
+#: model_terms:ir.ui.view,arch_db:good_workflow.workflow_tree_view
+msgid "自定义审批流"
+msgstr "自定義審核流程"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_good_workflow__node_ids
+#: model_terms:ir.ui.view,arch_db:good_workflow.workflow_form_view
+msgid "节点"
+msgstr "節點"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_good_workflow__model_view_id
+msgid "视图"
+msgstr "視圖"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_node__join_mode
+msgid "迁入模式"
+msgstr "遷入模式"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_node__split_mode
+msgid "迁出模式"
+msgstr "遷出模式"
+
+#. module: good_workflow
+#: model:ir.model,name:good_workflow.model_workflow_trans
+#: model:ir.model.fields,field_description:good_workflow.field_good_workflow__trans_ids
+#: model:ir.model.fields,field_description:good_workflow.field_log_workflow_trans__trans_id
+#: model_terms:ir.ui.view,arch_db:good_workflow.workflow_form_view
+msgid "迁移"
+msgstr "遷移"
+
+#. module: good_workflow
+#: model:ir.model.fields,help:good_workflow.field_workflow_trans__condition
+msgid "迁移的条件，默认为True"
+msgstr "遷移的條件，默認為True"
+
+#. module: good_workflow
+#: model:ir.model.fields,help:good_workflow.field_workflow_trans__need_note
+msgid "这个迁移要求必须输入审批意见，常见于拒绝迁移"
+msgstr "這個遷移要求必須輸入審批意見，常見於拒絕遷移"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_good_workflow__reset_group
+msgid "重置用户组"
+msgstr "重置用戶組"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_trans__need_note
+msgid "需输入审批意见"
+msgstr "需輸入審核意見"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_node__sequence
+msgid "顺序"
+msgstr "順序"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_workflow_trans__sequence
+msgid "顺序号"
+msgstr "順序號"
+
+#. module: good_workflow
+#: model:ir.model.fields,field_description:good_workflow.field_good_workflow__default_state
+msgid "默认审批状态"
+msgstr "默認審核狀態"
+
+#. module: good_workflow
+#: model:ir.model.fields,help:good_workflow.field_good_workflow__default_state
+msgid "默认的审批状态"
+msgstr "默認的審核狀態"

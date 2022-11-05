@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <record model="ir.ui.view" id="workflow_tree_view">
+            <field name="name">good.workflow.tree</field>
+            <field name="model">good.workflow</field>
+            <field name="arch" type="xml">
+                <tree string="自定义审批流">
+                    <field name="name"/>
+                    <field name="model_id"/>
+                    <field name="default_state"/>
+                </tree>
+            </field>
+        </record>
+        <record model="ir.ui.view" id="workflow_form_view">
+            <field name="name">good.workflow.form</field>
+            <field name="model">good.workflow</field>
+            <field name="arch" type="xml">
+                <form string="自定义审批流">
+                    <header>
+                        <button name="sync2ref_model" string="启用" type="object"
+                                class="oe_highlight"/>
+                        <button name="action_no_active" string="停用" type="object"
+                                class="oe_highlight"/>
+                    </header>
+                    <widget name="web_ribbon" title="已启用" bg_color="bg-info" attrs="{'invisible': ['!',('field_id', '!=', False)]}"/>
+                    <widget name="web_ribbon" title="已停用" bg_color="bg-danger" attrs="{'invisible': [('field_id', '!=', False)]}"/>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="model_id"/>
+                            <field name="model"/>
+                            <field name="tracking"/>
+                            <field name="field_id" groups="base.group_system"/>
+                        </group>
+                        <group>
+                            <field name="model_view_id"
+                                   domain="[('model','=',model),('type','=','form'),('mode','=','primary')]"/>
+                            <field name="view_id" domain="[('id','=',0)]"/>
+                            <field name="default_state" groups="base.group_system"/>
+                            <field name="show_states" groups="base.group_system"/>
+                            <field name="no_reset_states" groups="base.group_system"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="节点">
+                            <field name="node_ids"  context="{'default_workflow_id': id}">
+                                <tree editable="top">
+                                    <field name="sequence" widget="handle"/>
+                                    <field name="name"/>
+                                    <field name="split_mode" invisible="1"/>
+                                    <field name="join_mode"/>
+                                    <field name="action"/>
+                                    <field name="arg"/>
+                                    <field name="is_start"/>
+                                    <field name="is_stop"/>
+                                    <field name="show_state"/>
+                                    <field name="no_reset"/>
+                                    <field name="event_need"/>
+                                    <field name="event_users" widget="many2many_tags"/>
+                                </tree>
+                            </field>
+                        </page>
+                        <page string="迁移">
+                            <field name="trans_ids">
+                                <tree editable="top">
+                                    <field name="sequence" widget="handle"/>
+                                    <field name="name"/>
+                                    <field name="node_from" domain="[('workflow_id','=', parent.id)]"/>
+                                    <field name="node_to" domain="[('workflow_id','=', parent.id)]"/>
+                                    <field name="group_ids" widget="many2many_tags"/>
+                                    <field name="user_ids" widget="many2many_tags"/>
+                                    <field name="condition"/>
+                                    <field name="is_backward"/>
+                                    <field name="need_note"/>
+                                    <field name="auto"/>
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_workflow_base_diagram" model="ir.ui.view">
+            <field name="name">good.workflow.diagram</field>
+            <field name="model">good.workflow</field>
+            <field name="arch" type="xml">
+                <diagram string="Custom WorkFollow">
+                    <node object="workflow.node" bgcolor="gray:is_start==True;grey:is_stop==True">
+                        <field name="name"/>
+                        <field name="action"/>
+                    </node>
+                    <arrow object="workflow.trans" source="node_from" destination="node_to" label="['name','condition']">
+                        <field name="node_from"/>
+                        <field name="node_to"/>
+                    </arrow>
+                    <label string="自定义审批流"/>
+                </diagram>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="log_workflow_trans_tree">
+            <field name="name">log.workflow.trans.tree</field>
+            <field name="model">log.workflow.trans</field>
+            <field name="arch" type="xml">
+                <tree create='0'>
+                    <field name="create_date"/>
+                    <field name="create_uid"/>
+                    <field name="name"/>
+                    <field name="trans_id"/>
+                    <field name="note"/>
+                </tree>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="action_workflow_base_view">
+            <field name="name">自定义审批流</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">good.workflow</field>
+            <field name="view_mode">tree,form,diagram</field>
+        </record>
+        <menuitem id="good_workflow_menu" name="审批流" web_icon="good_workflow,static/description/icon.png"
+                  action="action_workflow_base_view" sequence="101" parent="core.system_menu"/>
+    </data>
+</odoo>

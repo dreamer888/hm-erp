@@ -1,0 +1,16 @@
+workspace:
+  base: /mnt
+  path: addons
+
+services:
+  postgres:
+    image: postgres:10
+    environment:
+      - POSTGRES_USER=osbzr
+      - POSTGRES_PASSWORD=osbzr
+
+pipeline:
+  build:
+    image: gooderp13:0
+    commands:
+        - odoo -d gooderp --db_host postgres -r osbzr -w osbzr --test-enable --stop-after-init --addons-path=/mnt/addons --log-level=test -i access_control_goods,asset,auto_backup,buy,buy_arrival_notice,buy_last_as_cost,buy_subtotal_input,common_dialog,core,document_page,finance,fixed_tree_header,good_crm,good_crm_change_responsible,good_portal,good_portal_buy,good_workflow,gooderp_discovery,gooderp_statistics,goods,goods_code,ignore_tree_rng,ir_sequence_autoreset,knowledge,manufacture,money,num_to_china,object_merger,partner_address,report_docx,scm,sell,sell_delivery_by_parts,sell_delivery_notice,sell_order_name_manually,sell_quotation,sell_subtotal_input,sell_to_buy,staff,staff_expense,staff_hire,staff_survey,staff_train,task,tax_invoice,top_trending_goods,warehouse,warehouse_batch_split,warehouse_produce,warehouse_wave,web_stock_query

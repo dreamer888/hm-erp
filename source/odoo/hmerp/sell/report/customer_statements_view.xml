@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<openerp>
+    <data>
+        <!--客户对账单不带商品明细tree-->
+		<record id="customer_statements_report_tree" model="ir.ui.view">
+            <field name="name">customer.statements.report.tree</field>
+            <field name="model">customer.statements.report</field>
+            <field name="arch" type="xml">
+                <tree string="Partner Statements Report" create="false">
+                	<field name="date" optional="show"/>
+                    <field name="name" optional="show"/>
+                    <button name="find_source_order" type="object" string="查看原始单据" icon="fa-search" optional="show"/>
+                    <field name="sale_amount" optional="show"/>
+                    <field name="benefit_amount" groups='sell.sell_discount_groups' optional="show"/>
+                    <field name="fee" optional="show"/>
+                    <field name="note" optional="show"/>
+                    <field name="amount" optional="show"/>
+                    <field name="pay_amount" optional="show"/>
+                    <field name="discount_money" optional="show"/>
+                    <field name="balance_amount" optional="show"/>
+                </tree>
+            </field>
+        </record>
+
+        <!--客户对账单带商品明细tree-->
+		<record id="customer_statements_report_with_goods_tree" model="ir.ui.view">
+            <field name="name">customer.statements.report.with.goods.tree</field>
+            <field name="model">customer.statements.report.with.goods</field>
+            <field name="arch" type="xml">
+                <tree string="Customer Statements Report" create="false">
+					<field name="date" optional="show"/>
+                    <field name="name" optional="show"/>
+                    <button name="find_source_order" type="object" string="查看原始单据" icon="fa-search" attrs="{'invisible':[('goods_name','!=',False)]}" optional="show"/>
+                    <field name="note" optional="show"/>
+                    <field name="goods_code" optional="show"/>
+                    <field name="goods_name" optional="show"/>
+                    <field name="attribute_id" groups='goods.multi_attrs_groups' optional="show"/>
+                    <field name="uom_id" optional="show"/>
+                    <field name="quantity" optional="show"/>
+                    <field name="price" optional="show"/>
+                    <field name="discount_amount" groups='sell.sell_line_discount_groups' optional="show"/>
+                    <field name="without_tax_amount" groups='sell.out_tax_groups' optional="show"/>
+                    <field name="tax_amount" groups='sell.out_tax_groups' optional="show"/>
+                    <field name="order_amount" optional="show"/>
+                    <field name="benefit_amount" groups='sell.sell_discount_groups' optional="show"/>
+                    <field name="fee" optional="show"/>
+                    <field name="amount" optional="show"/>
+                    <field name="pay_amount" optional="show"/>
+                    <field name="discount_money" optional="show"/>
+                    <field name="balance_amount" optional="show"/>
+                </tree>
+            </field>
+        </record>
+	</data>
+</openerp>
+	

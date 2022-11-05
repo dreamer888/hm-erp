@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id='ous_partner_strategy_tree' model='ir.ui.view'>
+        <field name='name'>工序委外供应商策略</field>
+        <field name='model'>ous.partner.strategy</field>
+        <field name='arch' type='xml'>
+            <tree>
+                <field name='goods_id' />
+                <field name='mrp_proc_id' />
+                <field name='details' widget="html"/>
+            </tree>
+        </field>
+    </record>
+    <record id='ous_partner_strategy_form' model='ir.ui.view'>
+        <field name='name'>ous.partner.strategy.form</field>
+        <field name='model'>ous.partner.strategy</field>
+        <field name='arch' type='xml'>
+            <form string='工序委外供应商策略'>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name='goods_id' optional="show"/>
+					        <field name='mrp_proc_id'  optional="show"/>
+                        </group>
+                        <group>
+                            <notebook>
+                                <page name="lines" string="优先级">
+                                    <field name='line_ids' optional="show">
+                                        <tree string="优先级" create="0" delete="0">
+                                            <field name="sequence" widget="handle" optional="show"/>
+                                            <field name="priority" optional="show" force_save="1"/>
+                                        </tree>
+                                    </field>
+                                </page>
+                            </notebook>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="ous_partner_strategy_action" model="ir.actions.act_window">
+            <field name="name">工序委外供应商策略</field>
+            <field name="res_model">ous.partner.strategy</field>
+            <field name="view_id" ref='ous_partner_strategy_tree'/>
+            <field name="view_mode">tree,form</field>
+    </record>
+    <record id="ous_partner_strategy_search" model="ir.ui.view">
+        <field name="name">ous.partner.strategy.search</field>
+        <field name="model">ous.partner.strategy</field>
+        <field name="arch" type="xml">
+            <search string='工序委外供应商策略略搜索视图'>
+                <field name="goods_id" filter_domain="[('goods_id.name', 'ilike', self)]"/>
+                <field name='mrp_proc_id'/>
+            </search>
+        </field>
+    </record>
+
+    <!--扩展供应商视图-->
+    <record id="view_form_supplier_address_extend" model="ir.ui.view">
+        <field name="name">供应商绑定工序视图</field>
+        <field name="model">partner</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="core.supplier_address_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//notebook/page[@name='fin']" position="after">
+                <page name='mrp_info' string="工序">
+                    <group>
+                        <group>
+                            <field name="line_proc_ids">
+                                <tree string="绑定工序" editable="bottom">
+                                    <field name="mrp_proc_id"/>
+                                    <field name="quality_grade_id"/>
+                                    <field name="cycle"/>
+                                </tree>
+                            </field>
+                        </group>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+</odoo>

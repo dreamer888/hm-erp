@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <!--根菜单-->
+    <menuitem id='mrp_menu' name='生产' groups="manufacture.mrp_group"
+        web_icon="manufacture,static/description/icon.png"/>
+
+    <menuitem id='mrp_Bill_menu' name='单据' parent='mrp_menu' sequence="1"/>
+    <menuitem id='mrp_plan_menu' name='计划' parent='mrp_menu' sequence="2"/>
+    <menuitem id='mrp_ous_menu' name='委外' parent='mrp_menu' sequence="3"/>
+    <menuitem id='mrp_data_menu' name='主数据' parent='mrp_menu' sequence="4"/>
+    <menuitem id='mrp_report_menu' name='报表' parent='mrp_menu' sequence="5"/>
+    <menuitem id='lexin_erp_mrp_plan_config_menu' name='分析参数' action='mrp_plan_config_action'
+        parent='mrp_plan_menu' sequence='1'/>
+    <menuitem id='lexin_erp_mrp_plan_menu' name='MRP分析' action='mrp_plan_action'
+        parent='mrp_plan_menu' sequence='2'/>
+    <menuitem id='lexin_erp_mrp_plm_menu' name='生产加工单' action='mrp_plm_action'
+        parent='mrp_Bill_menu' sequence='1'/>
+    <menuitem id='lexin_erp_mrp_plm_in_menu' name='生产入库' action='mrp_plm_in_action'
+        parent='mrp_Bill_menu' sequence='2'/>
+    <menuitem id='lexin_erp_mrp_plm_cons_menu' name='生产领料' action='mrp_plm_cons_action'
+        parent='mrp_Bill_menu' sequence='3'/>
+    <menuitem id='lexin_erp_mrp_plm_cons_add_menu' name='生产补料' action='mrp_plm_cons_add_action'
+        parent='mrp_Bill_menu' sequence='4'/>
+    <menuitem id='lexin_erp_mrp_plm_cons_retu_menu' name='生产退料' action='mrp_plm_cons_retu_action'
+        parent='mrp_Bill_menu' sequence='5'/>
+    <menuitem id='lexin_erp_mrp_plm_task_menu' name='生产任务单' action='mrp_plm_task_action'
+        parent='mrp_Bill_menu' sequence='6'/>
+    <menuitem id='lexin_erp_mrp_plm_task_conf_menu' name='生产报工' action='mrp_plm_task_conf_action'
+        parent='mrp_Bill_menu' sequence='7'/>
+    <menuitem id='lexin_erp_mrp_plm_task_qc_menu' name='生产质检报告' action='mrp_plm_task_qc_action'
+        parent='mrp_Bill_menu' sequence='8'/>
+    <menuitem id='lexin_erp_mrp_plm_task_defectdealing_menu' name='生产质检不良处理' action='mrp_plm_task_defectdealing_action'
+        parent='mrp_Bill_menu' sequence='9'/>
+    <menuitem id='lexin_erp_mrp_plm_scrap_menu' name='生产报废' action='mrp_plm_scrap_action'
+        parent='mrp_Bill_menu' sequence='10'/>
+
+    <menuitem id='lexin_erp_mrp_plm_ous_menu' name='工序委外订单' action='mrp_plm_ous_action'
+        parent='mrp_ous_menu' sequence='1'/>
+    <menuitem id='lexin_erp_mrp_plm_ous_conf_menu' name='工序委外收货' action='mrp_plm_ous_conf_action'
+        parent='mrp_ous_menu' sequence='2'/>
+    <menuitem id='lexin_erp_mrp_plm_ous_retu_menu' name='工序委外退回' action='mrp_plm_ous_retu_action'
+        parent='mrp_ous_menu' sequence='3'/>
+    <menuitem id='lexin_erp_mrp_plm_ous_qc_menu' name='工序委外质检报告' action='mrp_plm_ous_qc_action'
+        parent='mrp_ous_menu' sequence='4'/>
+    <menuitem id='lexin_erp_mrp_plm_ous_defectdealing_menu' name='工序委外不良处理' action='mrp_plm_ous_defectdealing_action'
+        parent='mrp_ous_menu' sequence='5'/>
+    <menuitem id='partner_quality_grade_menu' name='品质等级' action='partner_quality_grade_action'
+        parent='mrp_ous_menu' sequence='20' />
+    <menuitem id='ous_partner_strategy_menu' name='委外供应商策略' action='ous_partner_strategy_action'
+        parent='mrp_ous_menu' sequence='21'/>
+    <menuitem id='ous_price_strategy_menu' name='委外价格策略' action='ous_price_strategy_action'
+        parent='mrp_ous_menu' sequence='22'/>
+
+    <menuitem id='lexin_erp_goods_menu' name='商品' action='goods.goods_action'
+        parent='mrp_data_menu' sequence='1'
+        groups='base.group_no_one'/>
+    <menuitem id='lexin_erp_warehouse_menu' name='仓库' action='warehouse.warehouse_action'
+        parent='mrp_data_menu' sequence='2'
+        groups='warehouse.multi_warehouse_groups'/>
+    <menuitem id='mrp_proc_class_menu' name='工序等级' action='mrp_proc_class_action'
+        parent='mrp_data_menu' sequence='3'/>
+    <menuitem id='mrp_proc_type_menu' name='工序类别' action='mrp_proc_type_action'
+        parent='mrp_data_menu' sequence='4'/>
+    <menuitem id='mrp_proc_cause_menu' name='工序不良原因' action='mrp_proc_cause_action'
+        parent='mrp_data_menu' sequence='5'/>
+    <menuitem id='mrp_proc_menu' name='工序资料' action='mrp_proc_action'
+        parent='mrp_data_menu' sequence='6'/>
+    <menuitem id='mrp_bom_category_menu' name='Bom类别' action='mrp_bom_category_action'
+        parent='mrp_data_menu' sequence='7'/>
+    <menuitem id='mrp_bom_category_menu' name='Bom类别' action='mrp_bom_category_action'
+        parent='mrp_data_menu' sequence='8'/>
+    <menuitem id='mrp_Bom_menu' name='Bom清单' action='mrp_bom_action'
+        parent='mrp_data_menu' sequence='9'/>
+    <menuitem id='mrp_workcenter_menu' name='工作中心' action='mrp_workcenter_action'
+        parent='mrp_data_menu' sequence='10'/>
+    <menuitem id='ous_partner_menu' name='供应商' action='core.vendor_action'
+        parent='mrp_data_menu' sequence='20' />
+</odoo>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<openerp>
+    <data>
+    	<record id="buy_order_detail_tree" model="ir.ui.view">
+            <field name="name">buy.order.detail.tree</field>
+            <field name="model">buy.order.detail</field>
+            <field name="arch" type="xml">
+                <tree string="采购入库明细表" create="false">
+                	<field name="date" optional="show"/>
+                	<field name="order_name" optional="show"/>
+                	<button name="view_detail" type="object" string="查看明细" icon="fa-search" optional="show"/>
+                	<field name="type" optional="show"/>
+                	<field name="partner_id" optional="show"/>
+                	<field name="goods_code" optional="show"/>
+                    <field name="goods_id" optional="show"/>
+                    <field name="attribute" groups='goods.multi_attrs_groups' optional="show"/>
+                    <field name="warehouse_dest_id" groups='warehouse.multi_warehouse_groups' optional="show"/>
+                    <field name="qty" sum="数量合计" optional="show"/>
+                    <field name="uom" optional="show"/>
+                    <field name="price" optional="show"/>
+                    <field name="amount" sum="采购金额合计" optional="show"/>
+                    <field name="tax_amount" sum="税额合计" groups='buy.in_tax_groups' optional="show"/>
+                    <field name="subtotal" sum="价税合计的合计" groups='buy.in_tax_groups' optional="show"/>
+                    <field name="note" optional="show"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</openerp>

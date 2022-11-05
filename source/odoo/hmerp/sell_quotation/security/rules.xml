@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="group_sell_own_quotation_rule" model="ir.rule">
+            <field name='name'>销售只能看自己的报价单</field>
+            <field name='model_id' ref="sell_quotation.model_sell_quotation"/>
+            <field name='domain_force'>['|',('user_id','=',user.id),'|',('partner_id.responsible_id','=',user.id),('partner_id.share_id','=',user.id)]</field>
+            <field name='groups' eval="[(4,ref('sell.own_data_groups'))]"/>
+            <field name='perm_read' eval='True'/>
+            <field name='perm_write' eval='True'/>
+            <field name='perm_create' eval='True'/>
+            <field name='perm_unlink' eval='True'/>
+        </record>
+    </data>
+</openerp>

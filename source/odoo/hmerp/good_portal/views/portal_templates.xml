@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="layout" name="good_portal_layout"
+        customize_show="True" inherit_id="portal.portal_layout">
+        <xpath expr="//div[@class='o_portal_my_details']" position="replace">
+            <div class="o_portal_my_details">
+                <h4 t-field="user_id.partner_address_id.partner_id"/>
+                <hr class="mt-1 mb-0"/>
+                <div t-field="user_id.partner_id"/>
+                <div t-field="user_id.partner_address_id.mobile"/>
+            </div>
+        </xpath>
+    </template>
+</odoo>

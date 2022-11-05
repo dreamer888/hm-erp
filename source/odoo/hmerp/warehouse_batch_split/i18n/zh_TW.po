@@ -1,0 +1,173 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* warehouse_batch_split
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-01 05:33+0000\n"
+"PO-Revision-Date: 2022-08-01 13:33+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.1.1\n"
+
+#. module: warehouse_batch_split
+#: model:ir.model.fields,field_description:warehouse_batch_split.field_batch_split_line__create_uid
+#: model:ir.model.fields,field_description:warehouse_batch_split.field_batch_split_wizard__create_uid
+msgid "Created by"
+msgstr "建立者"
+
+#. module: warehouse_batch_split
+#: model:ir.model.fields,field_description:warehouse_batch_split.field_batch_split_line__create_date
+#: model:ir.model.fields,field_description:warehouse_batch_split.field_batch_split_wizard__create_date
+msgid "Created on"
+msgstr "建立於"
+
+#. module: warehouse_batch_split
+#: model:ir.model.fields,field_description:warehouse_batch_split.field_batch_split_line__display_name
+#: model:ir.model.fields,field_description:warehouse_batch_split.field_batch_split_wizard__display_name
+msgid "Display Name"
+msgstr "完全顯示名稱"
+
+#. module: warehouse_batch_split
+#: model:ir.model.fields,field_description:warehouse_batch_split.field_batch_split_line__id
+#: model:ir.model.fields,field_description:warehouse_batch_split.field_batch_split_wizard__id
+msgid "ID"
+msgstr "ID"
+
+#. module: warehouse_batch_split
+#: model:ir.model.fields,field_description:warehouse_batch_split.field_batch_split_line____last_update
+#: model:ir.model.fields,field_description:warehouse_batch_split.field_batch_split_wizard____last_update
+msgid "Last Modified on"
+msgstr "最後修改時間"
+
+#. module: warehouse_batch_split
+#: model:ir.model.fields,field_description:warehouse_batch_split.field_batch_split_line__write_uid
+#: model:ir.model.fields,field_description:warehouse_batch_split.field_batch_split_wizard__write_uid
+msgid "Last Updated by"
+msgstr "最後更新者"
+
+#. module: warehouse_batch_split
+#: model:ir.model.fields,field_description:warehouse_batch_split.field_batch_split_line__write_date
+#: model:ir.model.fields,field_description:warehouse_batch_split.field_batch_split_wizard__write_date
+msgid "Last Updated on"
+msgstr "最後更新時間"
+
+#. module: warehouse_batch_split
+#: model:ir.model.fields,field_description:warehouse_batch_split.field_batch_split_wizard__warehouse_id
+msgid "仓库"
+msgstr "倉庫"
+
+#. module: warehouse_batch_split
+#: model:ir.model.fields,field_description:warehouse_batch_split.field_batch_split_line__lot
+msgid "入库批次"
+msgstr "入庫批次"
+
+#. module: warehouse_batch_split
+#: model:ir.model.fields,field_description:warehouse_batch_split.field_batch_split_line__lot_id
+msgid "出库批次"
+msgstr "出庫批次"
+
+#. module: warehouse_batch_split
+#: model:ir.model.fields,help:warehouse_batch_split.field_batch_split_wizard__warehouse_id
+msgid "单据的来源仓库"
+msgstr "單據的來源倉庫"
+
+#. module: warehouse_batch_split
+#: model_terms:ir.ui.view,arch_db:warehouse_batch_split.batch_split_wizard_form
+msgid "取消"
+msgstr "取消"
+
+#. module: warehouse_batch_split
+#: model:ir.model.fields,field_description:warehouse_batch_split.field_batch_split_line__wizard_id
+msgid "向导"
+msgstr "嚮導"
+
+#. module: warehouse_batch_split
+#: model:ir.model.fields,field_description:warehouse_batch_split.field_batch_split_wizard__goods_id
+msgid "商品"
+msgstr "商品"
+
+#. module: warehouse_batch_split
+#: model:ir.model.fields,help:warehouse_batch_split.field_batch_split_wizard__goods_qty
+msgid "商品的数量"
+msgstr "商品的數量"
+
+#. module: warehouse_batch_split
+#: model_terms:ir.ui.view,arch_db:warehouse_batch_split.batch_split_wizard_form
+msgid "已拆分"
+msgstr "已拆分"
+
+#. module: warehouse_batch_split
+#: model_terms:ir.ui.view,arch_db:warehouse_batch_split.batch_split_wizard_form
+msgid "或者"
+msgstr "或者"
+
+#. module: warehouse_batch_split
+#: model:ir.actions.act_window,name:warehouse_batch_split.action_batch_split_act_window
+msgid "批次拆分"
+msgstr "批次拆分"
+
+#. module: warehouse_batch_split
+#: model:ir.model,name:warehouse_batch_split.model_batch_split_wizard
+msgid "批次拆分向导"
+msgstr "批次拆分嚮導"
+
+#. module: warehouse_batch_split
+#: model:ir.model,name:warehouse_batch_split.model_batch_split_line
+msgid "批次拆分向导行"
+msgstr "批次拆分嚮導行"
+
+#. module: warehouse_batch_split
+#: model:ir.model.fields,field_description:warehouse_batch_split.field_batch_split_wizard__line_ids
+msgid "批次行"
+msgstr "批次行"
+
+#. module: warehouse_batch_split
+#: model:ir.model.fields,field_description:warehouse_batch_split.field_batch_split_line__expiration_date
+msgid "报废日期"
+msgstr "報廢日期"
+
+#. module: warehouse_batch_split
+#: model_terms:ir.ui.view,arch_db:warehouse_batch_split.view_buy_receipt_form_inherited
+#: model_terms:ir.ui.view,arch_db:warehouse_batch_split.view_buy_return_form_inherited
+#: model_terms:ir.ui.view,arch_db:warehouse_batch_split.view_sell_delivery_form_inherited
+#: model_terms:ir.ui.view,arch_db:warehouse_batch_split.view_sell_return_form_inherited
+msgid "拆分"
+msgstr "拆分"
+
+#. module: warehouse_batch_split
+#: model_terms:ir.ui.view,arch_db:warehouse_batch_split.batch_split_wizard_form
+msgid "拆分批次"
+msgstr "拆分批次"
+
+#. module: warehouse_batch_split
+#: model:ir.model.fields,field_description:warehouse_batch_split.field_batch_split_line__qty
+msgid "数量"
+msgstr "數量"
+
+#. module: warehouse_batch_split
+#: model_terms:ir.ui.view,arch_db:warehouse_batch_split.batch_split_wizard_form
+msgid "确定"
+msgstr "確定"
+
+#. module: warehouse_batch_split
+#: model:ir.model.fields,field_description:warehouse_batch_split.field_batch_split_wizard__move_line_id
+msgid "移库行"
+msgstr "移庫行"
+
+#. module: warehouse_batch_split
+#: model:ir.model.fields,field_description:warehouse_batch_split.field_batch_split_wizard__goods_qty
+msgid "计划拆分数量"
+msgstr "計劃拆分數量"
+
+#. module: warehouse_batch_split
+#: model:ir.model.fields,help:warehouse_batch_split.field_batch_split_wizard__goods_id
+msgid "该单据行对应的商品"
+msgstr "該單據行對應的商品"

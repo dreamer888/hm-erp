@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id='mrp_plan_config_form' model='ir.ui.view'>
+        <field name='name'>mrp.plan.config.form</field>
+        <field name='model'>mrp.plan.config</field>
+        <field name='arch' type='xml'>
+            <form string='MRP分析参数' class="o_sale_order">
+                <sheet>
+                    <notebook>
+                        <page name="value_param" string="取值参数">
+                            <group>
+                                <group>
+                                    <field name='none_stock' optional="show"/>
+                                    <field name='none_stock_somat' optional="show"/>
+                                    <field name='nage_stock_append' optional="show"/>
+                                    <field name='mix_batch_plan'  optional="show"/>
+                                    <field name="batch_plan" optional="show"/>
+                                    <field name='propose' optional="show"/>
+                                    <field name='holidy_type' optional="show"/>
+                                    <field name='holidy_plan' optional="show"/>
+                                    <field name='partner_from' optional="show"/>
+                                </group>
+                            </group>
+                        </page>
+                        <page name="merage_config" string="合并设置">
+                            <group>
+                                <group>
+                                    <field name='merge_cycle' optional="show"/>
+                                    <field name='merge_dep' optional="show"/>
+                                    <field name='merge_partner' optional="show"/>
+                                    <field name='merge_order' optional="show"/>
+                                </group>
+                            </group>
+                        </page>
+                        <page name="lines" string="库存参数">
+                            <field name='line_ids'>
+                                <tree string='库存参数' editable='bottom'>
+                                    <field name='param_name'  optional="show"/>
+                                    <field name='close_date' optional="show"/>
+                                    <field name='stock_range' optional="show"/>
+                                    <field name="stocks" widget="many2many_tags" optional="show"/>
+                                    <field name="remark" optional="show"/>
+                                </tree>
+                            </field>
+                        </page>
+                        <page name="other_config" string="其他设置">
+                            <group>
+                                <group>
+                                    <field name='auto_close' optional="show"/>
+                                    <field name='allow_modify' optional="show"/>
+                                </group>
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    
+    <!--MRP分析tree视图-->
+    <record id='mrp_plan_tree' model='ir.ui.view'>
+        <field name='name'>MRP分析</field>
+        <field name='model'>mrp.plan</field>
+        <field name='arch' type='xml'>
+            <tree string='MRP分析'>
+                <field name='date' optional="show"/>
+                <field name='name' optional="show" readonly="1"/>
+                <field name='department_id' optional="hide"/>
+                <field name='user_id' optional="show"/>
+                <field name='order_id' optional="show"/>
+                <field name='remark' optional="show"/>
+                <field name='state' optional="show"/>
+            </tree>
+        </field>
+    </record>
+    <record id='mrp_plan_form' model='ir.ui.view'>
+        <field name='name'>mrp.plan.form</field>
+        <field name='model'>mrp.plan</field>
+        <field name='arch' type='xml'>
+            <form string='MRP分析' class="o_sale_order">
+                <header>
+                    <button name='button_done' states='draft' string='确认' type='object' class='oe_highlight'/>
+                    <button name="button_draft" states="done" string="撤销" type="object"/>
+                    <field name='state' widget='statusbar' statusbar_visible="draft,done"/>
+                </header>
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button type="object" name="action_view_mrp_plm" class="oe_stat_button" icon="fa-truck"
+                                attrs="{'invisible':['|', ('state', 'in', ('draft')), ('mrp_plm_count', '=', 0)]}">
+                            <field name="mrp_plm_count" widget="statinfo" string="生产" help=""/>
+                            <field name="mrp_plm_ids" invisible="1"/>
+                        </button>
+                        <button type="object" name="action_view_buy_order_task" class="oe_stat_button" icon="fa-truck"
+                                attrs="{'invisible':['|', ('state', 'in', ('draft')), ('buy_count', '=', 0)]}">
+                            <field name="buy_count" widget="statinfo" string="采购" help=""/>
+                            <field name="buy_ids" invisible="1"/>
+                        </button>
+                    </div>
+                    <group>
+                        <group>
+                            <group>
+                                <field name='date' optional="show"/>
+                            </group>
+                            <group>
+                                <field name='department_id' optional="show"/>
+                            </group>
+                        </group>
+                        <group>
+                            <group>
+                                <field name='user_id'  optional="show"/>
+                            </group>
+                            <group>
+                                <field name='order_id' optional="show"/>
+                            </group>
+                        </group>
+                    </group>
+                    <group>
+                        <field name='remark' optional="show"/>
+                    </group>
+                    <notebook>
+                        <page name="lines" string="MRP需求">
+                            <div>
+                                <button type="object" icon="fa-pencil-square-o"  name="button_plan" string='执行分析' 
+                                    attrs="{'invisible':['|', ('state', 'in', ('done')), ('line_result_count', '>', 0)]}"/>
+                                <button type="object" icon="fa-pencil-square-o"  name="button_proposal" string="产生建议"
+                                    attrs="{'invisible':['|', ('state', 'in', ('done')), ('line_result_count', '>', 0)]}" />
+                            </div>
+                            <field name='line_ids' create='0' attrs="{'readonly':['|', ('state', 'in', ('done')), ('line_result_count', '>', 0)]}">
+                                <tree string='MRP需求' editable='bottom'>
+                                    <field name='layer'  optional="hide"/>
+                                    <field name='layer_code'  optional="hide"/>
+                                    <field name='order_id'  optional="show"/>
+                                    <field name='cust_so'  optional="hide"/>
+                                    <field name='partner_id'  optional="show"/>
+                                    <field name='order_goods_id'  optional="hide"/>
+                                    <field name='qty_order'  optional="show"/>
+                                    <field name='order_need_date'  optional="show"/>
+                                    <field name='parent_goods_id'  optional="hide"/>
+                                    <field name='parent_bom_id'  optional="hide"/>
+                                    <field name='get_way'  optional="hide"/>
+                                    <field name='goods_id'  optional="show"/>
+                                    <field name='bom_id'  optional="show"/>
+                                    <field name='department_id'  optional="show"/>
+                                    <field name='warehouse_id'  optional="show"/>
+                                    <field name='qty_canuse'  optional="show"/>
+                                    <field name='qty_use'  optional="show"/>
+                                    <field name='qty_net'  optional="show"/>
+                                    <field name='qty_gross'  optional="show"/>
+                                    <field name='qty_proposal'  optional="show"/>
+                                    <field name='qty_set'  optional="show"/>
+                                    <field name='qty_confirm'  optional="show"/>
+                                    <field name='qty_plan_to'  optional="hide"/>
+                                    <field name='qty_bom'  optional="hide"/>
+                                    <field name='look_plan'  optional="show"/>
+                                    <field name='need_date'  optional="show"/>
+                                    <field name='proposal_date'  optional="show"/>
+                                    <field name='qty_stock'  optional="hide"/>
+                                    <field name='qty_plan'  optional="hide"/>
+                                    <field name='qty_po'  optional="hide"/>
+                                    <field name='qty_ous'  optional="hide"/>
+                                    <field name='qty_mo'  optional="hide"/>
+                                    <field name='qty_so'  optional="hide"/>
+                                    <field name='qty_uncons'  optional="hide"/>
+                                    <field name='qty_plancons'  optional="hide"/>
+                                    <field name='qty_consadd'  optional="hide"/>
+                                    <field name='qty_qc'  optional="hide"/>
+                                </tree>
+                            </field>
+                        </page>
+                        <page name="result_lines" string="MRP建议">
+                            <field name="line_result_count" invisible="1"/>
+                            <div>
+                                <button type="object" icon="fa-pencil-square-o" name="button_clear" string="清除建议" 
+                                    attrs="{'invisible':['|', ('state', 'in', ('done')), ('line_result_count', '=', 0)]}"/>
+                            </div>
+                            <field name="line_result_ids" create='0'>
+                                <tree string="MRP建议" editable='bottom'>
+                                    <field name='order_id'  optional="show"/>
+                                    <field name='cust_so'  optional="hide"/>
+                                    <field name='order_partner_id'  optional="show"/>
+                                    <field name='order_goods_id'  optional="show"/>
+                                    <field name='qty_order'  optional="show"/>
+                                    <field name='order_need_date'  optional="show"/>
+                                    <field name='goods_id'  optional="show"/>
+                                    <field name='bom_id'  optional="show"/>
+                                    <field name='warehouse_id'  optional="show"/>
+                                    <field name='qty'  optional="show"/>
+                                    <field name='need_date'  optional="show"/>
+                                    <field name='proposal_date'  optional="show"/>
+                                    <field name='get_way'  optional="show"/>
+                                    <field name='department_id'  optional="show"/>
+                                    <field name='buy_partner_id'  optional="show"/>
+                                    <field name='price'  optional="show"/>
+                                    <field name='amount'  optional="show"/>
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!--销售货订单视图-MRP分析扩展 action-->
+    <record id="view_form_sell_order_mrp_plan_extend" model="ir.ui.view">
+        <field name="name">销售货订单视图-MRP分析扩展</field>
+        <field name="model">sell.order</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="sell.sell_order_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div" position="inside">
+                <button type="object"
+                    name="action_view_mrp_plan"
+                    class="oe_stat_button"
+                    icon="fa-pencil-square-o" attrs="{'invisible':['|', ('state', 'in', ('draft'))]}">
+                    <field name="mrp_plan_count" widget="statinfo" string="MRP"/>
+                    <field name="mrp_plan_ids" invisible="1"/>
+                </button>
+            </xpath>
+            <xpath expr="//notebook/page[@name='lines']/field[@name='line_ids']/tree/field[@name='uom_id']" position="after">
+                <field name="bom_id" context="{'goods_id':goods_id}" optional="show"/>
+            </xpath>
+        </field>
+    </record>
+
+    <!--MRP分析 action-->
+    <record id='mrp_plan_action' model='ir.actions.act_window'>
+        <field name='name'>MRP分析</field>
+        <field name='res_model'>mrp.plan</field>
+        <field name='view_mode'>tree,form</field>
+        <field name='view_id' ref='mrp_plan_tree'/>
+        <field name="help" type="html">
+           <p class="oe_view_nocontent_create">
+
+           </p>
+         </field>
+    </record>
+
+    
+    <!--分析参数 action-->
+    <record id='mrp_plan_config_action' model='ir.actions.act_window'>
+        <field name='name'>分析参数</field>
+        <field name='res_model'>mrp.plan.config</field>
+        <field name='view_mode'>form</field>
+        <field name='view_id' ref='mrp_plan_config_form'/>
+        <field name="help" type="html">
+           <p class="oe_view_nocontent_create">
+
+           </p>
+         </field>
+    </record>
+</odoo>

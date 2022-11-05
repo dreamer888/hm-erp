@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<openerp>
+    <data>
+        <!--现金银行报表 tree-->
+    	<record id="bank_statements_report_tree" model="ir.ui.view">
+            <field name="name">bank.statements.report.tree</field>
+            <field name="model">bank.statements.report</field>
+            <field name="arch" type="xml">
+                <tree string="Bank Statements Report">
+                	<field name="date" optional="show"/>
+                    <field name="name" optional="show"/>
+                    <button name="find_source_order" type="object" string="查看原始单据" icon="fa-search" optional="show"/>
+                    <field name="partner_id" optional="show"/>
+                    <field name="get" sum="收入" optional="show"/>
+                    <field name="pay" sum="支出" optional="show"/>
+                    <field name="balance" optional="show"/>
+                    <field name="note" optional="show"/>
+                </tree>
+            </field>
+        </record>
+	</data>
+</openerp>
+	

@@ -1,0 +1,85 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* good_crm_change_responsible
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-29 14:36+0000\n"
+"PO-Revision-Date: 2022-07-29 22:37+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.1.1\n"
+
+#. module: good_crm_change_responsible
+#: model:ir.model.fields,field_description:good_crm_change_responsible.field_change_responsible_wizard__create_uid
+msgid "Created by"
+msgstr "建立者"
+
+#. module: good_crm_change_responsible
+#: model:ir.model.fields,field_description:good_crm_change_responsible.field_change_responsible_wizard__create_date
+msgid "Created on"
+msgstr "建立於"
+
+#. module: good_crm_change_responsible
+#: model:ir.model.fields,field_description:good_crm_change_responsible.field_change_responsible_wizard__display_name
+msgid "Display Name"
+msgstr "完全顯示名稱"
+
+#. module: good_crm_change_responsible
+#: model:ir.model.fields,field_description:good_crm_change_responsible.field_change_responsible_wizard__id
+msgid "ID"
+msgstr "ID"
+
+#. module: good_crm_change_responsible
+#: model:ir.model.fields,field_description:good_crm_change_responsible.field_change_responsible_wizard____last_update
+msgid "Last Modified on"
+msgstr "最後修改時間"
+
+#. module: good_crm_change_responsible
+#: model:ir.model.fields,field_description:good_crm_change_responsible.field_change_responsible_wizard__write_uid
+msgid "Last Updated by"
+msgstr "最後更新者"
+
+#. module: good_crm_change_responsible
+#: model:ir.model.fields,field_description:good_crm_change_responsible.field_change_responsible_wizard__write_date
+msgid "Last Updated on"
+msgstr "最後更新時間"
+
+#. module: good_crm_change_responsible
+#: model:ir.model.fields,field_description:good_crm_change_responsible.field_change_responsible_wizard__partners
+msgid "客户清单"
+msgstr "客戶清單"
+
+#. module: good_crm_change_responsible
+#: model:ir.actions.act_window,name:good_crm_change_responsible.change_responsible_wizard_action
+#: model:ir.model,name:good_crm_change_responsible.model_change_responsible_wizard
+#: model_terms:ir.ui.view,arch_db:good_crm_change_responsible.change_responsible_wizard_view_form
+msgid "批量修改客户负责人"
+msgstr "批量修改客戶負責人"
+
+#. module: good_crm_change_responsible
+#: model:ir.ui.menu,name:good_crm_change_responsible.change_responsible_wizard_menu
+msgid "批量更新客户负责人员"
+msgstr "批量更新客戶負責人員"
+
+#. module: good_crm_change_responsible
+#: model:ir.model.fields,field_description:good_crm_change_responsible.field_change_responsible_wizard__new_user_id
+msgid "新负责人"
+msgstr "新負責人"
+
+#. module: good_crm_change_responsible
+#: model:ir.model.fields,help:good_crm_change_responsible.field_change_responsible_wizard__partners
+msgid "每行一个客户名称"
+msgstr "每行一個客戶名稱"
+
+#. module: good_crm_change_responsible
+#: model_terms:ir.ui.view,arch_db:good_crm_change_responsible.change_responsible_wizard_view_form
+msgid "确认"
+msgstr "確認"

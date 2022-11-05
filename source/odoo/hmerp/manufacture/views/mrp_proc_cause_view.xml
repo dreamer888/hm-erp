@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="mrp_proc_cause_tree" model="ir.ui.view">
+        <field name="name">工序不良原因</field>
+        <field name="model">mrp.proc.cause</field>
+        <field name="arch" type="xml">
+            <tree string='工序等级' editable="botton">
+                <field name='name'  optional="show"/>
+                <field name='cause_type'  optional="show"/>
+                <field name='mrp_proc_type_id'  optional="show"/>
+                <field name='remark'  optional="show"/>
+            </tree>
+        </field>
+    </record>
+    <record id='mrp_proc_cause_action' model='ir.actions.act_window'>
+        <field name='name'>工序不良原因</field>
+        <field name='res_model'>mrp.proc.cause</field>
+
+        <field name='view_mode'>tree,form</field>
+        <field name='view_id' ref='mrp_proc_cause_tree'/>
+        <field name="help" type="html">
+           <p class="oe_view_nocontent_create">
+           </p>
+         </field>
+    </record>
+</odoo>

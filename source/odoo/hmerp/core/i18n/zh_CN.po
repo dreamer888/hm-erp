@@ -1,0 +1,406 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* core
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0-20200524\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-04 03:03+0000\n"
+"PO-Revision-Date: 2022-06-04 11:13+0800\n"
+"Last-Translator: 保定-粉刷匠 <992102498@qq.com>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: core
+#: code:addons/core/models/goods.py:0 code:addons/core/models/partner.py:0
+#, python-format
+msgid "%s (copy)"
+msgstr "%s (复制)"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_goods__message_needaction
+#: model:ir.model.fields,field_description:core.field_partner__message_needaction
+msgid "Action Needed"
+msgstr "需要行动"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_goods__activity_ids
+#: model:ir.model.fields,field_description:core.field_partner__activity_ids
+msgid "Activities"
+msgstr "活动"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_goods__activity_exception_decoration
+#: model:ir.model.fields,field_description:core.field_partner__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "活动异常显示"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_goods__activity_state
+#: model:ir.model.fields,field_description:core.field_partner__activity_state
+msgid "Activity State"
+msgstr "活动状态"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_goods__message_attachment_count
+#: model:ir.model.fields,field_description:core.field_partner__message_attachment_count
+msgid "Attachment Count"
+msgstr "附件数量"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_core_value__color
+msgid "Color Index"
+msgstr "颜色索引"
+
+#. module: core
+#: model:ir.model,name:core.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_res_company__logo
+msgid "Company Logo"
+msgstr "公司图标"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_bank_account__create_uid
+#: model:ir.model.fields,field_description:core.field_business_data_table__create_uid
+#: model:ir.model.fields,field_description:core.field_clean_business_data__create_uid
+#: model:ir.model.fields,field_description:core.field_core_category__create_uid
+#: model:ir.model.fields,field_description:core.field_core_value__create_uid
+#: model:ir.model.fields,field_description:core.field_goods__create_uid
+#: model:ir.model.fields,field_description:core.field_partner__create_uid
+#: model:ir.model.fields,field_description:core.field_pay_method__create_uid
+#: model:ir.model.fields,field_description:core.field_pricing__create_uid
+#: model:ir.model.fields,field_description:core.field_service__create_uid
+#: model:ir.model.fields,field_description:core.field_settle_mode__create_uid
+#: model:ir.model.fields,field_description:core.field_staff__create_uid
+#: model:ir.model.fields,field_description:core.field_team__create_uid
+#: model:ir.model.fields,field_description:core.field_uom__create_uid
+#: model:ir.model.fields,field_description:core.field_warehouse__create_uid
+msgid "Created by"
+msgstr "创建者"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_bank_account__create_date
+#: model:ir.model.fields,field_description:core.field_business_data_table__create_date
+#: model:ir.model.fields,field_description:core.field_clean_business_data__create_date
+#: model:ir.model.fields,field_description:core.field_core_category__create_date
+#: model:ir.model.fields,field_description:core.field_core_value__create_date
+#: model:ir.model.fields,field_description:core.field_goods__create_date
+#: model:ir.model.fields,field_description:core.field_partner__create_date
+#: model:ir.model.fields,field_description:core.field_pay_method__create_date
+#: model:ir.model.fields,field_description:core.field_pricing__create_date
+#: model:ir.model.fields,field_description:core.field_service__create_date
+#: model:ir.model.fields,field_description:core.field_settle_mode__create_date
+#: model:ir.model.fields,field_description:core.field_staff__create_date
+#: model:ir.model.fields,field_description:core.field_team__create_date
+#: model:ir.model.fields,field_description:core.field_uom__create_date
+#: model:ir.model.fields,field_description:core.field_warehouse__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: core
+#: model:ir.model,name:core.model_res_currency
+msgid "Currency"
+msgstr "币种"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_bank_account__display_name
+#: model:ir.model.fields,field_description:core.field_business_data_table__display_name
+#: model:ir.model.fields,field_description:core.field_clean_business_data__display_name
+#: model:ir.model.fields,field_description:core.field_core_category__display_name
+#: model:ir.model.fields,field_description:core.field_core_value__display_name
+#: model:ir.model.fields,field_description:core.field_goods__display_name
+#: model:ir.model.fields,field_description:core.field_partner__display_name
+#: model:ir.model.fields,field_description:core.field_pay_method__display_name
+#: model:ir.model.fields,field_description:core.field_pricing__display_name
+#: model:ir.model.fields,field_description:core.field_service__display_name
+#: model:ir.model.fields,field_description:core.field_settle_mode__display_name
+#: model:ir.model.fields,field_description:core.field_staff__display_name
+#: model:ir.model.fields,field_description:core.field_team__display_name
+#: model:ir.model.fields,field_description:core.field_uom__display_name
+#: model:ir.model.fields,field_description:core.field_warehouse__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_goods__message_follower_ids
+#: model:ir.model.fields,field_description:core.field_partner__message_follower_ids
+msgid "Followers"
+msgstr "关注者"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_goods__message_channel_ids
+#: model:ir.model.fields,field_description:core.field_partner__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "关注者(频道)"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_goods__message_partner_ids
+#: model:ir.model.fields,field_description:core.field_partner__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "关注者(业务伙伴)"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_bank_account__id
+#: model:ir.model.fields,field_description:core.field_business_data_table__id
+#: model:ir.model.fields,field_description:core.field_clean_business_data__id
+#: model:ir.model.fields,field_description:core.field_core_category__id
+#: model:ir.model.fields,field_description:core.field_core_value__id
+#: model:ir.model.fields,field_description:core.field_goods__id
+#: model:ir.model.fields,field_description:core.field_partner__id
+#: model:ir.model.fields,field_description:core.field_pay_method__id
+#: model:ir.model.fields,field_description:core.field_pricing__id
+#: model:ir.model.fields,field_description:core.field_service__id
+#: model:ir.model.fields,field_description:core.field_settle_mode__id
+#: model:ir.model.fields,field_description:core.field_staff__id
+#: model:ir.model.fields,field_description:core.field_team__id
+#: model:ir.model.fields,field_description:core.field_uom__id
+#: model:ir.model.fields,field_description:core.field_warehouse__id
+msgid "ID"
+msgstr "ID"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_goods__activity_exception_icon
+#: model:ir.model.fields,field_description:core.field_partner__activity_exception_icon
+msgid "Icon"
+msgstr "图标"
+
+#. module: core
+#: model:ir.model.fields,help:core.field_goods__activity_exception_icon
+#: model:ir.model.fields,help:core.field_partner__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "用于表示一个异常活动的图标。"
+
+#. module: core
+#: model:ir.model.fields,help:core.field_goods__message_needaction
+#: model:ir.model.fields,help:core.field_goods__message_unread
+#: model:ir.model.fields,help:core.field_partner__message_needaction
+#: model:ir.model.fields,help:core.field_partner__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "确认后, 新消息会出现提示。"
+
+#. module: core
+#: model:ir.model.fields,help:core.field_goods__message_has_error
+#: model:ir.model.fields,help:core.field_partner__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "如果勾选此项， 某些消息将会产生传递错误。"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_goods__message_is_follower
+#: model:ir.model.fields,field_description:core.field_partner__message_is_follower
+msgid "Is Follower"
+msgstr "关注者"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_bank_account____last_update
+#: model:ir.model.fields,field_description:core.field_business_data_table____last_update
+#: model:ir.model.fields,field_description:core.field_clean_business_data____last_update
+#: model:ir.model.fields,field_description:core.field_core_category____last_update
+#: model:ir.model.fields,field_description:core.field_core_value____last_update
+#: model:ir.model.fields,field_description:core.field_goods____last_update
+#: model:ir.model.fields,field_description:core.field_partner____last_update
+#: model:ir.model.fields,field_description:core.field_pay_method____last_update
+#: model:ir.model.fields,field_description:core.field_pricing____last_update
+#: model:ir.model.fields,field_description:core.field_service____last_update
+#: model:ir.model.fields,field_description:core.field_settle_mode____last_update
+#: model:ir.model.fields,field_description:core.field_staff____last_update
+#: model:ir.model.fields,field_description:core.field_team____last_update
+#: model:ir.model.fields,field_description:core.field_uom____last_update
+#: model:ir.model.fields,field_description:core.field_warehouse____last_update
+msgid "Last Modified on"
+msgstr "最后更改日期"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_bank_account__write_uid
+#: model:ir.model.fields,field_description:core.field_business_data_table__write_uid
+#: model:ir.model.fields,field_description:core.field_clean_business_data__write_uid
+#: model:ir.model.fields,field_description:core.field_core_category__write_uid
+#: model:ir.model.fields,field_description:core.field_core_value__write_uid
+#: model:ir.model.fields,field_description:core.field_goods__write_uid
+#: model:ir.model.fields,field_description:core.field_partner__write_uid
+#: model:ir.model.fields,field_description:core.field_pay_method__write_uid
+#: model:ir.model.fields,field_description:core.field_pricing__write_uid
+#: model:ir.model.fields,field_description:core.field_service__write_uid
+#: model:ir.model.fields,field_description:core.field_settle_mode__write_uid
+#: model:ir.model.fields,field_description:core.field_staff__write_uid
+#: model:ir.model.fields,field_description:core.field_team__write_uid
+#: model:ir.model.fields,field_description:core.field_uom__write_uid
+#: model:ir.model.fields,field_description:core.field_warehouse__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_bank_account__write_date
+#: model:ir.model.fields,field_description:core.field_business_data_table__write_date
+#: model:ir.model.fields,field_description:core.field_clean_business_data__write_date
+#: model:ir.model.fields,field_description:core.field_core_category__write_date
+#: model:ir.model.fields,field_description:core.field_core_value__write_date
+#: model:ir.model.fields,field_description:core.field_goods__write_date
+#: model:ir.model.fields,field_description:core.field_partner__write_date
+#: model:ir.model.fields,field_description:core.field_pay_method__write_date
+#: model:ir.model.fields,field_description:core.field_pricing__write_date
+#: model:ir.model.fields,field_description:core.field_service__write_date
+#: model:ir.model.fields,field_description:core.field_settle_mode__write_date
+#: model:ir.model.fields,field_description:core.field_staff__write_date
+#: model:ir.model.fields,field_description:core.field_team__write_date
+#: model:ir.model.fields,field_description:core.field_uom__write_date
+#: model:ir.model.fields,field_description:core.field_warehouse__write_date
+msgid "Last Updated on"
+msgstr "最近更新时间"
+
+#. module: core
+#: model_terms:ir.ui.view,arch_db:core.menus_template
+msgid "Logo"
+msgstr "图标"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_goods__message_main_attachment_id
+#: model:ir.model.fields,field_description:core.field_partner__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "主附件"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_goods__message_has_error
+#: model:ir.model.fields,field_description:core.field_partner__message_has_error
+msgid "Message Delivery error"
+msgstr "消息传递错误"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_goods__message_ids
+#: model:ir.model.fields,field_description:core.field_partner__message_ids
+msgid "Messages"
+msgstr "消息"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_goods__activity_date_deadline
+#: model:ir.model.fields,field_description:core.field_partner__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "下一个活动的截止日期"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_goods__activity_summary
+#: model:ir.model.fields,field_description:core.field_partner__activity_summary
+msgid "Next Activity Summary"
+msgstr "下一个活动概述"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_goods__activity_type_id
+#: model:ir.model.fields,field_description:core.field_partner__activity_type_id
+msgid "Next Activity Type"
+msgstr "下一个活动类型"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_res_users__notification_type
+msgid "Notification"
+msgstr "通知"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_goods__message_needaction_counter
+#: model:ir.model.fields,field_description:core.field_partner__message_needaction_counter
+msgid "Number of Actions"
+msgstr "动作个数"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_goods__message_has_error_counter
+#: model:ir.model.fields,field_description:core.field_partner__message_has_error_counter
+msgid "Number of errors"
+msgstr "错误数"
+
+#. module: core
+#: model:ir.model.fields,help:core.field_goods__message_needaction_counter
+#: model:ir.model.fields,help:core.field_partner__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "需要行动的消息数量"
+
+#. module: core
+#: model:ir.model.fields,help:core.field_goods__message_has_error_counter
+#: model:ir.model.fields,help:core.field_partner__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "递送错误消息数量"
+
+#. module: core
+#: model:ir.model.fields,help:core.field_goods__message_unread_counter
+#: model:ir.model.fields,help:core.field_partner__message_unread_counter
+msgid "Number of unread messages"
+msgstr "未读消息数量"
+
+#. module: core
+#: model:ir.model.fields,help:core.field_res_users__notification_type
+msgid ""
+"Policy on how to handle Chatter notifications:\n"
+"- Handle by Emails: notifications are sent to your email address\n"
+"- Handle in Odoo: notifications appear in your Odoo Inbox"
+msgstr ""
+"处理聊天提醒的策略:\n"
+"- 通过Email处理: 提醒将发送到你的电子邮件地址\n"
+"- 在Odoo中处理: 提醒将出现在你的Odoo收件箱"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_goods__activity_user_id
+#: model:ir.model.fields,field_description:core.field_partner__activity_user_id
+msgid "Responsible User"
+msgstr "负责的用户"
+
+#. module: core
+#: model_terms:ir.ui.view,arch_db:core.clean_business_data_form
+#: model_terms:ir.ui.view,arch_db:core.service_form
+msgid "Service"
+msgstr "服务"
+
+#. module: core
+#: model:ir.model.fields,help:core.field_goods__activity_state
+#: model:ir.model.fields,help:core.field_partner__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"基于活动的状态\n"
+"超期: 截止日期已经超出\n"
+"今天: 活动日期是今天\n"
+"已计划: 将来的活动。"
+
+#. module: core
+#: model:ir.model.fields,help:core.field_goods__activity_exception_decoration
+#: model:ir.model.fields,help:core.field_partner__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "记录上的异常活动类型"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_goods__message_unread
+#: model:ir.model.fields,field_description:core.field_partner__message_unread
+msgid "Unread Messages"
+msgstr "未读消息"
+
+#. module: core
+#: model:ir.model.fields,field_description:core.field_goods__message_unread_counter
+#: model:ir.model.fields,field_description:core.field_partner__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "未读消息计数器"
+
+#. module: core
+#: model:ir.model,name:core.model_res_users
+msgid "Users"
+msgstr "用户"
+
+#. module: core
+#: model:ir.model,name:core.model_ir_ui_view
+msgid "View"
+msgstr "视图"
+
+#. module: core
+#: model_terms:ir.ui.view,arch_db:core.bank_account_tree
+#: model_terms:ir.ui.view,arch_db:core.customer_tree
+#: model_terms:ir.ui.view,arch_db:core.vendor_tree
+msgid "sum"
+msgstr "合计"
+

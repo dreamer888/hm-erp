@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="discovery_wizard_view_form" model="ir.ui.view">
+        <field name="name">discovery.wizard.view.form</field>
+        <field name="model">discovery.wizard</field>
+        <field name="arch" type="xml">
+            <form string="">
+                <sheet>
+                    <group>
+                        <field name="channel_ids" widget="many2many_tags"/>
+                    </group>
+                </sheet>
+                <footer>
+                    <button string="确认" name="button_ok" type="object" class="oe_highlight"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="discovery_wizard_action" model="ir.actions.act_window">
+        <field name="name">洞察向导</field>
+        <field name="res_model">discovery.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+
+    <menuitem
+        id="discovery_wizard_menu"
+        name="洞察向导"
+        action="discovery_wizard_action"
+        parent="discovery_menu"
+        sequence="9"/>
+
+</odoo>

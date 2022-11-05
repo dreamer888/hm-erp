@@ -1,0 +1,1495 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* staff
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 05:50+0000\n"
+"PO-Revision-Date: 2022-07-21 13:53+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.1.1\n"
+
+#. module: staff
+#: model:mail.template,body_html:staff.contract_over_due_date_employee
+msgid ""
+"\n"
+"\t\t\t\t\n"
+"\t\t\t\t\t<div style=\"padding:0px;width:600px;margin:auto;background: #FFFFFF repeat top /100%;color:#777777\">\n"
+"\t\t\t\t\t\t<table cellspacing=\"0\" cellpadding=\"0\" style=\"width:600px;border-collapse:collapse;background:inherit;color:inherit\">\n"
+"\t\t\t\t\t\t\t<tbody>\n"
+"\t\t\t\t\t\t\t\t<tr>\n"
+"\t\t\t\t\t\t\t\t\t<td valign=\"center\" width=\"200\" style=\"padding:10px 10px 10px 5px;font-size: 12px\">\n"
+"\t\t\t\t\t\t\t\t\t\t<img src=\"/logo.png\" style=\"padding: 0px; margin: 0px; height: auto; width: 80px;\" alt=\"${object.name}\">\n"
+"\t\t\t\t\t\t\t\t\t</td>\n"
+"\t\t\t\t\t\t\t\t</tr>\n"
+"\t\t\t\t\t\t\t</tbody>\n"
+"\t\t\t\t\t\t</table>\n"
+"\t\t\t\t\t</div>\n"
+"\t\t\t\t\t<div style=\"padding:0px;width:600px;margin:auto;background: #FFFFFF repeat top /100%;color:#777777\">\n"
+"\t\t\t\t\t\t<p>亲爱的： ${object.name},</p>\n"
+"\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t\t你的合同到期了，请联系部门经理${object.parent_id.name}\n"
+"\t\t\t\t\t\t</p>\n"
+"\t\t\t\t\t\t<p>Best regards,</p>\n"
+"\t\t\t\t\t</div>\n"
+"\t\t\t\t\t<div style=\"padding:0px;width:600px;margin:auto; margin-top: 10px; background: #fff repeat top /100%;color:#777777\">\n"
+"\t\t\t\t\t\t<p style=\"font-size: 11px; margin-top: 10px;\">\n"
+"\t\t\t\t\t\t\t<strong>发送人： ${user.company_id.name} using <a href=\"www.odoo.com\" style=\"text-decoration:none; color: #875A7B;\">Odoo</a></strong>\n"
+"\t\t\t\t\t\t</p>\n"
+"\t\t\t\t\t</div>\n"
+"\t\t\t\t\t\n"
+"\t\t\t"
+msgstr "<div style=\"padding:0px;width:600px;margin:auto;background: #FFFFFF repeat top /100%;color:#777777\"><table cellspacing=\"0\" cellpadding=\"0\" style=\"width:600px;border-collapse:collapse;background:inherit;color:inherit\"><tbody><tr><td valign=\"center\" width=\"200\" style=\"padding:10px 10px 10px 5px;font-size: 12px\"><img src=\"/logo.png\" style=\"padding: 0px; margin: 0px; height: auto; width: 80px;\" alt=\"${object.name}\"></td></tr></tbody></table></div><div style=\"padding:0px;width:600px;margin:auto;background: #FFFFFF repeat top /100%;color:#777777\"><p>親愛的： ${object.name},</p><p>你的合同到期了，請聯繫部門經理${object.parent_id.name}</p><p> Best regards,</p></div><div style=\"padding:0px;width:600px;margin:auto; margin-top: 10px; background: #fff repeat top /100%;color:#777777\"><p style=\"font-size: 11px; margin-top: 10px;\"><strong>發送人： ${user.company_id.name} using <a href=\"www.odoo.com\" style=\"text-decoration:none; color: #875A7B;\">Odoo</a></strong></p></div>"
+
+#. module: staff
+#: model:mail.template,body_html:staff.contract_over_due_date_manager
+msgid ""
+"\n"
+"\t\t\t\t\n"
+"\t\t\t\t\t<div style=\"padding:0px;width:600px;margin:auto;background: #FFFFFF repeat top /100%;color:#777777\">\n"
+"\t\t\t\t\t\t<table cellspacing=\"0\" cellpadding=\"0\" style=\"width:600px;border-collapse:collapse;background:inherit;color:inherit\">\n"
+"\t\t\t\t\t\t\t<tbody>\n"
+"\t\t\t\t\t\t\t\t<tr>\n"
+"\t\t\t\t\t\t\t\t\t<td valign=\"center\" width=\"200\" style=\"padding:10px 10px 10px 5px;font-size: 12px\">\n"
+"\t\t\t\t\t\t\t\t\t\t<img src=\"/logo.png\" style=\"padding: 0px; margin: 0px; height: auto; width: 80px;\" alt=\"${object.name}\">\n"
+"\t\t\t\t\t\t\t\t\t</td>\n"
+"\t\t\t\t\t\t\t\t</tr>\n"
+"\t\t\t\t\t\t\t</tbody>\n"
+"\t\t\t\t\t\t</table>\n"
+"\t\t\t\t\t</div>\n"
+"\t\t\t\t\t<div style=\"padding:0px;width:600px;margin:auto;background: #FFFFFF repeat top /100%;color:#777777\">\n"
+"\t\t\t\t\t\t<p>亲爱的： ${object.parent_id.name},</p>\n"
+"\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t\t你的部门员工： ${object.name} 的合同到期了，请进行处理\n"
+"\t\t\t\t\t\t</p>\n"
+"\t\t\t\t\t\t<p>Best regards,</p>\n"
+"\t\t\t\t\t</div>\n"
+"\t\t\t\t\t<div style=\"padding:0px;width:600px;margin:auto; margin-top: 10px; background: #fff repeat top /100%;color:#777777\">\n"
+"\t\t\t\t\t\t<p style=\"font-size: 11px; margin-top: 10px;\">\n"
+"\t\t\t\t\t\t\t<strong>发送人： ${user.company_id.name} using <a href=\"www.odoo.com\" style=\"text-decoration:none; color: #875A7B;\">Odoo</a></strong>\n"
+"\t\t\t\t\t\t</p>\n"
+"\t\t\t\t\t</div>\n"
+"\t\t\t\t\t\n"
+"\t\t\t"
+msgstr "<div style=\"padding:0px;width:600px;margin:auto;background: #FFFFFF repeat top /100%;color:#777777\"><table cellspacing=\"0\" cellpadding=\"0\" style=\"width:600px;border-collapse:collapse;background:inherit;color:inherit\"><tbody><tr><td valign=\"center\" width=\"200\" style=\"padding:10px 10px 10px 5px;font-size: 12px\"><img src=\"/logo.png\" style=\"padding: 0px; margin: 0px; height: auto; width: 80px;\" alt=\"${object.name}\"></td></tr></tbody></table></div><div style=\"padding:0px;width:600px;margin:auto;background: #FFFFFF repeat top /100%;color:#777777\"><p>親愛的： ${object.parent_id.name},</p><p>你的部門員工： ${object.name} 的合約到期了，請進行處理</p><p>Best regards,</p></div><div style=\"padding:0px;width:600px;margin:auto; margin-top: 10px; background: #fff repeat top /100%;color:#777777\"><p style=\"font-size: 11px; margin-top: 10px;\"><strong>發送人： ${user.company_id.name} using <a href=\"www.odoo.com\" style=\"text-decoration:none; color: #875A7B;\">Odoo</a></strong></p></div>"
+
+#. module: staff
+#: model:mail.template,subject:staff.contract_over_due_date_employee
+msgid ""
+"\n"
+"\t\t\t\t${object.name}：你的合同到期了\n"
+"\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t${object.name}：你的合約到期了\n"
+"\t\t\t"
+
+#. module: staff
+#: model:mail.template,subject:staff.contract_over_due_date_manager
+msgid ""
+"\n"
+"\t\t\t\t员工：${object.name} 的合同到期\n"
+"\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t員工：${object.name} 的合約到期\n"
+"\t\t\t"
+
+#. module: staff
+#: model_terms:ir.ui.view,arch_db:staff.view_staff_employee_form
+#, fuzzy
+msgid "<span>Km</span>"
+msgstr "<span>Km</span>"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_leave__message_needaction
+#, fuzzy
+msgid "Action Needed"
+msgstr "Action Needed"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_leave__message_attachment_count
+#, fuzzy
+msgid "Attachment Count"
+msgstr "Attachment Count"
+
+#. module: staff
+#: model:ir.model,name:staff.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_contract__create_uid
+#: model:ir.model.fields,field_description:staff.field_staff_department__create_uid
+#: model:ir.model.fields,field_description:staff.field_staff_employee_category__create_uid
+#: model:ir.model.fields,field_description:staff.field_staff_job__create_uid
+#: model:ir.model.fields,field_description:staff.field_staff_leave__create_uid
+#: model:ir.model.fields,field_description:staff.field_staff_type__create_uid
+#, fuzzy
+msgid "Created by"
+msgstr "Created by"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_contract__create_date
+#: model:ir.model.fields,field_description:staff.field_staff_department__create_date
+#: model:ir.model.fields,field_description:staff.field_staff_employee_category__create_date
+#: model:ir.model.fields,field_description:staff.field_staff_job__create_date
+#: model:ir.model.fields,field_description:staff.field_staff_leave__create_date
+#: model:ir.model.fields,field_description:staff.field_staff_type__create_date
+#, fuzzy
+msgid "Created on"
+msgstr "Created on"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_contract__display_name
+#: model:ir.model.fields,field_description:staff.field_staff_department__display_name
+#: model:ir.model.fields,field_description:staff.field_staff_employee_category__display_name
+#: model:ir.model.fields,field_description:staff.field_staff_job__display_name
+#: model:ir.model.fields,field_description:staff.field_staff_leave__display_name
+#: model:ir.model.fields,field_description:staff.field_staff_type__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Display Name"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_leave__message_follower_ids
+#, fuzzy
+msgid "Followers"
+msgstr "Followers"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_leave__message_channel_ids
+#, fuzzy
+msgid "Followers (Channels)"
+msgstr "Followers (Channels)"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_leave__message_partner_ids
+#, fuzzy
+msgid "Followers (Partners)"
+msgstr "Followers (Partners)"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_contract__id
+#: model:ir.model.fields,field_description:staff.field_staff_department__id
+#: model:ir.model.fields,field_description:staff.field_staff_employee_category__id
+#: model:ir.model.fields,field_description:staff.field_staff_job__id
+#: model:ir.model.fields,field_description:staff.field_staff_leave__id
+#: model:ir.model.fields,field_description:staff.field_staff_type__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: staff
+#: model:ir.model.fields,help:staff.field_staff_leave__message_needaction
+#: model:ir.model.fields,help:staff.field_staff_leave__message_unread
+#, fuzzy
+msgid "If checked, new messages require your attention."
+msgstr "If checked, new messages require your attention."
+
+#. module: staff
+#: model:ir.model.fields,help:staff.field_staff_leave__message_has_error
+#: model:ir.model.fields,help:staff.field_staff_leave__message_has_sms_error
+#, fuzzy
+msgid "If checked, some messages have a delivery error."
+msgstr "If checked, some messages have a delivery error."
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_leave__message_is_follower
+#, fuzzy
+msgid "Is Follower"
+msgstr "Is Follower"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_contract____last_update
+#: model:ir.model.fields,field_description:staff.field_staff_department____last_update
+#: model:ir.model.fields,field_description:staff.field_staff_employee_category____last_update
+#: model:ir.model.fields,field_description:staff.field_staff_job____last_update
+#: model:ir.model.fields,field_description:staff.field_staff_leave____last_update
+#: model:ir.model.fields,field_description:staff.field_staff_type____last_update
+#, fuzzy
+msgid "Last Modified on"
+msgstr "Last Modified on"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_contract__write_uid
+#: model:ir.model.fields,field_description:staff.field_staff_department__write_uid
+#: model:ir.model.fields,field_description:staff.field_staff_employee_category__write_uid
+#: model:ir.model.fields,field_description:staff.field_staff_job__write_uid
+#: model:ir.model.fields,field_description:staff.field_staff_leave__write_uid
+#: model:ir.model.fields,field_description:staff.field_staff_type__write_uid
+#, fuzzy
+msgid "Last Updated by"
+msgstr "Last Updated by"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_contract__write_date
+#: model:ir.model.fields,field_description:staff.field_staff_department__write_date
+#: model:ir.model.fields,field_description:staff.field_staff_employee_category__write_date
+#: model:ir.model.fields,field_description:staff.field_staff_job__write_date
+#: model:ir.model.fields,field_description:staff.field_staff_leave__write_date
+#: model:ir.model.fields,field_description:staff.field_staff_type__write_date
+#, fuzzy
+msgid "Last Updated on"
+msgstr "Last Updated on"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_leave__message_main_attachment_id
+#, fuzzy
+msgid "Main Attachment"
+msgstr "Main Attachment"
+
+#. module: staff
+#: model:ir.model,name:staff.model_mail_message
+msgid "Message"
+msgstr "消息"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_leave__message_has_error
+#, fuzzy
+msgid "Message Delivery error"
+msgstr "Message Delivery error"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_leave__message_ids
+#, fuzzy
+msgid "Messages"
+msgstr "Messages"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_leave__message_needaction_counter
+#, fuzzy
+msgid "Number of Actions"
+msgstr "Number of Actions"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_leave__message_has_error_counter
+#, fuzzy
+msgid "Number of errors"
+msgstr "Number of errors"
+
+#. module: staff
+#: model:ir.model.fields,help:staff.field_staff_leave__message_needaction_counter
+#, fuzzy
+msgid "Number of messages which requires an action"
+msgstr "Number of messages which requires an action"
+
+#. module: staff
+#: model:ir.model.fields,help:staff.field_staff_leave__message_has_error_counter
+#, fuzzy
+msgid "Number of messages with delivery error"
+msgstr "Number of messages with delivery error"
+
+#. module: staff
+#: model:ir.model.fields,help:staff.field_staff_leave__message_unread_counter
+#, fuzzy
+msgid "Number of unread messages"
+msgstr "Number of unread messages"
+
+#. module: staff
+#: model:ir.actions.server,name:staff.ir_cron_module_remind_contract_over_date_ir_actions_server
+#: model:ir.cron,cron_name:staff.ir_cron_module_remind_contract_over_date
+#: model:ir.cron,name:staff.ir_cron_module_remind_contract_over_date
+#, fuzzy
+msgid "Remind Contract Over Date"
+msgstr "Remind Contract Over Date"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_leave__message_has_sms_error
+#, fuzzy
+msgid "SMS Delivery error"
+msgstr "SMS Delivery error"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_leave__message_unread
+#, fuzzy
+msgid "Unread Messages"
+msgstr "Unread Messages"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_leave__message_unread_counter
+#, fuzzy
+msgid "Unread Messages Counter"
+msgstr "Unread Messages Counter"
+
+#. module: staff
+#: model:ir.actions.server,name:staff.ir_cron_module_update_notification_birthday_ir_actions_server
+#: model:ir.cron,cron_name:staff.ir_cron_module_update_notification_birthday
+#: model:ir.cron,name:staff.ir_cron_module_update_notification_birthday
+#, fuzzy
+msgid "Update Notification Birthday"
+msgstr "Update Notification Birthday"
+
+#. module: staff
+#: model_terms:ir.ui.view,arch_db:staff.view_staff_job_form
+#, fuzzy
+msgid "e.g. Sales Manager"
+msgstr "e.g. Sales Manager"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_employee_category__parent_id
+#, fuzzy
+msgid "上级标签"
+msgstr "上級標籤"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_department__parent_id
+#, fuzzy
+msgid "上级部门"
+msgstr "上級部門"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_employee_category__chield_ids
+#, fuzzy
+msgid "下级标签"
+msgstr "下級標籤"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_department__child_ids
+#, fuzzy
+msgid "下级部门"
+msgstr "下級部門"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__major_title_id
+#: model:ir.model.fields.selection,name:staff.selection__staff_type__type__major_title
+#, fuzzy
+msgid "专业"
+msgstr "專業"
+
+#. module: staff
+#: model:ir.model.fields.selection,name:staff.selection__staff__marital__widower
+#, fuzzy
+msgid "丧偶"
+msgstr "喪偶"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_contract__housing_fund
+#, fuzzy
+msgid "个人住房公积金"
+msgstr "個人住房公積金"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_res_company__housing_fund_ratio
+#, fuzzy
+msgid "个人住房公积金比例（%）"
+msgstr "個人住房公積金比例（%）"
+
+#. module: staff
+#: model_terms:ir.ui.view,arch_db:staff.view_staff_employee_form
+#, fuzzy
+msgid "个人信息"
+msgstr "用戶信息"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_contract__endowment
+#, fuzzy
+msgid "个人养老保险"
+msgstr "個人養老保險"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_res_company__endowment_ratio
+#, fuzzy
+msgid "个人养老保险比例（%）"
+msgstr "個人養老保險比例（%）"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_contract__health
+#, fuzzy
+msgid "个人医疗保险"
+msgstr "個人醫療保險"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_res_company__health_ratio
+#, fuzzy
+msgid "个人医疗保险比例（%）"
+msgstr "個人醫療保險比例（%）"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_contract__unemployment
+#, fuzzy
+msgid "个人失业保险"
+msgstr "個人失業保險"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_res_company__unemployment_ratio
+#, fuzzy
+msgid "个人失业保险比例（%）"
+msgstr "個人失業保險比例（%）"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_contract__personal_social_payment
+#, fuzzy
+msgid "个人社保"
+msgstr "個人社保"
+
+#. module: staff
+#: model:ir.ui.menu,name:staff.menu_staff_root
+#, fuzzy
+msgid "人事"
+msgstr "人事"
+
+#. module: staff
+#: model:res.groups,name:staff.hr_senior_groups
+#, fuzzy
+msgid "人事经理"
+msgstr "人事經理"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__confident_agreement_id
+#: model:ir.model.fields.selection,name:staff.selection__staff_type__type__confident_agreement
+#, fuzzy
+msgid "保密协议类别"
+msgstr "保密協議類別"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_contract__company_id
+#: model:ir.model.fields,field_description:staff.field_staff_department__company_id
+#: model:ir.model.fields,field_description:staff.field_staff_employee_category__company_id
+#: model:ir.model.fields,field_description:staff.field_staff_job__company_id
+#: model:ir.model.fields,field_description:staff.field_staff_leave__company_id
+#, fuzzy
+msgid "公司"
+msgstr "公司"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_contract__housing_fund_co
+#, fuzzy
+msgid "公司住房公积金"
+msgstr "公司住房公積金"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_res_company__housing_fund_co_ratio
+#, fuzzy
+msgid "公司住房公积金比例（%）"
+msgstr "公司住房公積金比例（%）"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_contract__endowment_co
+#, fuzzy
+msgid "公司养老保险"
+msgstr "公司養老保險"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_res_company__endowment_co_ratio
+#, fuzzy
+msgid "公司养老保险比例（%）"
+msgstr "公司養老保險比例（%）"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_contract__health_co
+#, fuzzy
+msgid "公司医疗保险"
+msgstr "公司醫療保險"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_res_company__health_co_ratio
+#, fuzzy
+msgid "公司医疗保险比例（%）"
+msgstr "公司醫療保險比例（%）"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_contract__unemployment_co
+#, fuzzy
+msgid "公司失业保险"
+msgstr "公司失業保險"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_res_company__unemployment_co_ratio
+#, fuzzy
+msgid "公司失业保险比例（%）"
+msgstr "公司失業保險比例（%）"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_contract__injury
+#, fuzzy
+msgid "公司工伤保险"
+msgstr "公司工傷保險"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_res_company__injury_ratio
+#, fuzzy
+msgid "公司工伤保险比例（%）"
+msgstr "公司工傷保險比例（%）"
+
+#. module: staff
+#: model:ir.model.fields,help:staff.field_staff_contract__housing_fund_co
+#, fuzzy
+msgid "公司承担的住房公积金"
+msgstr "公司承擔的住房公積金"
+
+#. module: staff
+#: model:ir.model.fields,help:staff.field_res_company__housing_fund_co_ratio
+#, fuzzy
+msgid "公司承担的住房公积金比例"
+msgstr "公司承擔的住房公積金比例"
+
+#. module: staff
+#: model:ir.model.fields,help:staff.field_staff_contract__endowment_co
+#, fuzzy
+msgid "公司承担的养老保险"
+msgstr "公司承擔的養老保險"
+
+#. module: staff
+#: model:ir.model.fields,help:staff.field_res_company__endowment_co_ratio
+#, fuzzy
+msgid "公司承担的养老保险比例"
+msgstr "公司承擔的養老保險比例"
+
+#. module: staff
+#: model:ir.model.fields,help:staff.field_staff_contract__health_co
+#, fuzzy
+msgid "公司承担的医疗保险"
+msgstr "公司承擔的醫療保險"
+
+#. module: staff
+#: model:ir.model.fields,help:staff.field_res_company__health_co_ratio
+#, fuzzy
+msgid "公司承担的医疗保险比例"
+msgstr "公司承擔的醫療保險比例"
+
+#. module: staff
+#: model:ir.model.fields,help:staff.field_staff_contract__unemployment_co
+#, fuzzy
+msgid "公司承担的失业保险"
+msgstr "公司承擔的失業保險"
+
+#. module: staff
+#: model:ir.model.fields,help:staff.field_res_company__unemployment_co_ratio
+#, fuzzy
+msgid "公司承担的失业保险比例"
+msgstr "公司承擔的失業保險比例"
+
+#. module: staff
+#: model:ir.model.fields,help:staff.field_staff_contract__injury
+#, fuzzy
+msgid "公司承担的工伤保险"
+msgstr "公司承擔的工傷保險"
+
+#. module: staff
+#: model:ir.model.fields,help:staff.field_res_company__injury_ratio
+#, fuzzy
+msgid "公司承担的工伤保险比例"
+msgstr "公司承擔的工傷保險比例"
+
+#. module: staff
+#: model:ir.model.fields,help:staff.field_staff_contract__maternity
+#, fuzzy
+msgid "公司承担的生育保险"
+msgstr "公司承擔的生育保險"
+
+#. module: staff
+#: model:ir.model.fields,help:staff.field_res_company__maternity_ratio
+#, fuzzy
+msgid "公司承担的生育保险比例"
+msgstr "公司承擔的生育保險比例"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_contract__maternity
+#, fuzzy
+msgid "公司生育保险"
+msgstr "公司生育保險"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_res_company__maternity_ratio
+#, fuzzy
+msgid "公司生育保险比例（%）"
+msgstr "公司生育保險比例（%）"
+
+#. module: staff
+#: model_terms:ir.ui.view,arch_db:staff.view_staff_employee_form
+#, fuzzy
+msgid "公开信息"
+msgstr "公開信息"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_contract__base_provident
+#, fuzzy
+msgid "公积金缴费基数"
+msgstr "公積金繳費基數"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__provident_fund_account
+#, fuzzy
+msgid "公积金账号"
+msgstr "公積金賬號"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__relationship_one_id
+#, fuzzy
+msgid "关系"
+msgstr "關係"
+
+#. module: staff
+#: model:ir.model.fields.selection,name:staff.selection__staff_type__type__relationship_one
+#, fuzzy
+msgid "关系1"
+msgstr "關係1"
+
+#. module: staff
+#: model:ir.model.fields.selection,name:staff.selection__staff_type__type__relationship_two
+#, fuzzy
+msgid "关系2"
+msgstr "關係2"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__notes
+#, fuzzy
+msgid "其他信息"
+msgstr "其他信息"
+
+#. module: staff
+#: model_terms:ir.ui.view,arch_db:staff.view_staff_employee_form
+#, fuzzy
+msgid "其他信息 ..."
+msgstr "其他信息 ..."
+
+#. module: staff
+#: model:ir.model.fields.selection,name:staff.selection__staff__type_of_certification__military_id
+#, fuzzy
+msgid "军官证"
+msgstr "軍官證"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_leave__leave_type
+#, fuzzy
+msgid "准假类型"
+msgstr "准假類型"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_department__type
+#, fuzzy
+msgid "分类"
+msgstr "分類"
+
+#. module: staff
+#: model:ir.model.constraint,message:staff.constraint_staff_employee_category_name_uniq
+#, fuzzy
+msgid "分类标签已经存在!"
+msgstr "分類標籤已經存在!"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_employee_category__color
+#, fuzzy
+msgid "分类颜色"
+msgstr "分類顏色"
+
+#. module: staff
+#: model_terms:ir.ui.view,arch_db:staff.view_staff_search
+#, fuzzy
+msgid "分组"
+msgstr "分組"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_contract__over_date
+#, fuzzy
+msgid "到期日"
+msgstr "到期日"
+
+#. module: staff
+#: model:ir.model.fields.selection,name:staff.selection__staff_department__dtype__produce
+#, fuzzy
+msgid "制造"
+msgstr "製造"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__work_mobile
+#, fuzzy
+msgid "办公手机"
+msgstr "辦公手機"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__work_phone
+#, fuzzy
+msgid "办公电话"
+msgstr "辦公電話"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__work_email
+#, fuzzy
+msgid "办公邮箱"
+msgstr "辦公郵箱"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__join_date
+#, fuzzy
+msgid "加入本司日期"
+msgstr "加入本司日期"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_contract__company_social_payment
+#, fuzzy
+msgid "单位社保"
+msgstr "單位社保"
+
+#. module: staff
+#: model:ir.model.fields.selection,name:staff.selection__staff__marital__single
+#, fuzzy
+msgid "单身"
+msgstr "單身"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__work_date
+#, fuzzy
+msgid "参加工作日期"
+msgstr "參加工作日期"
+
+#. module: staff
+#: model:ir.model,name:staff.model_staff_type
+#, fuzzy
+msgid "参数项"
+msgstr "參數項"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__contract_ids
+#: model_terms:ir.ui.view,arch_db:staff.view_staff_employee_form
+#, fuzzy
+msgid "合同"
+msgstr "合同"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__contract_category_id
+#: model:ir.model.fields.selection,name:staff.selection__staff_type__type__contract_category
+#, fuzzy
+msgid "合同类别"
+msgstr "合同類別"
+
+#. module: staff
+#: model:ir.model.constraint,message:staff.constraint_staff_type_name_uniq
+#, fuzzy
+msgid "同类型的类别不能重名"
+msgstr "同類型的類別不能重名"
+
+#. module: staff
+#: model:ir.model.constraint,message:staff.constraint_staff_job_name_uniq
+#, fuzzy
+msgid "同部门的职位不能重复！"
+msgstr "同部門的職位不能重複！"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_department__name
+#: model:ir.model.fields,field_description:staff.field_staff_employee_category__name
+#: model:ir.model.fields,field_description:staff.field_staff_type__name
+#, fuzzy
+msgid "名称"
+msgstr "名稱"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__active
+#: model:ir.model.fields,field_description:staff.field_staff_department__active
+#: model:ir.model.fields,field_description:staff.field_staff_job__active
+#, fuzzy
+msgid "启用"
+msgstr "啟用"
+
+#. module: staff
+#: model:ir.actions.act_window,name:staff.staff_action
+#: model:ir.model,name:staff.model_staff
+#: model:ir.model.fields,field_description:staff.field_staff_contract__staff_id
+#: model:ir.model.fields,field_description:staff.field_staff_employee_category__employee_ids
+#: model:ir.ui.menu,name:staff.menu_staff
+#: model:ir.ui.menu,name:staff.menu_staff_main
+#: model_terms:ir.ui.view,arch_db:staff.view_staff_employee_form
+#: model_terms:ir.ui.view,arch_db:staff.view_staff_employee_tree
+#: model_terms:ir.ui.view,arch_db:staff.view_staff_search
+#: model:res.groups,name:staff.hr_groups
+#, fuzzy
+msgid "员工"
+msgstr "員工"
+
+#. module: staff
+#: model:ir.model,name:staff.model_staff_contract
+#, fuzzy
+msgid "员工合同"
+msgstr "員工合同"
+
+#. module: staff
+#: model:ir.model,name:staff.model_staff_employee_category
+#, fuzzy
+msgid "员工层级"
+msgstr "員工層級"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__work_no
+#, fuzzy
+msgid "员工工号"
+msgstr "員工工號"
+
+#. module: staff
+#: model:ir.model,name:staff.model_staff_job
+#, fuzzy
+msgid "员工职位"
+msgstr "員工職位"
+
+#. module: staff
+#: model:ir.model,name:staff.model_staff_department
+#, fuzzy
+msgid "员工部门"
+msgstr "員工部門"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__commercial_insurance
+#, fuzzy
+msgid "商保号"
+msgstr "商保號"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_leave__date_stop
+#, fuzzy
+msgid "回来时间"
+msgstr "回來時間"
+
+#. module: staff
+#: model_terms:ir.ui.view,arch_db:staff.view_staff_employee_form
+#, fuzzy
+msgid "国籍和其他"
+msgstr "國籍和其他"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__duration_agreement
+#, fuzzy
+msgid "培训协议期限"
+msgstr "培訓協議期限"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_contract__basic_wage
+#, fuzzy
+msgid "基础工资"
+msgstr "基礎工資"
+
+#. module: staff
+#: model:ir.model.fields.selection,name:staff.selection__staff__type_of_certification__soldiers_card
+#, fuzzy
+msgid "士兵证"
+msgstr "士兵證"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_department__note
+#, fuzzy
+msgid "备注"
+msgstr "備註"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__image_medium
+#, fuzzy
+msgid "头像"
+msgstr "頭像"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__marital
+#, fuzzy
+msgid "婚姻状况"
+msgstr "婚姻狀況"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__child_one_birthday
+#, fuzzy
+msgid "子女1出生日期"
+msgstr "子女1出生日期"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__child_one
+#, fuzzy
+msgid "子女1姓名"
+msgstr "子女1姓名"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__child_two_birthday
+#, fuzzy
+msgid "子女2出生日期"
+msgstr "子女2出生日期"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__child_two
+#, fuzzy
+msgid "子女2姓名"
+msgstr "子女2姓名"
+
+#. module: staff
+#: model_terms:ir.ui.view,arch_db:staff.view_staff_employee_form
+#, fuzzy
+msgid "子女信息"
+msgstr "子女信息"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__children
+#, fuzzy
+msgid "子女数"
+msgstr "子女數"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__learning_form_id
+#: model:ir.model.fields.selection,name:staff.selection__staff_type__type__learning_form
+#, fuzzy
+msgid "学历性质"
+msgstr "學歷性質"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__actual_residence
+#, fuzzy
+msgid "实际居住地住址"
+msgstr "實際居住地住址"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__km_home_work
+#, fuzzy
+msgid "家和公司之间的距离"
+msgstr "家和公司之間的距離"
+
+#. module: staff
+#: model:ir.model.fields.selection,name:staff.selection__staff__type_of_certification__id
+#, fuzzy
+msgid "居民身份证"
+msgstr "居民身份證"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_contract__job_id
+#: model_terms:ir.ui.view,arch_db:staff.view_staff_employee_form
+#, fuzzy
+msgid "岗位"
+msgstr "崗位"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__job_type_id
+#: model:ir.model.fields.selection,name:staff.selection__staff_type__type__job_type
+#, fuzzy
+msgid "岗位类型"
+msgstr "崗位類型"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__bank_name
+#, fuzzy
+msgid "工资卡号"
+msgstr "工資卡號"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__bank_num
+#, fuzzy
+msgid "工资卡开户行"
+msgstr "工資卡開戶行"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__salary_date
+#, fuzzy
+msgid "工资结算日"
+msgstr "工資結算日"
+
+#. module: staff
+#: model:ir.model.fields.selection,name:staff.selection__staff__marital__married
+#, fuzzy
+msgid "已婚"
+msgstr "已婚"
+
+#. module: staff
+#: model:ir.model.fields.selection,name:staff.selection__staff_leave__state__done
+#, fuzzy
+msgid "已确认"
+msgstr "已確認"
+
+#. module: staff
+#: model:ir.model.fields.selection,name:staff.selection__staff_leave__leave_type__with_pay
+#, fuzzy
+msgid "带薪"
+msgstr "帶薪"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__gender
+#, fuzzy
+msgid "性别"
+msgstr "性別"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__household_registration_id
+#: model:ir.model.fields.selection,name:staff.selection__staff_type__type__household_type
+#, fuzzy
+msgid "户籍类型"
+msgstr "戶籍類型"
+
+#. module: staff
+#: model:ir.model.fields.selection,name:staff.selection__staff__type_of_certification__passport_card
+#, fuzzy
+msgid "护照"
+msgstr "護照"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__reimbursement_card
+#, fuzzy
+msgid "报销卡号"
+msgstr "報銷卡號"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__account_reimbursement_card
+#, fuzzy
+msgid "报销卡开户行"
+msgstr "報銷卡開戶行"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_job__note
+#, fuzzy
+msgid "描述"
+msgstr "描述"
+
+#. module: staff
+#: model_terms:ir.ui.view,arch_db:staff.view_staff_department_form
+#: model_terms:ir.ui.view,arch_db:staff.view_staff_job_form
+#, fuzzy
+msgid "描述..."
+msgstr "課程描述…"
+
+#. module: staff
+#: model_terms:ir.ui.view,arch_db:staff.staff_leave_form
+#, fuzzy
+msgid "撤销确认"
+msgstr "撤銷確認"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__political_outlook_id
+#: model:ir.model.fields.selection,name:staff.selection__staff_type__type__political_outlook
+#, fuzzy
+msgid "政治面貌"
+msgstr "政治面貌"
+
+#. module: staff
+#: model_terms:ir.ui.view,arch_db:staff.view_staff_employee_form
+#, fuzzy
+msgid "教育信息"
+msgstr "教育信息"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__training_date
+#, fuzzy
+msgid "新员工培训日期"
+msgstr "新員工培訓日期"
+
+#. module: staff
+#: model:ir.model.fields.selection,name:staff.selection__staff_leave__leave_type__no_pay
+#, fuzzy
+msgid "无薪"
+msgstr "無薪"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__is_investoren
+#, fuzzy
+msgid "是否投资者"
+msgstr "是否投資者"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__is_bsw
+#, fuzzy
+msgid "是否残疾烈属孤老"
+msgstr "是否殘疾烈屬孤老"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__is_arbeitnehmer
+#, fuzzy
+msgid "是否雇员"
+msgstr "是否僱員"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_type__serial_number
+#, fuzzy
+msgid "显示顺序"
+msgstr "顯示順序"
+
+#. module: staff
+#: model:ir.model.fields,help:staff.field_staff_type__serial_number
+#, fuzzy
+msgid "显示顺序按类型+显示顺序进行排序显示."
+msgstr "顯示順序按類型+顯示順序進行排序顯示."
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__last_working
+#, fuzzy
+msgid "最后工作日"
+msgstr "最後工作日"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__highest_education_id
+#: model:ir.model.fields.selection,name:staff.selection__staff_type__type__highest_education
+#, fuzzy
+msgid "最高学历"
+msgstr "最高學歷"
+
+#. module: staff
+#: model:ir.model.fields.selection,name:staff.selection__staff_leave__state__draft
+#, fuzzy
+msgid "未确认"
+msgstr "未確認"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__category_ids
+#, fuzzy
+msgid "标签"
+msgstr "標籤"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__archives_place
+#, fuzzy
+msgid "档案存放地"
+msgstr "檔案存放地"
+
+#. module: staff
+#: model:ir.model.fields.selection,name:staff.selection__staff__type_of_certification__police_badge
+#, fuzzy
+msgid "武警警官证"
+msgstr "武警警官證"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__graduation_date
+#, fuzzy
+msgid "毕业时间"
+msgstr "畢業時間"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__university_graduated_id
+#: model:ir.model.fields.selection,name:staff.selection__staff_type__type__university_graduated
+#, fuzzy
+msgid "毕业院校"
+msgstr "畢業院校"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__nation_id
+#, fuzzy
+msgid "民族"
+msgstr "民族"
+
+#. module: staff
+#: model_terms:ir.actions.act_window,help:staff.staff_action
+#, fuzzy
+msgid "点击创建员工"
+msgstr "點擊創建員工"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_leave__state
+#: model:ir.model.fields,field_description:staff.field_staff_type__active
+#: model_terms:ir.ui.view,arch_db:staff.view_staff_employee_form
+#, fuzzy
+msgid "状态"
+msgstr "狀態"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__birthday
+#, fuzzy
+msgid "生日"
+msgstr "生日"
+
+#. module: staff
+#: model:ir.model.fields.selection,name:staff.selection__staff_leave__leave_type__sick_leave
+#, fuzzy
+msgid "病假"
+msgstr "病假"
+
+#. module: staff
+#: model:ir.model.fields.selection,name:staff.selection__staff_department__dtype__develop
+#, fuzzy
+msgid "研发"
+msgstr "研發"
+
+#. module: staff
+#: model_terms:ir.ui.view,arch_db:staff.staff_leave_form
+#, fuzzy
+msgid "确认"
+msgstr "確認"
+
+#. module: staff
+#: model_terms:ir.ui.view,arch_db:staff.view_staff_employee_form
+#, fuzzy
+msgid "社会信息"
+msgstr "社會信息"
+
+#. module: staff
+#: model_terms:ir.ui.view,arch_db:staff.staff_company_form_inherit
+#, fuzzy
+msgid "社保信息"
+msgstr "社保信息"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__social_payment_address_id
+#: model:ir.model.fields.selection,name:staff.selection__staff_type__type__social_payment_address
+#, fuzzy
+msgid "社保公积金缴纳地点"
+msgstr "社保公積金繳納地點"
+
+#. module: staff
+#: model_terms:ir.ui.view,arch_db:staff.view_staff_employee_form
+#, fuzzy
+msgid "社保及公积金"
+msgstr "社保及公積金"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_contract__base_social_payment
+#, fuzzy
+msgid "社保缴费基数"
+msgstr "社保繳費基數"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__social_security_account
+#, fuzzy
+msgid "社保账号"
+msgstr "社保賬號"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_leave__date_start
+#, fuzzy
+msgid "离开时间"
+msgstr "離開時間"
+
+#. module: staff
+#: model:ir.model.fields.selection,name:staff.selection__staff__marital__divorced
+#, fuzzy
+msgid "离异"
+msgstr "離異"
+
+#. module: staff
+#: model_terms:ir.ui.view,arch_db:staff.view_staff_employee_form
+#, fuzzy
+msgid "离职信息"
+msgstr "離職信息"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__leaving_reason_id
+#: model:ir.model.fields.selection,name:staff.selection__staff_type__type__leaving_reason
+#, fuzzy
+msgid "离职原因"
+msgstr "離職原因"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__second_contact
+#, fuzzy
+msgid "第二紧急联系人"
+msgstr "第二緊急聯繫人"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__relationship_two_id
+#, fuzzy
+msgid "第二紧急联系人关系"
+msgstr "第二緊急聯繫人關係"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__second_contact_tel
+#, fuzzy
+msgid "第二紧急联系人电话"
+msgstr "第二緊急聯繫人電話"
+
+#. module: staff
+#: model:ir.model.fields.selection,name:staff.selection__staff_department__dtype__admin
+#, fuzzy
+msgid "管理"
+msgstr "管理"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__native_place
+#, fuzzy
+msgid "籍贯"
+msgstr "籍貫"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_type__type
+#, fuzzy
+msgid "类型"
+msgstr "類型"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__emergency_contact
+#, fuzzy
+msgid "紧急联系人"
+msgstr "緊急聯繫人"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__emergency_call
+#, fuzzy
+msgid "紧急联系方式"
+msgstr "緊急聯繫方式"
+
+#. module: staff
+#: model_terms:ir.ui.view,arch_db:staff.view_staff_search
+#, fuzzy
+msgid "经理"
+msgstr "經理"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_department__code
+#, fuzzy
+msgid "编码"
+msgstr "編碼"
+
+#. module: staff
+#: model_terms:ir.ui.view,arch_db:staff.view_staff_employee_form
+#, fuzzy
+msgid "职业"
+msgstr "職業"
+
+#. module: staff
+#: model:ir.actions.act_window,name:staff.staff_job_action
+#: model:ir.model.fields,field_description:staff.field_staff__job_id
+#: model:ir.model.fields,field_description:staff.field_staff_department__jobs_ids
+#: model:ir.model.fields,field_description:staff.field_staff_job__name
+#: model:ir.ui.menu,name:staff.menu_staff_job
+#: model_terms:ir.ui.view,arch_db:staff.staff_leave_form
+#: model_terms:ir.ui.view,arch_db:staff.view_staff_department_form
+#: model_terms:ir.ui.view,arch_db:staff.view_staff_employee_form
+#: model_terms:ir.ui.view,arch_db:staff.view_staff_job_form
+#: model_terms:ir.ui.view,arch_db:staff.view_staff_job_tree
+#: model_terms:ir.ui.view,arch_db:staff.view_staff_search
+#, fuzzy
+msgid "职位"
+msgstr "職位"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__professional_title_id
+#: model:ir.model.fields.selection,name:staff.selection__staff_type__type__professional_title
+#, fuzzy
+msgid "职称"
+msgstr "職稱"
+
+#. module: staff
+#: model_terms:ir.ui.view,arch_db:staff.view_staff_employee_form
+#, fuzzy
+msgid "职称信息"
+msgstr "職稱信息"
+
+#. module: staff
+#: model:ir.model.fields.selection,name:staff.selection__staff_leave__leave_type__compensation_day
+#, fuzzy
+msgid "补偿日数"
+msgstr "補償日數"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_job__account_id
+#, fuzzy
+msgid "计提工资科目"
+msgstr "計提工資科目"
+
+#. module: staff
+#: model:ir.ui.menu,name:staff.menu_staff_configuration
+#, fuzzy
+msgid "设置"
+msgstr "設置"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__graduation_certificate_id
+#: model:ir.model.fields.selection,name:staff.selection__staff_type__type__graduation_certificate
+#, fuzzy
+msgid "证书"
+msgstr "證書"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__identification_id
+#, fuzzy
+msgid "证照号码"
+msgstr "證照號碼"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__type_of_certification
+#, fuzzy
+msgid "证照类型"
+msgstr "證照類型"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_leave__user_id
+#, fuzzy
+msgid "请假人"
+msgstr "請假人"
+
+#. module: staff
+#: model:ir.actions.act_window,name:staff.staff_leave_action
+#: model:ir.model,name:staff.model_staff_leave
+#: model:ir.ui.menu,name:staff.staff_leave_menu
+#: model_terms:ir.ui.view,arch_db:staff.staff_leave_tree
+#, fuzzy
+msgid "请假单"
+msgstr "請假單"
+
+#. module: staff
+#: model:ir.model.fields,help:staff.field_staff_leave__state
+#, fuzzy
+msgid "请假单的状态"
+msgstr "請假單的狀態"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_leave__leave_dates
+#, fuzzy
+msgid "请假天数"
+msgstr "請假天數"
+
+#. module: staff
+#: model_terms:ir.ui.view,arch_db:staff.staff_leave_calendar
+#, fuzzy
+msgid "请假日历单"
+msgstr "請假日曆單"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_leave__name
+#, fuzzy
+msgid "请假缘由"
+msgstr "請假緣由"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__confirm_date
+#, fuzzy
+msgid "转正日期"
+msgstr "轉正日期"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__auxiliary_id
+#: model:ir.model.fields,field_description:staff.field_staff_department__auxiliary_id
+#, fuzzy
+msgid "辅助核算"
+msgstr "輔助核算"
+
+#. module: staff
+#: model:ir.actions.act_window,name:staff.staff_department_action
+#: model:ir.model.fields,field_description:staff.field_staff__department_id
+#: model:ir.model.fields,field_description:staff.field_staff_job__department_id
+#: model:ir.ui.menu,name:staff.menu_staff_department
+#: model_terms:ir.ui.view,arch_db:staff.view_staff_department_form
+#: model_terms:ir.ui.view,arch_db:staff.view_staff_department_tree
+#: model_terms:ir.ui.view,arch_db:staff.view_staff_search
+#, fuzzy
+msgid "部门"
+msgstr "部門"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_department__member_ids
+#, fuzzy
+msgid "部门成员"
+msgstr "部門成員"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff_department__dtype
+#, fuzzy
+msgid "部门类别"
+msgstr "部門類別"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__parent_id
+#: model:ir.model.fields,field_description:staff.field_staff_department__manager_id
+#, fuzzy
+msgid "部门经理"
+msgstr "部門經理"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__spouse_complete_name
+#, fuzzy
+msgid "配偶全名"
+msgstr "配偶全名"
+
+#. module: staff
+#: model:ir.model.fields,field_description:staff.field_staff__spouse_birthdate
+#, fuzzy
+msgid "配偶生日"
+msgstr "配偶生日"
+
+#. module: staff
+#: model:ir.model.fields.selection,name:staff.selection__staff_department__dtype__sell
+#, fuzzy
+msgid "销售"
+msgstr "銷售"

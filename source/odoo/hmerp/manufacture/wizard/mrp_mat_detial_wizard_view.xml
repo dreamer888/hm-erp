@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<openerp>
+    <data>
+        <record id="mrp_mat_detail_dialog_wizard_form" model="ir.ui.view">
+            <field name="name">mrp.mat.detial.dialog.wizard.form</field>
+            <field name="model">mrp.mat.detial.dialog.wizard</field>
+            <field name="arch" type="xml">
+                <form string="生产领退补明细">
+                    <group>
+                        <group>
+                            <field name="date_start" required="1"/>
+                            <field name="date_end" required="1"/>
+                            <field name='user_id'
+                            	options="{'no_open': True, 'no_create': True}"/>
+                            <field name='warehouse_id'
+                            	options="{'no_open': True, 'no_create': True}"/>
+                        </group>
+                        <group>
+                            <field name="goods_id"
+                            	options="{'no_open': True, 'no_create': True}"/>
+                            <field name="goods_categ_id"
+                            	options="{'no_open': True, 'no_create': True}"/>
+                            <field name="state_type" />
+                            <field name="name" />
+                        </group>
+                        <footer>
+                            <button name="button_ok" type="object" string="确定" class="oe_highlight"/>
+                            或者
+                            <button string="取消" class="oe_link" special="cancel"/>
+                        </footer>
+                    </group>
+                </form>
+            </field>
+        </record>
+        <!-- 生产领退补明细 action -->
+        <record id='mrp_mat_detail_report_action' model='ir.actions.act_window' >
+            <field name='name'>生产领退补明细</field>
+            <field name='res_model'>mrp.mat.detial.dialog.wizard</field>
+            <field name='view_mode'>form</field>
+            <field name='view_id' ref='mrp_mat_detail_dialog_wizard_form' />
+            <field name="target">new</field>
+        </record>
+
+        <!-- 生产领退补明细 menu -->
+        <menuitem id="mrp_mat_detail_report_menu" name="生产领退补明细" action="mrp_mat_detail_report_action"
+            parent="mrp_report_menu" sequence="0"/>
+    </data>
+</openerp>

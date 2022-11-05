@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<openerp>
+    <data>
+    	<record id="mrp_ous_progress_report_tree" model="ir.ui.view">
+            <field name="name">mrp.ous.progress.report.tree</field>
+            <field name="model">mrp.ous.progress.report</field>
+            <field name="arch" type="xml">
+                <tree string="工序委外进度分析" create="false">
+                	<field name="id" invisible="1"/>
+                	<field name="date" optional="show"/>
+                	<field name="name" optional="show"/>
+                    <button name="view_bil_from" type="object" string="查看单据明细" icon="fa-search" optional="show"/>
+                	<field name="partner_id" optional="show"/>
+                	<field name="user_id" optional="show"/>
+                	<field name="order_id" optional="show"/>
+                	<field name="plm_id" optional="show"/>
+                    <field name="goods_id" optional="show"/>
+                    <field name="mrp_proc_id" optional="show"/>
+                    <field name="uom" optional="show"/>
+                    <field name="qty_task" sum="数量合计" optional="show"/>
+                    <field name="qty_conf" sum="数量合计" optional="show"/>
+                    <field name="qty_retu" sum="数量合计" optional="show"/>
+                    <field name="qty_receipt" sum="数量合计" optional="show"/>
+                    <field name="qty_ok" sum="数量合计" optional="show"/>
+                    <field name="qty_bad" sum="数量合计" optional="show"/>
+                    <field name="state" optional="show"/>
+                </tree>
+            </field>
+        </record>
+        <record id="mrp_ous_progress_report_tree_search" model="ir.ui.view">
+            <field name="name">mrp.ous.progress.report.search</field>
+            <field name="model">mrp.ous.progress.report</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="name"/>
+                    <field name="partner_id"/>
+                    <field name="user_id"/>
+                    <field name="order_id"/>
+                    <field name="plm_id"/>
+                    <field name="goods_id"/>
+                    <field name="mrp_proc_id"/>
+                    <field name="date"/>
+                </search>
+            </field>
+        </record>
+    </data>
+</openerp>

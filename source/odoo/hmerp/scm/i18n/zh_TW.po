@@ -1,0 +1,344 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* scm
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-31 14:28+0000\n"
+"PO-Revision-Date: 2022-07-31 22:29+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.1.1\n"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request__message_needaction
+msgid "Action Needed"
+msgstr "需要採取行動"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request__message_attachment_count
+msgid "Attachment Count"
+msgstr "附件數量"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request__create_uid
+#: model:ir.model.fields,field_description:scm.field_stock_request_line__create_uid
+msgid "Created by"
+msgstr "建立者"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request__create_date
+#: model:ir.model.fields,field_description:scm.field_stock_request_line__create_date
+msgid "Created on"
+msgstr "建立於"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request__display_name
+#: model:ir.model.fields,field_description:scm.field_stock_request_line__display_name
+msgid "Display Name"
+msgstr "顯示名稱"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request__message_follower_ids
+msgid "Followers"
+msgstr "關注者"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "關注者(頻道)"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "關注者(客戶)"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request__id
+#: model:ir.model.fields,field_description:scm.field_stock_request_line__id
+msgid "ID"
+msgstr "ID"
+
+#. module: scm
+#: model:ir.model.fields,help:scm.field_stock_request__message_needaction
+#: model:ir.model.fields,help:scm.field_stock_request__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "勾選代表有新訊息需要您留意。"
+
+#. module: scm
+#: model:ir.model.fields,help:scm.field_stock_request__message_has_error
+#: model:ir.model.fields,help:scm.field_stock_request__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "勾選代表有訊息發生傳送錯誤。"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request__message_is_follower
+msgid "Is Follower"
+msgstr "為關注人"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request____last_update
+#: model:ir.model.fields,field_description:scm.field_stock_request_line____last_update
+msgid "Last Modified on"
+msgstr "最後修改"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request__write_uid
+#: model:ir.model.fields,field_description:scm.field_stock_request_line__write_uid
+msgid "Last Updated by"
+msgstr "最後更新"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request__write_date
+#: model:ir.model.fields,field_description:scm.field_stock_request_line__write_date
+msgid "Last Updated on"
+msgstr "最後更新於"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "主要附件"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request__message_has_error
+msgid "Message Delivery error"
+msgstr "訊息傳遞錯誤"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request__message_ids
+msgid "Messages"
+msgstr "訊息"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request__message_needaction_counter
+msgid "Number of Actions"
+msgstr "動作數量"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request__message_has_error_counter
+msgid "Number of errors"
+msgstr "錯誤數量"
+
+#. module: scm
+#: model:ir.model.fields,help:scm.field_stock_request__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "需要行動的消息數量"
+
+#. module: scm
+#: model:ir.model.fields,help:scm.field_stock_request__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "有發送錯誤的郵件數量"
+
+#. module: scm
+#: model:ir.model.fields,help:scm.field_stock_request__message_unread_counter
+msgid "Number of unread messages"
+msgstr "未讀消息數量"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "簡訊發送錯誤"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request__message_unread
+msgid "Unread Messages"
+msgstr "未讀訊息"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "未讀訊息計數器"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request__website_message_ids
+msgid "Website Messages"
+msgstr "網站訊息"
+
+#. module: scm
+#: model:ir.model.fields,help:scm.field_stock_request__website_message_ids
+msgid "Website communication history"
+msgstr "網站溝通記錄"
+
+#. module: scm
+#: model_terms:ir.ui.view,arch_db:scm.stock_request_form
+msgid "作废"
+msgstr "作廢"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request_line__supplier_id
+msgid "供应商"
+msgstr "供應商"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request__company_id
+#: model:ir.model.fields,field_description:scm.field_stock_request_line__company_id
+msgid "公司"
+msgstr "公司"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request_line__uom_id
+msgid "单位"
+msgstr "單位"
+
+#. module: scm
+#: model:ir.model.fields,help:scm.field_stock_request__user_id
+msgid "单据经办人"
+msgstr "單據經辦人"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request_line__goods_id
+msgid "商品"
+msgstr "商品"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request_line__min_stock_qty
+msgid "安全库存数量"
+msgstr "庫存安全數量"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_source_order_line__order_ref
+msgid "对方订单号"
+msgstr "對方訂單號"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request_line__attribute_id
+msgid "属性"
+msgstr "屬性"
+
+#. module: scm
+#: model:ir.model.fields.selection,name:scm.selection__stock_request__state__cancel
+msgid "已作废"
+msgstr "已作廢"
+
+#. module: scm
+#: model:ir.model.fields.selection,name:scm.selection__stock_request__state__done
+msgid "已确认"
+msgstr "已確認"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request_line__qty
+msgid "当前数量"
+msgstr "當前數量"
+
+#. module: scm
+#: model:ir.model,name:scm.model_source_order_line
+msgid "待核销行"
+msgstr "待核銷行"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request__date
+msgid "日期"
+msgstr "日期"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request_line__to_push_qty
+msgid "未下推数量"
+msgstr "未下推數量"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request_line__to_receipt_qty
+msgid "未入库数量"
+msgstr "未入庫數量"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request_line__to_delivery_qty
+msgid "未出库数量"
+msgstr "未出庫數量"
+
+#. module: scm
+#: model:ir.model.fields.selection,name:scm.selection__stock_request__state__unsubmit
+msgid "未提交"
+msgstr "未提交"
+
+#. module: scm
+#: model:ir.model.fields.selection,name:scm.selection__stock_request__state__draft
+msgid "未确认"
+msgstr "未確認"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request_line__to_buy_qty
+msgid "未确认采购数量"
+msgstr "未確認採購數量"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request_line__to_sell_qty
+msgid "未确认销售数量"
+msgstr "未確認銷售數量"
+
+#. module: scm
+#: model_terms:ir.ui.view,arch_db:scm.stock_request_form
+msgid "查询库存"
+msgstr "庫存查詢"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request_line__request_qty
+msgid "申请补货数量"
+msgstr "補貨數量"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request_line__rel_req_qty
+msgid "相关需求数量"
+msgstr "相關需求數量"
+
+#. module: scm
+#: model_terms:ir.ui.view,arch_db:scm.stock_request_form
+msgid "确认"
+msgstr "確認"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request__state
+msgid "确认状态"
+msgstr "確認狀態"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request__user_id
+msgid "经办人"
+msgstr "經辦人"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request__name
+msgid "编号"
+msgstr "編號"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_stock_request_line__get_way
+msgid "获取方式"
+msgstr "獲取方式"
+
+#. module: scm
+#: model:ir.actions.act_window,name:scm.stock_request_action
+#: model:ir.model,name:scm.model_stock_request
+#: model:ir.model.fields,field_description:scm.field_stock_request_line__request_id
+#: model:ir.ui.menu,name:scm.stock_request_menu
+#: model_terms:ir.ui.view,arch_db:scm.stock_request_form
+#: model_terms:ir.ui.view,arch_db:scm.stock_request_tree
+msgid "补货申请"
+msgstr "補貨申請"
+
+#. module: scm
+#: model_terms:ir.ui.view,arch_db:scm.stock_request_form
+msgid "补货申请明细行"
+msgstr "補貨申請明細行"
+
+#. module: scm
+#: model:ir.model.fields,help:scm.field_stock_request__state
+msgid "补货申请的确认状态"
+msgstr "補貨申請的確認狀態"
+
+#. module: scm
+#: model:ir.model,name:scm.model_stock_request_line
+#: model:ir.model.fields,field_description:scm.field_stock_request__line_ids
+msgid "补货申请行"
+msgstr "補貨申請行"
+
+#. module: scm
+#: model:ir.model.fields,field_description:scm.field_source_order_line__order_name
+msgid "订单号"
+msgstr "訂單號"

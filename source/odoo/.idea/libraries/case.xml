@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="case">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/addons/test_mimetypes/tests/testfiles/case.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,727 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* asset
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-20 14:14+0000\n"
+"PO-Revision-Date: 2022-07-21 13:20+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.1.1\n"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset__create_uid
+#: model:ir.model.fields,field_description:asset.field_asset_category__create_uid
+#: model:ir.model.fields,field_description:asset.field_asset_line__create_uid
+#: model:ir.model.fields,field_description:asset.field_chang_line__create_uid
+#: model:ir.model.fields,field_description:asset.field_create_chang_wizard__create_uid
+#: model:ir.model.fields,field_description:asset.field_create_clean_wizard__create_uid
+#: model:ir.model.fields,field_description:asset.field_create_depreciation_wizard__create_uid
+#, fuzzy
+msgid "Created by"
+msgstr "Created by"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset__create_date
+#: model:ir.model.fields,field_description:asset.field_asset_category__create_date
+#: model:ir.model.fields,field_description:asset.field_asset_line__create_date
+#: model:ir.model.fields,field_description:asset.field_chang_line__create_date
+#: model:ir.model.fields,field_description:asset.field_create_chang_wizard__create_date
+#: model:ir.model.fields,field_description:asset.field_create_clean_wizard__create_date
+#: model:ir.model.fields,field_description:asset.field_create_depreciation_wizard__create_date
+#, fuzzy
+msgid "Created on"
+msgstr "Created on"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset__display_name
+#: model:ir.model.fields,field_description:asset.field_asset_category__display_name
+#: model:ir.model.fields,field_description:asset.field_asset_line__display_name
+#: model:ir.model.fields,field_description:asset.field_chang_line__display_name
+#: model:ir.model.fields,field_description:asset.field_create_chang_wizard__display_name
+#: model:ir.model.fields,field_description:asset.field_create_clean_wizard__display_name
+#: model:ir.model.fields,field_description:asset.field_create_depreciation_wizard__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Display Name"
+
+#. module: asset
+#: model_terms:ir.ui.view,arch_db:asset.asset_line_tree_filter
+#: model_terms:ir.ui.view,arch_db:asset.asset_tree_filter
+#, fuzzy
+msgid "Group By"
+msgstr "Group By"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset__id
+#: model:ir.model.fields,field_description:asset.field_asset_category__id
+#: model:ir.model.fields,field_description:asset.field_asset_line__id
+#: model:ir.model.fields,field_description:asset.field_chang_line__id
+#: model:ir.model.fields,field_description:asset.field_create_chang_wizard__id
+#: model:ir.model.fields,field_description:asset.field_create_clean_wizard__id
+#: model:ir.model.fields,field_description:asset.field_create_depreciation_wizard__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset____last_update
+#: model:ir.model.fields,field_description:asset.field_asset_category____last_update
+#: model:ir.model.fields,field_description:asset.field_asset_line____last_update
+#: model:ir.model.fields,field_description:asset.field_chang_line____last_update
+#: model:ir.model.fields,field_description:asset.field_create_chang_wizard____last_update
+#: model:ir.model.fields,field_description:asset.field_create_clean_wizard____last_update
+#: model:ir.model.fields,field_description:asset.field_create_depreciation_wizard____last_update
+#, fuzzy
+msgid "Last Modified on"
+msgstr "Last Modified on"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset__write_uid
+#: model:ir.model.fields,field_description:asset.field_asset_category__write_uid
+#: model:ir.model.fields,field_description:asset.field_asset_line__write_uid
+#: model:ir.model.fields,field_description:asset.field_chang_line__write_uid
+#: model:ir.model.fields,field_description:asset.field_create_chang_wizard__write_uid
+#: model:ir.model.fields,field_description:asset.field_create_clean_wizard__write_uid
+#: model:ir.model.fields,field_description:asset.field_create_depreciation_wizard__write_uid
+#, fuzzy
+msgid "Last Updated by"
+msgstr "Last Updated by"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset__write_date
+#: model:ir.model.fields,field_description:asset.field_asset_category__write_date
+#: model:ir.model.fields,field_description:asset.field_asset_line__write_date
+#: model:ir.model.fields,field_description:asset.field_chang_line__write_date
+#: model:ir.model.fields,field_description:asset.field_create_chang_wizard__write_date
+#: model:ir.model.fields,field_description:asset.field_create_clean_wizard__write_date
+#: model:ir.model.fields,field_description:asset.field_create_depreciation_wizard__write_date
+#, fuzzy
+msgid "Last Updated on"
+msgstr "Last Updated on"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset__no_depreciation
+msgid "不折旧"
+msgstr "不折舊"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset__depreciation_previous
+msgid "以前折旧"
+msgstr "以前折舊"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset__amount
+msgid "价税合计"
+msgstr "含稅價"
+
+#. module: asset
+#: model:ir.model,name:asset.model_voucher
+msgid "会计凭证"
+msgstr "會計憑證"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset__period_id
+#: model:ir.model.fields,field_description:asset.field_asset_line__period_id
+#: model:ir.model.fields,field_description:asset.field_chang_line__period_id
+#: model:ir.model.fields,field_description:asset.field_create_chang_wizard__period_id
+#: model:ir.model.fields,field_description:asset.field_create_clean_wizard__period_id
+#: model:ir.model.fields,field_description:asset.field_create_depreciation_wizard__period_id
+#: model_terms:ir.ui.view,arch_db:asset.asset_line_tree_filter
+#: model_terms:ir.ui.view,arch_db:asset.asset_tree_filter
+msgid "会计期间"
+msgstr "會計期間"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset__partner_id
+#: model:ir.model.fields,field_description:asset.field_chang_line__partner_id
+#: model:ir.model.fields,field_description:asset.field_create_chang_wizard__chang_partner_id
+msgid "供应商"
+msgstr "供應商"
+
+#. module: asset
+#: model_terms:ir.ui.view,arch_db:asset.asset_form
+#: model_terms:ir.ui.view,arch_db:asset.asset_form_readonly
+msgid "入账"
+msgstr "入帳"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset__company_id
+#: model:ir.model.fields,field_description:asset.field_asset_category__company_id
+#: model:ir.model.fields,field_description:asset.field_asset_line__company_id
+#: model:ir.model.fields,field_description:asset.field_chang_line__company_id
+#: model:ir.model.fields,field_description:asset.field_create_chang_wizard__company_id
+#: model:ir.model.fields,field_description:asset.field_create_clean_wizard__company_id
+#: model:ir.model.fields,field_description:asset.field_create_depreciation_wizard__company_id
+msgid "公司"
+msgstr "公司"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset__net_value
+#: model:ir.model.fields,field_description:asset.field_asset_line__net_value
+msgid "净值"
+msgstr "淨值"
+
+#. module: asset
+#: model_terms:ir.ui.view,arch_db:asset.asset_tree
+msgid "净值合计"
+msgstr "淨值合計"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset__is_init
+msgid "初始化资产"
+msgstr "初始化資產"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset__surplus_value
+msgid "原值"
+msgstr "原值"
+
+#. module: asset
+#: model_terms:ir.ui.view,arch_db:asset.asset_form_readonly
+#: model_terms:ir.ui.view,arch_db:asset.create_chang_wizard_form
+#: model_terms:ir.ui.view,arch_db:asset.create_clean_wizard_form
+#: model_terms:ir.ui.view,arch_db:asset.create_depreciation_wizard_form
+msgid "取消"
+msgstr "取消"
+
+#. module: asset
+#: model_terms:ir.ui.view,arch_db:asset.asset_form
+#: model_terms:ir.ui.view,arch_db:asset.asset_form_readonly
+msgid "变更"
+msgstr "變更"
+
+#. module: asset
+#: model_terms:ir.ui.view,arch_db:asset.asset_form
+#: model_terms:ir.ui.view,arch_db:asset.asset_form_readonly
+#, fuzzy
+msgid "变更人"
+msgstr "變更人"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_chang_line__chang_name
+#, fuzzy
+msgid "变更内容"
+msgstr "變更內容"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_chang_line__chang_before
+#, fuzzy
+msgid "变更前"
+msgstr "變更前"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_chang_line__change_reason
+#: model:ir.model.fields,field_description:asset.field_create_chang_wizard__change_reason
+#, fuzzy
+msgid "变更原因"
+msgstr "變更原因"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_chang_line__chang_after
+#, fuzzy
+msgid "变更后"
+msgstr "變更後"
+
+#. module: asset
+#: model_terms:ir.ui.view,arch_db:asset.asset_form
+#, fuzzy
+msgid "变更固定资产"
+msgstr "變更固定資產"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_create_chang_wizard__chang_depreciation_number
+#, fuzzy
+msgid "变更折旧期间"
+msgstr "變更折舊期間"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_create_chang_wizard__chang_date
+#, fuzzy
+msgid "变更日期"
+msgstr "變更日期"
+
+#. module: asset
+#: model_terms:ir.ui.view,arch_db:asset.asset_form
+#: model_terms:ir.ui.view,arch_db:asset.asset_form_readonly
+#, fuzzy
+msgid "变更明细"
+msgstr "變更明細"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset__chang_ids
+#, fuzzy
+msgid "变更明细行"
+msgstr "變更明細行"
+
+#. module: asset
+#: model_terms:ir.ui.view,arch_db:asset.asset_form
+#: model_terms:ir.ui.view,arch_db:asset.asset_form_readonly
+#, fuzzy
+msgid "合计折旧"
+msgstr "合計折舊"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset__name
+#: model:ir.model.fields,field_description:asset.field_asset_category__name
+#: model:ir.model.fields,field_description:asset.field_asset_line__name
+msgid "名称"
+msgstr "名稱"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset_category__active
+msgid "启用"
+msgstr "啟用"
+
+#. module: asset
+#: model:ir.actions.act_window,name:asset.asset_action
+#: model:ir.model,name:asset.model_asset
+#: model:ir.ui.menu,name:asset.asset_home_menu_finance
+#: model_terms:ir.ui.view,arch_db:asset.asset_form
+#: model_terms:ir.ui.view,arch_db:asset.asset_form_readonly
+#: model_terms:ir.ui.view,arch_db:asset.asset_tree
+#: model_terms:ir.ui.view,arch_db:asset.asset_tree_filter
+#, fuzzy
+msgid "固定资产"
+msgstr "固定資產"
+
+#. module: asset
+#: model:ir.model.fields,help:asset.field_asset__account_credit
+#, fuzzy
+msgid ""
+"固定资产入账时：\n"
+" 如赊购，此处为应付科目；\n"
+" 如现购，此处为资金科目；\n"
+" 如自建，此处为在建工程"
+msgstr ""
+"固定資產入賬時：\n"
+" 如賒購，此處為應付科目；\n"
+" 如現購，此處為資金科目；\n"
+" 如自建，此處為在建工程"
+
+#. module: asset
+#: model:ir.actions.act_window,name:asset.asset_category_action
+#: model:ir.model,name:asset.model_asset_category
+#: model:ir.model.fields,field_description:asset.field_asset__category_id
+#: model:ir.model.fields,field_description:asset.field_asset_line__category_id
+#: model:ir.ui.menu,name:asset.asset_category_finance
+#: model_terms:ir.ui.view,arch_db:asset.category_tree
+#, fuzzy
+msgid "固定资产分类"
+msgstr "固定資產分類"
+
+#. module: asset
+#: model:ir.actions.act_window,name:asset.create_chang_action
+#, fuzzy
+msgid "固定资产变更"
+msgstr "固定資產變更"
+
+#. module: asset
+#: model:ir.model,name:asset.model_create_chang_wizard
+#, fuzzy
+msgid "固定资产变更向导"
+msgstr "固定資產變更嚮導"
+
+#. module: asset
+#: model_terms:ir.ui.view,arch_db:asset.asset_line_tree_filter
+#: model_terms:ir.ui.view,arch_db:asset.asset_tree_filter
+#, fuzzy
+msgid "固定资产名称"
+msgstr "固定資產名稱"
+
+#. module: asset
+#: model:ir.actions.act_window,name:asset.create_depreciation_action
+#: model:ir.ui.menu,name:asset.create_depreciation_menu_finance
+#, fuzzy
+msgid "固定资产折旧"
+msgstr "固定資產折舊"
+
+#. module: asset
+#: model_terms:ir.ui.view,arch_db:asset.asset_line_tree_filter
+#, fuzzy
+msgid "固定资产折旧分类"
+msgstr "固定資產折舊分類"
+
+#. module: asset
+#: model:ir.actions.act_window,name:asset.asset_line_action
+#: model:ir.ui.menu,name:asset.asset_line_menu_finance
+#: model_terms:ir.ui.view,arch_db:asset.asset_line_pivot
+#: model_terms:ir.ui.view,arch_db:asset.asset_line_tree
+#, fuzzy
+msgid "固定资产折旧明细"
+msgstr "固定資產折舊明細"
+
+#. module: asset
+#: model:ir.actions.act_window,name:asset.create_clean_action
+#, fuzzy
+msgid "固定资产清理"
+msgstr "固定資產清理"
+
+#. module: asset
+#: model:ir.model,name:asset.model_create_clean_wizard
+#, fuzzy
+msgid "固定资产清理向导"
+msgstr "固定資產清理嚮導"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset_category__clean_costs
+#, fuzzy
+msgid "固定资产清理成本科目"
+msgstr "固定資產清理成本科目"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset_category__clean_income
+#, fuzzy
+msgid "固定资产清理收入科目"
+msgstr "固定資產清理收入科目"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset__account_asset
+#: model:ir.model.fields,field_description:asset.field_asset_category__account_asset
+#, fuzzy
+msgid "固定资产科目"
+msgstr "固定資產科目"
+
+#. module: asset
+#: model_terms:ir.ui.view,arch_db:asset.asset_line_tree_filter
+#: model_terms:ir.ui.view,arch_db:asset.asset_tree_filter
+#, fuzzy
+msgid "固定资产类别"
+msgstr "固定資產類別"
+
+#. module: asset
+#: model:ir.model.constraint,message:asset.constraint_asset_code_uniq
+#, fuzzy
+msgid "固定资产编号必须唯一"
+msgstr "固定資產編號必須唯一"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_create_chang_wizard__chang_tax
+#, fuzzy
+msgid "增加税额"
+msgstr "增加稅額"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_create_chang_wizard__chang_cost
+#, fuzzy
+msgid "增加金额"
+msgstr "增加金額"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset__other_money_order
+#, fuzzy
+msgid "对应其他应付款单"
+msgstr "對應其他應付款單"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset__voucher_id
+#, fuzzy
+msgid "对应凭证"
+msgstr "對應憑證"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset__money_invoice
+#: model:ir.model.fields,field_description:asset.field_chang_line__chang_money_invoice
+#, fuzzy
+msgid "对应结算单"
+msgstr "對應結算單"
+
+#. module: asset
+#: model:ir.model.fields.selection,name:asset.selection__asset__state__clean
+#, fuzzy
+msgid "已清理"
+msgstr "已清理"
+
+#. module: asset
+#: model:ir.model.fields.selection,name:asset.selection__asset__state__done
+#, fuzzy
+msgid "已确认"
+msgstr "已確認"
+
+#. module: asset
+#: model_terms:ir.ui.view,arch_db:asset.init_asset_form
+#, fuzzy
+msgid "引入固定资产"
+msgstr "引入固定資產"
+
+#. module: asset
+#: model_terms:ir.ui.view,arch_db:asset.create_chang_wizard_form
+#: model_terms:ir.ui.view,arch_db:asset.create_clean_wizard_form
+#: model_terms:ir.ui.view,arch_db:asset.create_depreciation_wizard_form
+#, fuzzy
+msgid "或者"
+msgstr "或者"
+
+#. module: asset
+#: model_terms:ir.ui.view,arch_db:asset.asset_form
+#: model_terms:ir.ui.view,arch_db:asset.asset_form_readonly
+#, fuzzy
+msgid "折旧"
+msgstr "折舊"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset__line_ids
+#, fuzzy
+msgid "折旧明细行"
+msgstr "折舊明細行"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset__depreciation_number
+#: model:ir.model.fields,field_description:asset.field_asset_category__depreciation_number
+#, fuzzy
+msgid "折旧期间数"
+msgstr "折舊期間數"
+
+#. module: asset
+#: model_terms:ir.ui.view,arch_db:asset.asset_form
+#: model_terms:ir.ui.view,arch_db:asset.asset_form_readonly
+#, fuzzy
+msgid "折旧行"
+msgstr "折舊行"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset__account_depreciation
+#: model:ir.model.fields,field_description:asset.field_asset_category__account_depreciation
+#, fuzzy
+msgid "折旧费用科目"
+msgstr "折舊費用科目"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset_line__cost_depreciation
+#, fuzzy
+msgid "折旧额"
+msgstr "折舊額"
+
+#. module: asset
+#: model_terms:ir.ui.view,arch_db:asset.asset_form
+#, fuzzy
+msgid "撤销确认"
+msgstr "撤銷確認"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset__depreciation_value
+#, fuzzy
+msgid "最终残值"
+msgstr "最終殘值"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset_category__depreciation_value
+#, fuzzy
+msgid "最终残值率%"
+msgstr "最終殘值率%"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset_line__no_depreciation
+#, fuzzy
+msgid "未提折旧额"
+msgstr "未提折舊額"
+
+#. module: asset
+#: model_terms:ir.ui.view,arch_db:asset.asset_line_tree
+#, fuzzy
+msgid "本期折旧额"
+msgstr "本期折舊額"
+
+#. module: asset
+#: model_terms:ir.ui.view,arch_db:asset.create_depreciation_wizard_form
+#, fuzzy
+msgid "查看折旧明细表"
+msgstr "查看折舊明細表"
+
+#. module: asset
+#: model_terms:ir.ui.view,arch_db:asset.asset_line_tree
+#, fuzzy
+msgid "查看资产卡片"
+msgstr "查看資產卡片"
+
+#. module: asset
+#: model:ir.model.fields,help:asset.field_asset__is_init
+#, fuzzy
+msgid "此固定资产在ERP系统启用前就已经有折旧了"
+msgstr "此固定資產在ERP系統啟用前就已經有折舊了"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_create_clean_wizard__residual_income
+#, fuzzy
+msgid "残值收入"
+msgstr "殘值收入"
+
+#. module: asset
+#: model_terms:ir.ui.view,arch_db:asset.asset_tree
+#, fuzzy
+msgid "每月折旧合计"
+msgstr "每月折舊合計"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset__cost_depreciation
+#, fuzzy
+msgid "每月折旧额"
+msgstr "每月折舊額"
+
+#. module: asset
+#: model_terms:ir.ui.view,arch_db:asset.asset_form
+#, fuzzy
+msgid "清理固定资产"
+msgstr "清理固定資產"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_create_clean_wizard__date
+#, fuzzy
+msgid "清理日期"
+msgstr "清理日期"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_create_clean_wizard__clean_cost
+#, fuzzy
+msgid "清理费用"
+msgstr "清理費用"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset__state
+msgid "状态"
+msgstr "狀態"
+
+#. module: asset
+#: model_terms:ir.ui.view,arch_db:asset.create_chang_wizard_form
+#, fuzzy
+msgid "生成变更凭证"
+msgstr "生成變更憑證"
+
+#. module: asset
+#: model_terms:ir.ui.view,arch_db:asset.create_clean_wizard_form
+#, fuzzy
+msgid "生成清理凭证"
+msgstr "生成清理憑證"
+
+#. module: asset
+#: model:ir.model.fields,help:asset.field_asset__bank_account
+#, fuzzy
+msgid "用于记录现金采购固定资产时的付款，据此生成其他支出单"
+msgstr "用於記錄現金采購固定資產時的付款，據此生成其他支出單"
+
+#. module: asset
+#: model:ir.model.fields,help:asset.field_asset__partner_id
+#, fuzzy
+msgid "用于记录采购固定资产时的应付账款，据此生成结算单"
+msgstr "用於記錄採購固定資產時的應付賬款，據此生成結算單"
+
+#. module: asset
+#: model_terms:ir.ui.view,arch_db:asset.asset_form
+msgid "确认"
+msgstr "確認"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset__tax
+#, fuzzy
+msgid "税额"
+msgstr "稅額"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset__account_accumulated_depreciation
+#: model:ir.model.fields,field_description:asset.field_asset_category__account_accumulated_depreciation
+#, fuzzy
+msgid "累计折旧科目"
+msgstr "累計折舊科目"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset__bank_account
+#: model:ir.model.fields,field_description:asset.field_create_clean_wizard__bank_account
+#, fuzzy
+msgid "结算账户"
+msgstr "結算賬戶"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset__code
+#, fuzzy
+msgid "编号"
+msgstr "編號"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset_line__code
+#, fuzzy
+msgid "编码"
+msgstr "編碼"
+
+#. module: asset
+#: model:ir.model.fields.selection,name:asset.selection__asset__state__draft
+#, fuzzy
+msgid "草稿"
+msgstr "草稿"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_chang_line__order_id
+#, fuzzy
+msgid "订单编号"
+msgstr "訂單編號"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset__date
+#: model:ir.model.fields,field_description:asset.field_asset_line__date
+#: model:ir.model.fields,field_description:asset.field_chang_line__date
+#: model:ir.model.fields,field_description:asset.field_create_depreciation_wizard__date
+#, fuzzy
+msgid "记帐日期"
+msgstr "記帳日期"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset_line__order_id
+#, fuzzy
+msgid "资产"
+msgstr "資產"
+
+#. module: asset
+#: model:ir.model,name:asset.model_chang_line
+#, fuzzy
+msgid "资产变更明细"
+msgstr "資產變更明細"
+
+#. module: asset
+#: model:ir.model,name:asset.model_create_depreciation_wizard
+#, fuzzy
+msgid "资产折旧向导"
+msgstr "資產折舊嚮導"
+
+#. module: asset
+#: model:ir.model,name:asset.model_asset_line
+#, fuzzy
+msgid "资产折旧明细"
+msgstr "資產折舊明細"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset__account_credit
+#, fuzzy
+msgid "资产贷方科目"
+msgstr "資產貸方科目"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset__auxiliary_id
+#: model:ir.model.fields,field_description:asset.field_asset_line__auxiliary_id
+#, fuzzy
+msgid "辅助核算"
+msgstr "輔助核算"
+
+#. module: asset
+#: model:ir.model.fields,help:asset.field_asset__auxiliary_id
+#: model:ir.model.fields,help:asset.field_asset_line__auxiliary_id
+#, fuzzy
+msgid "辅助核算是对账务处理的一种补充,即实现更广泛的账务处理,        以适应企业管理和决策的需要.辅助核算一般通过核算项目来实现"
+msgstr "輔助核算是對賬務處理的一種補充,即實現更廣泛的賬務處理,        以適應企業管理和決策的需要.輔助核算一般通過核算項目來實現"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_asset__cost
+msgid "金额"
+msgstr "金額"
+
+#. module: asset
+#: model:ir.model.fields,field_description:asset.field_create_clean_wizard__sell_tax_amount
+#, fuzzy
+msgid "销项税额"
+msgstr "銷項稅額"

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<odoo>
+
+	<record id="in_tax_invoice_draft_action" model="ir.actions.act_window">
+		<field name="name">待收发票</field>
+		<field name="res_model">tax.invoice</field>
+		<field name="type">ir.actions.act_window</field>
+		<field name="view_mode">tree,form</field>
+		<field name="search_view_id" ref="in_tax_invoice_search"/>
+		<field name="domain">[('invoice_type','=','in'), ('state','!=','done')]</field>
+		<field name="context">{       
+				'tree_view_ref': 'tax_invoice.in_tax_invoice_tree', 
+				'form_view_ref': 'tax_invoice.in_tax_invoice_form'
+        }</field>		
+	</record>	
+
+	<menuitem id="in_tax_invoice_draft_menu" name='待收发票' action="in_tax_invoice_draft_action"
+		parent="buy.menu_buy_manage" sequence="20"
+            groups='buy.buy_groups'/>	
+</odoo>

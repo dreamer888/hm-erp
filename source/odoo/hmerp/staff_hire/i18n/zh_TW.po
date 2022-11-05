@@ -1,0 +1,1146 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* staff_hire
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-01 03:32+0000\n"
+"PO-Revision-Date: 2022-08-01 11:33+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.1.1\n"
+
+#. module: staff_hire
+#: model:mail.template,body_html:staff_hire.email_template_data_applicant_refuse
+msgid ""
+"\n"
+"<p>Dear ${object.partner_name or 'applicant'},</p>\n"
+"<p>Thank you for your enquiry.<br />\n"
+"Unfortunately, your profile does not match with our needs</p>\n"
+"<p>If you have any questions, please let us know.</p>\n"
+"<p>Best regards,</p>"
+msgstr ""
+"\n"
+"<p>親愛的 ${object.partner_name or 'applicant'}：</p>\n"
+"<p>感謝您的查詢。<br />\n"
+"很抱歉，您的簡歷與我們的需求不符</p>\n"
+"<p>如果您有任何問題，請聯繫我們。</p>\n"
+"<p>誠摯的問候！</p>"
+
+#. module: staff_hire
+#: model:mail.template,body_html:staff_hire.email_template_data_applicant_interest
+msgid ""
+"\n"
+"<p>Dear ${object.partner_name or 'applicant'},</p>\n"
+"<p>Thank you for your enquiry.<br />\n"
+"Your resume got our interest. I will contact you as soon as possible to plan\n"
+"next steps of the recruitment process.</p>\n"
+"<p>If you have any questions, please let us know.</p>\n"
+"<p>Best regards,</p>"
+msgstr ""
+"\n"
+"<p>親愛的${object.partner_name or 'applicant'}，</p>\n"
+"<p>感謝您的查詢。<br/>\n"
+"您的簡歷與我們的要求相符，我將儘快與您聯繫。</p>\n"
+"<p>如果您有任何問題，請聯繫我們。</p>\n"
+"<p>誠摯的問候！</p>"
+
+#. module: staff_hire
+#: model:mail.template,body_html:staff_hire.email_template_data_applicant_employee
+msgid ""
+"\n"
+"<p>Dear all,</p>\n"
+"<p>I’m very pleased to announce that <strong> ${object.name} </strong> will be\n"
+"joining us as a ${object.job_id.name}\n"
+"%if object.department_id:\n"
+"    in ${object.department_id.name}.\n"
+"%endif\n"
+".</p>\n"
+"<p>Please welcome him/her and help him/her finding his/her marks.</p>"
+msgstr ""
+"\n"
+"<p>親愛的：</p>\n"
+"<p>我很高興地宣佈<strong>${object.name}</strong>將加入我們${object.job_id.name}\n"
+"%if object.department_id：\n"
+"    在${object.department_id.name}。\n"
+"%endif\n"
+".</p>\n"
+"<p>請歡迎他/她，幫助他/她。</p>"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_kanban_view
+msgid "<b>学历:</b>"
+msgstr "<b>學歷：</b>"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_kanban_view
+msgid "<b>部门:</b>"
+msgstr "<b>部門：</b>"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_form_view
+msgid "<span class=\"o_stat_text\">会议</span>"
+msgstr "<span class=\"o_stat_text\">會議</span>"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__message_needaction
+msgid "Action Needed"
+msgstr "需要採取行動"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_staff_hire_report__active
+msgid "Active"
+msgstr "啟用"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__activity_ids
+msgid "Activities"
+msgstr "活動"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "活動異常圖示"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__activity_state
+msgid "Activity State"
+msgstr "狀態"
+
+#. module: staff_hire
+#: model:mail.message.subtype,name:staff_hire.mt_applicant_hired
+#: model:mail.message.subtype,name:staff_hire.mt_job_applicant_hired
+msgid "Applicant Hired"
+msgstr "求職者已錄用"
+
+#. module: staff_hire
+#: model:mail.message.subtype,name:staff_hire.mt_job_applicant_stage_changed
+msgid "Applicant Stage Changed"
+msgstr "面試階段已更改"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_calendar_view
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_tree_view
+msgid "Applicants"
+msgstr "求職者"
+
+#. module: staff_hire
+#: model:mail.template,subject:staff_hire.email_template_data_applicant_interest
+msgid "Application approved"
+msgstr "申請通過"
+
+#. module: staff_hire
+#: model:mail.template,subject:staff_hire.email_template_data_applicant_refuse
+msgid "Application refused"
+msgstr "申請被拒絕"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_staff_hire_report__job_id
+msgid "Applied Job"
+msgstr "已申請的職位"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_staff_hire_report__priority
+msgid "Appreciation"
+msgstr "重視"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__message_attachment_count
+msgid "Attachment Count"
+msgstr "附件數量"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_staff_hire_report__delay_close
+msgid "Avg. Delay to Close"
+msgstr "平均延遲關閉"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_staff_hire_report__salary_exp_avg
+msgid "Avg. Expected Salary"
+msgstr "平均期望薪資"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_staff_hire_report__salary_prop_avg
+msgid "Avg. Proposed Salary"
+msgstr "平均建議薪資"
+
+#. module: staff_hire
+#: model:ir.filters,name:staff_hire.filter_recruitment_report_departmnet
+msgid "By Department"
+msgstr "部門"
+
+#. module: staff_hire
+#: model:ir.filters,name:staff_hire.filter_recruitment_report_job
+msgid "By Job"
+msgstr "按工作"
+
+#. module: staff_hire
+#: model:ir.filters,name:staff_hire.filter_recruitment_report_recruiter
+msgid "By Recruiter"
+msgstr "按招聘負責人"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_graph_view
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_pivot_view
+msgid "Cases By Stage and Estimates"
+msgstr "按階段和評估的調查表"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__color
+#: model:ir.model.fields,field_description:staff_hire.field_staff_job__color
+msgid "Color Index"
+msgstr "顏色索引"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_staff_hire_report__company_id
+#: model_terms:ir.ui.view,arch_db:staff_hire.view_staff_hire_report_search
+msgid "Company"
+msgstr "公司"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.ir_attachment_view_search_inherit_staff_hire
+msgid "Content"
+msgstr "內容"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_staff_hire_report__date_create
+msgid "Create Date"
+msgstr "建立日期"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__create_uid
+#: model:ir.model.fields,field_description:staff_hire.field_staff_hire_stage__create_uid
+msgid "Created by"
+msgstr "建立者"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__create_date
+#: model:ir.model.fields,field_description:staff_hire.field_staff_hire_stage__create_date
+msgid "Created on"
+msgstr "建立於"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.view_staff_hire_report_search
+msgid "Creation Week"
+msgstr "創作週"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_staff_hire_report__degree_id
+msgid "Degree"
+msgstr "學歷"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_kanban_view
+msgid "Delete"
+msgstr "刪除"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_staff_hire_report__department_id
+#: model_terms:ir.ui.view,arch_db:staff_hire.view_staff_hire_report_search
+msgid "Department"
+msgstr "部門"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__display_name
+#: model:ir.model.fields,field_description:staff_hire.field_staff_hire_report__display_name
+#: model:ir.model.fields,field_description:staff_hire.field_staff_hire_stage__display_name
+msgid "Display Name"
+msgstr "顯示名稱"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__email_from
+msgid "Email"
+msgstr "電子郵件"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.view_staff_hire_report_search
+msgid "Extended Filters"
+msgstr "進階篩選"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_filter_view
+msgid "Filter and view on next actions and date"
+msgstr "篩選並查看下一動作和日期"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__message_follower_ids
+msgid "Followers"
+msgstr "關注者"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "關注者(頻道)"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "關注者(客戶)"
+
+#. module: staff_hire
+#: model_terms:ir.actions.act_window,help:staff_hire.action_hire_applicant
+#: model_terms:ir.actions.act_window,help:staff_hire.action_staff_job_applications
+msgid "GoodERP帮助你在招聘过程中跟踪应聘者，"
+msgstr "GoodERP幫助你在招聘過程中跟踪應聘者，"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_filter_view
+#: model_terms:ir.ui.view,arch_db:staff_hire.view_staff_hire_report_search
+msgid "Group By"
+msgstr "分組依"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__id
+#: model:ir.model.fields,field_description:staff_hire.field_staff_hire_report__id
+#: model:ir.model.fields,field_description:staff_hire.field_staff_hire_stage__id
+msgid "ID"
+msgstr "ID"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__activity_exception_icon
+msgid "Icon"
+msgstr "圖示"
+
+#. module: staff_hire
+#: model:ir.model.fields,help:staff_hire.field_hire_applicant__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "用於顯示異常活動的圖示."
+
+#. module: staff_hire
+#: model:ir.model.fields,help:staff_hire.field_hire_applicant__message_needaction
+#: model:ir.model.fields,help:staff_hire.field_hire_applicant__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "勾選代表有新訊息需要您留意。"
+
+#. module: staff_hire
+#: model:ir.model.fields,help:staff_hire.field_hire_applicant__message_has_error
+#: model:ir.model.fields,help:staff_hire.field_hire_applicant__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "勾選代表有訊息發生傳送錯誤。"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__message_is_follower
+msgid "Is Follower"
+msgstr "為關注人"
+
+#. module: staff_hire
+#: model:mail.message.subtype,name:staff_hire.mt_department_new
+msgid "Job Position Created"
+msgstr "新建崗位"
+
+#. module: staff_hire
+#: model:mail.message.subtype,name:staff_hire.mt_job_new
+msgid "Job Position created"
+msgstr "新建崗位"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.view_staff_hire_report_search
+msgid "Jobs"
+msgstr "工作"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_form_view
+msgid "Jobs - Recruitment Form"
+msgstr "崗位 - 崗位申請表"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant____last_update
+#: model:ir.model.fields,field_description:staff_hire.field_staff_hire_report____last_update
+#: model:ir.model.fields,field_description:staff_hire.field_staff_hire_stage____last_update
+msgid "Last Modified on"
+msgstr "最後修改"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_staff_hire_report__last_stage_id
+msgid "Last Stage"
+msgstr "最後階段"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_staff_hire_report__date_last_stage_update
+msgid "Last Stage Update"
+msgstr "階段最後更新日期"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__write_uid
+#: model:ir.model.fields,field_description:staff_hire.field_staff_hire_stage__write_uid
+msgid "Last Updated by"
+msgstr "最後更新"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__write_date
+#: model:ir.model.fields,field_description:staff_hire.field_staff_hire_stage__write_date
+msgid "Last Updated on"
+msgstr "最後更新於"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "主要附件"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__message_has_error
+msgid "Message Delivery error"
+msgstr "訊息傳遞錯誤"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__message_ids
+msgid "Messages"
+msgstr "訊息"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.view_staff_hire_report_search
+msgid "New"
+msgstr "新規"
+
+#. module: staff_hire
+#: model:mail.message.subtype,name:staff_hire.mt_applicant_new
+msgid "New Applicant"
+msgstr "新建求職申請"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "下一活動截止日期"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__activity_summary
+msgid "Next Activity Summary"
+msgstr "下一活動摘要"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__activity_type_id
+msgid "Next Activity Type"
+msgstr "下一活動類型"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__message_needaction_counter
+msgid "Number of Actions"
+msgstr "動作數量"
+
+#. module: staff_hire
+#: model:ir.model.fields,help:staff_hire.field_staff_hire_report__delay_close
+msgid "Number of Days to close the project issue"
+msgstr "距離項目問題結束天數"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__message_has_error_counter
+msgid "Number of errors"
+msgstr "錯誤數量"
+
+#. module: staff_hire
+#: model:ir.model.fields,help:staff_hire.field_hire_applicant__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "需要行動的消息數量"
+
+#. module: staff_hire
+#: model:ir.model.fields,help:staff_hire.field_hire_applicant__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "有發送錯誤的郵件數量"
+
+#. module: staff_hire
+#: model:ir.model.fields,help:staff_hire.field_hire_applicant__message_unread_counter
+msgid "Number of unread messages"
+msgstr "未讀消息數量"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.view_staff_hire_report_search
+msgid "Ongoing"
+msgstr "即將到來"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.view_staff_hire_report_graph
+#: model_terms:ir.ui.view,arch_db:staff_hire.view_staff_hire_report_pivot
+#: model_terms:ir.ui.view,arch_db:staff_hire.view_staff_hire_report_search
+msgid "Recruitment Analysis"
+msgstr "招聘分析"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.view_staff_hire_report_search
+msgid "Refused"
+msgstr "已拒絕"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.view_staff_hire_report_search
+msgid "Responsible"
+msgstr "負責人員"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__activity_user_id
+msgid "Responsible User"
+msgstr "負責人員"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "簡訊發送錯誤"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_staff_hire_report__salary_exp
+msgid "Salary Expected"
+msgstr "期望薪資"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_staff_hire_report__salary_prop
+msgid "Salary Proposed"
+msgstr "建議薪資"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_form_view
+msgid "Schedule interview with this applicant"
+msgstr "此求職者的面試日程"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_filter_view
+msgid "Search Applicants"
+msgstr "搜索求職者"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_staff_hire_report__stage_id
+#: model_terms:ir.ui.view,arch_db:staff_hire.staff_hire_stage_form
+#: model_terms:ir.ui.view,arch_db:staff_hire.view_staff_hire_report_search
+msgid "Stage"
+msgstr "階段"
+
+#. module: staff_hire
+#: model:mail.message.subtype,name:staff_hire.mt_applicant_stage_changed
+msgid "Stage Changed"
+msgstr "預備變更"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.staff_hire_stage_tree
+msgid "Stages"
+msgstr "階段"
+
+#. module: staff_hire
+#: model:ir.model.fields,help:staff_hire.field_hire_applicant__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"根據活動的狀態 \n"
+" 逾期：已經超過截止日期 \n"
+" 今日：活動日期是當天 \n"
+" 計劃：未來活動。"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.view_staff_hire_report_search
+msgid "This Year"
+msgstr "今年"
+
+#. module: staff_hire
+#: model:ir.model.fields,help:staff_hire.field_hire_applicant__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "記錄的異常活動的類型。"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.view_staff_hire_report_search
+msgid "Unassigned"
+msgstr "未分配"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__message_unread
+msgid "Unread Messages"
+msgstr "未讀訊息"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "未讀訊息計數器"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_staff_hire_report__user_id
+msgid "User"
+msgstr "使用者"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__website_message_ids
+msgid "Website Messages"
+msgstr "網站訊息"
+
+#. module: staff_hire
+#: model:ir.model.fields,help:staff_hire.field_hire_applicant__website_message_ids
+msgid "Website communication history"
+msgstr "網站溝通記錄"
+
+#. module: staff_hire
+#: model:mail.template,subject:staff_hire.email_template_data_applicant_employee
+msgid "Welcome ${object.name} "
+msgstr "歡迎 ${object.name} "
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_kanban_view
+msgid "oe_kanban_text_red"
+msgstr "oe_kanban_text_red"
+
+#. module: staff_hire
+#: model:ir.model.fields.selection,name:staff_hire.selection__hire_applicant__priority__0
+#: model:ir.model.fields.selection,name:staff_hire.selection__staff_hire_report__priority__0
+msgid "一般"
+msgstr "一般情況"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__title_action
+msgid "下步计划"
+msgstr "下步計劃"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__date_action
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_filter_view
+msgid "下步计划日期"
+msgstr "下步計劃日期"
+
+#. module: staff_hire
+#: model:ir.model.fields.selection,name:staff_hire.selection__staff_job__state__close
+msgid "不招聘"
+msgstr "不招聘"
+
+#. module: staff_hire
+#: model:ir.model.fields.selection,name:staff_hire.selection__hire_applicant__priority__2
+#: model:ir.model.fields.selection,name:staff_hire.selection__staff_hire_report__priority__2
+msgid "优秀"
+msgstr "優"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_staff_hire_stage__template_id
+msgid "使用模板"
+msgstr "使用模板"
+
+#. module: staff_hire
+#: model:ir.model.fields,help:staff_hire.field_staff_hire_stage__job_id
+msgid "使用此阶段的具体职位。其他职位将不使用此阶段。"
+msgstr "使用此階段的具體職位。其他職位將不使用此階段。"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_form_view
+msgid "例如：电话面试"
+msgstr "例如：電話面試"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__company_id
+msgid "公司"
+msgstr "公司"
+
+#. module: staff_hire
+#: model:ir.model.fields,help:staff_hire.field_hire_applicant__staff_id
+msgid "关联员工"
+msgstr "關聯員工"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_staff_hire_stage__job_id
+msgid "具体职位"
+msgstr "具體職位"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_form_view
+msgid "创建员工"
+msgstr "創建員工"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_filter_view
+msgid "创建日期"
+msgstr "創建日期"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_tree_view
+msgid "创建时间"
+msgstr "創建時間"
+
+#. module: staff_hire
+#: model_terms:ir.actions.act_window,help:staff_hire.staff_hire_stage_act
+msgid "单击此处可在招聘过程中添加新阶段。"
+msgstr "單擊此處可在招聘過程中添加新階段。"
+
+#. module: staff_hire
+#: model_terms:ir.actions.act_window,help:staff_hire.action_staff_job_no_employee
+msgid "单击此处可添加新员工。"
+msgstr "單擊此處可添加新員工。"
+
+#. module: staff_hire
+#: model_terms:ir.actions.act_window,help:staff_hire.action_staff_job_no_employee
+msgid "只需快速浏览GoodERP员工屏幕，您就可以轻松找到每个人所需的所有信息；联系信息、工作职位、入职日期等。"
+msgstr "只需快速瀏覽好ERP員工屏幕信息，您就可以輕鬆找到每個人所需的所有信息；聯繫工作職位、入職日期等。"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_form_view
+msgid "合约"
+msgstr "契約"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.staff_job_survey
+msgid "启动招聘"
+msgstr "啟動招聘"
+
+#. module: staff_hire
+#: model:ir.actions.act_window,name:staff_hire.action_staff_job_no_employee
+#: model:ir.model,name:staff_hire.model_staff
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__staff_id
+#: model:ir.model.fields,field_description:staff_hire.field_staff_job__staff_ids
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_form_view
+#: model_terms:ir.ui.view,arch_db:staff_hire.staff_job_survey
+msgid "员工"
+msgstr "員工"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__staff_name
+msgid "员工姓名"
+msgstr "員工姓名"
+
+#. module: staff_hire
+#: model:ir.model.fields,help:staff_hire.field_staff_job__address_id
+msgid "员工工作的地址"
+msgstr "員工工作的地址"
+
+#. module: staff_hire
+#: model:ir.model,name:staff_hire.model_staff_job
+msgid "员工职位"
+msgstr "員工職位"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_staff_hire_stage__fold
+msgid "在招聘管道收起"
+msgstr "在招聘管道收起"
+
+#. module: staff_hire
+#: model:ir.model.fields,help:staff_hire.field_staff_job__no_of_hired_employee
+msgid "在招聘阶段聘用的员工数量"
+msgstr "在招聘階段聘用用的人數"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__note
+msgid "备注"
+msgstr "備註"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_kanban_view
+msgid "头像"
+msgstr "泡泡"
+
+#. module: staff_hire
+#: model:ir.model.fields,help:staff_hire.field_hire_applicant__active
+msgid "如果“有效”字段设为false，它对信息进行隐藏但不删除它。"
+msgstr "如果“有效”設為假，它對信息進行隱藏但不刪除。"
+
+#. module: staff_hire
+#: model_terms:ir.actions.act_window,help:staff_hire.staff_hire_stage_act
+msgid "如果你的招聘过程因职位不同而有所不同，请指定部门。"
+msgstr "如果你的招聘過程因職位不同而不同，請指定部門。"
+
+#. module: staff_hire
+#: model:ir.model.fields,help:staff_hire.field_staff_hire_stage__template_id
+msgid "如果设置,当应聘者设置此场景时,将通过这个模板推送消息给相关应聘者"
+msgstr "如果設置，當聘用者設置此場景時，將通過此模板應用給相關聘用者應聘者"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__degree_id
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_filter_view
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_form_view
+msgid "学历"
+msgstr "學歷"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_kanban_view
+msgid "安排面试"
+msgstr "安排面試"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_staff_job__address_id
+msgid "工作地点"
+msgstr "工作地點"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_filter_view
+msgid "已归档"
+msgstr "已歸檔"
+
+#. module: staff_hire
+#: model_terms:ir.actions.act_window,help:staff_hire.action_hire_applicant
+#: model_terms:ir.actions.act_window,help:staff_hire.action_staff_job_applications
+msgid "并跟进所有操作：会议、面试等。"
+msgstr "並跟進所有操作：會議、面試。"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_staff_hire_stage__sequence
+msgid "序号"
+msgstr "序號"
+
+#. module: staff_hire
+#: model:mail.message.subtype,description:staff_hire.mt_applicant_new
+msgid "应聘新建"
+msgstr "應聘新建"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_filter_view
+msgid "应聘者"
+msgstr "應聘者"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__partner_name
+msgid "应聘者姓名"
+msgstr "應聘者姓名"
+
+#. module: staff_hire
+#: model:mail.message.subtype,description:staff_hire.mt_applicant_hired
+msgid "应聘者被聘用"
+msgstr "應聘者被聘用"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__job_id
+msgid "应聘职位"
+msgstr "應聘職位"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__salary_proposed
+msgid "建议薪资"
+msgstr "建議意見"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__salary_proposed_extra
+msgid "建议额外福利"
+msgstr "建議額外福利"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__date_available
+msgid "开始工作日期"
+msgstr "開始工作日期"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_staff_job__no_of_employee
+msgid "当前员工数"
+msgstr "當前員工數"
+
+#. module: staff_hire
+#: model:ir.model.fields,help:staff_hire.field_hire_applicant__last_stage_id
+msgid "当前阶段前的申请人阶段，用于招聘失败分析。"
+msgstr "當前階段前的申請人階段，用於招聘失敗分析。"
+
+#. module: staff_hire
+#: model:ir.model.fields,help:staff_hire.field_staff_hire_stage__fold
+msgid "当这个阶段中没有任何记录要呈现的时候，这个阶段在看板视图中被折叠起来"
+msgstr "當這個階段中沒有任何呈現的時候，這個階段在看板視圖中被折疊起來記錄"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_form_view
+msgid "总结"
+msgstr "總結"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_filter_view
+msgid "我的"
+msgstr "我的"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__partner_mobile
+msgid "手机"
+msgstr "手機"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_kanban_view
+msgid "手机:"
+msgstr "手機："
+
+#. module: staff_hire
+#: model:ir.ui.menu,name:staff_hire.menu_report
+msgid "报表"
+msgstr "報告"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_form_view
+msgid "拒绝"
+msgstr "拒絕"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_staff_job__no_of_hired_employee
+msgid "招到员工数"
+msgstr "招到員工數"
+
+#. module: staff_hire
+#: model:ir.actions.act_window,name:staff_hire.action_hire_applicant
+#: model:ir.actions.act_window,name:staff_hire.action_staff_job_applications
+#: model:ir.model,name:staff_hire.model_hire_applicant
+#: model:ir.ui.menu,name:staff_hire.menu_action_hire_applicant
+#: model:ir.ui.menu,name:staff_hire.menu_staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.staff_job_survey
+msgid "招聘"
+msgstr "招聘"
+
+#. module: staff_hire
+#: model:ir.model.fields.selection,name:staff_hire.selection__staff_job__state__open
+msgid "招聘中"
+msgstr "招聘中"
+
+#. module: staff_hire
+#: model:ir.actions.act_window,name:staff_hire.action_staff_hire_report_all
+#: model:ir.model,name:staff_hire.model_staff_hire_report
+#: model:ir.ui.menu,name:staff_hire.report_staff_hire
+msgid "招聘分析"
+msgstr "招聘分析"
+
+#. module: staff_hire
+#: model:ir.model.fields,help:staff_hire.field_staff_job__expected_employees
+msgid "招聘新员工后，预计该职位的员工人数。"
+msgstr "招聘新員工後，預計該職位的員工人數。"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_staff_job__user_id
+msgid "招聘负责人"
+msgstr "招聘負責人"
+
+#. module: staff_hire
+#: model:ir.model,name:staff_hire.model_staff_hire_stage
+msgid "招聘阶段"
+msgstr "招聘階段"
+
+#. module: staff_hire
+#: model:ir.model.fields,help:staff_hire.field_staff_hire_stage__sequence
+msgid "按顺序显示列表中的各阶段。"
+msgstr "按順序顯示列表中的各個階段。"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__reference
+msgid "推荐人"
+msgstr "推薦人"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_staff__newly_hired_staff
+msgid "新进员工"
+msgstr "新進員工"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__last_stage_id
+msgid "最终阶段"
+msgstr "最終階段"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_filter_view
+msgid "最终阶段更新日期"
+msgstr "最終階段更新日期"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__date_last_stage_update
+msgid "最终阶段更新时间"
+msgstr "最終階段更新時間"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__active
+msgid "有效"
+msgstr "有效的"
+
+#. module: staff_hire
+#: model:ir.model.fields,help:staff_hire.field_staff_job__no_of_recruitment
+msgid "期望招聘的新员工数量"
+msgstr "預計招聘的新員工數量"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__salary_expected
+msgid "期望薪资"
+msgstr "期望值"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__salary_expected_extra
+msgid "期望额外福利"
+msgstr "期待額外福利"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_filter_view
+msgid "未指派"
+msgstr "未指派"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_filter_view
+msgid "未读消息"
+msgstr "未讀消息"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__source_id
+msgid "来源"
+msgstr "來源"
+
+#. module: staff_hire
+#: model:ir.model.fields.selection,name:staff_hire.selection__hire_applicant__priority__3
+#: model:ir.model.fields.selection,name:staff_hire.selection__staff_hire_report__priority__3
+msgid "杰出"
+msgstr "青春"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__categ_ids
+msgid "标签"
+msgstr "標籤"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__priority
+msgid "欢迎度"
+msgstr "歡迎度"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_staff_job__application_ids
+msgid "求职申请"
+msgstr "施工申請"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_staff_job__application_count
+msgid "求职申请数"
+msgstr "招聘人數"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_staff_job__state
+msgid "状态"
+msgstr "狀態"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__user_email
+msgid "用户Email"
+msgstr "用戶郵箱"
+
+#. module: staff_hire
+#: model:ir.model.fields,help:staff_hire.field_hire_applicant__date_available
+msgid "申请人能够开始工作的日期"
+msgstr "申請人能夠開始工作的日期"
+
+#. module: staff_hire
+#: model:ir.model.fields,help:staff_hire.field_hire_applicant__salary_expected
+msgid "申请人要求的薪酬"
+msgstr "申請人要求的薪酬"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_staff_job__document_ids
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_form_view
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_kanban_view
+#: model_terms:ir.ui.view,arch_db:staff_hire.staff_job_survey
+msgid "简历"
+msgstr "簡歷"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_staff_job__documents_count
+msgid "简历数"
+msgstr "履歷數"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.staff_job_survey
+msgid "结束招聘"
+msgstr "結束招聘"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_filter_view
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_form_view
+msgid "职位"
+msgstr "職位空缺"
+
+#. module: staff_hire
+#: model:ir.model.fields.selection,name:staff_hire.selection__hire_applicant__priority__1
+#: model:ir.model.fields.selection,name:staff_hire.selection__staff_hire_report__priority__1
+msgid "良好"
+msgstr "好"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_staff_hire_stage__requirements
+#: model_terms:ir.ui.view,arch_db:staff_hire.staff_hire_stage_form
+msgid "要求"
+msgstr "要求"
+
+#. module: staff_hire
+#: model:ir.model.fields,help:staff_hire.field_hire_applicant__salary_proposed
+msgid "该公司的提议薪酬"
+msgstr "該公司的禮物薪酬"
+
+#. module: staff_hire
+#: model:ir.model.fields,help:staff_hire.field_staff_job__state
+msgid "该职位在招聘流程中是开启还是关闭"
+msgstr "該職位在招聘流程中是開啟還是關閉"
+
+#. module: staff_hire
+#: model:ir.model.fields,help:staff_hire.field_staff_job__no_of_employee
+msgid "该职位当前员工数量"
+msgstr "該職位當前員工數量"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__user_id
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_filter_view
+msgid "负责人"
+msgstr "負責人"
+
+#. module: staff_hire
+#: model:ir.model.fields,help:staff_hire.field_hire_applicant__email_from
+msgid "这些人将收到电子邮件"
+msgstr "這些人將收到電子郵件"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__department_id
+msgid "部门"
+msgstr "部門"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_staff_job__manager_id
+msgid "部门经理"
+msgstr "部門經理"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_form_view
+msgid "重新打开招聘"
+msgstr "重新打開招聘"
+
+#. module: staff_hire
+#: model:ir.actions.act_window,name:staff_hire.staff_hire_stage_act
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__stage_id
+#: model:ir.ui.menu,name:staff_hire.menu_staff_hire_stage
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_filter_view
+msgid "阶段"
+msgstr "階段"
+
+#. module: staff_hire
+#: model:mail.message.subtype,description:staff_hire.mt_applicant_stage_changed
+msgid "阶段变更"
+msgstr "階段性變化"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_staff_hire_stage__name
+msgid "阶段名"
+msgstr "階級名"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__attachment_ids
+msgid "附件"
+msgstr "附件"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_hire_applicant__attachment_number
+msgid "附件数量"
+msgstr "附件數量"
+
+#. module: staff_hire
+#: model:ir.model.fields,help:staff_hire.field_hire_applicant__salary_proposed_extra
+msgid "除了建议薪资以外的福利待遇"
+msgstr "除了建議以外的其他待遇"
+
+#. module: staff_hire
+#: model:ir.model.fields,help:staff_hire.field_hire_applicant__salary_expected_extra
+msgid "除了期望薪资以外的福利待遇"
+msgstr "除了希望以外的其他待遇"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_form_view
+msgid "面试反馈..."
+msgstr "面試反饋..."
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_staff_job__expected_employees
+msgid "预计总数"
+msgstr "預計總數"
+
+#. module: staff_hire
+#: model:ir.model.fields,field_description:staff_hire.field_staff_job__no_of_recruitment
+msgid "预计新员工数"
+msgstr "新員工數"
+
+#. module: staff_hire
+#: model_terms:ir.ui.view,arch_db:staff_hire.hire_applicant_form_view
+msgid "额外奖金或补贴..."
+msgstr "額外資金或..."

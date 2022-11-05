@@ -1,0 +1,301 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sell
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0-20200524\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-18 16:08+0000\n"
+"PO-Revision-Date: 2021-12-19 00:10+0800\n"
+"Last-Translator: 保定-粉刷匠 <992102498@qq.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.4.1\n"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__message_needaction
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__message_needaction
+#: model:ir.model.fields,field_description:sell.field_sell_order__message_needaction
+msgid "Action Needed"
+msgstr "需要行动"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__message_attachment_count
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__message_attachment_count
+#: model:ir.model.fields,field_description:sell.field_sell_order__message_attachment_count
+msgid "Attachment Count"
+msgstr "附件数量"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_approve_multi_sell_order__create_uid
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_adjust_line__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_order__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail_wizard__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_order_line__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_order_track__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_order_track_wizard__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_receipt__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_receipt_wizard__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods_wizard__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner_wizard__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff_wizard__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_top_ten__create_uid
+#: model:ir.model.fields,field_description:sell.field_sell_top_ten_wizard__create_uid
+msgid "Created by"
+msgstr "创建者"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_approve_multi_sell_order__create_date
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_adjust_line__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_order__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail_wizard__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_order_line__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_order_track__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_order_track_wizard__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_receipt__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_receipt_wizard__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods_wizard__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner_wizard__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff_wizard__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_top_ten__create_date
+#: model:ir.model.fields,field_description:sell.field_sell_top_ten_wizard__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_approve_multi_sell_order__display_name
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods__display_name
+#: model:ir.model.fields,field_description:sell.field_report_sell_summary__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_adjust_line__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_order__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail_wizard__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_order_line__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_order_track__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_order_track_wizard__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_receipt__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_receipt_wizard__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods_wizard__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner_wizard__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff_wizard__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_top_ten__display_name
+#: model:ir.model.fields,field_description:sell.field_sell_top_ten_wizard__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__message_follower_ids
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__message_follower_ids
+#: model:ir.model.fields,field_description:sell.field_sell_order__message_follower_ids
+msgid "Followers"
+msgstr "关注者"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__message_channel_ids
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__message_channel_ids
+#: model:ir.model.fields,field_description:sell.field_sell_order__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "关注者（频道）"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__message_partner_ids
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__message_partner_ids
+#: model:ir.model.fields,field_description:sell.field_sell_order__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "关注者（业务伙伴）"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_adjust__message_needaction
+#: model:ir.model.fields,help:sell.field_sell_adjust__message_unread
+#: model:ir.model.fields,help:sell.field_sell_delivery__message_needaction
+#: model:ir.model.fields,help:sell.field_sell_delivery__message_unread
+#: model:ir.model.fields,help:sell.field_sell_order__message_needaction
+#: model:ir.model.fields,help:sell.field_sell_order__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "如果勾选，新消息将需要你注意。"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_adjust__message_has_error
+#: model:ir.model.fields,help:sell.field_sell_delivery__message_has_error
+#: model:ir.model.fields,help:sell.field_sell_order__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "如果勾选，一些消息将有发送错误。"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__message_is_follower
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__message_is_follower
+#: model:ir.model.fields,field_description:sell.field_sell_order__message_is_follower
+msgid "Is Follower"
+msgstr "是关注者"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_approve_multi_sell_order____last_update
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods____last_update
+#: model:ir.model.fields,field_description:sell.field_report_sell_summary____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_adjust____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_adjust_line____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_delivery____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_order____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail_wizard____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_order_line____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_order_track____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_order_track_wizard____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_receipt____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_receipt_wizard____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods_wizard____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner_wizard____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff_wizard____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_top_ten____last_update
+#: model:ir.model.fields,field_description:sell.field_sell_top_ten_wizard____last_update
+msgid "Last Modified on"
+msgstr "最后更改时间"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_approve_multi_sell_order__write_uid
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_adjust_line__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_order__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail_wizard__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_order_line__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_order_track__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_order_track_wizard__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_receipt__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_receipt_wizard__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods_wizard__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner_wizard__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff_wizard__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_top_ten__write_uid
+#: model:ir.model.fields,field_description:sell.field_sell_top_ten_wizard__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_approve_multi_sell_order__write_date
+#: model:ir.model.fields,field_description:sell.field_customer_statements_report_with_goods__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_adjust_line__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_order__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_order_detail_wizard__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_order_line__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_order_track__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_order_track_wizard__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_receipt__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_receipt_wizard__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_summary_goods_wizard__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_summary_partner_wizard__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_summary_staff_wizard__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_top_ten__write_date
+#: model:ir.model.fields,field_description:sell.field_sell_top_ten_wizard__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__message_main_attachment_id
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__message_main_attachment_id
+#: model:ir.model.fields,field_description:sell.field_sell_order__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "主附件"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__message_has_error
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__message_has_error
+#: model:ir.model.fields,field_description:sell.field_sell_order__message_has_error
+msgid "Message Delivery error"
+msgstr "消息发送错误"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__message_ids
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__message_ids
+#: model:ir.model.fields,field_description:sell.field_sell_order__message_ids
+msgid "Messages"
+msgstr "消息"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__message_needaction_counter
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__message_needaction_counter
+#: model:ir.model.fields,field_description:sell.field_sell_order__message_needaction_counter
+msgid "Number of Actions"
+msgstr "行动数量"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__message_has_error_counter
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__message_has_error_counter
+#: model:ir.model.fields,field_description:sell.field_sell_order__message_has_error_counter
+msgid "Number of errors"
+msgstr "错误数量"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_adjust__message_needaction_counter
+#: model:ir.model.fields,help:sell.field_sell_delivery__message_needaction_counter
+#: model:ir.model.fields,help:sell.field_sell_order__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "需要行动的消息数量"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_adjust__message_has_error_counter
+#: model:ir.model.fields,help:sell.field_sell_delivery__message_has_error_counter
+#: model:ir.model.fields,help:sell.field_sell_order__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "有发送错误的消息数量"
+
+#. module: sell
+#: model:ir.model.fields,help:sell.field_sell_adjust__message_unread_counter
+#: model:ir.model.fields,help:sell.field_sell_delivery__message_unread_counter
+#: model:ir.model.fields,help:sell.field_sell_order__message_unread_counter
+msgid "Number of unread messages"
+msgstr "未读消息数量"
+
+#. module: sell
+#: model_terms:ir.ui.view,arch_db:sell.customer_statements_report_tree
+msgid "Partner Statements Report"
+msgstr "业务伙伴对账单报表"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__message_unread
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__message_unread
+#: model:ir.model.fields,field_description:sell.field_sell_order__message_unread
+msgid "Unread Messages"
+msgstr "未读消息"
+
+#. module: sell
+#: model:ir.model.fields,field_description:sell.field_sell_adjust__message_unread_counter
+#: model:ir.model.fields,field_description:sell.field_sell_delivery__message_unread_counter
+#: model:ir.model.fields,field_description:sell.field_sell_order__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "未读消息数量"
+

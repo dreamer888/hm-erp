@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<odoo>
+
+    <record id='goods_tree_top_trending' model='ir.ui.view'>
+        <field name='name'>goods.tree.top.trending</field>
+        <field name='model'>goods</field>
+        <field name="inherit_id" ref="goods.goods_tree"/>
+        <field name='arch' type='xml'>
+            <xpath expr="//field[@name='price']" position="after">
+                <field name='gpm' widget='percentage' optional="show"/>
+                <field name='top_trending_profit' optional="show"/>
+                <field name='top_trending_amount' optional="show"/>
+                <field name='top_trending_out' optional="show"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record id='goods_search_top_trending' model='ir.ui.view'>
+        <field name='name'>goods.search.top.trending</field>
+        <field name='model'>goods</field>
+        <field name="inherit_id" ref="goods.goods_search"/>
+        <field name='arch' type='xml'>
+            <field name='name' position="replace">
+                <field name="name" string="商品" filter_domain="['|', '|', ('name', 'ilike', self), ('code', 'ilike', self), ('location_ref', 'ilike', self)]"/>
+            </field>
+            <xpath expr="//field[@name='goods_class_id']" position="after">
+                <searchpanel>
+                    <field name='top_trending'/>
+                    <field name='goods_class_id'/>
+                </searchpanel>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

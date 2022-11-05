@@ -1,0 +1,612 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* tax_invoice
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-01 05:17+0000\n"
+"PO-Revision-Date: 2022-08-01 13:18+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.1.1\n"
+
+#. module: tax_invoice
+#: model:ir.model.fields,help:tax_invoice.field_tax_invoice_line__tax_catagory
+msgid "20170101以后使用的税收分类编码，这个很重要"
+msgstr "20170101以後使用的稅收分類編碼，這個很重要"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_batch_tax_invoice__create_uid
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice__create_uid
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice_line__create_uid
+msgid "Created by"
+msgstr "建立者"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_batch_tax_invoice__create_date
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice__create_date
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice_line__create_date
+msgid "Created on"
+msgstr "建立於"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_batch_tax_invoice__display_name
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice__display_name
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice_line__display_name
+msgid "Display Name"
+msgstr "完全顯示名稱"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_batch_tax_invoice__id
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice__id
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice_line__id
+msgid "ID"
+msgstr "ID"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_batch_tax_invoice____last_update
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice____last_update
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice_line____last_update
+msgid "Last Modified on"
+msgstr "最後修改時間"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_batch_tax_invoice__write_uid
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice__write_uid
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice_line__write_uid
+msgid "Last Updated by"
+msgstr "最後更新者"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_batch_tax_invoice__write_date
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice__write_date
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice_line__write_date
+msgid "Last Updated on"
+msgstr "最後更新時間"
+
+#. module: tax_invoice
+#: model:ir.model,name:tax_invoice.model_partner
+#: model:ir.model.fields,field_description:tax_invoice.field_batch_tax_invoice__partner_id
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice__partner_id
+msgid "业务伙伴"
+msgstr "業務夥伴"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice_line__price
+msgid "价格"
+msgstr "價格"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice__invoice_subtotal
+msgid "价税合计"
+msgstr "含稅價"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice__voucher_id
+msgid "会计凭证"
+msgstr "會計憑證"
+
+#. module: tax_invoice
+#: model_terms:ir.ui.view,arch_db:tax_invoice.in_tax_invoice_search
+msgid "供应商"
+msgstr "供應商"
+
+#. module: tax_invoice
+#: model_terms:ir.ui.view,arch_db:tax_invoice.in_tax_invoice_form
+#: model_terms:ir.ui.view,arch_db:tax_invoice.in_tax_invoice_tree
+msgid "供应商名称"
+msgstr "供應商名稱"
+
+#. module: tax_invoice
+#: model:ir.model.fields,help:tax_invoice.field_tax_invoice_line__tax_invoice_id
+msgid "关联发票"
+msgstr "關聯發票"
+
+#. module: tax_invoice
+#: model:ir.model.fields,help:tax_invoice.field_tax_invoice__name
+msgid "内部发票序号"
+msgstr "內部發票序號"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice__name
+msgid "内部序号"
+msgstr "內部序號"
+
+#. module: tax_invoice
+#: model_terms:ir.ui.view,arch_db:tax_invoice.in_tax_invoice_search
+#: model_terms:ir.ui.view,arch_db:tax_invoice.out_tax_invoice_search
+msgid "分组"
+msgstr "分組"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice_line__uom
+msgid "单位"
+msgstr "單位"
+
+#. module: tax_invoice
+#: model_terms:ir.ui.view,arch_db:tax_invoice.in_tax_invoice_tree
+#: model_terms:ir.ui.view,arch_db:tax_invoice.out_tax_invoice_tree
+msgid "单据日期"
+msgstr "單據日期"
+
+#. module: tax_invoice
+#: model:ir.model.fields,help:tax_invoice.field_tax_invoice__invoice_subtotal
+msgid "原始价税合计，不含调增金额"
+msgstr "原始價稅合計，不含調增金額"
+
+#. module: tax_invoice
+#: model:ir.model,name:tax_invoice.model_tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice_line__tax_invoice_id
+msgid "发票"
+msgstr "發票"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_batch_tax_invoice__invoice_code
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice__invoice_code
+msgid "发票代码"
+msgstr "發票代碼"
+
+#. module: tax_invoice
+#: model:ir.model.constraint,message:tax_invoice.constraint_tax_invoice_unique_invoice_code_number
+msgid "发票代码+发票号码不能相同!"
+msgstr "發票代碼+發票號碼不能相同!"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_money_invoice__tax_invoice_id
+msgid "发票号"
+msgstr "發票號"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_batch_tax_invoice__invoice_number
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice__invoice_number
+msgid "发票号码"
+msgstr "發票號碼"
+
+#. module: tax_invoice
+#: model:ir.model.fields,help:tax_invoice.field_batch_tax_invoice__invoice_number
+#: model:ir.model.fields,help:tax_invoice.field_tax_invoice__invoice_number
+msgid "发票号码，多张发票中间用空格分开"
+msgstr "發票號碼，多張發票中間用空格分開"
+
+#. module: tax_invoice
+#: model:ir.model.fields,help:tax_invoice.field_tax_invoice__money_invoice_id
+msgid "发票对应的结算单"
+msgstr "發票對應的結算單"
+
+#. module: tax_invoice
+#: model:ir.model.fields,help:tax_invoice.field_tax_invoice__order_id
+msgid "发票对应的订单号"
+msgstr "發票對應的訂單號"
+
+#. module: tax_invoice
+#: model:ir.model,name:tax_invoice.model_tax_invoice_line
+#: model_terms:ir.ui.view,arch_db:tax_invoice.in_tax_invoice_form
+#: model_terms:ir.ui.view,arch_db:tax_invoice.out_tax_invoice_form
+msgid "发票明细"
+msgstr "發票明細"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice__line_ids
+#: model_terms:ir.ui.view,arch_db:tax_invoice.in_tax_invoice_form
+#: model_terms:ir.ui.view,arch_db:tax_invoice.out_tax_invoice_form
+msgid "发票明细行"
+msgstr "發票明細行"
+
+#. module: tax_invoice
+#: model_terms:ir.ui.view,arch_db:tax_invoice.in_tax_invoice_search
+#: model_terms:ir.ui.view,arch_db:tax_invoice.out_tax_invoice_search
+msgid "发票状态"
+msgstr "發票狀態"
+
+#. module: tax_invoice
+#: model:ir.model.fields,help:tax_invoice.field_tax_invoice__state
+msgid "发票状态标识，新建时状态为草稿，确认后状态为完成"
+msgstr "發票狀態標識，新建時狀態為草稿，確認後狀態為完成"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice__invoice_type
+msgid "发票种类"
+msgstr "發票種類"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_goods__tax_catagory
+msgid "发票税收分类编码"
+msgstr "發票稅收分類編碼"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_partner__tax_catagory
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice__catagory
+#: model_terms:ir.ui.view,arch_db:tax_invoice.in_tax_invoice_search
+#: model_terms:ir.ui.view,arch_db:tax_invoice.out_tax_invoice_search
+msgid "发票类型"
+msgstr "發票類型"
+
+#. module: tax_invoice
+#: model_terms:ir.ui.view,arch_db:tax_invoice.batch_tax_invoice_view_form
+msgid "取消"
+msgstr "取消"
+
+#. module: tax_invoice
+#: model_terms:ir.ui.view,arch_db:tax_invoice.batch_tax_invoice_view_form
+msgid "合并开票"
+msgstr "合併開票"
+
+#. module: tax_invoice
+#: model:ir.actions.act_window,name:tax_invoice.batch_tax_invoice_action
+msgid "合并开票录入"
+msgstr "合併開票錄入"
+
+#. module: tax_invoice
+#: model_terms:ir.ui.view,arch_db:tax_invoice.in_tax_invoice_tree
+#: model_terms:ir.ui.view,arch_db:tax_invoice.out_tax_invoice_tree
+msgid "合计"
+msgstr "合計"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice__invoice_tax
+msgid "合计税额"
+msgstr "合計稅額"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice__invoice_amount
+msgid "合计金额"
+msgstr "合計金額"
+
+#. module: tax_invoice
+#: model:ir.model,name:tax_invoice.model_goods
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice_line__goods_id
+msgid "商品"
+msgstr "商品"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice__partner_address
+#: model_terms:ir.ui.view,arch_db:tax_invoice.in_tax_invoice_form
+#: model_terms:ir.ui.view,arch_db:tax_invoice.out_tax_invoice_form
+msgid "地址、电话"
+msgstr "地址、電話"
+
+#. module: tax_invoice
+#: model:ir.model.fields.selection,name:tax_invoice.selection__partner__tax_catagory__zy
+#: model:ir.model.fields.selection,name:tax_invoice.selection__tax_invoice__catagory__zy
+msgid "增值税专用发票"
+msgstr "增值稅專用發票"
+
+#. module: tax_invoice
+#: model:ir.model.fields.selection,name:tax_invoice.selection__partner__tax_catagory__pt
+#: model:ir.model.fields.selection,name:tax_invoice.selection__tax_invoice__catagory__pt
+msgid "增值税普通发票"
+msgstr "增值稅普通發票"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice__note
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice_line__note
+msgid "备注"
+msgstr "備註"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_batch_tax_invoice__real_tax
+msgid "实际税额"
+msgstr "實際稅額"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_batch_tax_invoice__real_amount
+msgid "实际金额"
+msgstr "實際金額"
+
+#. module: tax_invoice
+#: model_terms:ir.ui.view,arch_db:tax_invoice.out_tax_invoice_search
+msgid "客户"
+msgstr "客戶"
+
+#. module: tax_invoice
+#: model_terms:ir.ui.view,arch_db:tax_invoice.out_tax_invoice_form
+#: model_terms:ir.ui.view,arch_db:tax_invoice.out_tax_invoice_tree
+msgid "客户名称"
+msgstr "客戶名稱"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice__partner_order
+msgid "客户订单号"
+msgstr "客戶訂單號"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_batch_tax_invoice__diff_tax
+msgid "差异税额"
+msgstr "差異稅額"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_batch_tax_invoice__diff_amount
+msgid "差异金额"
+msgstr "差異金額"
+
+#. module: tax_invoice
+#: model:ir.model.fields.selection,name:tax_invoice.selection__tax_invoice__state__done
+#: model_terms:ir.ui.view,arch_db:tax_invoice.out_tax_invoice_search
+msgid "已完成"
+msgstr "已完成"
+
+#. module: tax_invoice
+#: model_terms:ir.ui.view,arch_db:tax_invoice.out_tax_invoice_search
+msgid "已申请开票"
+msgstr "已申請開票"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_batch_tax_invoice__invoice_tax
+msgid "已选税额"
+msgstr "已選稅額"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_batch_tax_invoice__invoice_amount
+msgid "已选金额"
+msgstr "已選金額"
+
+#. module: tax_invoice
+#: model:ir.model.fields.selection,name:tax_invoice.selection__tax_invoice__state__submit
+#: model_terms:ir.ui.view,arch_db:tax_invoice.in_tax_invoice_search
+msgid "已通知开票"
+msgstr "已通知開票"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice__partner_bank_number
+#: model_terms:ir.ui.view,arch_db:tax_invoice.in_tax_invoice_form
+#: model_terms:ir.ui.view,arch_db:tax_invoice.out_tax_invoice_form
+msgid "开户行及帐号"
+msgstr "開戶行及帳號"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_batch_tax_invoice__invoice_date
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice__invoice_date
+msgid "开票日期"
+msgstr "開票日期"
+
+#. module: tax_invoice
+#: model:ir.model.fields.selection,name:tax_invoice.selection__tax_invoice__state__draft
+msgid "待开具"
+msgstr "待開具"
+
+#. module: tax_invoice
+#: model:ir.actions.act_window,name:tax_invoice.out_tax_invoice_draft_action
+#: model:ir.ui.menu,name:tax_invoice.out_tax_invoice_draft_menu
+msgid "待开发票"
+msgstr "待開發票"
+
+#. module: tax_invoice
+#: model:ir.actions.act_window,name:tax_invoice.in_tax_invoice_draft_action
+#: model:ir.ui.menu,name:tax_invoice.in_tax_invoice_draft_menu
+msgid "待收发票"
+msgstr "待收發票"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice__cogs_voucher_id
+msgid "成本凭证"
+msgstr "成本憑證"
+
+#. module: tax_invoice
+#: model_terms:ir.ui.view,arch_db:tax_invoice.batch_tax_invoice_view_form
+msgid "或者"
+msgstr "或者"
+
+#. module: tax_invoice
+#: model_terms:ir.ui.view,arch_db:tax_invoice.in_tax_invoice_form
+msgid "抵扣记账"
+msgstr "抵扣記賬"
+
+#. module: tax_invoice
+#: model_terms:ir.ui.view,arch_db:tax_invoice.in_tax_invoice_form
+#: model_terms:ir.ui.view,arch_db:tax_invoice.out_tax_invoice_form
+msgid "撤销入账"
+msgstr "撤銷入賬"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice_line__quantity
+msgid "数量"
+msgstr "數量"
+
+#. module: tax_invoice
+#: model_terms:ir.ui.view,arch_db:tax_invoice.in_tax_invoice_search
+msgid "未开具"
+msgstr "未開具"
+
+#. module: tax_invoice
+#: model_terms:ir.ui.view,arch_db:tax_invoice.out_tax_invoice_search
+msgid "未申请开票"
+msgstr "未申請開票"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice__my_company_name
+#: model:ir.model.fields,help:tax_invoice.field_tax_invoice__my_company_name
+#: model_terms:ir.ui.view,arch_db:tax_invoice.in_tax_invoice_form
+#: model_terms:ir.ui.view,arch_db:tax_invoice.out_tax_invoice_form
+msgid "本公司名称"
+msgstr "本公司名稱"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice__my_company_address
+msgid "本公司地址、电话"
+msgstr "本公司地址、電話"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice__my_company_bank_number
+msgid "本公司开户行及帐号"
+msgstr "本公司開戶行及帳號"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice__my_company_code
+msgid "本公司税号"
+msgstr "本公司稅號"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice__state
+msgid "状态"
+msgstr "狀態"
+
+#. module: tax_invoice
+#: model_terms:ir.ui.view,arch_db:tax_invoice.out_tax_invoice_form
+msgid "申请开票"
+msgstr "申請開票"
+
+#. module: tax_invoice
+#: model_terms:ir.ui.view,arch_db:tax_invoice.batch_tax_invoice_view_form
+msgid "确定"
+msgstr "確定"
+
+#. module: tax_invoice
+#: model_terms:ir.ui.view,arch_db:tax_invoice.money_invoice_tree_inherit
+msgid "确认"
+msgstr "確認"
+
+#. module: tax_invoice
+#: model_terms:ir.ui.view,arch_db:tax_invoice.out_tax_invoice_form
+msgid "确认开票"
+msgstr "確認開票"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice_line__tax_catagory
+msgid "税收分类编码"
+msgstr "稅收分類編碼"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice_line__tax_rate
+msgid "税率"
+msgstr "稅率"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice_line__tax
+msgid "税额"
+msgstr "稅額"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice__invoice_tax_add
+msgid "税额调增"
+msgstr "稅額調增"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice__partner_code
+#: model_terms:ir.ui.view,arch_db:tax_invoice.in_tax_invoice_form
+#: model_terms:ir.ui.view,arch_db:tax_invoice.out_tax_invoice_form
+msgid "纳税人税号"
+msgstr "納稅人稅號"
+
+#. module: tax_invoice
+#: model:ir.model,name:tax_invoice.model_batch_tax_invoice
+msgid "纸质发票合并开票"
+msgstr "紙質發票合併開票"
+
+#. module: tax_invoice
+#: model:ir.model,name:tax_invoice.model_money_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice__money_invoice_id
+msgid "结算单"
+msgstr "結算單"
+
+#. module: tax_invoice
+#: model:ir.model.fields,help:tax_invoice.field_money_invoice__tax_invoice_id
+msgid "结算单对应的发票"
+msgstr "結算單對應的發票"
+
+#. module: tax_invoice
+#: model:ir.model.fields,help:tax_invoice.field_tax_invoice__voucher_id
+msgid "结算单确认时生成的对应凭证"
+msgstr "結算單確認時生成的對應憑證"
+
+#. module: tax_invoice
+#: model:ir.model.fields,help:tax_invoice.field_tax_invoice__cogs_voucher_id
+msgid "结算单确认时生成的成本凭证"
+msgstr "結算單確認時生成的成本憑證"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice_line__partnumber
+msgid "规格型号"
+msgstr "規格型號"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice__order_id
+msgid "订单号"
+msgstr "訂單號"
+
+#. module: tax_invoice
+#: model_terms:ir.ui.view,arch_db:tax_invoice.in_tax_invoice_search
+msgid "记账抵扣完成"
+msgstr "記賬抵扣完成"
+
+#. module: tax_invoice
+#: model:ir.model.fields,help:tax_invoice.field_batch_tax_invoice__partner_id
+#: model:ir.model.fields,help:tax_invoice.field_tax_invoice__partner_id
+msgid "该单据对应的业务伙伴"
+msgstr "該單據對應的業務夥伴"
+
+#. module: tax_invoice
+#: model:ir.model.fields,help:tax_invoice.field_batch_tax_invoice__invoice_code
+#: model:ir.model.fields,help:tax_invoice.field_tax_invoice__invoice_code
+msgid "该单据对应的发票代码"
+msgstr "該單據對應的發票代碼"
+
+#. module: tax_invoice
+#: model:ir.model.fields,help:tax_invoice.field_tax_invoice_line__goods_id
+msgid "该单据行对应的商品"
+msgstr "該單據行對應的商品"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice_line__goods_name
+msgid "货物名称"
+msgstr "貨物名稱"
+
+#. module: tax_invoice
+#: model:ir.model.fields.selection,name:tax_invoice.selection__tax_invoice__invoice_type__in
+msgid "进项发票"
+msgstr "進項發票"
+
+#. module: tax_invoice
+#: model_terms:ir.ui.view,arch_db:tax_invoice.in_tax_invoice_form
+msgid "通知开票"
+msgstr "通知開票"
+
+#. module: tax_invoice
+#: model:ir.actions.act_window,name:tax_invoice.in_tax_invoice_action
+#: model:ir.ui.menu,name:tax_invoice.in_tax_invoice_menu
+#: model_terms:ir.ui.view,arch_db:tax_invoice.in_tax_invoice_form
+#: model_terms:ir.ui.view,arch_db:tax_invoice.in_tax_invoice_search
+#: model_terms:ir.ui.view,arch_db:tax_invoice.in_tax_invoice_tree
+msgid "采购发票"
+msgstr "採購發票"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice_line__amount
+msgid "金额"
+msgstr "金額"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice__invoice_amount_add
+msgid "金额调增"
+msgstr "金額調增"
+
+#. module: tax_invoice
+#: model:ir.actions.act_window,name:tax_invoice.out_tax_invoice_action
+#: model:ir.ui.menu,name:tax_invoice.out_tax_invoice_menu
+#: model_terms:ir.ui.view,arch_db:tax_invoice.out_tax_invoice_form
+#: model_terms:ir.ui.view,arch_db:tax_invoice.out_tax_invoice_search
+#: model_terms:ir.ui.view,arch_db:tax_invoice.out_tax_invoice_tree
+msgid "销售发票"
+msgstr "銷售發票"
+
+#. module: tax_invoice
+#: model:ir.model.fields.selection,name:tax_invoice.selection__tax_invoice__invoice_type__out
+msgid "销项发票"
+msgstr "銷項發票"
+
+#. module: tax_invoice
+#: model_terms:ir.ui.view,arch_db:tax_invoice.in_tax_invoice_form
+#: model_terms:ir.ui.view,arch_db:tax_invoice.out_tax_invoice_form
+msgid "附件"
+msgstr "附件"
+
+#. module: tax_invoice
+#: model:ir.model.fields,field_description:tax_invoice.field_tax_invoice__attachment_number
+msgid "附件号"
+msgstr "附件號"

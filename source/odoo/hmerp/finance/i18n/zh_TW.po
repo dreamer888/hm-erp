@@ -1,0 +1,2556 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* finance
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-22 06:51+0000\n"
+"PO-Revision-Date: 2022-07-22 14:57+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.1.1\n"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__finance_period__month__1
+msgid "01"
+msgstr "01"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__finance_period__month__2
+msgid "02"
+msgstr "02"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__finance_period__month__3
+msgid "03"
+msgstr "03"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__finance_period__month__4
+msgid "04"
+msgstr "04"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__finance_period__month__5
+msgid "05"
+msgstr "05"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__finance_period__month__6
+msgid "06"
+msgstr "06"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__finance_period__month__7
+msgid "07"
+msgstr "07"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__finance_period__month__8
+msgid "08"
+msgstr "08"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__finance_period__month__9
+msgid "09"
+msgstr "09"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__finance_period__month__10
+msgid "10"
+msgstr "10"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__finance_period__month__11
+msgid "11"
+msgstr "11"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__finance_period__month__12
+msgid "12"
+msgstr "12"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.report_voucher_view
+msgid "<span>公司名称</span>"
+msgstr "<span>公司名稱</span>"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.report_voucher_view
+msgid "<span>凭证号</span>"
+msgstr "<span>憑證號</span>"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.report_voucher_view
+msgid "<span>出纳:</span>"
+msgstr "<span>出納:</span>"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.report_voucher_view
+msgid "<span>制单:</span>"
+msgstr "<span>制單:</span>"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.report_voucher_view
+msgid "<span>合计:</span>"
+msgstr "<span>合計:</span>"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.report_voucher_view
+msgid "<span>审核:</span>"
+msgstr "<span>審核:</span>"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.report_voucher_view
+msgid "<span>核准:</span>"
+msgstr "<span>核准:</span>"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.report_voucher_view
+msgid "<span>过账:</span>"
+msgstr "<span>過帳:</span>"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.report_voucher_view
+msgid "<span>附件:</span>"
+msgstr "<span>附件:</span>"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__unsplash_access_key
+msgid "Access Key"
+msgstr "Access Key"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_wizard_account_add_child__account_type
+msgid "Account Type"
+msgstr "Account Type"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher__message_needaction
+msgid "Action Needed"
+msgstr "Action Needed"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__snailmail_cover
+msgid "Add a Cover Page"
+msgstr "Add a Cover Page"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__alias_domain
+msgid "Alias Domain"
+msgstr "Alias Domain"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__module_google_calendar
+msgid "Allow the users to synchronize their calendar  with Google Calendar"
+msgstr "Allow the users to synchronize their calendar  with Google Calendar"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__module_base_import
+msgid "Allow users to import data from CSV/XLS/XLSX/ODS files"
+msgstr "Allow users to import data from CSV/XLS/XLSX/ODS files"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_finance_config_settings__group_multi_currency
+msgid "Allows to work in a multi currency environment"
+msgstr "Allows to work in a multi currency environment"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__module_voip
+msgid "Asterisk (VoIP)"
+msgstr "Asterisk (VoIP)"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__module_google_drive
+msgid "Attach Google documents to any record"
+msgstr "Attach Google documents to any record"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher__message_attachment_count
+msgid "Attachment Count"
+msgstr "Attachment Count"
+
+#. module: finance
+#: model:ir.model,name:finance.model_change_cumulative_occurrence_wizard
+msgid "Change Cumulative Occurrence Wizard"
+msgstr "Change Cumulative Occurrence Wizard"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__module_pad
+msgid "Collaborative Pads"
+msgstr "Collaborative Pads"
+
+#. module: finance
+#: model:ir.model,name:finance.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__company_informations
+msgid "Company Informations"
+msgstr "Company Informations"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__company_name
+msgid "Company Name"
+msgstr "Company Name"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.view_finance_config
+msgid "Configure finance"
+msgstr "Configure finance"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_auxiliary_financing__create_uid
+#: model:ir.model.fields,field_description:finance.field_balance_sheet__create_uid
+#: model:ir.model.fields,field_description:finance.field_change_cumulative_occurrence_wizard__create_uid
+#: model:ir.model.fields,field_description:finance.field_change_voucher_name__create_uid
+#: model:ir.model.fields,field_description:finance.field_check_trial_balance_wizard__create_uid
+#: model:ir.model.fields,field_description:finance.field_checkout_wizard__create_uid
+#: model:ir.model.fields,field_description:finance.field_create_balance_sheet_wizard__create_uid
+#: model:ir.model.fields,field_description:finance.field_create_exchange_wizard__create_uid
+#: model:ir.model.fields,field_description:finance.field_create_trial_balance_wizard__create_uid
+#: model:ir.model.fields,field_description:finance.field_create_vouchers_summary_wizard__create_uid
+#: model:ir.model.fields,field_description:finance.field_document_word__create_uid
+#: model:ir.model.fields,field_description:finance.field_dupont__create_uid
+#: model:ir.model.fields,field_description:finance.field_finance_account__create_uid
+#: model:ir.model.fields,field_description:finance.field_finance_account_type__create_uid
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__create_uid
+#: model:ir.model.fields,field_description:finance.field_finance_period__create_uid
+#: model:ir.model.fields,field_description:finance.field_general_ledger_account__create_uid
+#: model:ir.model.fields,field_description:finance.field_month_product_cost__create_uid
+#: model:ir.model.fields,field_description:finance.field_profit_statement__create_uid
+#: model:ir.model.fields,field_description:finance.field_rate_period__create_uid
+#: model:ir.model.fields,field_description:finance.field_trial_balance__create_uid
+#: model:ir.model.fields,field_description:finance.field_voucher__create_uid
+#: model:ir.model.fields,field_description:finance.field_voucher_line__create_uid
+#: model:ir.model.fields,field_description:finance.field_voucher_template__create_uid
+#: model:ir.model.fields,field_description:finance.field_voucher_template_line__create_uid
+#: model:ir.model.fields,field_description:finance.field_voucher_template_wizard__create_uid
+#: model:ir.model.fields,field_description:finance.field_vouchers_summary__create_uid
+#: model:ir.model.fields,field_description:finance.field_wizard_account_add_child__create_uid
+msgid "Created by"
+msgstr "建立者"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_auxiliary_financing__create_date
+#: model:ir.model.fields,field_description:finance.field_balance_sheet__create_date
+#: model:ir.model.fields,field_description:finance.field_change_cumulative_occurrence_wizard__create_date
+#: model:ir.model.fields,field_description:finance.field_change_voucher_name__create_date
+#: model:ir.model.fields,field_description:finance.field_check_trial_balance_wizard__create_date
+#: model:ir.model.fields,field_description:finance.field_checkout_wizard__create_date
+#: model:ir.model.fields,field_description:finance.field_create_balance_sheet_wizard__create_date
+#: model:ir.model.fields,field_description:finance.field_create_exchange_wizard__create_date
+#: model:ir.model.fields,field_description:finance.field_create_trial_balance_wizard__create_date
+#: model:ir.model.fields,field_description:finance.field_create_vouchers_summary_wizard__create_date
+#: model:ir.model.fields,field_description:finance.field_document_word__create_date
+#: model:ir.model.fields,field_description:finance.field_dupont__create_date
+#: model:ir.model.fields,field_description:finance.field_finance_account__create_date
+#: model:ir.model.fields,field_description:finance.field_finance_account_type__create_date
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__create_date
+#: model:ir.model.fields,field_description:finance.field_finance_period__create_date
+#: model:ir.model.fields,field_description:finance.field_general_ledger_account__create_date
+#: model:ir.model.fields,field_description:finance.field_month_product_cost__create_date
+#: model:ir.model.fields,field_description:finance.field_profit_statement__create_date
+#: model:ir.model.fields,field_description:finance.field_rate_period__create_date
+#: model:ir.model.fields,field_description:finance.field_trial_balance__create_date
+#: model:ir.model.fields,field_description:finance.field_voucher__create_date
+#: model:ir.model.fields,field_description:finance.field_voucher_line__create_date
+#: model:ir.model.fields,field_description:finance.field_voucher_template__create_date
+#: model:ir.model.fields,field_description:finance.field_voucher_template_line__create_date
+#: model:ir.model.fields,field_description:finance.field_voucher_template_wizard__create_date
+#: model:ir.model.fields,field_description:finance.field_vouchers_summary__create_date
+#: model:ir.model.fields,field_description:finance.field_wizard_account_add_child__create_date
+msgid "Created on"
+msgstr "建立於"
+
+#. module: finance
+#: model:ir.model,name:finance.model_res_currency
+msgid "Currency"
+msgstr "幣別"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__report_footer
+msgid "Custom Report Footer"
+msgstr "Custom Report Footer"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__auth_signup_uninvited
+msgid "Customer Account"
+msgstr "Customer Account"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__user_default_rights
+msgid "Default Access Rights"
+msgstr "Default Access Rights"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_auxiliary_financing__display_name
+#: model:ir.model.fields,field_description:finance.field_balance_sheet__display_name
+#: model:ir.model.fields,field_description:finance.field_change_cumulative_occurrence_wizard__display_name
+#: model:ir.model.fields,field_description:finance.field_change_voucher_name__display_name
+#: model:ir.model.fields,field_description:finance.field_check_trial_balance_wizard__display_name
+#: model:ir.model.fields,field_description:finance.field_checkout_wizard__display_name
+#: model:ir.model.fields,field_description:finance.field_create_balance_sheet_wizard__display_name
+#: model:ir.model.fields,field_description:finance.field_create_exchange_wizard__display_name
+#: model:ir.model.fields,field_description:finance.field_create_trial_balance_wizard__display_name
+#: model:ir.model.fields,field_description:finance.field_create_vouchers_summary_wizard__display_name
+#: model:ir.model.fields,field_description:finance.field_document_word__display_name
+#: model:ir.model.fields,field_description:finance.field_dupont__display_name
+#: model:ir.model.fields,field_description:finance.field_finance_account__display_name
+#: model:ir.model.fields,field_description:finance.field_finance_account_type__display_name
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__display_name
+#: model:ir.model.fields,field_description:finance.field_finance_period__display_name
+#: model:ir.model.fields,field_description:finance.field_general_ledger_account__display_name
+#: model:ir.model.fields,field_description:finance.field_month_product_cost__display_name
+#: model:ir.model.fields,field_description:finance.field_profit_statement__display_name
+#: model:ir.model.fields,field_description:finance.field_rate_period__display_name
+#: model:ir.model.fields,field_description:finance.field_report_auxiliary_accounting__display_name
+#: model:ir.model.fields,field_description:finance.field_report_finance_report_voucher_view__display_name
+#: model:ir.model.fields,field_description:finance.field_trial_balance__display_name
+#: model:ir.model.fields,field_description:finance.field_voucher__display_name
+#: model:ir.model.fields,field_description:finance.field_voucher_line__display_name
+#: model:ir.model.fields,field_description:finance.field_voucher_template__display_name
+#: model:ir.model.fields,field_description:finance.field_voucher_template_line__display_name
+#: model:ir.model.fields,field_description:finance.field_voucher_template_wizard__display_name
+#: model:ir.model.fields,field_description:finance.field_vouchers_summary__display_name
+#: model:ir.model.fields,field_description:finance.field_wizard_account_add_child__display_name
+msgid "Display Name"
+msgstr "完全顯示名稱"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__external_report_layout_id
+msgid "Document Template"
+msgstr "Document Template"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__auth_signup_reset_password
+msgid "Enable password reset from Login page"
+msgstr "Enable password reset from Login page"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__external_email_server_default
+msgid "External Email Servers"
+msgstr "External Email Servers"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__fail_counter
+msgid "Fail Mail"
+msgstr "Fail Mail"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher__message_follower_ids
+#, fuzzy
+msgid "Followers"
+msgstr "關注者"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Followers (Channels)"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Followers (Partners)"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_finance_config_settings__report_footer
+msgid "Footer text displayed at the bottom of all reports."
+msgstr "Footer text displayed at the bottom of all reports."
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__module_base_geolocalize
+msgid "GeoLocalize"
+msgstr "GeoLocalize"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__module_google_spreadsheet
+msgid "Google Spreadsheet"
+msgstr "Google Spreadsheet"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_wizard_account_add_child__has_journal_items
+msgid "Has Journal Items"
+msgstr "Has Journal Items"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_auxiliary_financing__id
+#: model:ir.model.fields,field_description:finance.field_balance_sheet__id
+#: model:ir.model.fields,field_description:finance.field_change_cumulative_occurrence_wizard__id
+#: model:ir.model.fields,field_description:finance.field_change_voucher_name__id
+#: model:ir.model.fields,field_description:finance.field_check_trial_balance_wizard__id
+#: model:ir.model.fields,field_description:finance.field_checkout_wizard__id
+#: model:ir.model.fields,field_description:finance.field_create_balance_sheet_wizard__id
+#: model:ir.model.fields,field_description:finance.field_create_exchange_wizard__id
+#: model:ir.model.fields,field_description:finance.field_create_trial_balance_wizard__id
+#: model:ir.model.fields,field_description:finance.field_create_vouchers_summary_wizard__id
+#: model:ir.model.fields,field_description:finance.field_document_word__id
+#: model:ir.model.fields,field_description:finance.field_dupont__id
+#: model:ir.model.fields,field_description:finance.field_finance_account__id
+#: model:ir.model.fields,field_description:finance.field_finance_account_type__id
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__id
+#: model:ir.model.fields,field_description:finance.field_finance_period__id
+#: model:ir.model.fields,field_description:finance.field_general_ledger_account__id
+#: model:ir.model.fields,field_description:finance.field_month_product_cost__id
+#: model:ir.model.fields,field_description:finance.field_profit_statement__id
+#: model:ir.model.fields,field_description:finance.field_rate_period__id
+#: model:ir.model.fields,field_description:finance.field_report_auxiliary_accounting__id
+#: model:ir.model.fields,field_description:finance.field_report_finance_report_voucher_view__id
+#: model:ir.model.fields,field_description:finance.field_trial_balance__id
+#: model:ir.model.fields,field_description:finance.field_voucher__id
+#: model:ir.model.fields,field_description:finance.field_voucher_line__id
+#: model:ir.model.fields,field_description:finance.field_voucher_template__id
+#: model:ir.model.fields,field_description:finance.field_voucher_template_line__id
+#: model:ir.model.fields,field_description:finance.field_voucher_template_wizard__id
+#: model:ir.model.fields,field_description:finance.field_vouchers_summary__id
+#: model:ir.model.fields,field_description:finance.field_wizard_account_add_child__id
+msgid "ID"
+msgstr "ID"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_voucher__message_needaction
+#: model:ir.model.fields,help:finance.field_voucher__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "If checked, new messages require your attention."
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_voucher__message_has_error
+#: model:ir.model.fields,help:finance.field_voucher__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "If checked, some messages have a delivery error."
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_finance_config_settings__alias_domain
+msgid ""
+"If you have setup a catch-all email domain redirected to the Odoo server, "
+"enter the domain name here."
+msgstr ""
+"If you have setup a catch-all email domain redirected to the Odoo server, "
+"enter the domain name here."
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__partner_autocomplete_insufficient_credit
+msgid "Insufficient credit"
+msgstr "Insufficient credit"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_check_trial_balance_wizard__is_balance
+msgid "Is Balance"
+msgstr "Is Balance"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher__message_is_follower
+msgid "Is Follower"
+msgstr "Is Follower"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_check_trial_balance_wizard__is_init_period
+msgid "Is Init Period"
+msgstr "Is Init Period"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__module_auth_ldap
+msgid "LDAP Authentication"
+msgstr "LDAP Authentication"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_auxiliary_financing____last_update
+#: model:ir.model.fields,field_description:finance.field_balance_sheet____last_update
+#: model:ir.model.fields,field_description:finance.field_change_cumulative_occurrence_wizard____last_update
+#: model:ir.model.fields,field_description:finance.field_change_voucher_name____last_update
+#: model:ir.model.fields,field_description:finance.field_check_trial_balance_wizard____last_update
+#: model:ir.model.fields,field_description:finance.field_checkout_wizard____last_update
+#: model:ir.model.fields,field_description:finance.field_create_balance_sheet_wizard____last_update
+#: model:ir.model.fields,field_description:finance.field_create_exchange_wizard____last_update
+#: model:ir.model.fields,field_description:finance.field_create_trial_balance_wizard____last_update
+#: model:ir.model.fields,field_description:finance.field_create_vouchers_summary_wizard____last_update
+#: model:ir.model.fields,field_description:finance.field_document_word____last_update
+#: model:ir.model.fields,field_description:finance.field_dupont____last_update
+#: model:ir.model.fields,field_description:finance.field_finance_account____last_update
+#: model:ir.model.fields,field_description:finance.field_finance_account_type____last_update
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings____last_update
+#: model:ir.model.fields,field_description:finance.field_finance_period____last_update
+#: model:ir.model.fields,field_description:finance.field_general_ledger_account____last_update
+#: model:ir.model.fields,field_description:finance.field_month_product_cost____last_update
+#: model:ir.model.fields,field_description:finance.field_profit_statement____last_update
+#: model:ir.model.fields,field_description:finance.field_rate_period____last_update
+#: model:ir.model.fields,field_description:finance.field_report_auxiliary_accounting____last_update
+#: model:ir.model.fields,field_description:finance.field_report_finance_report_voucher_view____last_update
+#: model:ir.model.fields,field_description:finance.field_trial_balance____last_update
+#: model:ir.model.fields,field_description:finance.field_voucher____last_update
+#: model:ir.model.fields,field_description:finance.field_voucher_line____last_update
+#: model:ir.model.fields,field_description:finance.field_voucher_template____last_update
+#: model:ir.model.fields,field_description:finance.field_voucher_template_line____last_update
+#: model:ir.model.fields,field_description:finance.field_voucher_template_wizard____last_update
+#: model:ir.model.fields,field_description:finance.field_vouchers_summary____last_update
+#: model:ir.model.fields,field_description:finance.field_wizard_account_add_child____last_update
+msgid "Last Modified on"
+msgstr "Last Modified on"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_auxiliary_financing__write_uid
+#: model:ir.model.fields,field_description:finance.field_balance_sheet__write_uid
+#: model:ir.model.fields,field_description:finance.field_change_cumulative_occurrence_wizard__write_uid
+#: model:ir.model.fields,field_description:finance.field_change_voucher_name__write_uid
+#: model:ir.model.fields,field_description:finance.field_check_trial_balance_wizard__write_uid
+#: model:ir.model.fields,field_description:finance.field_checkout_wizard__write_uid
+#: model:ir.model.fields,field_description:finance.field_create_balance_sheet_wizard__write_uid
+#: model:ir.model.fields,field_description:finance.field_create_exchange_wizard__write_uid
+#: model:ir.model.fields,field_description:finance.field_create_trial_balance_wizard__write_uid
+#: model:ir.model.fields,field_description:finance.field_create_vouchers_summary_wizard__write_uid
+#: model:ir.model.fields,field_description:finance.field_document_word__write_uid
+#: model:ir.model.fields,field_description:finance.field_dupont__write_uid
+#: model:ir.model.fields,field_description:finance.field_finance_account__write_uid
+#: model:ir.model.fields,field_description:finance.field_finance_account_type__write_uid
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__write_uid
+#: model:ir.model.fields,field_description:finance.field_finance_period__write_uid
+#: model:ir.model.fields,field_description:finance.field_general_ledger_account__write_uid
+#: model:ir.model.fields,field_description:finance.field_month_product_cost__write_uid
+#: model:ir.model.fields,field_description:finance.field_profit_statement__write_uid
+#: model:ir.model.fields,field_description:finance.field_rate_period__write_uid
+#: model:ir.model.fields,field_description:finance.field_trial_balance__write_uid
+#: model:ir.model.fields,field_description:finance.field_voucher__write_uid
+#: model:ir.model.fields,field_description:finance.field_voucher_line__write_uid
+#: model:ir.model.fields,field_description:finance.field_voucher_template__write_uid
+#: model:ir.model.fields,field_description:finance.field_voucher_template_line__write_uid
+#: model:ir.model.fields,field_description:finance.field_voucher_template_wizard__write_uid
+#: model:ir.model.fields,field_description:finance.field_vouchers_summary__write_uid
+#: model:ir.model.fields,field_description:finance.field_wizard_account_add_child__write_uid
+msgid "Last Updated by"
+msgstr "Last Updated by"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_auxiliary_financing__write_date
+#: model:ir.model.fields,field_description:finance.field_balance_sheet__write_date
+#: model:ir.model.fields,field_description:finance.field_change_cumulative_occurrence_wizard__write_date
+#: model:ir.model.fields,field_description:finance.field_change_voucher_name__write_date
+#: model:ir.model.fields,field_description:finance.field_check_trial_balance_wizard__write_date
+#: model:ir.model.fields,field_description:finance.field_checkout_wizard__write_date
+#: model:ir.model.fields,field_description:finance.field_create_balance_sheet_wizard__write_date
+#: model:ir.model.fields,field_description:finance.field_create_exchange_wizard__write_date
+#: model:ir.model.fields,field_description:finance.field_create_trial_balance_wizard__write_date
+#: model:ir.model.fields,field_description:finance.field_create_vouchers_summary_wizard__write_date
+#: model:ir.model.fields,field_description:finance.field_document_word__write_date
+#: model:ir.model.fields,field_description:finance.field_dupont__write_date
+#: model:ir.model.fields,field_description:finance.field_finance_account__write_date
+#: model:ir.model.fields,field_description:finance.field_finance_account_type__write_date
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__write_date
+#: model:ir.model.fields,field_description:finance.field_finance_period__write_date
+#: model:ir.model.fields,field_description:finance.field_general_ledger_account__write_date
+#: model:ir.model.fields,field_description:finance.field_month_product_cost__write_date
+#: model:ir.model.fields,field_description:finance.field_profit_statement__write_date
+#: model:ir.model.fields,field_description:finance.field_rate_period__write_date
+#: model:ir.model.fields,field_description:finance.field_trial_balance__write_date
+#: model:ir.model.fields,field_description:finance.field_voucher__write_date
+#: model:ir.model.fields,field_description:finance.field_voucher_line__write_date
+#: model:ir.model.fields,field_description:finance.field_voucher_template__write_date
+#: model:ir.model.fields,field_description:finance.field_voucher_template_line__write_date
+#: model:ir.model.fields,field_description:finance.field_voucher_template_wizard__write_date
+#: model:ir.model.fields,field_description:finance.field_vouchers_summary__write_date
+#: model:ir.model.fields,field_description:finance.field_wizard_account_add_child__write_date
+msgid "Last Updated on"
+msgstr "Last Updated on"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_account__parent_left
+msgid "Left Parent"
+msgstr "Left Parent"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Main Attachment"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__module_inter_company_rules
+msgid "Manage Inter Company"
+msgstr "Manage Inter Company"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher__message_has_error
+msgid "Message Delivery error"
+msgstr "Message Delivery error"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher__message_ids
+msgid "Messages"
+msgstr "Messages"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__group_multi_currency
+msgid "Multi-Currencies"
+msgstr "Multi-Currencies"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__finance_account__account_type__normal
+#, fuzzy
+msgid "Normal"
+msgstr "一般"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Number of Actions"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__active_user_count
+msgid "Number of Active Users"
+msgstr "Number of Active Users"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__company_count
+msgid "Number of Companies"
+msgstr "Number of Companies"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__language_count
+msgid "Number of Languages"
+msgstr "Number of Languages"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher__message_has_error_counter
+msgid "Number of errors"
+msgstr "Number of errors"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_voucher__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Number of messages which requires an action"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_voucher__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Number of messages with delivery error"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_voucher__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Number of unread messages"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__paperformat_id
+msgid "Paper format"
+msgstr "Paper format"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_account__parent_path
+#: model:ir.model.fields,field_description:finance.field_wizard_account_add_child__parent_path
+msgid "Parent Path"
+msgstr "Parent Path"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__module_partner_autocomplete
+msgid "Partner Autocomplete"
+msgstr "Partner Autocomplete"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__snailmail_duplex
+msgid "Print Both sides"
+msgstr "Print Both sides"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__snailmail_color
+msgid "Print In Color"
+msgstr "Print In Color"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_account__parent_right
+msgid "Right Parent"
+msgstr "Right Parent"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "SMS Delivery error"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.month_product_cost_search
+#: model_terms:ir.ui.view,arch_db:finance.view_voucher_search_filter
+msgid "Search Voucher"
+msgstr "Search Voucher"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.view_voucher_line_search_filter
+msgid "Search Voucher Line"
+msgstr "Search Voucher Line"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__show_effect
+msgid "Show Effect"
+msgstr "Show Effect"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__auth_signup_template_user_id
+msgid "Template user for new users created through signup"
+msgstr "Template user for new users created through signup"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__module_base_gengo
+msgid "Translate Your Website with Gengo"
+msgstr "Translate Your Website with Gengo"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_change_cumulative_occurrence_wizard__trial_balance_id
+msgid "Trial Balance"
+msgstr "Trial Balance"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher__message_unread
+msgid "Unread Messages"
+msgstr "Unread Messages"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Unread Messages Counter"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__module_web_unsplash
+msgid "Unsplash Image Library"
+msgstr "Unsplash Image Library"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__module_auth_oauth
+msgid "Use external authentication providers (OAuth)"
+msgstr "Use external authentication providers (OAuth)"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__finance_account__account_type__view
+msgid "View"
+msgstr "檢視"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_account__voucher_line_ids
+msgid "Voucher Lines"
+msgstr "Voucher Lines"
+
+#. module: finance
+#: model:ir.model,name:finance.model_wizard_account_add_child
+msgid "Wizard Account Add Child"
+msgstr "Wizard Account Add Child"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.view_finance_account_type_form
+msgid "finance_account_type_form"
+msgstr "finance_account_type_form"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.view_finance_account_type_tree
+msgid "finance_account_type_tree"
+msgstr "finance_account_type_tree"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__defaul_top_length
+msgid "一级科目编码长度"
+msgstr "一級科目編碼長度"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_vouchers_summary__balance
+msgid ""
+"一般显示为正数，计算方式：当方向为借时                                    余"
+"额= 借方金额-贷方金额， 当方向为贷时 余额= 贷方金额-借方金额"
+msgstr ""
+"一般顯示為正數，計算方式：當方向為藉時                                    餘"
+"額= 借方金額-貸方金額， 當方向為貸時 餘額= 貸方金額-借方金額"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_general_ledger_account__balance
+msgid ""
+"一般显示为正数，计算方式：当方向为借时                                   余"
+"额= 借方金额-贷方金额， 当方向为贷时 余额= 贷方金额-借方金额"
+msgstr ""
+"一般顯示為正數，計算方式：當方向為藉時                                   餘"
+"額= 借方金額-貸方金額， 當方向為貸時 餘額= 貸方金額-借方金額"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__finance_config_settings__defaul_voucher_date__last
+msgid "上一凭证日期"
+msgstr "上一憑證日期"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_account__parent_id
+#: model:ir.model.fields,field_description:finance.field_wizard_account_add_child__parent_id
+msgid "上级科目"
+msgstr "上級科目"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_wizard_account_add_child__parent_name
+msgid "上级科目名称"
+msgstr "上級科目名稱"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_wizard_account_add_child__parent_code
+msgid "上级科目编码"
+msgstr "上級科目編碼"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_account__child_ids
+msgid "下级科目"
+msgstr "下級科目"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__defaul_child_step
+msgid "下级科目编码递增长度"
+msgstr "下級科目編碼遞增長度"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__finance_config_settings__defaul_period_domain__cannot
+msgid "不能"
+msgstr "不能"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__auxiliary_financing__type__member
+#: model:ir.model.fields.selection,name:finance.selection__finance_account__auxiliary_financing__member
+msgid "个人"
+msgstr "個人"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_res_company__cogs_account
+msgid "主营业务成本科目"
+msgstr "主營業務成本科目"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_res_company__cogs_account
+msgid "主营业务成本科目,销项发票开具时会用到。"
+msgstr "主營業務成本科目,銷項發票開具時會用到。"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_vouchers_summary__summary
+msgid "从凭证中获取到对应的摘要"
+msgstr "從憑證中獲取到對應的摘要"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_change_voucher_name__before_voucher_name
+msgid "以前凭证号"
+msgstr "以前憑證號"
+
+#. module: finance
+#: model:ir.model,name:finance.model_dupont
+msgid "企业财务指标"
+msgstr "企業財務指標"
+
+#. module: finance
+#: model:ir.ui.menu,name:finance.finance_menu
+#: model:res.groups,name:finance.group_accountant
+msgid "会计"
+msgstr "會計"
+
+#. module: finance
+#: model:ir.actions.act_window,name:finance.voucher_action
+#: model:ir.model,name:finance.model_voucher
+#: model:ir.ui.menu,name:finance.voucher_home_menu
+#: model:ir.ui.menu,name:finance.voucher_menu
+#: model_terms:ir.ui.view,arch_db:finance.voucher_form
+#: model_terms:ir.ui.view,arch_db:finance.voucher_tree
+msgid "会计凭证"
+msgstr "會計憑證"
+
+#. module: finance
+#: model:ir.model,name:finance.model_report_finance_report_voucher_view
+msgid "会计凭证打印"
+msgstr "會計憑證打印"
+
+#. module: finance
+#: model:ir.model,name:finance.model_voucher_line
+msgid "会计凭证明细"
+msgstr "會計憑證明細"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.voucher_template_wizard_form
+msgid "会计凭证模板"
+msgstr "會計憑證模板"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_period__year
+#: model_terms:ir.ui.view,arch_db:finance.finance_period_search
+msgid "会计年度"
+msgstr "會計年度"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_period__month
+msgid "会计月份"
+msgstr "會計月份"
+
+#. module: finance
+#: model:ir.actions.act_window,name:finance.period_action
+#: model:ir.model,name:finance.model_finance_period
+#: model:ir.model.fields,field_description:finance.field_change_voucher_name__period_id
+#: model:ir.model.fields,field_description:finance.field_check_trial_balance_wizard__period_id
+#: model:ir.model.fields,field_description:finance.field_create_balance_sheet_wizard__period_id
+#: model:ir.model.fields,field_description:finance.field_create_exchange_wizard__period_id
+#: model:ir.model.fields,field_description:finance.field_create_trial_balance_wizard__period_id
+#: model:ir.model.fields,field_description:finance.field_finance_period__name
+#: model:ir.model.fields,field_description:finance.field_general_ledger_account__period_id
+#: model:ir.model.fields,field_description:finance.field_month_product_cost__period_id
+#: model:ir.model.fields,field_description:finance.field_trial_balance__period_id
+#: model:ir.model.fields,field_description:finance.field_voucher__period_id
+#: model:ir.model.fields,field_description:finance.field_vouchers_summary__period_id
+#: model:ir.model.fields,help:finance.field_vouchers_summary__period_id
+#: model:ir.ui.menu,name:finance.period_menu
+#: model_terms:ir.ui.view,arch_db:finance.finance_period_search
+#: model_terms:ir.ui.view,arch_db:finance.month_product_cost_search
+#: model_terms:ir.ui.view,arch_db:finance.period_form
+#: model_terms:ir.ui.view,arch_db:finance.period_tree
+#: model_terms:ir.ui.view,arch_db:finance.trial_balance_search
+#: model_terms:ir.ui.view,arch_db:finance.view_voucher_line_search_filter
+#: model_terms:ir.ui.view,arch_db:finance.view_voucher_search_filter
+msgid "会计期间"
+msgstr "會計期間"
+
+#. module: finance
+#: model:ir.model.constraint,message:finance.constraint_finance_period_period_uniq
+msgid "会计期间不能重复"
+msgstr "會計期間不能重複"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_finance_period__year
+msgid "会计期间对应的年份"
+msgstr "會計期間對應的年份"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_finance_period__month
+msgid "会计期间对应的月份"
+msgstr "會計期間對應的月份"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_general_ledger_account__direction
+#: model:ir.model.fields,help:finance.field_vouchers_summary__direction
+msgid ""
+"会计术语,主要方向借、贷、平, 当借方金额大于贷方金额 方向为借\n"
+"     ，当贷方金额大于借方金额 方向为贷\n"
+"  借贷相等时 方向为平"
+msgstr ""
+"會計術語,主要方向借、貸、平, 當借方金額大於貸方金額 方向為藉\n"
+"     ，當貸方金額大於借方金額 方向為貸\n"
+"  借貸相等時 方向為平"
+
+#. module: finance
+#: model:ir.actions.act_window,name:finance.finance_account_action
+#: model:ir.model,name:finance.model_finance_account
+#: model:ir.model.fields,field_description:finance.field_report_auxiliary_accounting__account_id
+#: model:ir.model.fields,field_description:finance.field_voucher_line__account_id
+#: model:ir.model.fields,field_description:finance.field_voucher_template_line__account_id
+#: model:ir.ui.menu,name:finance.finance_account_menu
+#: model_terms:ir.ui.view,arch_db:finance.report_voucher_view
+#: model_terms:ir.ui.view,arch_db:finance.view_voucher_line_search_filter
+msgid "会计科目"
+msgstr "會計科目"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_create_vouchers_summary_wizard__subject_name_id
+msgid "会计科目 从"
+msgstr "會計科目 從"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.view_finance_config
+msgid "会计科目设置"
+msgstr "會計科目設置"
+
+#. module: finance
+#: model:ir.actions.act_window,name:finance.finance_account_restricted_action
+#: model:ir.ui.menu,name:finance.finance_account_restricted_menu
+msgid "会计科目限制使用"
+msgstr "會計科目限制使用"
+
+#. module: finance
+#: model:ir.model,name:finance.model_finance_account_type
+#: model:ir.model.fields,field_description:finance.field_finance_account__user_type
+msgid "会计要素"
+msgstr "會計要素"
+
+#. module: finance
+#: model:ir.actions.act_window,name:finance.view_finance_config_setting_action
+msgid "会计设置"
+msgstr "會計設置"
+
+#. module: finance
+#: model:ir.model,name:finance.model_finance_config_settings
+msgid "会计默认设置"
+msgstr "會計默認設置"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_general_ledger_account__balance
+#: model:ir.model.fields,field_description:finance.field_report_auxiliary_accounting__balance
+#: model:ir.model.fields,field_description:finance.field_vouchers_summary__balance
+msgid "余额"
+msgstr "餘額"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_account__balance_directions
+#: model_terms:ir.ui.view,arch_db:finance.general_ledger_account_search
+#: model_terms:ir.ui.view,arch_db:finance.vouchers_summary_search
+msgid "余额方向"
+msgstr "餘額方向"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.voucher_form
+msgid "作废"
+msgstr "作廢"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__finance_account__auxiliary_financing__supplier
+msgid "供应商"
+msgstr "供應商"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.voucher_template_wizard_form
+msgid "保存"
+msgstr "保存"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher_template_wizard__is_change_old_template
+msgid "修改原有模板"
+msgstr "修改原有模板"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_account__debit
+#: model_terms:ir.ui.view,arch_db:finance.report_voucher_view
+msgid "借方"
+msgstr "借方"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.voucher_form
+#: model_terms:ir.ui.view,arch_db:finance.voucher_line_tree
+msgid "借方合计"
+msgstr "借方合計"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_general_ledger_account__debit
+#: model:ir.model.fields,field_description:finance.field_report_auxiliary_accounting__debit
+#: model:ir.model.fields,field_description:finance.field_voucher_line__debit
+#: model:ir.model.fields,field_description:finance.field_vouchers_summary__debit
+#: model:ir.model.fields,help:finance.field_general_ledger_account__debit
+#: model:ir.model.fields,help:finance.field_vouchers_summary__debit
+msgid "借方金额"
+msgstr "借方金額"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_account__restricted_debit
+msgid "借方限制使用"
+msgstr "借方限制使用"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_account__restricted_debit_msg
+msgid "借方限制提示消息"
+msgstr "借方限制提示消息"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__check_trial_balance_wizard__result__2
+msgid "借贷不平"
+msgstr "借貸不平"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__check_trial_balance_wizard__result__1
+msgid "借贷平衡"
+msgstr "借貸平衡"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_check_trial_balance_wizard__result
+msgid "借贷平衡情况"
+msgstr "借貸平衡情況"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_auxiliary_financing__company_id
+#: model:ir.model.fields,field_description:finance.field_balance_sheet__company_id
+#: model:ir.model.fields,field_description:finance.field_change_voucher_name__company_id
+#: model:ir.model.fields,field_description:finance.field_check_trial_balance_wizard__company_id
+#: model:ir.model.fields,field_description:finance.field_checkout_wizard__company_id
+#: model:ir.model.fields,field_description:finance.field_create_balance_sheet_wizard__company_id
+#: model:ir.model.fields,field_description:finance.field_create_exchange_wizard__company_id
+#: model:ir.model.fields,field_description:finance.field_create_trial_balance_wizard__company_id
+#: model:ir.model.fields,field_description:finance.field_create_vouchers_summary_wizard__company_id
+#: model:ir.model.fields,field_description:finance.field_document_word__company_id
+#: model:ir.model.fields,field_description:finance.field_finance_account__company_id
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__company_id
+#: model:ir.model.fields,field_description:finance.field_finance_period__company_id
+#: model:ir.model.fields,field_description:finance.field_month_product_cost__company_id
+#: model:ir.model.fields,field_description:finance.field_profit_statement__company_id
+#: model:ir.model.fields,field_description:finance.field_rate_period__company_id
+#: model:ir.model.fields,field_description:finance.field_voucher__company_id
+#: model:ir.model.fields,field_description:finance.field_voucher_line__company_id
+#: model:ir.model.fields,field_description:finance.field_voucher_template__company_id
+#: model:ir.model.fields,field_description:finance.field_voucher_template_line__company_id
+#: model:ir.model.fields,field_description:finance.field_voucher_template_wizard__company_id
+msgid "公司"
+msgstr "公司"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher_template_wizard__voucher_id
+msgid "凭证id"
+msgstr "憑證id"
+
+#. module: finance
+#: model:ir.actions.act_window,name:finance.chang_voucher_name_action
+#: model_terms:ir.ui.view,arch_db:finance.chang_voucher_name_tree
+msgid "凭证变更记录"
+msgstr "憑證變更記錄"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher__name
+msgid "凭证号"
+msgstr "憑證號"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.view_finance_config
+msgid "凭证号重置间隔"
+msgstr "憑證號重置間隔"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_document_word__print_title
+msgid "凭证在打印时的显示的标题"
+msgstr "憑證在打印時的顯示的標題"
+
+#. module: finance
+#: model:ir.model,name:finance.model_document_word
+#: model:ir.model.fields,field_description:finance.field_document_word__name
+#: model:ir.model.fields,field_description:finance.field_voucher__document_word_id
+msgid "凭证字"
+msgstr "憑證字"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_vouchers_summary__voucher_id
+#: model:ir.model.fields,help:finance.field_vouchers_summary__voucher_id
+msgid "凭证字号"
+msgstr "憑證字號"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_voucher__state
+msgid "凭证所属状态!"
+msgstr "憑證所屬狀態!"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher__date
+#: model:ir.model.fields,field_description:finance.field_voucher_line__date
+#: model_terms:ir.ui.view,arch_db:finance.view_finance_config
+msgid "凭证日期"
+msgstr "憑證日期"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher__line_ids
+msgid "凭证明细"
+msgstr "憑證明細"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher_line__period_id
+msgid "凭证期间"
+msgstr "憑證期間"
+
+#. module: finance
+#: model:ir.actions.act_window,name:finance.voucher_template_action
+#: model:ir.model,name:finance.model_voucher_template
+#: model:ir.ui.menu,name:finance.voucher_template_menu
+msgid "凭证模板"
+msgstr "憑證模板"
+
+#. module: finance
+#: model:ir.model,name:finance.model_voucher_template_line
+msgid "凭证模板明细"
+msgstr "憑證模板明細"
+
+#. module: finance
+#: model:ir.model,name:finance.model_voucher_template_wizard
+msgid "凭证模板生成向导"
+msgstr "憑證模板生成嚮導"
+
+#. module: finance
+#: model:res.groups,name:finance.group_account_goods
+msgid "凭证行上的商品"
+msgstr "憑證行上的商品"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_voucher_line__partner_id
+msgid "凭证行的对应的往来单位"
+msgstr "憑證行的對應的往來單位"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.view_finance_config
+msgid "凭证设置"
+msgstr "憑證設置"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_voucher__amount_text
+msgid "凭证金额"
+msgstr "憑證金額"
+
+#. module: finance
+#: model:ir.actions.act_window,name:finance.voucher_line_action
+#: model:ir.ui.menu,name:finance.voucher_line_menu
+#: model_terms:ir.ui.view,arch_db:finance.voucher_line_graph
+#: model_terms:ir.ui.view,arch_db:finance.voucher_line_pivot
+#: model_terms:ir.ui.view,arch_db:finance.voucher_line_tree
+msgid "分录查询"
+msgstr "分錄查詢"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_auxiliary_financing__type
+#: model_terms:ir.ui.view,arch_db:finance.auxiliary_financing_search
+msgid "分类"
+msgstr "分類"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.auxiliary_financing_search
+#: model_terms:ir.ui.view,arch_db:finance.finance_account_restricted_search
+#: model_terms:ir.ui.view,arch_db:finance.finance_account_search
+#: model_terms:ir.ui.view,arch_db:finance.finance_period_search
+#: model_terms:ir.ui.view,arch_db:finance.general_ledger_account_search
+#: model_terms:ir.ui.view,arch_db:finance.month_product_cost_search
+#: model_terms:ir.ui.view,arch_db:finance.trial_balance_search
+#: model_terms:ir.ui.view,arch_db:finance.view_voucher_line_search_filter
+#: model_terms:ir.ui.view,arch_db:finance.view_voucher_search_filter
+#: model_terms:ir.ui.view,arch_db:finance.vouchers_summary_search
+msgid "分组"
+msgstr "分組"
+
+#. module: finance
+#: model:res.groups,name:finance.view_detail
+msgid "列表上查看凭证明细行"
+msgstr "列表上查看憑證明細行"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.view_wizard_account_add_child_form
+msgid "创建下级科目"
+msgstr "創建下級科目"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_account__source
+msgid "创建来源"
+msgstr "創建來源"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.view_wizard_account_add_child_form
+msgid "创建科目"
+msgstr "創建科目"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__finance_account__source__init
+msgid "初始化"
+msgstr "初始化"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher_line__init_obj
+msgid "初始化对象"
+msgstr "初始化對象"
+
+#. module: finance
+#: model:ir.actions.act_window,name:finance.profit_statement_tree_wizard_action
+#: model:ir.ui.menu,name:finance.profit_statement_tree_wizard_action_menu
+#: model_terms:ir.ui.view,arch_db:finance.create_balance_sheet_wizard_form
+#: model_terms:ir.ui.view,arch_db:finance.profit_statement_tree
+msgid "利润表"
+msgstr "利潤表"
+
+#. module: finance
+#: model:ir.actions.act_window,name:finance.profit_statement_action_template
+#: model:ir.model,name:finance.model_profit_statement
+#: model:ir.ui.menu,name:finance.profit_statement_menu
+#: model_terms:ir.ui.view,arch_db:finance.profit_statement_tree_template
+msgid "利润表模板"
+msgstr "利潤表模板"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher__ref
+msgid "前置单据"
+msgstr "前置單據"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_month_product_cost__current_period_remaining_cost
+msgid "剩余数量成本"
+msgstr "剩餘數量成本"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.vouchers_summary_search
+msgid "单据日期"
+msgstr "單據日期"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_voucher__att_count
+msgid "原始凭证的张数"
+msgstr "原始憑證的張數"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_change_cumulative_occurrence_wizard__old_cumulative_occurrence_debit
+msgid "原本年累计发生额(借方)"
+msgstr "原本年累計發生額(借方)"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_change_cumulative_occurrence_wizard__old_cumulative_occurrence_credit
+msgid "原本年累计发生额(贷方)"
+msgstr "原本年累計發生額(貸方)"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.checkout_wizard_form
+msgid "反结账"
+msgstr "反結賬"
+
+#. module: finance
+#: model:ir.actions.act_window,name:finance.month_product_cost_action
+#: model:ir.ui.menu,name:finance.month_product_cost_menu
+msgid "发出成本"
+msgstr "發出成本"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.change_cumulative_occurrence_wizard_form
+#: model_terms:ir.ui.view,arch_db:finance.create_balance_sheet_wizard_form
+#: model_terms:ir.ui.view,arch_db:finance.create_exchange_wizard_form
+#: model_terms:ir.ui.view,arch_db:finance.create_trial_balance_wizard_form
+#: model_terms:ir.ui.view,arch_db:finance.create_vouchers_summary_wizard_form
+#: model_terms:ir.ui.view,arch_db:finance.view_finance_config
+#: model_terms:ir.ui.view,arch_db:finance.view_wizard_account_add_child_form
+msgid "取消"
+msgstr "取消"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.chang_voucher_name_tree
+msgid "变更日期"
+msgstr "變更日期"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.create_tempalte_voucher_form
+msgid "另存为模板"
+msgstr "另存為模板"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.report_auxiliary_accounting_tree
+msgid "合计"
+msgstr "合計"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_auxiliary_financing__name
+#: model:ir.model.fields,field_description:finance.field_finance_account__name
+#: model:ir.model.fields,field_description:finance.field_finance_account_type__name
+msgid "名称"
+msgstr "名稱"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_auxiliary_financing__active
+#: model:ir.model.fields,field_description:finance.field_finance_account__active
+#: model:ir.model.fields,field_description:finance.field_finance_account_type__active
+msgid "启用"
+msgstr "啟用"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_month_product_cost__goods_id
+#: model:ir.model.fields,field_description:finance.field_voucher_line__goods_id
+#: model:ir.model.fields,field_description:finance.field_voucher_template_line__goods_id
+#: model_terms:ir.ui.view,arch_db:finance.month_product_cost_search
+msgid "商品"
+msgstr "商品"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_rate_period__account_asset
+msgid "固定资产科目"
+msgstr "固定資產科目"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.finance_account_tree
+msgid "增加下级科目"
+msgstr "增加下級科目"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.voucher_form
+#: model_terms:ir.ui.view,arch_db:finance.voucher_line_tree
+msgid "外币合计"
+msgstr "外幣合計"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_bank_account__currency_id
+#: model:ir.model.fields,field_description:finance.field_finance_account__currency_id
+#: model:ir.model.fields,field_description:finance.field_voucher_line__currency_id
+#: model:ir.model.fields,field_description:finance.field_wizard_account_add_child__currency_id
+msgid "外币币别"
+msgstr "外幣幣別"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_bank_account__currency_amount
+#: model:ir.model.fields,field_description:finance.field_voucher_line__currency_amount
+msgid "外币金额"
+msgstr "外幣金額"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__finance_account__auxiliary_financing__goods
+msgid "存货"
+msgstr "存貨"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_wizard_account_add_child__full_account_code
+msgid "完整科目编码"
+msgstr "完整科目編碼"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__finance_account__auxiliary_financing__customer
+msgid "客户"
+msgstr "客戶"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher_line__voucher_id
+msgid "对应凭证"
+msgstr "對應憑證"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_check_trial_balance_wizard__diff
+msgid "差异金额"
+msgstr "差異金額"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__voucher__state__cancel
+#: model:ir.model.fields.selection,name:finance.selection__voucher_line__state__cancel
+msgid "已作废"
+msgstr "已作廢"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__voucher__state__done
+#: model:ir.model.fields.selection,name:finance.selection__voucher_line__state__done
+msgid "已确认"
+msgstr "已確認"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_period__is_closed
+#: model_terms:ir.ui.view,arch_db:finance.finance_period_search
+msgid "已结账"
+msgstr "已結帳"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_rate_period__name
+#: model:ir.ui.menu,name:finance.menu_action_currency_form
+msgid "币别"
+msgstr "幣別"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_check_trial_balance_wizard__total_year_init_debit
+#: model:ir.model.fields,field_description:finance.field_trial_balance__year_init_debit
+msgid "年初余额(借方)"
+msgstr "年初餘額(借方)"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_check_trial_balance_wizard__total_year_init_credit
+#: model:ir.model.fields,field_description:finance.field_trial_balance__year_init_credit
+msgid "年初余额(贷方)"
+msgstr "年初餘額(貸方)"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_balance_sheet__beginning_balance
+msgid "年初数"
+msgstr "年初數"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_balance_sheet__beginning_balance_two
+msgid "年初数 "
+msgstr "年初數 "
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_balance_sheet__line
+#: model:ir.model.fields,field_description:finance.field_profit_statement__sequence
+msgid "序号"
+msgstr "序號"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.view_finance_config
+msgid "应用"
+msgstr "應用"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_finance_account__costs_types
+msgid "废弃不用，改为使用 user_type字段 动态维护"
+msgstr "廢棄不用，改為使用 user_type字段 動態維護"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_create_vouchers_summary_wizard__period_begin_id
+msgid "开始期间"
+msgstr "開始期間"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_account__balance
+msgid "当前余额"
+msgstr "當前餘額"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__finance_config_settings__defaul_voucher_date__today
+msgid "当前日期"
+msgstr "當前日期"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher_line__partner_id
+#: model:ir.model.fields,field_description:finance.field_voucher_template_line__partner_id
+msgid "往来单位"
+msgstr "往來單位"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher__amount_text
+msgid "总计"
+msgstr "總計"
+
+#. module: finance
+#: model:ir.model,name:finance.model_general_ledger_account
+msgid "总账"
+msgstr "總帳"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__finance_account_type__costs_types__cost
+msgid "成本类"
+msgstr "成本類"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.month_product_cost_tree
+msgid "成本账"
+msgstr "成本帳"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.change_cumulative_occurrence_wizard_form
+#: model_terms:ir.ui.view,arch_db:finance.create_balance_sheet_wizard_form
+#: model_terms:ir.ui.view,arch_db:finance.create_exchange_wizard_form
+#: model_terms:ir.ui.view,arch_db:finance.create_trial_balance_wizard_form
+#: model_terms:ir.ui.view,arch_db:finance.create_vouchers_summary_wizard_form
+#: model_terms:ir.ui.view,arch_db:finance.view_finance_config
+#: model_terms:ir.ui.view,arch_db:finance.view_wizard_account_add_child_form
+msgid "或者"
+msgstr "或者"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__finance_account_type__costs_types__equity
+msgid "所有者权益"
+msgstr "所有者權益"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_finance_account__restricted_debit
+msgid "手工凭证时， 借方限制使用"
+msgstr "手工憑證時， 借方限制使用"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_finance_account__restricted_credit
+msgid "手工凭证时， 贷方限制使用"
+msgstr "手工憑證時， 貸方限制使用"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__finance_account__source__manual
+msgid "手工创建"
+msgstr "手工創建"
+
+#. module: finance
+#: model:ir.actions.report,name:finance.report_voucher
+msgid "打印会计凭证"
+msgstr "打印會計憑證"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_document_word__print_title
+msgid "打印标题"
+msgstr "打印標題"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_rate_period__account_depreciation
+msgid "折旧费用科目"
+msgstr "折舊費用科目"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_profit_statement__balance
+msgid "报表的行次的总一个名称"
+msgstr "報表的行次的總一個名稱"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_balance_sheet__beginning_balance_two
+msgid "报表行本年的年余额"
+msgstr "報表行本年的年餘額"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_dupont__kpi
+msgid "指标"
+msgstr "指標"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_voucher_line__init_obj
+msgid "描述本条凭证行由哪个单证生成而来"
+msgstr "描述本條憑證行由哪個單證生成而來"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_voucher__brief
+#: model:ir.model.fields,help:finance.field_voucher_line__name
+msgid "描述本条凭证行的缘由"
+msgstr "描述本條憑證行的緣由"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_general_ledger_account__summary
+#: model:ir.model.fields,field_description:finance.field_voucher__brief
+#: model:ir.model.fields,field_description:finance.field_voucher_line__name
+#: model:ir.model.fields,field_description:finance.field_voucher_template_line__name
+#: model:ir.model.fields,field_description:finance.field_vouchers_summary__summary
+#: model:ir.model.fields,help:finance.field_general_ledger_account__summary
+#: model_terms:ir.ui.view,arch_db:finance.general_ledger_account_search
+#: model_terms:ir.ui.view,arch_db:finance.report_voucher_view
+#: model_terms:ir.ui.view,arch_db:finance.vouchers_summary_search
+msgid "摘要"
+msgstr "摘要"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.voucher_form
+msgid "撤销确认"
+msgstr "撤銷確認"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__finance_account_type__costs_types__in
+msgid "收入类"
+msgstr "收入類"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher_line__goods_qty
+msgid "数量"
+msgstr "數量"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.voucher_line_tree
+msgid "数量合计"
+msgstr "數量合計"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__defaul_voucher_date
+msgid "新凭证的默认日期"
+msgstr "新憑證的默認日期"
+
+#. module: finance
+#: model:ir.actions.act_window,name:finance.action_wizard_account_add_child_act_window
+msgid "新增下级科目"
+msgstr "新增下級科目"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.view_wizard_account_add_child_form
+msgid "新增下级科目，上级科目现有的记账凭证，将会被转入新增的下级科目!"
+msgstr "新增下級科目，上級科目現有的記賬憑證，將會被轉入新增的下級科目!"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_wizard_account_add_child__account_code
+msgid "新增编码"
+msgstr "新增編碼"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_general_ledger_account__direction
+#: model:ir.model.fields,field_description:finance.field_vouchers_summary__direction
+msgid "方向"
+msgstr "方向"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_create_vouchers_summary_wizard__no_balance
+msgid "无余额的科目不显示明细账，默认为不显示"
+msgstr "無餘額的科目不顯示明細賬，默認為不顯示"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_create_vouchers_summary_wizard__no_occurred
+msgid "无发生额的科目不显示明细账，默认为不显示"
+msgstr "無發生額的科目不顯示明細賬，默認為不顯示"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_vouchers_summary__date
+#: model:ir.model.fields,help:finance.field_vouchers_summary__date
+msgid "日期"
+msgstr "日期"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher_template_wizard__old_template_id
+msgid "旧模板"
+msgstr "舊模板"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher__details
+msgid "明细"
+msgstr "明細"
+
+#. module: finance
+#: model:ir.actions.act_window,name:finance.create_vouchers_summary_wizard_action
+#: model:ir.actions.act_window,name:finance.vouchers_summary_action
+#: model:ir.model,name:finance.model_vouchers_summary
+msgid "明细账"
+msgstr "明細帳"
+
+#. module: finance
+#: model:ir.model,name:finance.model_create_vouchers_summary_wizard
+msgid "明细账或总账创建向导"
+msgstr "明細帳或總帳創建嚮導"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher__is_init
+msgid "是否初始化凭证"
+msgstr "是否初始化憑證"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_voucher__is_init
+msgid "是否是初始化凭证"
+msgstr "是否是初始化憑證"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_voucher__is_checkout
+msgid "是否是结账凭证"
+msgstr "是否是結賬憑證"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_account__exchange
+msgid "是否期末调汇"
+msgstr "是否期末調匯"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__defaul_period_domain
+#: model:ir.model.fields,help:finance.field_finance_config_settings__defaul_period_domain
+msgid "是否能查看未结账期间"
+msgstr "是否能查看未結賬期間"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__defaul_auto_reset
+msgid "是否重置凭证号"
+msgstr "是否重置憑證號"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.change_cumulative_occurrence_wizard_form
+msgid "更新"
+msgstr "更新"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_change_voucher_name__after_voucher_name
+msgid "更新后凭证号"
+msgstr "更新後憑證號"
+
+#. module: finance
+#: model:ir.model,name:finance.model_change_voucher_name
+#: model:ir.ui.menu,name:finance.chang_voucher_name_menu_finance
+msgid "月末凭证变更记录"
+msgstr "月末憑證變更記錄"
+
+#. module: finance
+#: model:ir.actions.act_window,name:finance.preiod_check_action
+#: model:ir.ui.menu,name:finance.checkout_menu
+#: model:ir.ui.menu,name:finance.preiod_check_menu
+#: model_terms:ir.ui.view,arch_db:finance.checkout_wizard_form
+msgid "月末结账"
+msgstr "月末結帳"
+
+#. module: finance
+#: model:ir.model,name:finance.model_checkout_wizard
+msgid "月末结账向导"
+msgstr "月末結帳嚮導"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_create_trial_balance_wizard__has_balance
+#: model:ir.model.fields,field_description:finance.field_create_vouchers_summary_wizard__no_balance
+#: model_terms:ir.ui.view,arch_db:finance.trial_balance_search
+msgid "有余额"
+msgstr "有餘額"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_create_trial_balance_wizard__has_transaction
+#: model:ir.model.fields,field_description:finance.field_create_vouchers_summary_wizard__no_occurred
+#: model_terms:ir.ui.view,arch_db:finance.trial_balance_search
+msgid "有发生额"
+msgstr "有發生額"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_check_trial_balance_wizard__total_initial_balance_debit
+#: model:ir.model.fields,field_description:finance.field_trial_balance__initial_balance_debit
+msgid "期初余额(借方)"
+msgstr "期初餘額(借方)"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_check_trial_balance_wizard__total_initial_balance_credit
+#: model:ir.model.fields,field_description:finance.field_trial_balance__initial_balance_credit
+msgid "期初余额(贷方)"
+msgstr "期初餘額(貸方)"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_month_product_cost__period_begin_cost
+msgid "期初成本"
+msgstr "期初成本"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_month_product_cost__period_begin_qty
+msgid "期初数量"
+msgstr "期初數量"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_check_trial_balance_wizard__total_ending_balance_debit
+#: model:ir.model.fields,field_description:finance.field_trial_balance__ending_balance_debit
+msgid "期末余额(借方)"
+msgstr "期末餘額(借方)"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_check_trial_balance_wizard__total_ending_balance_credit
+#: model:ir.model.fields,field_description:finance.field_trial_balance__ending_balance_credit
+msgid "期末余额(贷方)"
+msgstr "期末餘額(貸方)"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_balance_sheet__ending_balance
+msgid "期末数"
+msgstr "期末數"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_balance_sheet__ending_balance_two
+msgid "期末数 "
+msgstr "期末數 "
+
+#. module: finance
+#: model:ir.actions.act_window,name:finance.create_exchange_action
+#: model:ir.ui.menu,name:finance.create_exchange_menu_finance
+#: model_terms:ir.ui.view,arch_db:finance.create_exchange_wizard_form
+msgid "期末调汇"
+msgstr "期末調匯"
+
+#. module: finance
+#: model:ir.model,name:finance.model_create_exchange_wizard
+msgid "期末调汇向导"
+msgstr "期末調匯嚮導"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_dupont__period_id
+msgid "期间"
+msgstr "期間"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_res_company__remain_account
+msgid "未分配利润科目"
+msgstr "未分配利潤科目"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_res_company__remain_account
+msgid "未分配利润科目。"
+msgstr "未分配利潤科目。"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.finance_period_search
+msgid "未结账"
+msgstr "未結帳"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.view_finance_config
+msgid "未结账期间"
+msgstr "未結帳期間"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_res_company__profit_account
+msgid "本年利润科目"
+msgstr "本年利潤科目"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_res_company__profit_account
+msgid "本年利润科目,本年中盈利的科目,在结转时会用到。"
+msgstr "本年利潤科目,本年中盈利的科目,在結轉時會用到。"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_profit_statement__cumulative_occurrence_balance
+msgid "本年利润金额"
+msgstr "本年利潤金額"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_change_cumulative_occurrence_wizard__cumulative_occurrence_debit
+#: model:ir.model.fields,field_description:finance.field_check_trial_balance_wizard__total_cumulative_occurrence_debit
+#: model:ir.model.fields,field_description:finance.field_trial_balance__cumulative_occurrence_debit
+msgid "本年累计发生额(借方)"
+msgstr "本年累計發生額(借方)"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_change_cumulative_occurrence_wizard__cumulative_occurrence_credit
+#: model:ir.model.fields,field_description:finance.field_check_trial_balance_wizard__total_cumulative_occurrence_credit
+#: model:ir.model.fields,field_description:finance.field_trial_balance__cumulative_occurrence_credit
+msgid "本年累计发生额(贷方)"
+msgstr "本年累計發生額(貸方)"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_change_cumulative_occurrence_wizard__cumulative_occurrence
+msgid "本年累计实际发生额"
+msgstr "本年累計實際發生額"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_profit_statement__cumulative_occurrence_balance
+msgid "本年累计金额"
+msgstr "本年累計金額"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_voucher__date
+msgid "本张凭证创建的时间"
+msgstr "本張憑證創建的時間"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_voucher__period_id
+#: model:ir.model.fields,help:finance.field_voucher_line__period_id
+msgid "本张凭证发生日期对应的，会计期间"
+msgstr "本張憑證發生日期對應的，會計期間"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_profit_statement__current_occurrence_balance
+msgid "本月的利润的金额"
+msgstr "本月的利潤的金額"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_profit_statement__current_occurrence_balance
+msgid "本月金额"
+msgstr "本月金額"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.view_voucher_line_search_filter
+#: model_terms:ir.ui.view,arch_db:finance.view_voucher_search_filter
+msgid "本期"
+msgstr "本期"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_month_product_cost__current_period_in_cost
+msgid "本期入库成本"
+msgstr "本期入庫成本"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_month_product_cost__current_period_in_qty
+msgid "本期入库量"
+msgstr "本期入庫量"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_month_product_cost__current_period_out_cost
+msgid "本期出库成本"
+msgstr "本期出庫成本"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_month_product_cost__current_period_out_qty
+msgid "本期出库量"
+msgstr "本期出庫量"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_month_product_cost__current_period_remaining_qty
+msgid "本期剩余数量"
+msgstr "本期剩餘數量"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_check_trial_balance_wizard__total_current_occurrence_debit
+#: model:ir.model.fields,field_description:finance.field_trial_balance__current_occurrence_debit
+msgid "本期发生额(借方)"
+msgstr "本期發生額(借方)"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_check_trial_balance_wizard__total_current_occurrence_credit
+#: model:ir.model.fields,field_description:finance.field_trial_balance__current_occurrence_credit
+msgid "本期发生额(贷方)"
+msgstr "本期發生額(貸方)"
+
+#. module: finance
+#: model:ir.actions.act_window,name:finance.dupont_action
+#: model:ir.ui.menu,name:finance.dupont_menu_finance
+#: model_terms:ir.ui.view,arch_db:finance.dupont_graph
+msgid "杜邦分析"
+msgstr "杜邦分析"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.voucher_line_tree
+msgid "查看凭证"
+msgstr "查看憑證"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.report_auxiliary_accounting_tree
+msgid "查看凭证明细行"
+msgstr "查看憑證明細行"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.vouchers_summary_tree
+msgid "查看明细"
+msgstr "查看明細"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_finance_account__balance_directions
+msgid "根据科目的类型，判断余额方向是借方或者贷方！"
+msgstr "根據科目的類型，判斷餘額方向是藉方或者貸方！"
+
+#. module: finance
+#: model:ir.model,name:finance.model_check_trial_balance_wizard
+msgid "检查试算平衡"
+msgstr "檢查試算平衡"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_check_trial_balance_wizard__period_id
+msgid "检查试算平衡的期间"
+msgstr "檢查試算平衡的期間"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher__template_id
+msgid "模板"
+msgstr "模板"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher_template_line__template_id
+msgid "模板id"
+msgstr "模板id"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher_template__name
+#: model:ir.model.fields,field_description:finance.field_voucher_template_wizard__name
+msgid "模板名称"
+msgstr "模板名稱"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher_template__line_ids
+msgid "模板行"
+msgstr "模板行"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_balance_sheet__line_num
+#: model:ir.model.fields,help:finance.field_balance_sheet__line_num_two
+msgid "此处行次并不是出报表的实际的行数,只是显示用的用来符合国人习惯"
+msgstr "此處行次並不是出報表的實際的行數,只是顯示用的用來符合國人習慣"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__finance_config_settings__defaul_reset_period__year
+msgid "每年"
+msgstr "每年"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__finance_config_settings__defaul_reset_period__month
+msgid "每月"
+msgstr "每月"
+
+#. module: finance
+#: model:ir.model,name:finance.model_month_product_cost
+msgid "每月发出成本"
+msgstr "每月發出成本"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_voucher_line__credit
+#: model:ir.model.fields,help:finance.field_voucher_line__debit
+msgid ""
+"每条凭证行中只能记录借方金额或者贷方金额中的一个，    一张凭证中所有的凭证行"
+"的借方余额，必须等于贷方余额。"
+msgstr ""
+"每條憑證行中只能記錄借方金額或者貸方金額中的一個，    一張憑證中所有的憑證行"
+"的借方餘額，必須等於貸方餘額。"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher_line__rate_silent
+msgid "汇率"
+msgstr "匯率"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher__state
+#: model:ir.model.fields,field_description:finance.field_voucher_line__state
+msgid "状态"
+msgstr "狀態"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_res_company__operating_cost_account_id
+msgid "生产费用科目"
+msgstr "生產費用科目"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_checkout_wizard__date
+msgid "生成凭证日期"
+msgstr "生成憑證日期"
+
+#. module: finance
+#: model:ir.actions.act_window,name:finance.voucher_template_wizard_action
+msgid "生成凭证模板"
+msgstr "生成憑證模板"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_profit_statement__line_num
+msgid "生成报表的行次"
+msgstr "生成報表的行次"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_change_cumulative_occurrence_wizard__costs_types
+#: model:ir.model.fields,help:finance.field_finance_account_type__costs_types
+msgid "用于会计报表的生成。"
+msgstr "用於會計報表的生成。"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_res_company__operating_cost_account_id
+msgid "用在组装拆卸的费用上!"
+msgstr "用在組裝拆卸的費用上!"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_create_balance_sheet_wizard__period_id
+msgid "用来设定报表的期间"
+msgstr "用來設定報表的期間"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.check_trial_balance_wizard_form
+#: model_terms:ir.ui.view,arch_db:finance.voucher_form
+msgid "确认"
+msgstr "確認"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_bank_account__account_id
+#: model:ir.model.fields,field_description:finance.field_change_cumulative_occurrence_wizard__account_id
+#: model:ir.model.fields,field_description:finance.field_core_category__account_id
+#: model:ir.model.fields,field_description:finance.field_trial_balance__subject_name_id
+#: model:ir.model.fields,help:finance.field_core_category__account_id
+#: model_terms:ir.ui.view,arch_db:finance.finance_account_form
+#: model_terms:ir.ui.view,arch_db:finance.finance_account_restricted_search
+#: model_terms:ir.ui.view,arch_db:finance.finance_account_restricted_tree
+#: model_terms:ir.ui.view,arch_db:finance.finance_account_search
+#: model_terms:ir.ui.view,arch_db:finance.finance_account_tree
+#: model_terms:ir.ui.view,arch_db:finance.trial_balance_search
+msgid "科目"
+msgstr "科目"
+
+#. module: finance
+#: model:ir.actions.act_window,name:finance.create_trial_balance_wizard_action
+#: model:ir.actions.act_window,name:finance.trial_balance_action
+#: model:ir.model,name:finance.model_trial_balance
+#: model:ir.ui.menu,name:finance.create_trial_balance_menu
+#: model_terms:ir.ui.view,arch_db:finance.create_trial_balance_wizard_form
+#: model_terms:ir.ui.view,arch_db:finance.init_balance_tree
+#: model_terms:ir.ui.view,arch_db:finance.trial_balance_tree
+msgid "科目余额表"
+msgstr "科目餘額表"
+
+#. module: finance
+#: model:ir.model,name:finance.model_create_trial_balance_wizard
+msgid "科目余额表的创建向导"
+msgstr "科目餘額表的創建嚮導"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_trial_balance__subject_name
+#: model:ir.model.fields,field_description:finance.field_wizard_account_add_child__account_name
+msgid "科目名称"
+msgstr "科目名稱"
+
+#. module: finance
+#: model:ir.model.constraint,message:finance.constraint_finance_account_name_uniq
+msgid "科目名称必须唯一。"
+msgstr "科目名稱必須唯一。"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__defaul_account_hierarchy_level
+msgid "科目层级级别"
+msgstr "科目層級級別"
+
+#. module: finance
+#: model:ir.actions.act_window,name:finance.create_ledger_account_action
+#: model:ir.actions.act_window,name:finance.general_ledger_account_action
+#: model:ir.ui.menu,name:finance.create_general_ledger_account_menu
+#: model_terms:ir.ui.view,arch_db:finance.create_vouchers_summary_wizard_form
+#: model_terms:ir.ui.view,arch_db:finance.general_ledger_account_search
+#: model_terms:ir.ui.view,arch_db:finance.general_ledger_account_tree
+msgid "科目总账"
+msgstr "科目總帳"
+
+#. module: finance
+#: model:ir.ui.menu,name:finance.create_vouchers_summary_menu
+#: model_terms:ir.ui.view,arch_db:finance.vouchers_summary_search
+#: model_terms:ir.ui.view,arch_db:finance.vouchers_summary_tree
+msgid "科目明细账"
+msgstr "科目明細帳"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.create_vouchers_summary_wizard_form
+msgid "科目明细账表"
+msgstr "科目明細帳表"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_finance_account__balance
+msgid "科目的当前余额"
+msgstr "科目的當前餘額"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_change_cumulative_occurrence_wizard__costs_types
+#: model:ir.model.fields,field_description:finance.field_finance_account__account_type
+#: model:ir.model.fields,field_description:finance.field_trial_balance__account_type
+msgid "科目类型"
+msgstr "科目類型"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_account__level
+#: model:ir.model.fields,field_description:finance.field_trial_balance__level
+#: model_terms:ir.ui.view,arch_db:finance.trial_balance_search
+msgid "科目级次"
+msgstr "科目級次"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_trial_balance__subject_code
+msgid "科目编码"
+msgstr "科目編碼"
+
+#. module: finance
+#: model:ir.model.constraint,message:finance.constraint_finance_account_code
+msgid "科目编码必须唯一。"
+msgstr "科目編碼必須唯一。"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_balance_sheet__balance_formula
+#: model:ir.model.fields,field_description:finance.field_profit_statement__occurrence_balance_formula
+msgid "科目范围"
+msgstr "科目範圍"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_balance_sheet__balance_two_formula
+msgid "科目范围 "
+msgstr "科目範圍 "
+
+#. module: finance
+#: model:res.groups,name:finance.group_multi_currency
+msgid "管理多货币"
+msgstr "管理多貨幣"
+
+#. module: finance
+#: model:ir.model,name:finance.model_core_category
+msgid "类别"
+msgstr "類別"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_account__costs_types
+#: model:ir.model.fields,field_description:finance.field_finance_account_type__costs_types
+#: model_terms:ir.ui.view,arch_db:finance.finance_account_restricted_search
+#: model_terms:ir.ui.view,arch_db:finance.finance_account_search
+msgid "类型"
+msgstr "類型"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_rate_period__account_accumulated_depreciation
+msgid "累计折旧科目"
+msgstr "累計折舊科目"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_create_vouchers_summary_wizard__period_end_id
+msgid "结束期间"
+msgstr "結束期間"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.checkout_wizard_form
+msgid "结账"
+msgstr "結帳"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_checkout_wizard__period_id
+msgid "结账会计期间"
+msgstr "結帳會計期間"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher__is_checkout
+msgid "结账凭证"
+msgstr "結帳憑證"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_auxiliary_financing__code
+#: model:ir.model.fields,field_description:finance.field_finance_account__code
+msgid "编码"
+msgstr "編碼"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.view_finance_config
+msgid "自动重置凭证号"
+msgstr "自動重置憑證號"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__voucher__state__draft
+#: model:ir.model.fields.selection,name:finance.selection__voucher_line__state__draft
+#: model_terms:ir.ui.view,arch_db:finance.view_voucher_search_filter
+msgid "草稿"
+msgstr "草稿"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_balance_sheet__line_num
+#: model:ir.model.fields,field_description:finance.field_profit_statement__line_num
+msgid "行次"
+msgstr "行次"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_balance_sheet__line_num_two
+msgid "行次 "
+msgstr "行次 "
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_create_exchange_wizard__date
+msgid "记帐日期"
+msgstr "記帳日期"
+
+#. module: finance
+#: model:ir.model,name:finance.model_rate_period
+msgid "记录本月结算汇兑损益时的汇率"
+msgstr "記錄本月結算匯兌損益時的匯率"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_general_ledger_account__period_id
+msgid "记录本条记录的期间!"
+msgstr "記錄本條記錄的期間!"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.report_voucher_view
+msgid "记账凭证"
+msgstr "記帳憑證"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_profit_statement__occurrence_balance_formula
+msgid ""
+"设定本行的利润的科目范围，例如1001~1012999999 结束科目尽可能大一些方便以后扩"
+"展"
+msgstr ""
+"設定本行的利潤的科目範圍，例如1001~1012999999 結束科目盡可能大一些方便以後擴"
+"展"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_balance_sheet__balance_formula
+#: model:ir.model.fields,help:finance.field_balance_sheet__balance_two_formula
+msgid ""
+"设定本行的资产负债表的科目范围，例如1001~1012999999 结束科目尽可能大一些方便"
+"以后扩展"
+msgstr ""
+"設定本行的資產負債表的科目範圍，例如1001~1012999999 結束科目盡可能大一些方便"
+"以後擴展"
+
+#. module: finance
+#: model:ir.ui.menu,name:finance.finance_setting_menu
+msgid "设置"
+msgstr "設置"
+
+#. module: finance
+#: model:ir.actions.act_window,name:finance.check_trial_balance_wizard_action
+#: model:ir.actions.act_window,name:finance.check_trial_balance_wizard_action_popup
+msgid "试算平衡"
+msgstr "試算平衡"
+
+#. module: finance
+#: model:ir.actions.act_window,name:finance.change_cumulative_occurrence_wizard_action
+#: model_terms:ir.ui.view,arch_db:finance.init_balance_tree
+msgid "调整累计数"
+msgstr "調整累計數"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__finance_account_type__costs_types__debt
+msgid "负债"
+msgstr "負債"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_balance_sheet__balance_two
+msgid "负债和所有者权益"
+msgstr "負債和所有者權益"
+
+#. module: finance
+#: model:ir.model,name:finance.model_bank_account
+msgid "账户"
+msgstr "帳戶"
+
+#. module: finance
+#: model:ir.ui.menu,name:finance.voucher_books_menu
+msgid "账簿"
+msgstr "帳簿"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_account__credit
+#: model_terms:ir.ui.view,arch_db:finance.report_voucher_view
+msgid "贷方"
+msgstr "貸方"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.voucher_form
+#: model_terms:ir.ui.view,arch_db:finance.voucher_line_tree
+msgid "贷方合计"
+msgstr "貸方合計"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_general_ledger_account__credit
+#: model:ir.model.fields,field_description:finance.field_report_auxiliary_accounting__credit
+#: model:ir.model.fields,field_description:finance.field_voucher_line__credit
+#: model:ir.model.fields,field_description:finance.field_vouchers_summary__credit
+#: model:ir.model.fields,help:finance.field_general_ledger_account__credit
+#: model:ir.model.fields,help:finance.field_vouchers_summary__credit
+msgid "贷方金额"
+msgstr "貸方金額"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_account__restricted_credit
+msgid "贷方限制使用"
+msgstr "貸方限制使用"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_account__restrict_credit_msg
+msgid "贷方限制提示消息"
+msgstr "貸方限制提示消息"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__finance_account_type__costs_types__out
+msgid "费用类"
+msgstr "費用類"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_balance_sheet__balance
+#: model:ir.model.fields.selection,name:finance.selection__finance_account_type__costs_types__assets
+msgid "资产"
+msgstr "資產"
+
+#. module: finance
+#: model:ir.actions.act_window,name:finance.create_balance_sheet_wizard_action
+#: model:ir.ui.menu,name:finance.create_balance_sheet_wizard_menu
+#: model_terms:ir.ui.view,arch_db:finance.balance_sheet_tree_wizard
+#: model_terms:ir.ui.view,arch_db:finance.create_balance_sheet_wizard_form
+msgid "资产负债表"
+msgstr "資產負債表"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.view_finance_config
+msgid "资产负债表 利润表"
+msgstr "資產負債表 利潤表"
+
+#. module: finance
+#: model:ir.model,name:finance.model_create_balance_sheet_wizard
+msgid "资产负债表和利润表的向导"
+msgstr "資產負債表和利潤表的嚮導"
+
+#. module: finance
+#: model:ir.actions.act_window,name:finance.balance_sheet_action
+#: model:ir.model,name:finance.model_balance_sheet
+#: model:ir.ui.menu,name:finance.balance_sheet_menu
+#: model_terms:ir.ui.view,arch_db:finance.balance_sheet_tree
+msgid "资产负债表模板"
+msgstr "資產負債表模板"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_balance_sheet__line
+msgid "资产负债表的行次"
+msgstr "資產負債表的行次"
+
+#. module: finance
+#: model:ir.actions.act_window,name:finance.auxiliary_financing_action
+#: model:ir.model,name:finance.model_auxiliary_financing
+#: model:ir.model.fields,field_description:finance.field_finance_account__auxiliary_financing
+#: model:ir.model.fields,field_description:finance.field_report_auxiliary_accounting__auxiliary_id
+#: model:ir.model.fields,field_description:finance.field_voucher_line__auxiliary_id
+#: model:ir.model.fields,field_description:finance.field_voucher_template_line__auxiliary_id
+#: model:ir.ui.menu,name:finance.auxiliary_financing_menu
+#: model_terms:ir.ui.view,arch_db:finance.auxiliary_financing_search
+#: model_terms:ir.ui.view,arch_db:finance.auxiliary_financing_tree
+#: model_terms:ir.ui.view,arch_db:finance.finance_account_search
+msgid "辅助核算"
+msgstr "輔助核算"
+
+#. module: finance
+#: model:ir.model.constraint,message:finance.constraint_auxiliary_financing_name_uniq
+msgid "辅助核算不能重名"
+msgstr "輔助核算不能重名"
+
+#. module: finance
+#: model:ir.actions.act_window,name:finance.report_auxiliary_accounting_action
+#: model:ir.model,name:finance.model_report_auxiliary_accounting
+#: model:ir.ui.menu,name:finance.report_auxiliary_accounting_menu
+#: model_terms:ir.ui.view,arch_db:finance.report_auxiliary_accounting_graph
+#: model_terms:ir.ui.view,arch_db:finance.report_auxiliary_accounting_search
+#: model_terms:ir.ui.view,arch_db:finance.report_auxiliary_accounting_tree
+msgid "辅助核算余额表"
+msgstr "輔助核算餘額表"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_finance_account__auxiliary_financing
+msgid ""
+"辅助核算是对账务处理的一种补充,即实现更广泛的账务处理,\n"
+"                                            以适应企业管理和决策的需要.辅助"
+"核算一般通过核算项目来实现"
+msgstr ""
+"輔助核算是對帳務處理的一種補充,即實現更廣泛的帳務處理,\n"
+"                                            以適應企業管理和決策的需要.輔助"
+"核算一般通過核算項目來實現"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_voucher_line__auxiliary_id
+#: model:ir.model.fields,help:finance.field_voucher_template_line__auxiliary_id
+msgid ""
+"辅助核算是对账务处理的一种补充,即实现更广泛的账务处理,        以适应企业管理"
+"和决策的需要.辅助核算一般通过核算项目来实现"
+msgstr ""
+"輔助核算是對帳務處理的一種補充,即實現更廣泛的帳務處理,        以適應企業管理"
+"和決策的需要.輔助核算一般通過核算項目來實現"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_finance_period__is_closed
+msgid "这个字段用于标识期间是否已结账，已结账的期间不能生成会计凭证。"
+msgstr "這個字段用於標識期間是否已結賬，已結帳的期間不能生成會計憑證。"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_res_company__import_tax_account
+msgid "进项税科目"
+msgstr "進項稅科目"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_res_company__import_tax_account
+msgid ""
+"进项税额，是指纳税人购进货物、加工修理修配劳务、服务、无形资产或者不动产，支"
+"付或者负担的增值税额。"
+msgstr ""
+"進項稅額，是指納稅人購進貨物、加工修理修配勞務、服務、無形資產或者不動產，支"
+"付或者負擔的增值稅額。"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_finance_config_settings__defaul_voucher_date
+msgid "选择新凭证的默认日期"
+msgstr "選擇新憑證的默認日期"
+
+#. module: finance
+#: model:ir.model.fields.selection,name:finance.selection__auxiliary_financing__type__department
+#: model:ir.model.fields.selection,name:finance.selection__finance_account__auxiliary_financing__department
+msgid "部门"
+msgstr "部門"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__defaul_reset_init_number
+#: model_terms:ir.ui.view,arch_db:finance.view_finance_config
+msgid "重置后起始数字"
+msgstr "重置後起始數字"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_finance_config_settings__defaul_reset_init_number
+msgid "重置后，起始编号的数字，例从1起：1，2，3...."
+msgstr "重置後，起始編號的數字，例從1起：1，2，3...."
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_finance_config_settings__defaul_reset_period
+msgid "重置间隔"
+msgstr "重置間隔"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_res_company__output_tax_account
+msgid "销项税科目"
+msgstr "銷項稅科目"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_voucher__att_count
+msgid "附单据"
+msgstr "附單據"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_create_trial_balance_wizard__period_id
+msgid "限定生成期间的范围"
+msgstr "限定生成期間的範圍"
+
+#. module: finance
+#: model_terms:ir.ui.view,arch_db:finance.view_voucher_line_search_filter
+msgid "隐藏作废"
+msgstr "隱藏作廢"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_profit_statement__balance
+#: model:ir.model.fields.selection,name:finance.selection__auxiliary_financing__type__project
+#: model:ir.model.fields.selection,name:finance.selection__finance_account__auxiliary_financing__project
+msgid "项目"
+msgstr "項目"
+
+#. module: finance
+#: model:ir.model.fields,field_description:finance.field_balance_sheet__sequence
+msgid "顺序号"
+msgstr "順序號"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_create_vouchers_summary_wizard__period_end_id
+msgid "默认是当前期间"
+msgstr "默認是當前期間"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_create_vouchers_summary_wizard__subject_name_end_id
+msgid "默认是所有科目的最大code"
+msgstr "默認是所有科目的最大code"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_create_vouchers_summary_wizard__subject_name_id
+msgid "默认是所有科目的最小code"
+msgstr "默認是所有科目的最小code"
+
+#. module: finance
+#: model:ir.model.fields,help:finance.field_create_vouchers_summary_wizard__period_begin_id
+msgid "默认是本年第一个期间"
+msgstr "默認是本年第一個期間"
+
+#. module: finance
+#: model:ir.ui.menu,name:finance.menu_finance_setting_default
+msgid "默认设置"
+msgstr "默認設置"

@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_staff_program_all,access.staff_program_all,model_staff_program,,1,1,1,1
+access_staff_course_all,access.staff_course_all,model_staff_course,,1,1,1,1
+access_staff_tag_all,access.staff_tag_all,model_staff_tag,,1,1,1,1

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="discovery_channel_view_tree" model="ir.ui.view">
+        <field name="name">discovery.channel.view.tree</field>
+        <field name="model">discovery.channel</field>
+        <field name="arch" type="xml">
+            <tree string="异常" editable="top">
+                <field name="name" />
+                <field name="model_id" />
+                <field name="condition" />
+                <field name="action_id" />
+            </tree>
+        </field>
+    </record>
+
+    <record id="discovery_channel_action" model="ir.actions.act_window">
+        <field name="name">异常</field>
+        <field name="res_model">discovery.channel</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <menuitem
+        id="discovery_menu"
+        name="洞察"
+        web_icon="gooderp_discovery,static/images/icon.jpg"
+        groups="core.group_all_manager" 
+        sequence="999999"/>
+    <menuitem
+        id="discovery_channel_menu"
+        name="异常"
+        action="discovery_channel_action"
+        parent="discovery_menu"
+        sequence="10"/>
+
+    <record id="discovery_result_view_tree" model="ir.ui.view">
+        <field name="name">discovery.result.view.tree</field>
+        <field name="model">discovery.result</field>
+        <field name="arch" type="xml">
+            <tree string="洞察报告" create="0">
+                <field name="channel_id" />
+                <field name="id_count" />
+                <button string="查看" name="open_action" type="object"/>
+            </tree>
+        </field>
+    </record>
+
+</odoo>
