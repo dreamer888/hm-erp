@@ -4,6 +4,10 @@
 基于python的 开源erp，非常成熟的商用ERP/CRM/MES软件 ，   特意加入了生产模块，这部分本来是企业版才有的功能 ， 发放福利了
  
 绿色版  ,源代码，
+ERP 体验网址 ：  http://erp.dreammm.net
+数据库 hm-erp
+账户  demo
+密码  demo
 
 可以在 windows  或者 linux 下面   使用
 
