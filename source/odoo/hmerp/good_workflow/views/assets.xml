@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<odoo>
-
-    <template id="assets_backend" name="good workflow assets" inherit_id="web.assets_backend">
-        <xpath expr="." position="inside">
-            <script type="text/javascript" src="/good_workflow/static/src/js/form_disable_edit_mode.js"/>
-        </xpath>
-    </template>
-</odoo>

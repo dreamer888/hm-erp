@@ -1,3 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_buy_arrival_notice_buy_arrival_notice,buy_arrival_notice.buy_arrival_notice,model_arrival_notice,base.group_user,1,1,1,1
-access_buy_arrival_notice_line,buy_arrival_notice_line.buy_arrival_notice_line,model_arrival_notice_line,base.group_user,1,1,1,1
