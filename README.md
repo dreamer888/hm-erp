@@ -1,7 +1,7 @@
 # hm-erp
 
 #### 介绍
-基于python开发的erp，成熟的商用ERP/CRM/MES软件 ，特意加入了生产模块，这部分本来是企业版才有的功能，福利发放
+基于python开发的erp，成熟的商用ERP/CRM/MES软件 ，模块化结构，有几百个模块， 自由安装卸载，特意加入了生产模块，这部分本来是企业版才有的功能，福利发放
  
 绿色版  ,源代码，
 ERP 体验网址 ：  http://erp.dreammm.net
@@ -9,9 +9,12 @@ ERP 体验网址 ：  http://erp.dreammm.net
 账户  demo
 密码  demo
 
+需要admin账户体验的的私信我
+
 可以在 windows  或者 linux 下面部署使用
 
 runtime 下面的 内容 太多， 不方便上传 ， 需要的 单独 给我发消息 ，
+
 
 ![输入图片说明](image-%E5%BA%94%E7%94%A8.png)
 
